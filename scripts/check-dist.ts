@@ -24,7 +24,7 @@ for (const e of els) {
   for (const a of ['us', 'uk']) for (const k of ['', '.slow', '.sentence']) if (!existsSync(join(DIST, `audio/${a}/${e.slug}${k}.mp3`))) problems.push(`missing audio ${a}/${e.slug}${k}.mp3`)
   for (const f of [`img/${e.slug}.960.webp`, `img/${e.slug}.480.webp`, `og/${e.slug}.jpg`]) if (!existsSync(join(DIST, f))) problems.push(`missing ${f}`)
 }
-for (const f of ['sitemap.xml', 'robots.txt', 'llms.txt', 'sw.js', 'manifest.webmanifest', '404.html', 'CNAME', 'elements.json', 'data/detail.json']) if (!existsSync(join(DIST, f))) problems.push(`missing ${f}`)
+for (const f of ['sitemap.xml', 'robots.txt', 'llms.txt', 'sw.js', 'manifest.webmanifest', '404.html', 'CNAME', '2e54bfce938efe206b762b76dd049cd8.txt', 'elements.json', 'data/detail.json']) if (!existsSync(join(DIST, f))) problems.push(`missing ${f}`)
 const strict = !process.argv.includes('--lenient')
 const missing = problems.filter(p => p.startsWith('missing '))
 const leaks = problems.filter(p => !p.startsWith('missing '))

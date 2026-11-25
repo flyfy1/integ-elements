@@ -182,6 +182,7 @@ IPA is shown only when two independent dictionaries agree (Oxford Learner's, Lon
 ${els.map(e => `- ${both(e)} (${e.symbol}, ${e.z}): US ${v(e, 'us') ? '/' + v(e, 'us') + '/' : 'unverified'}; UK ${v(e, 'uk') ? '/' + v(e, 'uk') + '/' : 'unverified'}; 中文 ${e.zh.name} ${e.zh.pinyin}; ${SITE}/element/${e.slug}/`).join('\n')}
 `)
 
+writeFileSync(join(DIST, 'indexnow-key.txt'), '2e54bfce938efe206b762b76dd049cd8') // IndexNow key: public/2e54bfce938efe206b762b76dd049cd8.txt
 // ---------- service worker with a build-id cache ----------
 function hashDir(d: string, h = createHash('sha256')) {
   for (const f of readdirSync(d).sort()) { const p = join(d, f); if (statSync(p).isDirectory()) hashDir(p, h); else if (/\.(js|css)$/.test(f)) h.update(readFileSync(p)) }
