@@ -2,6 +2,9 @@
 //   node scripts/gen-audio.ts                 dry run (default): prints calls and estimated cost
 //   node scripts/gen-audio.ts --go            generate what is missing / changed
 //   --only W,Og   --kinds name,slow,sentence   --pilot (test env, pilot word list)   --max-usd N
+// The slow clip is not a paid call: it is the chosen name clip's raw take, time-stretched locally
+// (ffmpeg atempo 0.67, pitch kept; slow ≈ 1.37–1.47× the name clip) and run through the same post step. The voice model ignored `speed`
+// (slow takes were the same length as normal ones), so the old paid slow rows stay in `calls` only.
 // Cache: raw answers in .agent/cache/audio/<key>.mp3; a manifest row per clip in
 // data/audio-manifest.json. Same key + same file hash → skipped, so a re-run costs $0.
 import { readFileSync, existsSync, writeFileSync, mkdirSync, rmSync } from 'node:fs'
@@ -164,7 +167,37 @@ function judge(j: Job, text: string): 'pass' | 'weak' | null {
 
 const fileOf = (j: Job) => join(OUT, j.accent, `${j.el.slug}${j.kind === 'name' ? '' : '.' + j.kind}.mp3`)
 
+const SLOW_TEMPO = Number(A.val('--slow-tempo') ?? 0.67)
+const TRIM = 'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.02,areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.12,areverse'
+/** slow = the current name clip's raw take, trimmed, stretched by SLOW_TEMPO (pitch kept), then the usual post step ($0) */
+function deriveSlow(j: Job, force = A.force): string {
+  const srcId = `${j.accent}/${j.el.slug}.name`
+  const src = man.assets[srcId]
+  if (!src) { console.log(`  ${j.id}: no name clip yet`); return 'error' }
+  const raw = join(RAW, `${src.key}.mp3`)
+  if (!existsSync(raw)) { console.log(`  ${j.id}: no raw for ${srcId}`); return 'error' }
+  const key = sha256(JSON.stringify({ derived_from: srcId, src: src.key, tempo: SLOW_TEMPO }))
+  const target = fileOf(j)
+  const cur = man.assets[j.id]
+  if (!force && cur && cur.key === key && existsSync(target) && sha256(readFileSync(target)) === cur.sha256 && cur.qa.machine === src.qa.machine) return 'cached'
+  if (!A.go && !A.has('--repost')) { console.log(`[dry] ${j.id} derive from ${srcId} atempo=${SLOW_TEMPO} $0`); return 'dry' }
+  const stretched = join(TMP, `slow-${j.accent}-${j.el.slug}.wav`)
+  ff(['-i', raw, '-af', `${TRIM},atempo=${SLOW_TEMPO}`, '-ac', '1', '-ar', '44100', stretched])
+  const p = post(stretched, target)
+  const buf = readFileSync(target)
+  man.assets[j.id] = {
+    key, file: target.replace(ROOT, ''), sha256: sha256(buf), bytes: buf.length, ...p,
+    derived_from: srcId, tempo: SLOW_TEMPO, input: src.input, voice: src.voice,
+    qa: { machine: src.qa.machine, human: null, transcript: src.qa.transcript, notes: `inherits ${srcId} (same take, atempo ${SLOW_TEMPO})` },
+    gateway_request_id: '', cost_usd: 0, created: new Date().toISOString(),
+  }
+  const ratio = p.duration_ms / (src.duration_ms ?? p.duration_ms)
+  console.log(`slow ${j.id} ${src.duration_ms}ms -> ${p.duration_ms}ms (x${ratio.toFixed(2)})`)
+  return 'derived'
+}
+
 async function run(j: Job): Promise<string> {
+  if (j.kind === 'slow') return deriveSlow(j)
   const ladderSteps = ladder(j)
   const cur = man.assets[j.id]
   const target = fileOf(j)
@@ -238,7 +271,7 @@ if (A.has('--repost')) {
   let n = 0
   for (const j of jobs) {
     const cur = man.assets[j.id]
-    if (!cur) continue
+    if (!cur || j.kind === 'slow') continue
     const raw = join(RAW, `${cur.key}.mp3`)
     if (!existsSync(raw)) { console.log(`  no raw for ${j.id}`); continue }
     const p = post(raw, fileOf(j))
@@ -246,6 +279,7 @@ if (A.has('--repost')) {
     Object.assign(cur, p, { sha256: sha256(buf), bytes: buf.length })
     n++
   }
+  for (const j of jobs) if (j.kind === 'slow') deriveSlow(j, true)
   saveManifest(MAN, man)
   console.log(`reposted ${n}`)
   process.exit(0)
@@ -255,13 +289,16 @@ if (A.has('--repost')) {
 const res: Record<string, number> = {}
 let i = 0
 let stop = false
+// slow clips derive from the final name clips, so they run after every paid job has settled
+const paid = jobs.filter(j => j.kind !== 'slow')
 await Promise.all(Array.from({ length: 3 }, async () => {
-  while (i < jobs.length && !stop) {
-    const j = jobs[i++]
+  while (i < paid.length && !stop) {
+    const j = paid[i++]
     try { const r = await run(j); res[r] = (res[r] ?? 0) + 1 } catch (e) { console.log('STOP', String(e)); stop = true }
   }
 }))
+if (!stop) for (const j of jobs.filter(j => j.kind === 'slow')) { const r = deriveSlow(j); res[r] = (res[r] ?? 0) + 1 }
 saveManifest(MAN, man)
-const estTotal = jobs.reduce((s, j) => s + String(ladder(j)[0]?.body.input ?? '').length * PRICE_PER_CHAR, 0)
+const estTotal = paid.reduce((s, j) => s + String(ladder(j)[0]?.body.input ?? '').length * PRICE_PER_CHAR, 0)
 console.log(JSON.stringify({ jobs: jobs.length, results: res, run_spend_est: Math.round(runSpend * 1e4) / 1e4, first_pass_estimate: Math.round(estTotal * 1e3) / 1e3, manifest_spend: man.spend_usd }))
 void writeFileSync
