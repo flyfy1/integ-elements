@@ -3,7 +3,7 @@ import { SISTERS, SISTER_TITLE } from '../sister'
 import type { Lang } from '../data'
 import { track } from '../analytics'
 
-// "More from Integ Life": plain outbound links (no nofollow). `menu` = compact pop-up for the desktop controls row.
+// "More from Integ Life": plain outbound links (no nofollow). New tab keeps this page alive so GA's batched sister_click is sent. `menu` = compact pop-up for the desktop controls row.
 export function Sister({ lang, variant }: { lang: Lang; variant: 'menu' | 'row' }) {
   const title = SISTER_TITLE[lang]
   const box = useRef<HTMLDetailsElement>(null)
@@ -15,7 +15,7 @@ export function Sister({ lang, variant }: { lang: Lang; variant: 'menu' | 'row' 
     return () => { document.removeEventListener('pointerdown', f); document.removeEventListener('keydown', k) }
   }, [variant])
   const links = SISTERS.map(s => (
-    <a key={s.id} href={s.url} title={s.about} onClick={() => track('sister_click', { site: s.id })}>{s[lang]}</a>
+    <a key={s.id} href={s.url} target="_blank" rel="noopener" title={s.about} onClick={() => track('sister_click', { site: s.id })}>{s[lang]}</a>
   ))
   if (variant === 'menu') return (
     <details className="sister-menu" ref={box}>
