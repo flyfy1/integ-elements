@@ -1,0 +1,4008 @@
+{
+ "1": {
+  "z": 1,
+  "fact": {
+   "en": "Hydrogen makes up about 75% of all normal matter in the universe.",
+   "zh": "氢约占宇宙中所有普通物质的75%。"
+  },
+  "fact_quote": "It is the lightest and most abundant chemical element in the universe, constituting about 75% of all normal matter.",
+  "etymology": {
+   "en": "Named because it makes water when it burns.",
+   "zh": "因燃烧时会生成水而得名。"
+  },
+  "etymology_quote": "discovered its property of producing water when burned: this is the origin of hydrogen's name",
+  "sentence": {
+   "us": "Water is made of hydrogen and oxygen.",
+   "uk": "Water is made of hydrogen and oxygen.",
+   "zh": "水由氢和氧组成。"
+  },
+  "tricky": null,
+  "image_subject": "a glowing pinkish-purple hydrogen discharge tube",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "2": {
+  "z": 2,
+  "fact": {
+   "en": "Helium was first spotted as an unknown yellow line in sunlight during a solar eclipse in 1868.",
+   "zh": "1868年日食期间，人们在阳光中首次发现了氦的未知黄色谱线。"
+  },
+  "fact_quote": "Helium was first detected as an unknown, yellow spectral line signature in sunlight during a solar eclipse in 1868",
+  "etymology": {
+   "en": "Named by Norman Lockyer after the Sun, where its line was first seen",
+   "zh": "由洛克耶以太阳命名，因其谱线最早在阳光中被发现"
+  },
+  "etymology_quote": "only Lockyer proposed that the line was due to a new element, which he named after the Sun",
+  "sentence": {
+   "us": "We filled the party balloons with helium this morning.",
+   "uk": "We filled the party balloons with helium this morning.",
+   "zh": "今天早上我们给派对气球充了氦气。"
+  },
+  "tricky": null,
+  "image_subject": "a glowing peach-pink helium discharge tube bent into a simple loop",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "3": {
+  "z": 3,
+  "fact": {
+   "en": "Batteries use more than three-quarters of all the lithium produced.",
+   "zh": "全球超过四分之三的锂被用来制造电池。"
+  },
+  "fact_quote": "Batteries alone consume more than three-quarters of lithium production.",
+  "etymology": {
+   "en": "From Greek lithos, 'stone', because it was found in a solid mineral.",
+   "zh": "源自希腊语lithos，意为“石头”，因发现于矿石中。"
+  },
+  "etymology_quote": "from the Greek word λιθoς (transliterated as lithos, meaning \"stone\"), to reflect its discovery in a solid mineral",
+  "sentence": {
+   "us": "My phone has a lithium battery inside.",
+   "uk": "My phone has a lithium battery inside.",
+   "zh": "我的手机里有一块锂电池。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "LEE-see-um",
+     "why_en": "The th is /θ/ (tongue between teeth), not /s/: LITH-ee-um.",
+     "why_zh": "th要读成咬舌音/θ/，不能读成/s/。"
+    }
+   ]
+  },
+  "image_subject": "soft silvery lithium metal pieces under argon",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "4": {
+  "z": 4,
+  "fact": {
+   "en": "Tools made of beryllium copper don't make sparks when they hit steel.",
+   "zh": "铍铜合金工具撞击钢铁时不会产生火花。"
+  },
+  "fact_quote": "tools and components made of beryllium copper alloys are strong and hard and do not create sparks when they strike a steel surface",
+  "etymology": {
+   "en": "Named after beryl, the gem mineral it was first taken from.",
+   "zh": "得名于绿柱石（beryl），最初从这种矿物中分离出来。"
+  },
+  "etymology_quote": "Beryllium was named for the semiprecious mineral beryl, from which it was first isolated.",
+  "sentence": {
+   "us": "Emeralds and aquamarines both contain beryllium.",
+   "uk": "Emeralds and aquamarines both contain beryllium.",
+   "zh": "祖母绿和海蓝宝石都含有铍。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "BEH-ree-lee-um",
+     "why_en": "The stress is on the second syllable: buh-RIL-ee-um.",
+     "why_zh": "重音在第二个音节，不在第一个音节。"
+    }
+   ]
+  },
+  "image_subject": "a polished steel-gray beryllium metal disc",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "5": {
+  "z": 5,
+  "fact": {
+   "en": "Crystalline boron is silvery to black and extremely hard: 9.3 on the Mohs scale.",
+   "zh": "晶体硼呈银色到黑色，极其坚硬，莫氏硬度达9.3。"
+  },
+  "fact_quote": "crystalline boron is silvery to black, extremely hard (9.3 on the Mohs scale)",
+  "etymology": {
+   "en": "Coined from borax, the mineral it was isolated from, by analogy with carbon",
+   "zh": "由硼砂（borax）一词仿照碳（carbon）造出，硼从硼砂中分离而来"
+  },
+  "etymology_quote": "The word boron was coined from borax, the mineral from which it was isolated, by analogy with carbon, which boron resembles chemically.",
+  "sentence": {
+   "us": "Our teacher showed us a small piece of boron today.",
+   "uk": "Our teacher showed us a small piece of boron today.",
+   "zh": "今天老师给我们看了一小块硼。"
+  },
+  "tricky": null,
+  "image_subject": "a lump of dark, lustrous crystalline boron",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "6": {
+  "z": 6,
+  "fact": {
+   "en": "In 1772, Antoine Lavoisier showed that diamonds are a form of carbon.",
+   "zh": "1772年，拉瓦锡证明了钻石是碳的一种形态。"
+  },
+  "fact_quote": "In 1772, Antoine Lavoisier showed that diamonds are a form of carbon",
+  "etymology": {
+   "en": "From Latin carbo, 'coal and charcoal'",
+   "zh": "源自拉丁语 carbo，意为“煤和木炭”。"
+  },
+  "etymology_quote": "The English name carbon comes from the Latin carbo for coal and charcoal",
+  "sentence": {
+   "us": "Diamonds and pencil lead are both made of carbon.",
+   "uk": "Diamonds and pencil lead are both made of carbon.",
+   "zh": "钻石和铅笔芯都是由碳构成的。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "KAR-bon",
+     "why_en": "The second syllable is weak and sounds like 'bun' (KAR-bən), not a full 'bon'.",
+     "why_zh": "第二个音节要弱读成 /bən/，不要读成饱满的“棒”。"
+    }
+   ]
+  },
+  "image_subject": "a rough black lump of charcoal beside a small clear uncut diamond",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "7": {
+  "z": 7,
+  "fact": {
+   "en": "About 3% of your body's mass is nitrogen, the fourth most common element in the body.",
+   "zh": "人体质量中约3%是氮，是人体含量第四多的元素。"
+  },
+  "fact_quote": "The human body contains about 3% nitrogen by mass, the fourth most abundant element in the body after oxygen, carbon, and hydrogen.",
+  "etymology": {
+   "en": "From French nitre, 'saltpetre', plus the French suffix -gène, 'producing'",
+   "zh": "源自法语 nitre（硝石）加法语后缀 -gène（“产生”）"
+  },
+  "etymology_quote": "from the French nitre (potassium nitrate, also called saltpetre) and the French suffix -gène, \"producing\"",
+  "sentence": {
+   "us": "Most of the air we breathe is nitrogen.",
+   "uk": "Most of the air we breathe is nitrogen.",
+   "zh": "我们呼吸的空气大部分是氮气。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "NEE-troh-GEN",
+     "why_en": "The first i sounds like 'eye' (NY-truh-jun), and the last syllable is a weak 'jun', not a full 'gen'.",
+     "why_zh": "首个 i 读作“爱”音，结尾 -gen 弱读为 /dʒən/，不要读成饱满的“根”。"
+    },
+    {
+     "wrong": "NY-tro-GHEN",
+     "why_en": "The g before e is a soft /dʒ/ sound, like in 'gentle', not a hard g.",
+     "why_zh": "e 前的 g 读软音 /dʒ/，像 gentle 里的 g，不读硬音 /g/。"
+    }
+   ]
+  },
+  "image_subject": "liquid nitrogen pouring from a steel flask with white cold vapour",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "8": {
+  "z": 8,
+  "fact": {
+   "en": "Oxygen makes up 88.8% of the mass of the world's oceans.",
+   "zh": "按质量计，世界海洋的88.8%是氧。"
+  },
+  "fact_quote": "It is also the major component of the world's oceans (88.8% by mass).",
+  "etymology": {
+   "en": "From Greek oxys, 'sharp, acid', + -genes, 'producer'",
+   "zh": "源自希腊语 oxys（“酸、尖锐”）+ -genes（“产生者”）"
+  },
+  "etymology_quote": "from the Greek roots (ὀξύς; \"acid\", literally 'sharp', from the taste of acids) and (-γενής; \"producer\", literally 'begetter')",
+  "sentence": {
+   "us": "Plants give off oxygen when sunlight shines on their leaves.",
+   "uk": "Plants give off oxygen when sunlight shines on their leaves.",
+   "zh": "阳光照在叶子上时，植物会释放氧气。"
+  },
+  "tricky": null,
+  "image_subject": "pale blue liquid oxygen in a clear glass dewar flask",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "9": {
+  "z": 9,
+  "fact": {
+   "en": "Fluorine was so dangerous to separate that several early chemists died or were hurt trying.",
+   "zh": "氟极难分离，好几位早期化学家因此受伤甚至丧命。"
+  },
+  "fact_quote": "fluorine proved difficult and dangerous to separate from its compounds, and several early experimenters died or sustained injuries from their attempts",
+  "etymology": {
+   "en": "Named after the mineral fluorite, from Latin fluo; fluorite helped metal ores melt",
+   "zh": "得名于萤石，源自拉丁语 fluo；萤石能帮助矿石熔化"
+  },
+  "etymology_quote": "Fluorite, the primary mineral source of fluorine, which gave the element its name, was first described in 1529; as it was added to metal ores to lower their melting points for smelting, the Latin verb fluo meaning gave the mineral its name.",
+  "sentence": {
+   "us": "Fluorine compounds in toothpaste help protect your teeth.",
+   "uk": "Fluorine compounds in toothpaste help protect your teeth.",
+   "zh": "牙膏里的氟化合物有助于保护牙齿。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "floo-OH-reen",
+     "why_en": "The 'uo' is one sound, so the word has two syllables with stress first: FLOOR-een.",
+     "why_zh": "uo 只发一个音，全词两个音节，重音在前：FLOOR-een。"
+    }
+   ]
+  },
+  "image_subject": "a pale yellow gas in a sealed glass ampoule",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "10": {
+  "z": 10,
+  "fact": {
+   "en": "A balloon filled with neon will rise in air, but more slowly than a helium balloon.",
+   "zh": "充满氖气的气球会在空气中上升，但比氦气球升得慢。"
+  },
+  "fact_quote": "a balloon filled with neon will rise in air, albeit more slowly than a helium balloon",
+  "etymology": {
+   "en": "From Greek neon (νέον), a form of neos, meaning 'new'",
+   "zh": "源自希腊语 νέον（neon），意为\"新的\""
+  },
+  "etymology_quote": "The name neon originates from the Greek word νέον, a neuter singular form of νέος (), meaning 'new'.",
+  "sentence": {
+   "us": "The shop sign glows with bright red neon at night.",
+   "uk": "The shop sign glows with bright red neon at night.",
+   "zh": "这家店的招牌夜里亮着明亮的红色霓虹灯光。"
+  },
+  "tricky": null,
+  "image_subject": "a glowing red-orange neon tube bent into a simple loop",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "11": {
+  "z": 11,
+  "fact": {
+   "en": "Seawater holds an estimated 10.8 grams of sodium in every liter.",
+   "zh": "据估计，每升海水中含有约10.8克钠。"
+  },
+  "fact_quote": "Sodium's estimated oceanic abundance is 10.8 grams per liter.",
+  "etymology": {
+   "en": "Thought to come from Arabic suda, meaning 'headache'",
+   "zh": "一般认为源自阿拉伯语 suda，意为“头痛”"
+  },
+  "etymology_quote": "The name sodium is thought to originate from the Arabic suda, meaning headache",
+  "sentence": {
+   "us": "This soup has too much sodium for my diet.",
+   "uk": "This soup has too much sodium for my diet.",
+   "zh": "这碗汤的钠含量对我的饮食来说太高了。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "NAT-ree-um",
+     "why_en": "The symbol Na comes from the Latin name natrium, but in English the element is called SOH-dee-um.",
+     "why_zh": "符号 Na 来自拉丁名 natrium，但英语里这个元素读作 SOH-dee-um。"
+    }
+   ]
+  },
+  "image_subject": "a soft silvery-white lump of sodium metal",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "12": {
+  "z": 12,
+  "fact": {
+   "en": "In 1618, cows at Epsom in England refused a farmer's well water because of its bitter taste.",
+   "zh": "1618年，英国埃普瑟姆的奶牛因井水味苦而拒绝饮用。"
+  },
+  "fact_quote": "In 1618, a farmer at Epsom in England attempted to give his cows water from a local well. The cows refused to drink because of the water's bitter taste",
+  "etymology": {
+   "en": "From Greek, for places linked to the Magnetes tribe: Magnesia in Thessaly or Magnesia ad Sipylum",
+   "zh": "源自希腊语，指马格尼特人相关地名：色萨利的马格尼西亚或锡皮洛斯的马格尼西亚"
+  },
+  "etymology_quote": "The name magnesium originates from the Greek word for locations related to the tribe of the Magnetes, either a district in Thessaly called Magnesia or Magnesia ad Sipylum, now in Turkey.",
+  "sentence": {
+   "us": "Magnesium burns with a bright white light in science class.",
+   "uk": "Magnesium burns with a bright white light in science class.",
+   "zh": "在科学课上，镁燃烧时发出明亮的白光。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "MAN-guh-neez",
+     "why_en": "Magnesium looks like manganese, so learners often mix up the two names.",
+     "why_zh": "magnesium 和 manganese 拼写相近，学习者常把两个名字混淆。"
+    },
+    {
+     "wrong": "mag-NEE-see-um",
+     "why_en": "The 's' here sounds like /z/, so say mag-NEE-zee-um, not with a hard /s/.",
+     "why_zh": "这里的 s 读 /z/，应读 mag-NEE-zee-um，不要读成清音 /s/。"
+    }
+   ]
+  },
+  "image_subject": "a coiled strip of shiny gray magnesium ribbon",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "13": {
+  "z": 13,
+  "fact": {
+   "en": "It was once so rare and hard to make that it cost more than gold.",
+   "zh": "它曾经稀少又难以制取，价格比黄金还贵。"
+  },
+  "fact_quote": "As Wöhler's method could not yield great quantities of aluminium, the metal remained rare; its cost exceeded that of gold.",
+  "etymology": {
+   "en": "From Latin alumen, 'alum', the mineral it was first collected from",
+   "zh": "源自拉丁语 alumen，意为“明矾”，最初从这种矿物中提取。"
+  },
+  "etymology_quote": "derived it from alumen, the classical Latin name for alum, the mineral from which it was collected.",
+  "sentence": {
+   "us": "We wrapped the sandwiches in aluminum foil for the picnic.",
+   "uk": "We wrapped the sandwiches in aluminium foil for the picnic.",
+   "zh": "我们用铝箔把三明治包好，带去野餐。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "AL-yoo-MIN-um",
+     "why_en": "Learners mix the two versions: US is a-LOO-mi-num (4 syllables), UK is al-yoo-MIN-ee-um (5 syllables).",
+     "why_zh": "学习者常把两种读法混在一起：美式重音在 LOO，共四个音节；英式重音在 MIN，共五个音节。"
+    }
+   ]
+  },
+  "image_subject": "a crumpled sheet of shiny aluminium foil",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "14": {
+  "z": 14,
+  "fact": {
+   "en": "Silicon makes up 27.2% of Earth's crust by weight, second only to oxygen.",
+   "zh": "硅占地壳重量的27.2%，仅次于氧。"
+  },
+  "fact_quote": "Silicon makes up 27.2% of the Earth's crust by weight, second only to oxygen at 45.5%",
+  "etymology": null,
+  "etymology_quote": null,
+  "sentence": {
+   "us": "The chip inside my phone is made from silicon.",
+   "uk": "The chip inside my phone is made from silicon.",
+   "zh": "我手机里的芯片是用硅做的。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "SIL-ih-KON",
+     "why_en": "The last syllable is weak, like 'kun' (SIL-ih-kun), not a full 'con'.",
+     "why_zh": "最后一个音节要弱读成/kən/，不要读成饱满的“康”。"
+    }
+   ]
+  },
+  "image_subject": "a shiny blue-grey chunk of crystalline silicon",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": null,
+   "why": ""
+  }
+ },
+ "15": {
+  "z": 15,
+  "fact": {
+   "en": "An estimated two-thirds of the world's exploitable phosphate reserves are in Morocco alone.",
+   "zh": "据估计，全球可开采的磷酸盐储量有三分之二仅在摩洛哥。"
+  },
+  "fact_quote": "with two-thirds of the estimated exploitable phosphate reserves worldwide in Morocco alone",
+  "etymology": {
+   "en": "From Greek phōsphoros, 'light-bearer'",
+   "zh": "源自希腊语 phōsphoros，意为“带来光的”"
+  },
+  "etymology_quote": "The name phosphorus is derived from the Greek phōsphoros (Φωσφόρος) 'light-bearer'",
+  "sentence": {
+   "us": "Plants need phosphorus to grow strong roots.",
+   "uk": "Plants need phosphorus to grow strong roots.",
+   "zh": "植物需要磷来长出强壮的根。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "fos-FOR-us",
+     "why_en": "The stress is on the first syllable, FOS-fuh-rus, and the second 'o' is weak, not a full 'or' sound.",
+     "why_zh": "重音在第一音节 FOS，第二个 o 要弱读，不要读成完整的 or。"
+    }
+   ]
+  },
+  "image_subject": "a small heap of dark red phosphorus powder",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "16": {
+  "z": 16,
+  "fact": {
+   "en": "Sulfur is the tenth most abundant element by mass in the universe and the fifth most common on Earth.",
+   "zh": "按质量计，硫在宇宙中丰度排第十，在地球上排第五。"
+  },
+  "fact_quote": "Sulfur is the tenth most abundant element by mass in the universe and the fifth most common on Earth.",
+  "etymology": null,
+  "etymology_quote": null,
+  "sentence": {
+   "us": "Our teacher showed us a bright yellow piece of sulfur.",
+   "uk": "Our teacher showed us a bright yellow piece of sulphur.",
+   "zh": "老师给我们看了一块亮黄色的硫。"
+  },
+  "tricky": null,
+  "image_subject": "a pile of bright yellow crystalline sulfur lumps",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": null,
+   "why": ""
+  }
+ },
+ "17": {
+  "z": 17,
+  "fact": {
+   "en": "Your white blood cells make tiny amounts of chlorine to fight bacteria.",
+   "zh": "你的白细胞会产生微量氯气来对抗细菌。"
+  },
+  "fact_quote": "Small quantities of elemental chlorine are generated by oxidation of chloride ions in neutrophils as part of an immune system response against bacteria.",
+  "etymology": {
+   "en": "From Ancient Greek chlōros, 'pale green', for the gas's colour",
+   "zh": "源自古希腊语 chlōros，意为“淡绿色”，取自它的颜色。"
+  },
+  "etymology_quote": "named it after the Ancient Greek χλωρός (, \"pale green\") because of its colour",
+  "sentence": {
+   "us": "The swimming pool smelled strongly of chlorine today.",
+   "uk": "The swimming pool smelled strongly of chlorine today.",
+   "zh": "今天游泳池里的氯味很浓。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "CHLOR-een",
+     "why_en": "Here ch sounds like k, as in KLOR-een, not like the ch in 'chair'.",
+     "why_zh": "这里的 ch 读作 k，读 KLOR-een，不读 chair 里的 ch 音。"
+    }
+   ]
+  },
+  "image_subject": "a glass flask filled with pale yellow-green chlorine gas",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "18": {
+  "z": 18,
+  "fact": {
+   "en": "Air holds about 23 times more argon than carbon dioxide.",
+   "zh": "空气中氩的含量约是二氧化碳的23倍。"
+  },
+  "fact_quote": "It is more than twice as abundant as water vapor (which averages about 4000 ppmv, but varies greatly), 23 times as abundant as carbon dioxide (400 ppmv)",
+  "etymology": {
+   "en": "From Ancient Greek argon, 'lazy' or 'inactive'",
+   "zh": "源自古希腊语 argon，意为“懒惰的、不活泼的”"
+  },
+  "etymology_quote": "The name \"argon\" is derived from the Ancient Greek word ἀργόν, neuter singular form of ἀργός meaning 'lazy' or 'inactive'",
+  "sentence": {
+   "us": "The light bulb is filled with argon gas.",
+   "uk": "The light bulb is filled with argon gas.",
+   "zh": "这个灯泡里充满了氩气。"
+  },
+  "tricky": null,
+  "image_subject": "a glowing violet-lavender argon discharge tube bent into a simple loop",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "19": {
+  "z": 19,
+  "fact": {
+   "en": "Potassium is a metal so soft that you can easily cut it with a knife.",
+   "zh": "钾是一种很软的金属，用小刀就能轻松切开。"
+  },
+  "fact_quote": "It is a silvery white metal that is soft enough to easily cut with a knife.",
+  "etymology": {
+   "en": "From English potash, 'pot ash': ash of burnt wood heated with water in a pot",
+   "zh": "源自英语 potash，即放在锅里加水熬煮的草木灰"
+  },
+  "etymology_quote": "The English name for the element potassium comes from the word potash, which refers to an early method of extracting various potassium salts: placing in a pot the ash of burnt wood or tree leaves",
+  "sentence": {
+   "us": "Bananas are a good source of potassium.",
+   "uk": "Bananas are a good source of potassium.",
+   "zh": "香蕉是钾的良好来源。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "POT-ass-ee-um",
+     "why_en": "The stress falls on the second syllable: puh-TAS-ee-um.",
+     "why_zh": "重音在第二个音节，读 puh-TAS-ee-um，不在开头。"
+    },
+    {
+     "wrong": "KAY-lee-um",
+     "why_en": "The symbol K comes from Latin kalium, but the English name is potassium.",
+     "why_zh": "符号 K 来自拉丁语 kalium，但英语名称是 potassium。"
+    }
+   ]
+  },
+  "image_subject": "a few small silvery potassium metal pieces in a sealed glass ampoule",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "20": {
+  "z": 20,
+  "fact": {
+   "en": "Corals, sea shells and pearls are mostly made of calcium carbonate.",
+   "zh": "珊瑚、贝壳和珍珠主要由碳酸钙构成。"
+  },
+  "fact_quote": "Corals, sea shells, and pearls are mostly made up of calcium carbonate.",
+  "etymology": {
+   "en": "From Latin calx, 'lime'",
+   "zh": "源自拉丁语 calx，意为“石灰”"
+  },
+  "etymology_quote": "The name comes from the Latin word calx (meaning \"lime\"), which was obtained from heating limestone.",
+  "sentence": {
+   "us": "Milk has a lot of calcium for strong bones.",
+   "uk": "Milk has a lot of calcium for strong bones.",
+   "zh": "牛奶含有大量钙，有助于骨骼强壮。"
+  },
+  "tricky": null,
+  "image_subject": "a handful of white seashells beside a lump of white chalk",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "21": {
+  "z": 21,
+  "fact": {
+   "en": "Scandium is only the 50th most common element on Earth, but the 23rd in the Sun.",
+   "zh": "钪在地球上仅排第50位，在太阳中却排第23位。"
+  },
+  "fact_quote": "Scandium is only the 50th most common element on Earth (35th most abundant element in the crust), but it is the 23rd most common element in the Sun",
+  "etymology": {
+   "en": "From Latin Scandia, 'Scandinavia'",
+   "zh": "源自拉丁语 Scandia，意为“斯堪的纳维亚”"
+  },
+  "etymology_quote": "He named the element scandium, from the Latin Scandia meaning \"Scandinavia\".",
+  "sentence": {
+   "us": "Some light bike frames contain a little scandium.",
+   "uk": "Some light bike frames contain a little scandium.",
+   "zh": "一些轻型自行车车架含有少量钪。"
+  },
+  "tricky": null,
+  "image_subject": "a few small silvery-white scandium metal pieces",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "22": {
+  "z": 22,
+  "fact": {
+   "en": "Moon rocks brought back by Apollo 17 are about 12% titanium dioxide.",
+   "zh": "阿波罗17号带回的月球岩石约12%是二氧化钛。"
+  },
+  "fact_quote": "Rocks brought back from the Moon during the Apollo 17 mission are composed of 12.1% TiO2.",
+  "etymology": {
+   "en": "Named after the Titans of Greek mythology",
+   "zh": "以希腊神话中的泰坦神命名"
+  },
+  "etymology_quote": "was named by Martin Heinrich Klaproth after the Titans of Greek mythology",
+  "sentence": {
+   "us": "My new glasses have a light titanium frame.",
+   "uk": "My new glasses have a light titanium frame.",
+   "zh": "我的新眼镜是轻巧的钛金属镜框。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "tee-TAN-ee-um",
+     "why_en": "The first i sounds like 'tie' and the stress is on TAY: tie-TAY-nee-um.",
+     "why_zh": "第一个 i 读作 tie 的音，重音在 TAY：tie-TAY-nee-um。"
+    }
+   ]
+  },
+  "image_subject": "a pair of thin brushed-silver titanium eyeglass frames",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "23": {
+  "z": 23,
+  "fact": {
+   "en": "Vanadium's first large-scale industrial use was in the steel alloy chassis of the Ford Model T.",
+   "zh": "钒的第一个大规模工业用途，是用于福特T型车的钢合金底盘。"
+  },
+  "fact_quote": "The first large-scale industrial use of vanadium was in the steel alloy chassis of the Ford Model T",
+  "etymology": {
+   "en": "From Old Norse Vanadís, another name for the goddess Freyja (beauty and fertility)",
+   "zh": "源自古诺尔斯语 Vanadís，即象征美与生育的女神芙蕾雅的别名"
+  },
+  "etymology_quote": "He called the element vanadium after Old Norse Vanadís (another name for the Norse Vanir goddess Freyja, whose attributes include beauty and fertility)",
+  "sentence": {
+   "us": "These strong tools are made with vanadium steel.",
+   "uk": "These strong tools are made with vanadium steel.",
+   "zh": "这些结实的工具是用钒钢做的。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "va-NAH-dee-um",
+     "why_en": "The stressed 'a' in -na- is said like 'nay' (və-NAY-dee-əm), not 'nah', and the first 'a' is weak.",
+     "why_zh": "重读音节 -na- 读作 \"nay\"（/neɪ/），不是 \"nah\"，第一个 a 要弱读。"
+    }
+   ]
+  },
+  "image_subject": "a polished chunk of steel-blue vanadium metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "24": {
+  "z": 24,
+  "fact": {
+   "en": "Polished chromium reflects almost 70% of visible light and almost 90% of infrared light.",
+   "zh": "抛光的铬能反射近70%的可见光和近90%的红外光。"
+  },
+  "fact_quote": "Polished chromium reflects almost 70% of the visible spectrum, and almost 90% of infrared light.",
+  "etymology": {
+   "en": "From Greek chrōma, 'colour', because many of its compounds are brightly coloured",
+   "zh": "源自希腊语chrōma，意为“颜色”，因其许多化合物颜色鲜艳"
+  },
+  "etymology_quote": "The name of the element is derived from the Greek word χρῶμα, chrōma, meaning color, because many chromium compounds are intensely colored.",
+  "sentence": {
+   "us": "The chromium on my bike shines like a mirror.",
+   "uk": "The chromium on my bike shines like a mirror.",
+   "zh": "我自行车上的铬像镜子一样闪亮。"
+  },
+  "tricky": null,
+  "image_subject": "a mirror-bright lump of polished chromium metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "25": {
+  "z": 25,
+  "fact": {
+   "en": "About 80% of the world's known manganese resources are in South Africa.",
+   "zh": "全球已知的锰资源约有80%位于南非。"
+  },
+  "fact_quote": "About 80% of the known world manganese resources are in South Africa",
+  "etymology": {
+   "en": "Italian physician Michele Mercati called magnesia nigra 'manganesa'; the metal isolated from it became 'manganese'.",
+   "zh": "意大利医生梅尔卡蒂称magnesia nigra为manganesa，从中分离的金属后称manganese。"
+  },
+  "etymology_quote": "Italian physician Michele Mercati called magnesia nigra manganesa, and finally the metal isolated from it became known as manganese (Mangan).",
+  "sentence": {
+   "us": "Manganese helps make steel strong and hard.",
+   "uk": "Manganese helps make steel strong and hard.",
+   "zh": "锰有助于让钢变得坚固耐磨。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "mag-NEE-zee-um",
+     "why_en": "Manganese and magnesium look alike, so learners often say one when they mean the other.",
+     "why_zh": "锰和镁的英文名很像，学习者常把两者混淆。"
+    },
+    {
+     "wrong": "man-guh-NEEZ",
+     "why_en": "The stress falls on the first syllable, MANG-guh-neez, not on the last one.",
+     "why_zh": "重音在第一个音节MANG，而不是最后一个音节。"
+    }
+   ]
+  },
+  "image_subject": "a few brittle chunks of silvery-grey manganese metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "26": {
+  "z": 26,
+  "fact": {
+   "en": "By mass, iron is the most common element on Earth, making up much of Earth's core.",
+   "zh": "按质量计，铁是地球上最多的元素，地核大部分由铁构成。"
+  },
+  "fact_quote": "It is, by mass, the most common element on Earth, forming much of Earth's outer and inner core.",
+  "etymology": null,
+  "etymology_quote": null,
+  "sentence": {
+   "us": "Spinach is a good source of iron.",
+   "uk": "Spinach is a good source of iron.",
+   "zh": "菠菜是铁的良好来源。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "EYE-ron",
+     "why_en": "Iron is said EYE-ern (UK EYE-uhn); the o is not pronounced as a full vowel.",
+     "why_zh": "iron 读作 EYE-ern（英式 EYE-uhn），o 不读成完整元音。"
+    }
+   ]
+  },
+  "image_subject": "a rusty iron nail lying beside a shiny new one",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": null,
+   "why": ""
+  }
+ },
+ "27": {
+  "z": 27,
+  "fact": {
+   "en": "People have used cobalt to color glass since the Bronze Age.",
+   "zh": "早在青铜时代，人们就用钴给玻璃着色。"
+  },
+  "fact_quote": "Cobalt has been used to color glass since the Bronze Age.",
+  "etymology": {
+   "en": "Possibly from German kobelt, the name 16th-century silver miners gave a nuisance type of ore",
+   "zh": "可能源自德语 kobelt，16世纪银矿工给一种讨厌矿石起的名字"
+  },
+  "etymology_quote": "Or it may derive from kobelt, the name which 16th century German silver miners had given to a nuisance type of ore",
+  "sentence": {
+   "us": "My phone battery contains a small amount of cobalt.",
+   "uk": "My phone battery contains a small amount of cobalt.",
+   "zh": "我的手机电池里含有少量的钴。"
+  },
+  "tricky": null,
+  "image_subject": "a small chunk of hard, shiny gray cobalt metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "28": {
+  "z": 28,
+  "fact": {
+   "en": "Nickel is one of only four elements that are magnetic at about room temperature.",
+   "zh": "镍是室温下具有铁磁性的仅有四种元素之一。"
+  },
+  "fact_quote": "Nickel is one of four elements (the others are iron, cobalt, and gadolinium) that are ferromagnetic at about room temperature.",
+  "etymology": {
+   "en": "From German Nickel, a mischievous sprite in miners' folklore",
+   "zh": "源自德国矿工传说中的捣蛋小妖精 Nickel。"
+  },
+  "etymology_quote": "The element's name comes from a mischievous sprite of German miner folklore, Nickel.",
+  "sentence": {
+   "us": "My bike bell is shiny because it is covered in nickel.",
+   "uk": "My bike bell is shiny because it is covered in nickel.",
+   "zh": "我的自行车铃很亮，因为它镀了一层镍。"
+  },
+  "tricky": null,
+  "image_subject": "a lump of silvery-white nickel metal with a slight golden tinge",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "29": {
+  "z": 29,
+  "fact": {
+   "en": "The biggest lump of pure copper ever found weighed 420 tonnes. It was found in Michigan in 1857.",
+   "zh": "迄今发现的最大天然铜块重达420吨，1857年发现于美国密歇根。"
+  },
+  "fact_quote": "The largest mass of elemental copper yet discovered weighed 420 tonnes and was found in 1857 on the Keweenaw Peninsula in Michigan, US.",
+  "etymology": {
+   "en": "From Latin aes cyprium, 'metal of Cyprus'",
+   "zh": "源自拉丁语 aes cyprium，意为“塞浦路斯的金属”"
+  },
+  "etymology_quote": "The name of the metal derives from aes cyprium meaning 'metal of Cyprus' in Latin.",
+  "sentence": {
+   "us": "The wire inside this cable is made of copper.",
+   "uk": "The wire inside this cable is made of copper.",
+   "zh": "这根电缆里的电线是铜做的。"
+  },
+  "tricky": null,
+  "image_subject": "a coil of bright copper wire",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "30": {
+  "z": 30,
+  "fact": {
+   "en": "After iron, zinc is the most common trace metal in the human body.",
+   "zh": "锌是人体内含量仅次于铁的微量金属。"
+  },
+  "fact_quote": "It is the second most abundant trace metal in humans after iron",
+  "etymology": {
+   "en": "Probably from German Zinke, 'prong, tooth', named by Paracelsus",
+   "zh": "可能源自德语 Zinke，意为“尖齿”，由帕拉塞尔苏斯命名。"
+  },
+  "etymology_quote": "The element was probably named by the alchemist Paracelsus after the German word Zinke (prong, tooth).",
+  "sentence": {
+   "us": "Sunscreen with zinc helps protect your skin at the beach.",
+   "uk": "Sunscreen with zinc helps protect your skin at the beach.",
+   "zh": "含锌的防晒霜能在海边保护你的皮肤。"
+  },
+  "tricky": null,
+  "image_subject": "a bluish-white piece of zinc metal with a crystalline surface",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "31": {
+  "z": 31,
+  "fact": {
+   "en": "Gallium melts in your hand, because body temperature is warmer than its melting point.",
+   "zh": "镓的熔点低于体温，放在手里就会熔化。"
+  },
+  "fact_quote": "gallium will melt in a person's hands at normal human body temperature of 37 C",
+  "etymology": {
+   "en": "From Latin Gallia, 'Gaul', an old name for France",
+   "zh": "源自拉丁语 Gallia，意为“高卢”，即法国的古称。"
+  },
+  "etymology_quote": "He named the element \"gallia\", from Latin Gallia meaning 'Gaul', a name for his native land of France.",
+  "sentence": {
+   "us": "Our teacher showed us gallium melting in a warm cup.",
+   "uk": "Our teacher showed us gallium melting in a warm cup.",
+   "zh": "老师给我们看了镓在温热的杯子里熔化。"
+  },
+  "tricky": null,
+  "image_subject": "a small piece of silvery gallium melting into a shiny puddle on a glass dish",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "32": {
+  "z": 32,
+  "fact": {
+   "en": "Like water, germanium expands as it freezes from a liquid, which few substances do.",
+   "zh": "和水一样，锗从液态凝固时会膨胀，这样的物质很少。"
+  },
+  "fact_quote": "germanium is one of the few substances that expands as it solidifies (i.e. freezes) from the molten state.",
+  "etymology": {
+   "en": "From Latin Germania, 'Germany', in honor of Winkler's homeland",
+   "zh": "来自拉丁语 Germania，意为“德国”，以纪念温克勒的祖国。"
+  },
+  "etymology_quote": "Winkler named the new element germanium (from the Latin word, Germania, for Germany) in honor of his homeland.",
+  "sentence": {
+   "us": "Our teacher showed us a small piece of germanium.",
+   "uk": "Our teacher showed us a small piece of germanium.",
+   "zh": "老师给我们看了一小块锗。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "GER-man-ee-um",
+     "why_en": "The g is soft /dʒ/ as in 'Germany', and the stress falls on the second syllable: jer-MAY-nee-um.",
+     "why_zh": "g 读软音 /dʒ/，同 Germany，重音在第二音节 MAY。"
+    }
+   ]
+  },
+  "image_subject": "a shiny grayish-white chunk of germanium with a metallic luster",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "33": {
+  "z": 33,
+  "fact": {
+   "en": "During the Bronze Age, people melted arsenic with copper to make arsenical bronze.",
+   "zh": "青铜时代，人们把砷和铜熔在一起，制成砷青铜。"
+  },
+  "fact_quote": "During the Bronze Age, arsenic was melted with copper to make arsenical bronze.",
+  "etymology": {
+   "en": "From Syriac zarnika, via Arabic al-zarnīḵ 'the orpiment', based on Persian zar, 'gold'",
+   "zh": "源自叙利亚语 zarnika，经阿拉伯语“雌黄”，词根为波斯语 zar“金”"
+  },
+  "etymology_quote": "The word arsenic has its origin in the Syriac word ܙܪܢܝܟܐ zarnika, from Arabic al-zarnīḵ الزرنيخ 'the orpiment', based on Persian zar (\"gold\")",
+  "sentence": {
+   "us": "Our chemistry teacher said arsenic is a very dangerous poison.",
+   "uk": "Our chemistry teacher said arsenic is a very dangerous poison.",
+   "zh": "我们的化学老师说，砷是一种非常危险的毒药。"
+  },
+  "tricky": null,
+  "image_subject": "a lump of grey metallic arsenic crystal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "34": {
+  "z": 34,
+  "fact": {
+   "en": "In 1873, Willoughby Smith found that light changes how well grey selenium conducts electricity.",
+   "zh": "1873年，威洛比·史密斯发现光会影响灰硒的导电性。"
+  },
+  "fact_quote": "In 1873, Willoughby Smith found that the electrical conductivity of grey selenium was affected by light.",
+  "etymology": {
+   "en": "Berzelius named it after the Moon, because it was similar to tellurium, named for the Earth",
+   "zh": "贝采利乌斯以月亮命名它，因为它像以地球命名的碲"
+  },
+  "etymology_quote": "Because of its similarity to tellurium, named for the Earth, Berzelius named the new element after the Moon.",
+  "sentence": {
+   "us": "Brazil nuts contain selenium, which our bodies need in small amounts.",
+   "uk": "Brazil nuts contain selenium, which our bodies need in small amounts.",
+   "zh": "巴西坚果含有硒，我们的身体需要少量这种元素。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "SEL-ih-nee-um",
+     "why_en": "The stress falls on the second syllable, which has a long 'ee' sound: suh-LEE-nee-um.",
+     "why_zh": "重音在第二个音节，读长音 ee：suh-LEE-nee-um。"
+    }
+   ]
+  },
+  "image_subject": "a lump of grey metallic selenium beside a small pile of brick-red selenium powder",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "35": {
+  "z": 35,
+  "fact": {
+   "en": "Bromine is a liquid at standard conditions; the only other element that is liquid is mercury.",
+   "zh": "标准状况下溴是液体，另一种液态元素只有汞。"
+  },
+  "fact_quote": "At standard conditions for temperature and pressure it is a liquid; the only other element that is liquid is mercury.",
+  "etymology": {
+   "en": "From Greek βρῶμος (brōmos), 'stench'",
+   "zh": "源自希腊语 βρῶμος，意为“恶臭”"
+  },
+  "etymology_quote": "The name brôme (bromine) derives from the Greek βρῶμος (, \"stench\").",
+  "sentence": {
+   "us": "Our teacher showed us bromine, a red-brown liquid.",
+   "uk": "Our teacher showed us bromine, a red-brown liquid.",
+   "zh": "老师给我们看了溴，一种红棕色的液体。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "BROH-mine",
+     "why_en": "The ending -ine here sounds like 'meen', not like the word 'mine'.",
+     "why_zh": "词尾 -ine 读作“meen”，不要读成 mine 的音。"
+    }
+   ]
+  },
+  "image_subject": "a sealed glass ampoule of red-brown liquid bromine with reddish vapour above it",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "36": {
+  "z": 36,
+  "fact": {
+   "en": "From 1960 to 1983, the official length of a metre was based on light from krypton.",
+   "zh": "1960年至1983年，“米”的官方定义以氪发出的光为基准。"
+  },
+  "fact_quote": "From 1960 to 1983, the official definition of the metre was based on the wavelength of one spectral line of krypton-86",
+  "etymology": null,
+  "etymology_quote": null,
+  "sentence": {
+   "us": "Some camera flashes use krypton to make bright white light.",
+   "uk": "Some camera flashes use krypton to make bright white light.",
+   "zh": "有些相机闪光灯用氪来发出明亮的白光。"
+  },
+  "tricky": null,
+  "image_subject": "a glowing whitish krypton discharge tube bent into a simple loop",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": null,
+   "why": ""
+  }
+ },
+ "37": {
+  "z": 37,
+  "fact": {
+   "en": "Some natural rubidium is radioactive, with a half-life over three times the universe's estimated age.",
+   "zh": "天然铷中有28%带微弱放射性，半衰期超过宇宙估计年龄的三倍。"
+  },
+  "fact_quote": "28% is the slightly radioactive Rb, with a half-life of 48.8 billion years – more than three times as long as the estimated age of the universe",
+  "etymology": {
+   "en": "From Latin rubidus, 'deep red'",
+   "zh": "源自拉丁语 rubidus，意为“深红色”"
+  },
+  "etymology_quote": "The name comes from the Latin word rubidus, meaning deep red",
+  "sentence": {
+   "us": "Our teacher said rubidium is used in some atomic clocks.",
+   "uk": "Our teacher said rubidium is used in some atomic clocks.",
+   "zh": "老师说一些原子钟里会用到铷。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "ROO-bih-DEE-um",
+     "why_en": "The stress falls on the second syllable: roo-BID-ee-um, not on the first or third.",
+     "why_zh": "重音在第二个音节 BID 上，不要重读第一个或第三个音节。"
+    }
+   ]
+  },
+  "image_subject": "a small lump of soft silvery-white rubidium metal in a sealed glass ampoule",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "38": {
+  "z": 38,
+  "fact": {
+   "en": "At the peak of TV tube production, up to 75% of US strontium went into TV screen glass.",
+   "zh": "显像管电视鼎盛时期，美国多达75%的锶用于屏幕玻璃。"
+  },
+  "fact_quote": "At the peak of production of television cathode-ray tubes, as much as 75% of strontium consumption in the United States was used for the faceplate glass.",
+  "etymology": {
+   "en": "Named after Strontian, a Scottish village where it was found in the ores of lead mines",
+   "zh": "得名于苏格兰村庄斯特朗申，人们在当地铅矿的矿石中发现了它"
+  },
+  "etymology_quote": "Strontium is named after the Scottish village of Strontian (Sròn an t-Sìthein), where it was discovered in the ores of the lead mines.",
+  "sentence": {
+   "us": "My chemistry teacher showed us strontium burning with a red flame.",
+   "uk": "My chemistry teacher showed us strontium burning with a red flame.",
+   "zh": "化学老师给我们演示了锶燃烧时发出的红色火焰。"
+  },
+  "tricky": null,
+  "image_subject": "small silvery pale-yellow strontium metal pieces in a sealed glass ampoule",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "39": {
+  "z": 39,
+  "fact": {
+   "en": "Until the early 1920s, yttrium's chemical symbol was Yt, not Y.",
+   "zh": "直到20世纪20年代初，钇的化学符号还是Yt，而不是Y。"
+  },
+  "fact_quote": "Until the early 1920s, the chemical symbol Yt was used for the element, after which Y came into common use.",
+  "etymology": {
+   "en": "Named after the mineral ytterbite, which was named after the village of Ytterby in Sweden",
+   "zh": "得名于矿物ytterbite，该矿物以瑞典村庄于特比命名"
+  },
+  "etymology_quote": "The element is named after ytterbite, a mineral first identified in 1787 by chemist Carl Axel Arrhenius. He named the mineral after the village of Ytterby, in Sweden, where it had been discovered.",
+  "sentence": {
+   "us": "Yttrium helps the LED lights in our classroom glow.",
+   "uk": "Yttrium helps the LED lights in our classroom glow.",
+   "zh": "钇让我们教室里的LED灯发光。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "YIT-ree-um",
+     "why_en": "The first Y is a vowel, so the name starts with the sound /ɪ/ (IT-ree-um), with no 'y' sound in front.",
+     "why_zh": "开头的Y在这里是元音，读作/ɪ/（IT-ree-um），前面没有“y”的音。"
+    }
+   ]
+  },
+  "image_subject": "a lustrous silvery chunk of yttrium metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "40": {
+  "z": 40,
+  "fact": {
+   "en": "Zirconium alloys wrap nuclear fuel rods because they absorb very few neutrons.",
+   "zh": "锆合金用来包裹核燃料棒，因为它几乎不吸收中子。"
+  },
+  "fact_quote": "zirconium alloys are used to clad nuclear fuel rods due to their low neutron absorption and strong resistance to corrosion",
+  "etymology": {
+   "en": "From the mineral zircon, related to Persian zargun, 'gold-like'",
+   "zh": "来自矿物锆石，与波斯语zargun（“像金子”）有关"
+  },
+  "etymology_quote": "The word is related to Persian zargun (zircon; zar-gun, \"gold-like\" or \"as gold\").",
+  "sentence": {
+   "us": "The dentist used a zirconium crown on my back tooth.",
+   "uk": "The dentist used a zirconium crown on my back tooth.",
+   "zh": "牙医给我的后牙装了一个锆牙冠。"
+  },
+  "tricky": null,
+  "image_subject": "a greyish-white zirconium crystal bar",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "41": {
+  "z": 41,
+  "fact": {
+   "en": "Of 44,500 tonnes of niobium mined in 2006, an estimated 90% was used in high-grade structural steel.",
+   "zh": "2006年开采的44500吨铌中，估计约90%用于高级结构钢。"
+  },
+  "fact_quote": "Out of 44500 tonne of niobium mined in 2006, an estimated 90% was used in high-grade structural steel.",
+  "etymology": {
+   "en": "From Greek myth: Niobe, daughter of Tantalus, the namesake of tantalum",
+   "zh": "源自希腊神话：坦塔罗斯之女尼俄伯（钽名源自坦塔罗斯）"
+  },
+  "etymology_quote": "Its name comes from Greek mythology: Niobe, daughter of Tantalus, the namesake of tantalum.",
+  "sentence": {
+   "us": "Niobium makes the steel in gas pipelines stronger.",
+   "uk": "Niobium makes the steel in gas pipelines stronger.",
+   "zh": "铌让天然气管道里的钢更坚固。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "nee-OH-bee-um",
+     "why_en": "The first 'i' is said like 'eye' (nye-OH-bee-um), not 'ee' as in pinyin 'ni'.",
+     "why_zh": "开头的 i 读作 /aɪ/（像 eye），不要按拼音读成 ni。"
+    }
+   ]
+  },
+  "image_subject": "a pair of iridescent blue-purple anodized niobium earrings",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "42": {
+  "z": 42,
+  "fact": {
+   "en": "About 80% of the world's molybdenum is used in steel alloys.",
+   "zh": "全世界约80%的钼都用于钢合金。"
+  },
+  "fact_quote": "most of the world production of the element (about 80%) is used in steel alloys",
+  "etymology": {
+   "en": "From Ancient Greek mólybdos, meaning 'lead'",
+   "zh": "源自古希腊语 mólybdos，意为“铅”。"
+  },
+  "etymology_quote": "the name comes from Ancient Greek μόλυβδος mólybdos, meaning lead",
+  "sentence": {
+   "us": "Our teacher said molybdenum makes steel much harder.",
+   "uk": "Our teacher said molybdenum makes steel much harder.",
+   "zh": "老师说钼能让钢变得更硬。"
+  },
+  "tricky": {
+   "level": 3,
+   "traps": [
+    {
+     "wrong": "MOL-ib-DEE-num",
+     "why_en": "The stress falls on the second syllable, mo-LIB-duh-num, and the 'e' is reduced to a weak 'uh'.",
+     "why_zh": "重音在第二音节 mo-LIB，e 要弱读成 /ə/，不能读成 DEE。"
+    },
+    {
+     "wrong": "mo-LAI-bi-num",
+     "why_en": "The 'y' is a short vowel /ɪ/ as in 'sit', not 'eye', and the 'd' must still be heard.",
+     "why_zh": "y 读短元音 /ɪ/（像 sit），不读 /aɪ/，d 音也不能漏掉。"
+    }
+   ]
+  },
+  "image_subject": "a small polished bar of silvery-grey molybdenum metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "43": {
+  "z": 43,
+  "fact": {
+   "en": "Technetium is the lightest element whose isotopes are all radioactive.",
+   "zh": "锝是所有同位素都具有放射性的元素中最轻的一种。"
+  },
+  "fact_quote": "It is the lightest element whose isotopes are all radioactive.",
+  "etymology": {
+   "en": "From a Greek word meaning 'artificial'; it was the first mainly artificial element made, in 1937",
+   "zh": "源自希腊语，意为“人造的”；1937年成为第一种主要靠人工制得的元素"
+  },
+  "etymology_quote": "In 1937, technetium became the first predominantly artificial element to be produced, hence its name (from the Greek ', 'artificial'",
+  "sentence": {
+   "us": "Doctors use technetium to take pictures of our bones.",
+   "uk": "Doctors use technetium to take pictures of our bones.",
+   "zh": "医生用锝来拍摄我们骨骼的影像。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "TECH-nee-tee-um",
+     "why_en": "The 'ch' is a hard /k/ sound, the stress is on 'NEE', and 'ti' sounds like 'sh': tek-NEE-shee-um.",
+     "why_zh": "ch 读作 /k/，重音在 NEE 上，ti 读作“诗”音：tek-NEE-shee-um。"
+    }
+   ]
+  },
+  "image_subject": "a small piece of silvery-gray crystalline metal in a sealed glass ampoule",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "44": {
+  "z": 44,
+  "fact": {
+   "en": "Many fountain pen nibs are tipped with a ruthenium alloy.",
+   "zh": "许多钢笔的笔尖尖端是用钌合金制成的。"
+  },
+  "fact_quote": "Fountain pen nibs are frequently tipped with ruthenium alloy.",
+  "etymology": {
+   "en": "From Latin Ruthenia, a name for Russia, chosen to honour Russia",
+   "zh": "源自拉丁语 Ruthenia，即“俄罗斯”，以纪念俄罗斯"
+  },
+  "etymology_quote": "named it in honor of Russia, using the Latin name Ruthenia",
+  "sentence": {
+   "us": "Our teacher said ruthenium makes some pen tips very hard.",
+   "uk": "Our teacher said ruthenium makes some pen tips very hard.",
+   "zh": "老师说钌能让一些笔尖变得非常坚硬。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "ROO-ten-ee-um",
+     "why_en": "The th is a soft /θ/ sound and the stress falls on the second syllable: roo-THEE-nee-um.",
+     "why_zh": "th 要发咬舌音 /θ/，重音在第二音节 THEE，不要读成 t 或 s。"
+    }
+   ]
+  },
+  "image_subject": "a small pile of silvery-grey ruthenium metal pellets",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "45": {
+  "z": 45,
+  "fact": {
+   "en": "Tiny traces of rhodium have been measured in some potatoes.",
+   "zh": "人们在一些土豆中检测到了微量的铑。"
+  },
+  "fact_quote": "Rhodium has been measured in some potatoes with concentrations between 0.8 and 30 ppt.",
+  "etymology": {
+   "en": "From Greek rhodon, meaning 'rose'",
+   "zh": "源自希腊语 rhodon，意为“玫瑰”"
+  },
+  "etymology_quote": "Rhodium (from ῥόδον , meaning 'rose')",
+  "sentence": {
+   "us": "Her white gold ring has a shiny rhodium coating.",
+   "uk": "Her white gold ring has a shiny rhodium coating.",
+   "zh": "她的白金戒指有一层闪亮的铑镀层。"
+  },
+  "tricky": null,
+  "image_subject": "a white gold ring with a bright mirror-like rhodium plating",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "46": {
+  "z": 46,
+  "fact": {
+   "en": "Some professional concert flutes are made from palladium.",
+   "zh": "一些专业音乐会长笛是用钯制成的。"
+  },
+  "fact_quote": "Palladium is also used to make some professional transverse (concert or classical) flutes.",
+  "etymology": {
+   "en": "Named after the asteroid Pallas, itself named from a title of the Greek goddess Athena",
+   "zh": "得名于小行星帕拉斯，其名源自希腊女神雅典娜的称号"
+  },
+  "etymology_quote": "He named it after the asteroid 2 Pallas, which was itself named after the epithet of the Greek goddess Athena",
+  "sentence": {
+   "us": "My uncle bought a small palladium coin as a gift.",
+   "uk": "My uncle bought a small palladium coin as a gift.",
+   "zh": "我叔叔买了一枚小钯金币当礼物。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "PA-la-DEE-um",
+     "why_en": "The stress falls on the second syllable LAY: puh-LAY-dee-um.",
+     "why_zh": "重音在第二音节 LAY，读作 puh-LAY-dee-um，不要重读第一或第三音节。"
+    }
+   ]
+  },
+  "image_subject": "a small heap of silvery-white palladium metal granules",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "47": {
+  "z": 47,
+  "fact": {
+   "en": "In ancient Egypt, silver once cost more than gold.",
+   "zh": "在古埃及，银曾经比金子还贵。"
+  },
+  "fact_quote": "silver was more expensive than gold in Egypt until around the fifteenth century BC",
+  "etymology": {
+   "en": "From Old English seolfor (also siolfor), the word for this metal",
+   "zh": "源自古英语 seolfor（也写作 siolfor），指这种金属"
+  },
+  "etymology_quote": "The word silver appears in Old English with various spellings, such as seolfor and siolfor.",
+  "sentence": {
+   "us": "She wore a silver necklace to the school party.",
+   "uk": "She wore a silver necklace to the school party.",
+   "zh": "她戴着一条银项链去参加学校聚会。"
+  },
+  "tricky": null,
+  "image_subject": "a shiny polished silver spoon",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "48": {
+  "z": 48,
+  "fact": {
+   "en": "In 2022, tests of 28 dark chocolate brands sold in the US found cadmium in all of them.",
+   "zh": "2022年，对美国在售的28个黑巧克力品牌检测，全部含有镉。"
+  },
+  "fact_quote": "Consumer Reports tested 28 brands of dark chocolate sold in the United States in 2022, and found cadmium in all of them",
+  "etymology": {
+   "en": "From Latin cadmia, Greek kadmeia, 'calamine', named after Cadmus, the mythical founder of Thebes",
+   "zh": "源自拉丁语cadmia、希腊语kadmeia（炉甘石），得名于底比斯创建者卡德摩斯"
+  },
+  "etymology_quote": "Cadmium (Latin cadmia, Greek καδμεία meaning \"calamine\", a cadmium-bearing mixture of minerals that was named after the Greek mythological character Κάδμος, Cadmus, the founder of Thebes)",
+  "sentence": {
+   "us": "My teacher said cadmium is a toxic metal.",
+   "uk": "My teacher said cadmium is a toxic metal.",
+   "zh": "我的老师说镉是一种有毒的金属。"
+  },
+  "tricky": null,
+  "image_subject": "a small bar of soft silvery-white cadmium metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "49": {
+  "z": 49,
+  "fact": {
+   "en": "One of indium's discoverers was color-blind, so his assistant had to spot the colored spectral lines.",
+   "zh": "铟的发现者之一是色盲，只好请助手帮他辨认光谱线的颜色。"
+  },
+  "fact_quote": "Reich, who was color-blind, employed Richter as an assistant for detecting the colored spectral lines.",
+  "etymology": {
+   "en": "From Latin indicum, 'of India', after the indigo color seen in its spectrum",
+   "zh": "源自拉丁语 indicum（“印度的”），因光谱中的靛蓝色得名"
+  },
+  "etymology_quote": "They named the element indium, from the indigo color seen in its spectrum, after the Latin indicum, meaning 'of India'.",
+  "sentence": {
+   "us": "Indium helps the touch screen on my phone work.",
+   "uk": "Indium helps the touch screen on my phone work.",
+   "zh": "铟让我手机的触摸屏能够正常工作。"
+  },
+  "tricky": null,
+  "image_subject": "a small soft silvery-white indium ingot",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "50": {
+  "z": 50,
+  "fact": {
+   "en": "When you bend a bar of tin, it makes a sound called the 'tin cry'.",
+   "zh": "弯曲锡条时，它会发出一种声音，叫作“锡鸣”。"
+  },
+  "fact_quote": "When bent, a bar of tin makes a sound, the so-called \"tin cry\", as a result of twinning in tin crystals.",
+  "etymology": {
+   "en": "From Proto-Germanic *tin-om; German Zinn and Dutch tin share the same root",
+   "zh": "源自原始日耳曼语 *tin-om，与德语 Zinn 同源"
+  },
+  "etymology_quote": "The word tin is shared among Germanic languages and can be traced back to reconstructed Proto-Germanic *tin-om; cognates include German Zinn, Swedish tenn and Dutch tin.",
+  "sentence": {
+   "us": "We collected tin cans for the school recycling project.",
+   "uk": "We collected tin cans for the school recycling project.",
+   "zh": "我们为学校的回收项目收集了锡罐。"
+  },
+  "tricky": null,
+  "image_subject": "a bent bar of dull silvery tin",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "51": {
+  "z": 51,
+  "fact": {
+   "en": "An artifact said to be part of a vase made of antimony, from about 3000 BC, was found in present-day Iraq.",
+   "zh": "一件据称是锑制花瓶残片的文物，约公元前3000年，出土于今伊拉克。"
+  },
+  "fact_quote": "An artifact, said to be part of a vase, made of antimony dating to about 3000 BC was found at Telloh, Chaldea (part of present-day Iraq)",
+  "etymology": {
+   "en": "From medieval Latin antimonium; where that word comes from is uncertain",
+   "zh": "源自中世纪拉丁语 antimonium，该词本身来源尚不确定"
+  },
+  "etymology_quote": "The medieval Latin form, from which the modern languages and late Byzantine Greek take their names for antimony, is antimonium. The origin of that is uncertain",
+  "sentence": {
+   "us": "Old car batteries contain lead mixed with antimony.",
+   "uk": "Old car batteries contain lead mixed with antimony.",
+   "zh": "旧汽车电池里含有掺了锑的铅。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "an-TIM-uh-nee",
+     "why_en": "The stress falls on the first syllable, AN-ti-moh-nee, not the second.",
+     "why_zh": "重音在第一个音节 AN，而不是第二个音节。"
+    }
+   ]
+  },
+  "image_subject": "a lustrous silvery-grey chunk of antimony metal with flat crystalline faces",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "52": {
+  "z": 52,
+  "fact": {
+   "en": "People exposed to tellurium can have breath that smells like garlic.",
+   "zh": "接触过碲的人，呼出的气会带有大蒜味。"
+  },
+  "fact_quote": "a gas with a garlic-like odor exhaled in the breath of victims of tellurium exposure or poisoning",
+  "etymology": {
+   "en": "From Latin tellus, meaning 'earth'",
+   "zh": "源自拉丁语 tellus，意为“大地”"
+  },
+  "etymology_quote": "named the new element in 1798 after the Latin tellus 'earth'",
+  "sentence": {
+   "us": "Some solar panels use a thin layer containing tellurium.",
+   "uk": "Some solar panels use a thin layer containing tellurium.",
+   "zh": "有些太阳能电池板使用含碲的薄层。"
+  },
+  "tricky": null,
+  "image_subject": "a brittle silver-white chunk of tellurium",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "53": {
+  "z": 53,
+  "fact": {
+   "en": "Not getting enough iodine affects about two billion people around the world.",
+   "zh": "全球约有二十亿人受到缺碘的影响。"
+  },
+  "fact_quote": "Iodine deficiency affects about two billion people and is the leading preventable cause of intellectual disabilities.",
+  "etymology": {
+   "en": "From Ancient Greek Ιώδης (iodes), meaning 'violet'",
+   "zh": "源自古希腊语 Ιώδης，意为“紫色”"
+  },
+  "etymology_quote": "after the Ancient Greek word Ιώδης, meaning 'violet'",
+  "sentence": {
+   "us": "The nurse put some iodine on my cut knee.",
+   "uk": "The nurse put some iodine on my cut knee.",
+   "zh": "护士在我擦伤的膝盖上涂了一些碘酒。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "yo-DEEN",
+     "why_en": "It starts with the sound 'eye' and the stress is on it: EYE-uh-dine (US) or EYE-uh-deen (UK).",
+     "why_zh": "开头读作“爱”，重音在第一个音节，不读成“哟”。"
+    }
+   ]
+  },
+  "image_subject": "dark violet-black iodine crystals beside a wisp of violet vapour",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "54": {
+  "z": 54,
+  "fact": {
+   "en": "When frozen solid, xenon is denser than granite rock.",
+   "zh": "固态氙的密度比花岗岩还大。"
+  },
+  "fact_quote": "the density of solid xenon, 3.640 g/cm3, is greater than the average density of granite, 2.75 g/cm3",
+  "etymology": {
+   "en": "From Greek xénos, 'foreigner', 'stranger' or 'guest'",
+   "zh": "源自希腊语 xénos，意为“外来者、陌生人、客人”"
+  },
+  "etymology_quote": "Ramsay suggested the name xenon for this gas from the Greek word ξένον xénon, neuter singular form of ξένος xénos, meaning 'foreign(er)', 'strange(r)', or 'guest'.",
+  "sentence": {
+   "us": "Our camera flash uses xenon gas to make bright light.",
+   "uk": "Our camera flash uses xenon gas to make bright light.",
+   "zh": "我们的相机闪光灯用氙气发出强光。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "KSEE-non",
+     "why_en": "An x at the start of an English word is said /z/, so xenon begins like 'zee'.",
+     "why_zh": "英语词首的 x 读 /z/，所以 xenon 开头像 “zee”，不读 /ks/。"
+    }
+   ]
+  },
+  "image_subject": "a glass discharge tube glowing with soft blue-lavender light",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "55": {
+  "z": 55,
+  "fact": {
+   "en": "Since 1967, the official length of one second has been defined using caesium atoms.",
+   "zh": "自1967年起，“一秒”的长度就是用铯原子来定义的。"
+  },
+  "fact_quote": "In 1967, the International System of Units began using a specific hyperfine transition of neutral caesium-133 atoms to define the basic unit of time, the second.",
+  "etymology": {
+   "en": "From Latin caesius, chosen for the bright blue lines in its spectrum",
+   "zh": "源自拉丁语 caesius，因其光谱中明亮的蓝线而得名"
+  },
+  "etymology_quote": "Because of the bright blue lines in the emission spectrum, they derived the name from the Latin word caesius",
+  "sentence": {
+   "us": "Atomic clocks use cesium to keep very exact time.",
+   "uk": "Atomic clocks use caesium to keep very exact time.",
+   "zh": "原子钟用铯来保持非常精确的时间。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "KAI-see-um",
+     "why_en": "The 'ae' is said like 'ee', the c is /s/ and the s is /z/: SEE-zee-um.",
+     "why_zh": "ae 读作 “ee”，c 读 /s/，s 读 /z/，应读 SEE-zee-um。"
+    }
+   ]
+  },
+  "image_subject": "a small pool of soft silvery-golden metal inside a sealed glass ampoule",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "56": {
+  "z": 56,
+  "fact": {
+   "en": "Barium compounds are added to fireworks to give them a green colour.",
+   "zh": "烟花里加入钡的化合物，可以让烟花呈现绿色。"
+  },
+  "fact_quote": "Barium compounds are added to fireworks to impart a green color.",
+  "etymology": {
+   "en": "From the alchemical word \"baryta\", from Greek βαρὺς, meaning 'heavy'",
+   "zh": "源自炼金术用语\"baryta\"，来自希腊语βαρὺς，意为\"重\"。"
+  },
+  "etymology_quote": "The name barium originates from the alchemical derivative \"baryta\" from Greek βαρὺς (), meaning 'heavy'.",
+  "sentence": {
+   "us": "The doctor gave me a barium drink before my X-ray.",
+   "uk": "The doctor gave me a barium drink before my X-ray.",
+   "zh": "拍X光之前，医生让我喝了一杯钡剂。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "BAH-ree-um",
+     "why_en": "The first 'a' sounds like the 'air' in 'hair' (BAIR-ee-um), not the open 'ah' in 'car'.",
+     "why_zh": "开头的a读作hair里的\"air\"音，而不是car里的\"啊\"音。"
+    }
+   ]
+  },
+  "image_subject": "a cluster of pale, translucent baryte crystals",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "57": {
+  "z": 57,
+  "fact": {
+   "en": "Lanthanum is almost three times as abundant as lead in the Earth's crust.",
+   "zh": "镧在地壳中的含量几乎是铅的三倍。"
+  },
+  "fact_quote": "lanthanum is the 28th most abundant element in the Earth's crust, almost three times as abundant as lead",
+  "etymology": {
+   "en": "From ancient Greek lanthanein, meaning 'to lie hidden'",
+   "zh": "源自古希腊语 lanthanein，意为“隐藏”。"
+  },
+  "etymology_quote": "from the ancient Greek λανθάνειν (), meaning 'to lie hidden'",
+  "sentence": {
+   "us": "Lighter flints contain a metal called lanthanum.",
+   "uk": "Lighter flints contain a metal called lanthanum.",
+   "zh": "打火机的火石里含有一种叫镧的金属。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "lan-TAH-num",
+     "why_en": "The stress falls on the first syllable (LAN-thuh-num), and 'th' is the soft /θ/ sound, not a 't'.",
+     "why_zh": "重音在第一个音节 LAN，th 要读成咬舌音 /θ/，不是 t。"
+    }
+   ]
+  },
+  "image_subject": "a small chunk of soft silvery-white lanthanum metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "58": {
+  "z": 58,
+  "fact": {
+   "en": "Most white LED lights get their white glow from a cerium-containing coating over blue LEDs.",
+   "zh": "大多数白光LED靠蓝光LED加含铈的荧光粉发出白光。"
+  },
+  "fact_quote": "Cerium-doped YAG phosphor is used in conjunction with blue light-emitting diodes to produce white light in most commercial white LED light sources.",
+  "etymology": {
+   "en": "Named after the asteroid Ceres, found two years earlier",
+   "zh": "以两年前发现的小行星谷神星（Ceres）命名"
+  },
+  "etymology_quote": "Cerium was named by Berzelius after the asteroid Ceres, formally 1 Ceres, discovered two years earlier.",
+  "sentence": {
+   "us": "Lighter flints spark because they contain cerium.",
+   "uk": "Lighter flints spark because they contain cerium.",
+   "zh": "打火机的火石能打出火花，是因为里面含铈。"
+  },
+  "tricky": null,
+  "image_subject": "a ferrocerium fire-starter rod throwing a shower of bright sparks",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "59": {
+  "z": 59,
+  "fact": {
+   "en": "Silicate crystals doped with praseodymium ions slowed a light pulse to a few hundred meters per second.",
+   "zh": "掺有镨离子的硅酸盐晶体曾把光脉冲减慢到每秒几百米。"
+  },
+  "fact_quote": "Silicate crystals doped with praseodymium ions have also been used to slow a light pulse down to a few hundred meters per second.",
+  "etymology": {
+   "en": "From Ancient Greek πράσινος, 'leek-green', and δίδυμος, 'twin'",
+   "zh": "源自古希腊语 πράσινος（韭绿色）和 δίδυμος（双胞胎）"
+  },
+  "etymology_quote": "The name praseodymium comes from the Ancient Greek πράσινος (), meaning 'leek-green', and δίδυμος () 'twin'.",
+  "sentence": {
+   "us": "Our teacher showed us green glass made with praseodymium.",
+   "uk": "Our teacher showed us green glass made with praseodymium.",
+   "zh": "老师给我们看了用镨制成的绿色玻璃。"
+  },
+  "tricky": {
+   "level": 3,
+   "traps": [
+    {
+     "wrong": "PRAH-see-oh-DY-mee-um",
+     "why_en": "The y is a short 'i' as in 'dim', the s sounds like z, and the main stress falls on DIM: pray-zee-oh-DIM-ee-um.",
+     "why_zh": "y 读短音 /ɪ/（像 dim），s 读 /z/，重音在 DIM 上：pray-zee-oh-DIM-ee-um。"
+    },
+    {
+     "wrong": "PRAY-zee-oh-dim-EE-um",
+     "why_en": "In this long name the stress does not move to the end; keep it on DIM.",
+     "why_zh": "这个长单词的重音不在词尾，要落在 DIM 上。"
+    }
+   ]
+  },
+  "image_subject": "a small piece of silvery praseodymium metal with a faint green oxide coating",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "60": {
+  "z": 60,
+  "fact": {
+   "en": "Glass containing neodymium can look like a different color under different kinds of light.",
+   "zh": "含钕的玻璃在不同灯光下会呈现不同的颜色。"
+  },
+  "fact_quote": "Its selective absorption of light can make the glass appear different colors under different illumination.",
+  "etymology": {
+   "en": "From Greek neos, 'new', + didymos, 'twin'",
+   "zh": "源自希腊语 neos“新”和 didymos“双胞胎”"
+  },
+  "etymology_quote": "The name neodymium combines the Greek neos ('new') and didymos ('twin').",
+  "sentence": {
+   "us": "My headphones use a tiny neodymium magnet.",
+   "uk": "My headphones use a tiny neodymium magnet.",
+   "zh": "我的耳机里有一块小小的钕磁铁。"
+  },
+  "tricky": null,
+  "image_subject": "a small stack of shiny nickel-plated disc magnets",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "61": {
+  "z": 61,
+  "fact": {
+   "en": "At any moment, only about 500–600 grams of promethium exist naturally in all of Earth's crust.",
+   "zh": "任何时刻，整个地壳中天然存在的钷只有约500–600克。"
+  },
+  "fact_quote": "it is extremely rare, with only about 500–600 grams naturally occurring in the Earth's crust at any given time",
+  "etymology": {
+   "en": "From Greek myth: Prometheus, the Titan who stole fire and gave it to humans",
+   "zh": "源自希腊神话中为人类盗取火种的泰坦神普罗米修斯"
+  },
+  "etymology_quote": "It is derived from Prometheus, the Titan in Greek mythology who stole fire from Mount Olympus and brought it down to humans",
+  "sentence": {
+   "us": "Promethium was once used in glowing paint for signal lights.",
+   "uk": "Promethium was once used in glowing paint for signal lights.",
+   "zh": "钷曾被用在信号灯的发光涂料里。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "pro-MEE-see-um",
+     "why_en": "The th is the tongue-between-teeth /θ/ sound, not s: pro-MEE-thee-um.",
+     "why_zh": "th 要发咬舌音 /θ/，不能读成 s：pro-MEE-thee-um。"
+    }
+   ]
+  },
+  "image_subject": "a sealed glass ampoule holding a tiny speck of pale, faintly glowing salt",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "62": {
+  "z": 62,
+  "fact": {
+   "en": "Samarium was the first chemical element ever named after a person.",
+   "zh": "钐是第一个以人名命名的化学元素。"
+  },
+  "fact_quote": "Samarium was thus the first chemical element to be named after a person.",
+  "etymology": {
+   "en": "From the mineral samarskite, named after Russian Vassili Samarsky-Bykhovets",
+   "zh": "源自矿物铌钇矿（samarskite），以俄国人萨马尔斯基命名"
+  },
+  "etymology_quote": "Boisbaudran named his element samarium after the mineral samarskite, which in turn honored Vassili Samarsky-Bykhovets (1803–1870).",
+  "sentence": {
+   "us": "Samarium magnets still work well when they get very hot.",
+   "uk": "Samarium magnets still work well when they get very hot.",
+   "zh": "钐磁铁在温度很高时依然能正常工作。"
+  },
+  "tricky": null,
+  "image_subject": "a pair of dark grey samarium-cobalt ring magnets",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "63": {
+  "z": 63,
+  "fact": {
+   "en": "Tiny traces of europium make some natural fluorite crystals glow bright blue.",
+   "zh": "微量的铕能让某些天然萤石发出明亮的蓝色荧光。"
+  },
+  "fact_quote": "Trace amounts of Eu(II) also cause the intense blue fluorescence of some natural fluorite, CaF2.",
+  "etymology": {
+   "en": "Named after the continent of Europe",
+   "zh": "以欧洲（Europe）命名"
+  },
+  "etymology_quote": "named it europium after Europe",
+  "sentence": {
+   "us": "Europium helps old TV screens show bright red.",
+   "uk": "Europium helps old TV screens show bright red.",
+   "zh": "铕帮助老式电视屏幕显示鲜艳的红色。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "YOO-ruh-PEE-um",
+     "why_en": "Unlike 'Europe', the stress falls on the second syllable: yoo-ROH-pee-um.",
+     "why_zh": "和 Europe 不同，重音在第二音节：yoo-ROH-pee-um。"
+    }
+   ]
+  },
+  "image_subject": "a sealed glass ampoule holding small silvery metal pieces under argon",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "64": {
+  "z": 64,
+  "fact": {
+   "en": "Below about 20 °C, gadolinium becomes magnetic and is pulled by magnets more strongly than nickel.",
+   "zh": "钆在约20°C以下具有铁磁性，被磁铁吸引得比镍还强。"
+  },
+  "fact_quote": "Gadolinium below its Curie point of 20 C is ferromagnetic, with an attraction to a magnetic field higher than that of nickel.",
+  "etymology": {
+   "en": "From the mineral gadolinite, itself named after the Finnish chemist Johan Gadolin",
+   "zh": "源自矿物硅铍钇矿（gadolinite），该矿以芬兰化学家加多林命名"
+  },
+  "etymology_quote": "It is named after the mineral gadolinite, one of the minerals in which gadolinium is found, itself named for the Finnish chemist Johan Gadolin.",
+  "sentence": {
+   "us": "Doctors sometimes use gadolinium to make MRI scans clearer.",
+   "uk": "Doctors sometimes use gadolinium to make MRI scans clearer.",
+   "zh": "医生有时用钆让核磁共振图像更清晰。"
+  },
+  "tricky": null,
+  "image_subject": "a small chunk of silvery-white gadolinium metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "65": {
+  "z": 65,
+  "fact": {
+   "en": "Terbium has been found in the air of KELT-9b, a very hot planet outside our Solar System.",
+   "zh": "人们在太阳系外的炽热行星KELT-9b的大气中探测到了铽。"
+  },
+  "fact_quote": "Terbium (as the species Tb II) has been detected in the atmosphere of KELT-9b, a hot-Jupiter planet outside the Solar System.",
+  "etymology": {
+   "en": "Named after Ytterby, a village in Sweden",
+   "zh": "以瑞典村庄伊特比（Ytterby）命名"
+  },
+  "etymology_quote": "Yttrium, erbium, and terbium are all named after the village of Ytterby in Sweden.",
+  "sentence": {
+   "us": "Terbium helps some lamps give off bright green light.",
+   "uk": "Terbium helps some lamps give off bright green light.",
+   "zh": "铽能帮助一些灯发出明亮的绿光。"
+  },
+  "tricky": null,
+  "image_subject": "a small piece of silvery-white terbium metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "66": {
+  "z": 66,
+  "fact": {
+   "en": "No mineral has yet been found in which dysprosium is the main rare earth.",
+   "zh": "至今还没有发现以镝为主要稀土成分的矿物。"
+  },
+  "fact_quote": "No dysprosium-dominant mineral (that is, with dysprosium prevailing over other rare earths in the composition) has yet been found.",
+  "etymology": {
+   "en": "From Greek dysprositos, 'hard to get'",
+   "zh": "源自希腊语 dysprositos，意为“难以得到”"
+  },
+  "etymology_quote": "he named the element dysprosium from the Greek dysprositos (δυσπρόσιτος), meaning \"hard to get\"",
+  "sentence": {
+   "us": "Our teacher said dysprosium helps make magnets for electric cars.",
+   "uk": "Our teacher said dysprosium helps make magnets for electric cars.",
+   "zh": "我们老师说镝有助于制造电动汽车用的磁铁。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "dye-SPROH-see-um",
+     "why_en": "The y is a short 'i' as in 'dis', and the s in -sium sounds like /z/: dis-PROH-zee-um.",
+     "why_zh": "y 读短音 /ɪ/，像 dis；-sium 中的 s 读 /z/，不读 /s/。"
+    }
+   ]
+  },
+  "image_subject": "a small chunk of silvery dysprosium metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "67": {
+  "z": 67,
+  "fact": {
+   "en": "In 2017, IBM stored one bit of computer data on a single holmium atom.",
+   "zh": "2017年，IBM把一比特数据存储在了单个钬原子上。"
+  },
+  "fact_quote": "In March 2017, IBM announced that they had developed a technique to store one bit of data on a single holmium atom set on a bed of magnesium oxide.",
+  "etymology": {
+   "en": "From Latin Holmia, the name for the city of Stockholm",
+   "zh": "源自拉丁语 Holmia，即斯德哥尔摩的拉丁名"
+  },
+  "etymology_quote": "The element's name comes from Holmia, the Latin name for the city of Stockholm.",
+  "sentence": {
+   "us": "Doctors use a holmium laser to break up kidney stones.",
+   "uk": "Doctors use a holmium laser to break up kidney stones.",
+   "zh": "医生用钬激光击碎肾结石。"
+  },
+  "tricky": null,
+  "image_subject": "a small piece of soft silvery holmium metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "68": {
+  "z": 68,
+  "fact": {
+   "en": "A Swiss scientist mistakenly switched the names of the two oxides erbia and terbia.",
+   "zh": "一位瑞士科学家曾把氧化物“铒土”和“铽土”的名字弄反了。"
+  },
+  "fact_quote": "Marc Delafontaine, a Swiss spectroscopist, mistakenly switched the names of the two elements in his work separating the oxides erbia and terbia.",
+  "etymology": {
+   "en": "Named for Ytterby, a village in Sweden",
+   "zh": "得名于瑞典的一个村庄伊特比（Ytterby）"
+  },
+  "etymology_quote": "Erbium (for Ytterby, a village in Sweden) was discovered by Carl Gustaf Mosander in 1843.",
+  "sentence": {
+   "us": "Our teacher said erbium helps send internet signals through cables.",
+   "uk": "Our teacher said erbium helps send internet signals through cables.",
+   "zh": "老师说铒有助于通过线缆传送网络信号。"
+  },
+  "tricky": null,
+  "image_subject": "a small chunk of silvery-white erbium metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "69": {
+  "z": 69,
+  "fact": {
+   "en": "Thulium's symbol was first Tu, but it was changed to Tm to avoid confusion with tungsten.",
+   "zh": "铥的符号最初是Tu，后来改为Tm，以免与钨混淆。"
+  },
+  "fact_quote": "Thulium's atomic symbol was initially Tu, but later changed to Tm to avoid confusion with tungsten which was commonly written as Tu",
+  "etymology": {
+   "en": "From Thule, an Ancient Greek place name linked with Scandinavia or Iceland",
+   "zh": "源自古希腊地名Thule，与斯堪的纳维亚或冰岛相关"
+  },
+  "etymology_quote": "Cleve named the oxide thulia and its element thulium after Thule, an Ancient Greek place name associated with Scandinavia or Iceland.",
+  "sentence": {
+   "us": "Our teacher said thulium is a rare metal used in lasers.",
+   "uk": "Our teacher said thulium is a rare metal used in lasers.",
+   "zh": "我们老师说铥是一种用于激光器的稀有金属。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "SOO-lee-um",
+     "why_en": "The 'th' is the soft /θ/ sound with the tongue between the teeth, not /s/ or /t/.",
+     "why_zh": "th要读成咬舌音/θ/，不要读成/s/或/t/。"
+    }
+   ]
+  },
+  "image_subject": "a small chunk of bright silvery-gray thulium metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "70": {
+  "z": 70,
+  "fact": {
+   "en": "Four elements, ytterbium, yttrium, terbium and erbium, are all named after one village.",
+   "zh": "镱、钇、铽、铒四种元素都以同一个村庄命名。"
+  },
+  "fact_quote": "Four elements were named after the village, the others being yttrium, terbium, and erbium.",
+  "etymology": {
+   "en": "Named after Ytterby, a village in Sweden",
+   "zh": "以瑞典村庄伊特比（Ytterby）命名"
+  },
+  "etymology_quote": "he named it ytterbia, for Ytterby, the Swedish village near where he found the new component of erbium.",
+  "sentence": {
+   "us": "Can you find ytterbium on the periodic table?",
+   "uk": "Can you find ytterbium on the periodic table?",
+   "zh": "你能在元素周期表上找到镱吗？"
+  },
+  "tricky": {
+   "level": 3,
+   "traps": [
+    {
+     "wrong": "YET-er-BEE-um",
+     "why_en": "The first 'y' is a vowel /ɪ/, not a 'y' consonant, and stress falls on the second syllable: ih-TUR-bee-um.",
+     "why_zh": "开头的 y 读元音 /ɪ/，重音在第二个音节 TUR。"
+    }
+   ]
+  },
+  "image_subject": "a few small shiny silvery metal pieces",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "71": {
+  "z": 71,
+  "fact": {
+   "en": "Lutetium costs about US$10,000 per kilogram, about a quarter of the price of gold.",
+   "zh": "镥每公斤约一万美元，大约是黄金价格的四分之一。"
+  },
+  "fact_quote": "It is one of the rarest and most expensive of the rare earth metals with the price about US$10,000 per kilogram, or about one-fourth that of gold.",
+  "etymology": {
+   "en": "From Latin Lutetia, the Latin name for Paris",
+   "zh": "源自拉丁语Lutetia，即巴黎的拉丁名"
+  },
+  "etymology_quote": "He chose the name lutecium for the new element honoring the Latin name for Paris, Lutetia.",
+  "sentence": {
+   "us": "Lutetium is the last element in the lanthanide row.",
+   "uk": "Lutetium is the last element in the lanthanide row.",
+   "zh": "镥是镧系那一行的最后一个元素。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "LOO-teh-TEE-um",
+     "why_en": "The second 't' before 'ium' sounds like 'sh', and stress is on the second syllable: loo-TEE-shee-um.",
+     "why_zh": "tium 中的 t 读作 sh 音，重音在第二音节 TEE。"
+    }
+   ]
+  },
+  "image_subject": "a small silvery-white metal ingot",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "72": {
+  "z": 72,
+  "fact": {
+   "en": "Pure hafnium is not toxic, but it can catch fire by itself in air.",
+   "zh": "纯铪无毒，但在空气中能自己着火。"
+  },
+  "fact_quote": "Pure hafnium is not toxic, but is extremely flammable to the point of being pyrophoric—capable of spontaneous combustion in air.",
+  "etymology": {
+   "en": "From Hafnia, the Latin name for Copenhagen, where it was discovered",
+   "zh": "源自哥本哈根的拉丁名Hafnia，铪在那里被发现"
+  },
+  "etymology_quote": "Hafnium is named after Hafnia, the Latin name for Copenhagen, where it was discovered.",
+  "sentence": {
+   "us": "My brother learned that hafnium was named after Copenhagen.",
+   "uk": "My brother learned that hafnium was named after Copenhagen.",
+   "zh": "我哥哥了解到铪是以哥本哈根命名的。"
+  },
+  "tricky": null,
+  "image_subject": "a lustrous silvery-grey metal bar",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "73": {
+  "z": 73,
+  "fact": {
+   "en": "Before tungsten took over, tantalum wires were used as light bulb filaments.",
+   "zh": "在钨取而代之之前，灯泡灯丝曾用钽丝制成。"
+  },
+  "fact_quote": "Wires made with metallic tantalum were used for light bulb filaments until tungsten replaced it in widespread use.",
+  "etymology": {
+   "en": "Named after Tantalus, a figure in Greek mythology",
+   "zh": "以希腊神话人物坦塔罗斯命名"
+  },
+  "etymology_quote": "It is named after Tantalus, a figure in Greek mythology.",
+  "sentence": {
+   "us": "Some phones contain a little tantalum inside.",
+   "uk": "Some phones contain a little tantalum inside.",
+   "zh": "有些手机里含有少量钽。"
+  },
+  "tricky": null,
+  "image_subject": "a polished blue-grey metal rod",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "74": {
+  "z": 74,
+  "fact": {
+   "en": "Tungsten has the highest melting point of all known elements, at 3422 °C.",
+   "zh": "钨是所有已知元素中熔点最高的，达3422°C。"
+  },
+  "fact_quote": "it has the highest melting point of all known elements, at 3422 C at standard pressure",
+  "etymology": {
+   "en": "The name tungsten was the old Swedish name for scheelite and other minerals of similar density.",
+   "zh": "“tungsten”曾是瑞典语对白钨矿及密度相近矿物的旧称。"
+  },
+  "etymology_quote": "The name tungsten (which means in Swedish and was the old Swedish name for the mineral scheelite and other minerals of similar density)",
+  "sentence": {
+   "us": "The old light bulb has a thin tungsten wire inside.",
+   "uk": "The old light bulb has a thin tungsten wire inside.",
+   "zh": "这个旧灯泡里有一根细细的钨丝。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "TOONG-STEN",
+     "why_en": "The first u sounds like the u in 'sun', and the second syllable is weak: TUNG-stən, not a full 'sten'.",
+     "why_zh": "第一个u读作sun里的/ʌ/，第二音节要弱读成/stən/，不要读成完整的“斯坦”。"
+    }
+   ]
+  },
+  "image_subject": "a clear incandescent light bulb with a glowing coiled tungsten filament",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "75": {
+  "z": 75,
+  "fact": {
+   "en": "Rhenium was first found in 1908, but its discoverer thought it was a different element.",
+   "zh": "铼早在1908年就被发现，但发现者误以为它是另一种元素。"
+  },
+  "fact_quote": "Rhenium was originally discovered in 1908 by Masataka Ogawa, but he mistakenly assigned it as element 43 (now known as technetium) rather than element 75 and named it nipponium.",
+  "etymology": {
+   "en": "From Rhenus, meaning the river Rhine in Europe",
+   "zh": "源自Rhenus，意为欧洲的莱茵河。"
+  },
+  "etymology_quote": "Rhenium (Rhenus meaning: \"Rhine\") received its current name when it was rediscovered by Walter Noddack, Ida Noddack, and Otto Berg in Germany.",
+  "sentence": {
+   "us": "Rhenium helps jet engines stay strong at very high temperatures.",
+   "uk": "Rhenium helps jet engines stay strong at very high temperatures.",
+   "zh": "铼能让喷气发动机在极高温度下保持坚固。"
+  },
+  "tricky": null,
+  "image_subject": "a small bar of silvery-grey rhenium metal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "76": {
+  "z": 76,
+  "fact": {
+   "en": "Osmium is the densest stable element, and it is also one of the rarest in Earth's crust.",
+   "zh": "锇是密度最大的稳定元素，在地壳中也极为稀少。"
+  },
+  "fact_quote": "Osmium has the highest density of any stable element and one of the lowest abundances in the Earth's crust",
+  "etymology": {
+   "en": "From Greek osme, 'a smell', after the strong smell of its oxide",
+   "zh": "源自希腊语osme，意为“气味”，因其氧化物气味刺鼻。"
+  },
+  "etymology_quote": "He named it osmium after Greek osme meaning \"a smell\", because of the chlorine-like and slightly garlic-like smell of the volatile osmium tetroxide.",
+  "sentence": {
+   "us": "Some expensive fountain pens have osmium alloy on their tips.",
+   "uk": "Some expensive fountain pens have osmium alloy on their tips.",
+   "zh": "一些昂贵的钢笔笔尖上有锇合金。"
+  },
+  "tricky": null,
+  "image_subject": "a small cluster of bluish-white osmium metal crystals",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "77": {
+  "z": 77,
+  "fact": {
+   "en": "Unusually high iridium in a clay layer led to the idea that an impact ended the non-bird dinosaurs.",
+   "zh": "黏土层中铱含量异常高，引出了天体撞击导致非鸟恐龙灭绝的假说。"
+  },
+  "fact_quote": "the unusually high abundance of iridium in the clay layer at the Cretaceous–Paleogene boundary gave rise to the Alvarez hypothesis that the impact of a massive extraterrestrial object caused the extinction of non-avian dinosaurs",
+  "etymology": {
+   "en": "From Greek iris, 'rainbow', for the various colors of its compounds",
+   "zh": "源自希腊语 iris（彩虹），指其化合物的多种颜色"
+  },
+  "etymology_quote": "The name iridium, derived from the Greek word iris (rainbow), refers to the various colors of its compounds.",
+  "sentence": {
+   "us": "My dad's car uses iridium spark plugs that last a long time.",
+   "uk": "My dad's car uses iridium spark plugs that last a long time.",
+   "zh": "我爸爸的车用的是铱火花塞，能用很久。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "EYE-rid-ee-um",
+     "why_en": "Because of the word 'iris', learners often start with 'eye', but iridium starts with a short 'i' and is stressed on the second syllable: ih-RID-ee-um.",
+     "why_zh": "受 iris 影响容易读成“艾”，其实开头是短音 /ɪ/，重音在第二音节：ih-RID-ee-um。"
+    }
+   ]
+  },
+  "image_subject": "a spark plug with a fine silvery iridium-tipped electrode",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "78": {
+  "z": 78,
+  "fact": {
+   "en": "One rock layer, the Merensky Reef, holds around 75% of the world's known platinum.",
+   "zh": "仅一个岩层——梅伦斯基矿层，就含有世界已知铂的约75%。"
+  },
+  "fact_quote": "The specific layer he found, named the Merensky Reef, contains around 75 % of the world's known platinum.",
+  "etymology": {
+   "en": "From Spanish platina, a diminutive of \"silver\" ('little silver')",
+   "zh": "源自西班牙语 platina，是“银”的指小词，意为“小银”。"
+  },
+  "etymology_quote": "Its name originates from Spanish platina, a diminutive of \"silver\".",
+  "sentence": {
+   "us": "Her wedding ring is made of platinum.",
+   "uk": "Her wedding ring is made of platinum.",
+   "zh": "她的结婚戒指是铂金做的。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "pluh-TEE-num",
+     "why_en": "The stress goes on the first syllable, PLAT-in-um, and the middle i is short and weak.",
+     "why_zh": "重音在第一个音节 PLAT，中间的 i 要读得短而轻，不读长音 ee。"
+    }
+   ]
+  },
+  "image_subject": "a small raw silvery-white platinum nugget",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "79": {
+  "z": 79,
+  "fact": {
+   "en": "A single gram of gold can be beaten into a sheet of 1 square metre.",
+   "zh": "仅一克金就能被捶打成一平方米的薄片。"
+  },
+  "fact_quote": "A single gram of gold can be beaten into a sheet of 1 m2",
+  "etymology": {
+   "en": "From Proto-Germanic *gulþą, which comes from Proto-Indo-European *ǵʰelh₃-",
+   "zh": "源自原始日耳曼语 *gulþą，再上溯至原始印欧语 *ǵʰelh₃-"
+  },
+  "etymology_quote": "Gold is cognate with similar words in many Germanic languages, deriving via Proto-Germanic *gulþą from Proto-Indo-European *ǵʰelh₃-",
+  "sentence": {
+   "us": "My grandmother wears a thin gold ring every day.",
+   "uk": "My grandmother wears a thin gold ring every day.",
+   "zh": "我奶奶每天都戴着一枚细细的金戒指。"
+  },
+  "tricky": null,
+  "image_subject": "a raw gold nugget",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "80": {
+  "z": 80,
+  "fact": {
+   "en": "In 2020, China was the top producer of mercury, providing 88% of world output (2,200 of 2,500 tonnes).",
+   "zh": "2020年，中国是最大的汞生产国，产量占全球88%（2500吨中的2200吨）。"
+  },
+  "fact_quote": "In 2020, China was the top producer of mercury, providing 88% of the world output (2200 out of 2500 tonnes)",
+  "etymology": {
+   "en": "From the planet Mercury: the modern English name comes from the planet's name.",
+   "zh": "现代英文名 mercury 来自行星“水星”（Mercury）。"
+  },
+  "etymology_quote": "The modern English name mercury comes from the planet Mercury.",
+  "sentence": {
+   "us": "The old thermometer in our classroom had mercury inside it.",
+   "uk": "The old thermometer in our classroom had mercury inside it.",
+   "zh": "我们教室里那支旧温度计里面装有汞。"
+  },
+  "tricky": null,
+  "image_subject": "a small pool of shiny silver liquid mercury in a shallow glass dish",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "81": {
+  "z": 81,
+  "fact": {
+   "en": "Thallium poisoning usually makes a person's hair fall out.",
+   "zh": "铊中毒通常会导致头发脱落。"
+  },
+  "fact_quote": "Thallium poisoning usually results in hair loss.",
+  "etymology": {
+   "en": "From Greek thallos, 'a green shoot or twig'",
+   "zh": "源自希腊语 thallos，意为“嫩绿的枝芽”"
+  },
+  "etymology_quote": "Thallium (Greek θαλλός, thallos, meaning \"a green shoot or twig\")",
+  "sentence": {
+   "us": "Our teacher said thallium was once used in rat poison.",
+   "uk": "Our teacher said thallium was once used in rat poison.",
+   "zh": "老师说铊以前曾被用在老鼠药里。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "SAL-ee-um",
+     "why_en": "The 'th' is /θ/, with the tongue between the teeth, not an /s/ sound.",
+     "why_zh": "th 要读成咬舌音 /θ/，不能读成 /s/。"
+    }
+   ]
+  },
+  "image_subject": "a soft silvery-grey metal chunk with a dull bluish tarnish",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "82": {
+  "z": 82,
+  "fact": {
+   "en": "Pencil 'leads' in wooden pencils have never been made from lead.",
+   "zh": "木头铅笔里的“铅芯”从来都不是用铅做的。"
+  },
+  "fact_quote": "Contrary to popular belief, pencil leads in wooden pencils have never been made from lead.",
+  "etymology": {
+   "en": "Of Germanic origin; comes from Middle English leed and Old English lēad",
+   "zh": "源自日耳曼语，来自中古英语 leed 和古英语 lēad。"
+  },
+  "etymology_quote": "The modern English word lead is of Germanic origin; it comes from the Middle English leed and Old English lēad",
+  "sentence": {
+   "us": "My old fishing weights are made of lead.",
+   "uk": "My old fishing weights are made of lead.",
+   "zh": "我那些旧钓鱼坠子是用铅做的。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "LEED",
+     "why_en": "The metal is said /led/ like 'red'; 'leed' is the verb meaning 'to guide'.",
+     "why_zh": "金属铅读 /led/，和 red 押韵；读成 leed 是动词“带领”。"
+    }
+   ]
+  },
+  "image_subject": "a heavy dull gray lead ingot with a freshly cut shiny edge",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "83": {
+  "z": 83,
+  "fact": {
+   "en": "Unusually, bismuth expands as it turns solid, which made it useful for casting printing type.",
+   "zh": "铋凝固时会膨胀，这很少见，因此曾被用来铸造印刷铅字。"
+  },
+  "fact_quote": "Bismuth's unusual propensity to expand as it solidifies is responsible for some of its uses, as in the casting of printing type.",
+  "etymology": {
+   "en": "Possibly from German Bismuth or Wismut, perhaps related to Old High German hwiz, 'white'",
+   "zh": "可能源自德语 Wismut，或与古高地德语 hwiz（“白”）有关"
+  },
+  "etymology_quote": "The name possibly comes from German Bismuth, Wismut, Wissmuth (early 16th century), perhaps related to Old High German hwiz (\"white\").",
+  "sentence": {
+   "us": "Some stomach medicine contains a little bismuth.",
+   "uk": "Some stomach medicine contains a little bismuth.",
+   "zh": "有些胃药含有少量铋。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "BIS-mus",
+     "why_en": "The s is said as /z/ (BIZ-muth), and the final th is /θ/, not /s/.",
+     "why_zh": "s 要读成 /z/（BIZ-muth），结尾 th 是咬舌音 /θ/，不是 /s/。"
+    }
+   ]
+  },
+  "image_subject": "a stepped, rainbow-iridescent bismuth crystal",
+  "image_style": "specimen",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "84": {
+  "z": 84,
+  "fact": {
+   "en": "Only about 100 grams of polonium are produced each year, practically all of it in Russia.",
+   "zh": "全世界每年只生产约100克钋，几乎全部产自俄罗斯。"
+  },
+  "fact_quote": "Only about 100 grams are produced each year, practically all of it in Russia, making polonium exceedingly rare.",
+  "etymology": {
+   "en": "Named after Poland (Polonia), Marie Curie's native land",
+   "zh": "以居里夫人的祖国波兰（Polonia）命名"
+  },
+  "etymology_quote": "was named after Marie Curie's native land of Poland (Polonia)",
+  "sentence": {
+   "us": "Marie Curie named polonium after her home country, Poland.",
+   "uk": "Marie Curie named polonium after her home country, Poland.",
+   "zh": "居里夫人用她的祖国波兰为钋命名。"
+  },
+  "tricky": null,
+  "image_subject": "a tiny dull silvery metal fleck inside a sealed glass ampoule",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "85": {
+  "z": 85,
+  "fact": {
+   "en": "No one has ever seen solid astatine: any visible piece would boil away from its own radioactive heat.",
+   "zh": "从没人见过固态砹：任何肉眼可见的一块都会被自身放射热瞬间汽化。"
+  },
+  "fact_quote": "a solid sample of the element has never been seen, because any macroscopic specimen would be immediately vaporized by the heat of its radioactivity",
+  "etymology": {
+   "en": "From Ancient Greek astatos (ἄστατος), 'unstable'",
+   "zh": "源自古希腊语 astatos（ἄστατος），意为“不稳定的”"
+  },
+  "etymology_quote": "They named it from the Ancient Greek (ἄστατος) 'unstable'.",
+  "sentence": {
+   "us": "Our teacher said astatine is the rarest element in nature.",
+   "uk": "Our teacher said astatine is the rarest element in nature.",
+   "zh": "老师说砹是自然界中最稀有的元素。"
+  },
+  "tricky": null,
+  "image_subject": "a single glowing violet particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "86": {
+  "z": 86,
+  "fact": {
+   "en": "Radon is heavier than air, so it can collect in basements under people's homes.",
+   "zh": "氡比空气重，所以会积聚在住宅下方的地下室里。"
+  },
+  "fact_quote": "Because radon is denser than air, it accumulates in basements and crawlspaces under dwellings.",
+  "etymology": null,
+  "etymology_quote": null,
+  "sentence": {
+   "us": "We tested our basement for radon last winter.",
+   "uk": "We tested our basement for radon last winter.",
+   "zh": "去年冬天我们检测了地下室里的氡。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "RAH-don",
+     "why_en": "The first 'a' sounds like 'ray', so say RAY-don, not the pinyin-style 'ra'.",
+     "why_zh": "首字母 a 读作“ray”的音，应读 RAY-don，不要按拼音读成“ra”。"
+    }
+   ]
+  },
+  "image_subject": "a sealed glass ampoule filled with gas glowing a soft red",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": null,
+   "why": ""
+  }
+ },
+ "87": {
+  "z": 87,
+  "fact": {
+   "en": "At any moment, only about one ounce of francium exists in the whole of Earth's crust.",
+   "zh": "任何时刻，整个地壳中的钫总共只有约一盎司（约28克）。"
+  },
+  "fact_quote": "As little as 1 oz exists at any given time throughout the Earth's crust",
+  "etymology": {
+   "en": "Named after France, where Marguerite Perey discovered it in 1939",
+   "zh": "以法国命名，1939年佩雷在法国发现了它"
+  },
+  "etymology_quote": "Francium was discovered by Marguerite Perey in France (from which the element takes its name) on January 7, 1939.",
+  "sentence": {
+   "us": "Francium is named after the country France.",
+   "uk": "Francium is named after the country France.",
+   "zh": "钫是以法国这个国家命名的。"
+  },
+  "tricky": null,
+  "image_subject": "a single glowing orange particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "88": {
+  "z": 88,
+  "fact": {
+   "en": "Pure radium is silvery-white, but in air it reacts with nitrogen and forms a black surface layer.",
+   "zh": "纯镭呈银白色，但在空气中会与氮反应，表面形成一层黑色物质。"
+  },
+  "fact_quote": "Pure radium is silvery-white, but it readily reacts with nitrogen (rather than oxygen) upon exposure to air, forming a black surface layer of radium nitride",
+  "etymology": {
+   "en": "From French radium, formed in Modern Latin from radius, 'ray'",
+   "zh": "源自法语 radium，由现代拉丁语 radius（射线）构成"
+  },
+  "etymology_quote": "from the French word radium, formed in Modern Latin from radius (ray)",
+  "sentence": {
+   "us": "Old watches used radium paint to glow in the dark.",
+   "uk": "Old watches used radium paint to glow in the dark.",
+   "zh": "旧手表用镭涂料在黑暗中发光。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "RAD-ee-um",
+     "why_en": "The first 'a' sounds like the 'a' in 'ray' (RAY-dee-um), not the short 'a' in 'rad'.",
+     "why_zh": "第一个 a 读作 ray 里的 /eɪ/，不是 rad 里的短音 /æ/。"
+    }
+   ]
+  },
+  "image_subject": "a tiny silvery-white metal sample with a dark black surface layer",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "89": {
+  "z": 89,
+  "fact": {
+   "en": "Actinium glows pale blue in the dark, because its radiation makes the air around it light up.",
+   "zh": "锕在黑暗中发出淡蓝光，因为它的辐射让周围空气发光。"
+  },
+  "fact_quote": "Owing to its strong radioactivity, actinium glows in the dark with a pale blue light, which originates from the surrounding air ionized by the emitted energetic particles.",
+  "etymology": {
+   "en": "From Ancient Greek aktis, aktinos, 'beam' or 'ray'",
+   "zh": "源自古希腊语 aktis（aktinos），意为“光束、射线”"
+  },
+  "etymology_quote": "The name actinium originates from the Ancient Greek aktis, aktinos (ακτίς, ακτίνος), meaning beam or ray.",
+  "sentence": {
+   "us": "In class, we learned that actinium glows blue in the dark.",
+   "uk": "In class, we learned that actinium glows blue in the dark.",
+   "zh": "课上我们学到锕在黑暗中会发出蓝光。"
+  },
+  "tricky": null,
+  "image_subject": "a sealed glass ampoule with a tiny silvery metal sample glowing pale blue",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "90": {
+  "z": 90,
+  "fact": {
+   "en": "Thorium is estimated to be over three times as abundant as uranium in the Earth's crust.",
+   "zh": "据估计，钍在地壳中的含量是铀的三倍多。"
+  },
+  "fact_quote": "Thorium is estimated to be over three times as abundant as uranium in the Earth's crust",
+  "etymology": {
+   "en": "Named after Thor, the Norse god of thunder and war",
+   "zh": "得名于北欧神话中的雷神与战神托尔（Thor）"
+  },
+  "etymology_quote": "He named it after Thor, the Norse god of thunder and war.",
+  "sentence": {
+   "us": "Old camping lamps sometimes used thorium in their gas mantles.",
+   "uk": "Old camping lamps sometimes used thorium in their gas mantles.",
+   "zh": "旧式露营灯的纱罩有时会用到钍。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "SOR-ee-um",
+     "why_en": "The 'th' is /θ/, made with the tongue between the teeth, not an 's' or 't' sound.",
+     "why_zh": "th 读 /θ/，舌尖要放在上下齿之间，不能读成 s 或 t。"
+    }
+   ]
+  },
+  "image_subject": "a small piece of light silver thorium metal with an olive-grey tarnish",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "91": {
+  "z": 91,
+  "fact": {
+   "en": "Protactinium is one of the rarest and most expensive elements found in nature.",
+   "zh": "镤是自然界中最稀有、最昂贵的元素之一。"
+  },
+  "fact_quote": "Protactinium is one of the rarest and most expensive naturally occurring elements.",
+  "etymology": {
+   "en": "From Greek prôtos, 'first, before', + actinium: the parent of actinium",
+   "zh": "源自希腊语 prôtos（“最先”）加锕，意为“锕之母”"
+  },
+  "etymology_quote": "the parent of actinium (from the πρῶτος prôtos, meaning \"first, before\")",
+  "sentence": {
+   "us": "Our teacher said protactinium is too rare to use outside labs.",
+   "uk": "Our teacher said protactinium is too rare to use outside labs.",
+   "zh": "老师说镤太稀有了，只能在实验室里用。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "PRO-tak-ti-NEE-um",
+     "why_en": "The stress falls on the third syllable: pro-tak-TIN-ee-um.",
+     "why_zh": "重音在第三个音节上：pro-tak-TIN-ee-um。"
+    }
+   ]
+  },
+  "image_subject": "a tiny silvery-grey protactinium metal fragment",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "92": {
+  "z": 92,
+  "fact": {
+   "en": "Uranium is about 40 times more common in Earth's crust than silver.",
+   "zh": "铀在地壳中的含量大约是银的40倍。"
+  },
+  "fact_quote": "2 to 4 parts per million, or about 40 times as abundant as silver",
+  "etymology": {
+   "en": "Named by Klaproth after Uranus, a planet that had only recently been discovered",
+   "zh": "克拉普罗特以当时新发现的天王星为其命名"
+  },
+  "etymology_quote": "credited to Martin Heinrich Klaproth, who named the new element after the recently discovered planet Uranus",
+  "sentence": {
+   "us": "Some power stations use uranium to make electricity.",
+   "uk": "Some power stations use uranium to make electricity.",
+   "zh": "有些发电站用铀来发电。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "yoo-RAH-nee-um",
+     "why_en": "The stressed 'a' sounds like 'ay' in 'rain' (yoo-RAY-nee-um), not like pinyin 'ra'.",
+     "why_zh": "重读的 a 要读成 rain 里的 /eɪ/，不是拼音“ra”的音。"
+    }
+   ]
+  },
+  "image_subject": "a small dark grey uranium metal pellet in a sealed glass ampoule",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "93": {
+  "z": 93,
+  "fact": {
+   "en": "Neptunium is used to make plutonium-238, which is used to provide electricity for spacecraft.",
+   "zh": "镎可用来制造钚-238，而钚-238用于为航天器供电。"
+  },
+  "fact_quote": "it is used as a precursor for the formation of plutonium-238, which is in turn used in radioisotope thermal generators to provide electricity for spacecraft",
+  "etymology": {
+   "en": "Named after Neptune, the planet beyond Uranus in the Solar System; uranium is named after Uranus.",
+   "zh": "得名于太阳系中位于天王星之外的海王星；铀则以天王星命名。"
+  },
+  "etymology_quote": "It is named after Neptune, the planet beyond Uranus in the Solar System, which uranium is named after.",
+  "sentence": {
+   "us": "Our chemistry teacher said neptunium was first made in 1940.",
+   "uk": "Our chemistry teacher said neptunium was first made in 1940.",
+   "zh": "我们的化学老师说，镎是在1940年首次被制造出来的。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "NEP-tyoo-nee-um",
+     "why_en": "The stress falls on the second syllable, nep-TOO-nee-um, not on the first syllable as in the planet name Neptune.",
+     "why_zh": "重音在第二个音节 nep-TOO-nee-um，不要像行星名 Neptune 那样重读第一个音节。"
+    }
+   ]
+  },
+  "image_subject": "a small silvery metal bead inside a sealed glass ampoule",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "94": {
+  "z": 94,
+  "fact": {
+   "en": "Plutonium has the highest atomic number of any element found in nature.",
+   "zh": "钚是自然界中原子序数最高的元素。"
+  },
+  "fact_quote": "Plutonium is the element with the highest atomic number known to occur in nature.",
+  "etymology": {
+   "en": "Named after Pluto, which was then thought of as a planet",
+   "zh": "以当时被视为行星的冥王星命名"
+  },
+  "etymology_quote": "element 94 was named after Pluto, which at the time was also considered a planet",
+  "sentence": {
+   "us": "Some spacecraft get their power from plutonium.",
+   "uk": "Some spacecraft get their power from plutonium.",
+   "zh": "有些航天器靠钚来供电。"
+  },
+  "tricky": null,
+  "image_subject": "a small dull silvery-grey plutonium metal button",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "95": {
+  "z": 95,
+  "fact": {
+   "en": "Americium is widely used in smoke detectors.",
+   "zh": "镅被广泛用于烟雾探测器。"
+  },
+  "fact_quote": "It is widely used in commercial ionization chamber smoke detectors",
+  "etymology": {
+   "en": "Named after the Americas, matching europium, the element above it",
+   "zh": "仿照其上方的铕，以美洲命名"
+  },
+  "etymology_quote": "located under the lanthanide element europium and was thus named after the Americas by analogy",
+  "sentence": {
+   "us": "The smoke alarm in our kitchen contains a little americium.",
+   "uk": "The smoke alarm in our kitchen contains a little americium.",
+   "zh": "我们厨房的烟雾报警器里含有一点镅。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "a-MEH-ri-see-um",
+     "why_en": "The stress falls on 'ri' and 'ci' sounds like 'sh': am-uh-RISH-ee-um.",
+     "why_zh": "重音在 ri 上，ci 读作“sh”：am-uh-RISH-ee-um。"
+    }
+   ]
+  },
+  "image_subject": "a tiny silvery americium metal fragment",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "96": {
+  "z": 96,
+  "fact": {
+   "en": "A scientist first revealed curium's discovery on a children's radio quiz show.",
+   "zh": "锔的发现最早是一位科学家在儿童广播问答节目里透露的。"
+  },
+  "fact_quote": "Seaborg leaked the synthesis of the elements 95 and 96 on the U.S. radio show for children, the Quiz Kids",
+  "etymology": {
+   "en": "Named after the scientists Marie and Pierre Curie, known for their research on radioactivity",
+   "zh": "以研究放射性的科学家玛丽·居里和皮埃尔·居里命名"
+  },
+  "etymology_quote": "was named after eminent scientists Marie and Pierre Curie, both known for their research on radioactivity",
+  "sentence": {
+   "us": "Our teacher said curium was named after Marie and Pierre Curie.",
+   "uk": "Our teacher said curium was named after Marie and Pierre Curie.",
+   "zh": "老师说锔是以玛丽·居里和皮埃尔·居里的名字命名的。"
+  },
+  "tricky": null,
+  "image_subject": "a tiny bead of hard silvery metal",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "97": {
+  "z": 97,
+  "fact": {
+   "en": "Just over one gram of berkelium has been produced in the United States since 1967.",
+   "zh": "自1967年以来，美国只生产了一克多一点的锫。"
+  },
+  "fact_quote": "Just over one gram of berkelium has been produced in the United States since 1967.",
+  "etymology": {
+   "en": "From English place name Berkeley: named after the city of Berkeley, California",
+   "zh": "源自英语地名Berkeley，以美国加州伯克利市命名"
+  },
+  "etymology_quote": "It is named after the city of Berkeley, California",
+  "sentence": {
+   "us": "Our chemistry teacher told us that berkelium is very rare.",
+   "uk": "Our chemistry teacher told us that berkelium is very rare.",
+   "zh": "我们的化学老师告诉我们，锫非常稀有。"
+  },
+  "tricky": null,
+  "image_subject": "a tiny soft silvery-white metal bead",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "98": {
+  "z": 98,
+  "fact": {
+   "en": "Element 118, oganesson, was made by hitting californium-249 atoms with calcium-48 ions.",
+   "zh": "118号元素鿫是用钙-48离子轰击锎-249原子合成的。"
+  },
+  "fact_quote": "oganesson (element 118) was synthesized by bombarding californium-249 atoms with calcium-48 ions.",
+  "etymology": {
+   "en": "Named after the university and the U.S. state of California",
+   "zh": "以那所大学和美国加利福尼亚州命名"
+  },
+  "etymology_quote": "It was named after the university and the U.S. state of California.",
+  "sentence": {
+   "us": "Our teacher said californium was named after a US state.",
+   "uk": "Our teacher said californium was named after a US state.",
+   "zh": "老师说锎是以美国的一个州命名的。"
+  },
+  "tricky": null,
+  "image_subject": "a tiny speck of silvery metal in a sealed glass ampoule",
+  "image_style": "sealed",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "99": {
+  "z": 99,
+  "fact": {
+   "en": "Einsteinium is so radioactive that a sample gives off a visible glow by itself.",
+   "zh": "锿的放射性极强，样品自己就会发出肉眼可见的光。"
+  },
+  "fact_quote": "produces a visible glow and rapidly damages its crystalline metal lattice",
+  "etymology": null,
+  "etymology_quote": null,
+  "sentence": {
+   "us": "My brother laughed when he heard that einsteinium is a real element.",
+   "uk": "My brother laughed when he heard that einsteinium is a real element.",
+   "zh": "我哥哥听说锿是一种真实存在的元素时笑了。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "INE-stine-ee-um",
+     "why_en": "Learners keep Einstein's first-syllable stress, but the element is stressed on the second syllable: ine-STY-nee-um.",
+     "why_zh": "学习者常沿用Einstein的首音节重音，但元素名重音在第二音节：ine-STY-nee-um。"
+    }
+   ]
+  },
+  "image_subject": "a single faint blue-white glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": null,
+   "why": ""
+  }
+ },
+ "100": {
+  "z": 100,
+  "fact": {
+   "en": "Fermium was discovered in 1952 in the debris of the first detonation test of a hydrogen bomb.",
+   "zh": "镄于1952年在首次氢弹引爆试验的残骸中被发现。"
+  },
+  "fact_quote": "Fermium was discovered in 1952 in the debris of the first detonation test of a hydrogen bomb",
+  "etymology": {
+   "en": "Named after Enrico Fermi, one of the pioneers of nuclear physics.",
+   "zh": "以核物理先驱之一恩里科·费米的名字命名。"
+  },
+  "etymology_quote": "named after Enrico Fermi, one of the pioneers of nuclear physics",
+  "sentence": {
+   "us": "Fermium was named after a famous scientist, our teacher said.",
+   "uk": "Fermium was named after a famous scientist, our teacher said.",
+   "zh": "老师说，镄是以一位著名科学家的名字命名的。"
+  },
+  "tricky": null,
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "101": {
+  "z": 101,
+  "fact": {
+   "en": "Mendelevium-256 was the first isotope of any element to be synthesized one atom at a time.",
+   "zh": "钔-256是第一个被一个原子一个原子地合成出来的同位素。"
+  },
+  "fact_quote": "256Md thus became the first isotope of any element to be synthesized one atom at a time.",
+  "etymology": {
+   "en": "Named after Dmitri Mendeleev, the father of the periodic table",
+   "zh": "以\"元素周期表之父\"德米特里·门捷列夫的名字命名"
+  },
+  "etymology_quote": "it is named after Dmitri Mendeleev, the father of the periodic table.",
+  "sentence": {
+   "us": "Mendelevium is named after the man who made the periodic table.",
+   "uk": "Mendelevium is named after the man who made the periodic table.",
+   "zh": "钔是以制定元素周期表的那个人命名的。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "men-DEL-ev-ee-um",
+     "why_en": "The stress falls on the third syllable, men-de-LEE-vee-um, and the 'e' there is a long 'ee'.",
+     "why_zh": "重音在第三个音节 LEE 上，读作 men-de-LEE-vee-um，不是 DEL。"
+    }
+   ]
+  },
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "102": {
+  "z": 102,
+  "fact": {
+   "en": "A Soviet team got credit for finding nobelium, but it kept the name Swedish scientists chose.",
+   "zh": "锘的发现归功于苏联团队，却保留了瑞典人起的名字。"
+  },
+  "fact_quote": "It was not until 1992 that the International Union of Pure and Applied Chemistry (IUPAC) credited the Soviet team with the discovery. Even so, nobelium, the Swedish proposal, was retained as the name of the element due to its long-standing use in the literature.",
+  "etymology": {
+   "en": "Named after Alfred Nobel, the inventor of dynamite",
+   "zh": "以炸药发明者阿尔弗雷德·诺贝尔命名"
+  },
+  "etymology_quote": "It is named after Alfred Nobel, the inventor of dynamite and benefactor of science.",
+  "sentence": {
+   "us": "Nobelium is element 102 on our classroom periodic table.",
+   "uk": "Nobelium is element 102 on our classroom periodic table.",
+   "zh": "锘是我们教室元素周期表上的第102号元素。"
+  },
+  "tricky": null,
+  "image_subject": "a single thin golden glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "103": {
+  "z": 103,
+  "fact": {
+   "en": "The first lawrencium atoms were reportedly made by hitting a three-milligram californium target with boron.",
+   "zh": "据报道，最早的铹原子是用硼原子核轰击三毫克锎靶制得的。"
+  },
+  "fact_quote": "The first atoms of lawrencium were reportedly made by bombarding a three-milligram target consisting of three isotopes of californium with boron-10 and boron-11 nuclei",
+  "etymology": null,
+  "etymology_quote": null,
+  "sentence": {
+   "us": "Our chemistry teacher said lawrencium is made in particle accelerators.",
+   "uk": "Our chemistry teacher said lawrencium is made in particle accelerators.",
+   "zh": "我们的化学老师说，铹是在粒子加速器里制造出来的。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "LOR-en-SEE-um",
+     "why_en": "The name Lawrence is stressed on its first syllable, but lawrencium moves the stress to REN: law-REN-see-um.",
+     "why_zh": "人名 Lawrence 重音在第一个音节，但 lawrencium 的重音移到 REN 上。"
+    }
+   ]
+  },
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "not supported",
+   "why": "The quote never says Ernest Lawrence was American. It only says he was the inventor of the cyclotron."
+  },
+  "dropped_etymology": "The quote never says Ernest Lawrence was American. It only says he was the inventor of the cyclotron."
+ },
+ "104": {
+  "z": 104,
+  "fact": {
+   "en": "Books in the Soviet Bloc once officially called element 104 \"kurchatovium\".",
+   "zh": "苏联阵营的书籍曾把104号元素正式称为“𬬻”的别名“库尔恰托夫元素”。"
+  },
+  "fact_quote": "they suggested the name kurchatovium (Ku) in honor of Igor Kurchatov (1903–1960), former head of Soviet nuclear research. This name had been used in books of the Soviet Bloc as the official name of the element.",
+  "etymology": {
+   "en": "Named after New Zealand physicist Ernest Rutherford, the \"father\" of nuclear physics",
+   "zh": "以“核物理之父”、新西兰物理学家卢瑟福命名"
+  },
+  "etymology_quote": "proposed rutherfordium (Rf) for the new element to honor New Zealand physicist Ernest Rutherford, who is known as the \"father\" of nuclear physics.",
+  "sentence": {
+   "us": "Rutherfordium is too rare for any school lab to have.",
+   "uk": "Rutherfordium is too rare for any school lab to have.",
+   "zh": "𬬻太稀有了，任何学校实验室都不可能有。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "RU-ser-FOR-dee-um",
+     "why_en": "The th is a voiced /ð/ (tongue between teeth), not s or z; say ruh-ther-FOR-dee-um.",
+     "why_zh": "th 要发咬舌的浊音 /ð/，不要读成 s 或 z。"
+    }
+   ]
+  },
+  "image_subject": "a single bright orange glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "105": {
+  "z": 105,
+  "fact": {
+   "en": "JINR first proposed the name bohrium, then changed it to nielsbohrium to avoid confusion with boron.",
+   "zh": "JINR最初提议叫bohrium，后改为nielsbohrium，以免与硼混淆。"
+  },
+  "fact_quote": "JINR proposed the name bohrium (Bo) in honor of the Danish nuclear physicist Niels Bohr, a founder of the theories of atomic structure and quantum theory; they soon changed their proposal to nielsbohrium (Ns) to avoid confusion with boron.",
+  "etymology": {
+   "en": "Named in 1997 after the town of Dubna, the site of the JINR",
+   "zh": "1997年以JINR所在地杜布纳镇命名"
+  },
+  "etymology_quote": "The element was formally named dubnium in 1997 after the town of Dubna, the site of the JINR.",
+  "sentence": {
+   "us": "In chemistry class, we learned that dubnium is made in labs.",
+   "uk": "In chemistry class, we learned that dubnium is made in labs.",
+   "zh": "在化学课上，我们了解到𬭊是在实验室里制造的。"
+  },
+  "tricky": null,
+  "image_subject": "a single glowing pale violet particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "106": {
+  "z": 106,
+  "fact": {
+   "en": "It is one of only two elements named after a living person at the time of naming; the other is oganesson.",
+   "zh": "𬭳是仅有的两种以命名时在世者命名的元素之一，另一种是鿫。"
+  },
+  "fact_quote": "It is one of only two elements named after a living person at the time of naming, the other being oganesson, element 118.",
+  "etymology": {
+   "en": "Named after the American nuclear chemist Glenn T. Seaborg",
+   "zh": "以美国核化学家格伦·T·西博格的名字命名"
+  },
+  "etymology_quote": "It is named after the American nuclear chemist Glenn T. Seaborg.",
+  "sentence": {
+   "us": "Our teacher said seaborgium is named after a scientist.",
+   "uk": "Our teacher said seaborgium is named after a scientist.",
+   "zh": "老师说𬭳是以一位科学家的名字命名的。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "see-BOR-jee-um",
+     "why_en": "The g stays hard like in 'Seaborg', so say see-BORG-ee-um, not a soft 'j' sound.",
+     "why_zh": "g 要像 Seaborg 一样发硬音 /g/，不要读成 /dʒ/。"
+    }
+   ]
+  },
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "107": {
+  "z": 107,
+  "fact": {
+   "en": "Even the most stable known isotope of bohrium has a half-life of only about 2.4 minutes.",
+   "zh": "即使是𬭛最稳定的已知同位素，半衰期也只有约2.4分钟。"
+  },
+  "fact_quote": "the most stable known isotope is Bh with a half-life of approximately 2.4 minutes",
+  "etymology": {
+   "en": "Named after the Danish physicist Niels Bohr",
+   "zh": "以丹麦物理学家尼尔斯·玻尔的名字命名"
+  },
+  "etymology_quote": "It is named after Danish physicist Niels Bohr.",
+  "sentence": {
+   "us": "Our teacher said bohrium is not found in nature.",
+   "uk": "Our teacher said bohrium is not found in nature.",
+   "zh": "老师说𬭛在自然界中不存在。"
+  },
+  "tricky": null,
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "108": {
+  "z": 108,
+  "fact": {
+   "en": "Hassium behaves like a heavier osmium, reacting readily with oxygen to form a volatile tetroxide.",
+   "zh": "𬭶的化学行为像更重的锇，易与氧反应生成易挥发的四氧化物。"
+  },
+  "fact_quote": "Chemistry experiments have confirmed that hassium behaves as the heavier homologue to osmium, reacting readily with oxygen to form a volatile tetroxide.",
+  "etymology": {
+   "en": "Named by GSI after the German state of Hesse, home to the facility",
+   "zh": "由GSI以德国黑森州命名，该研究机构就位于黑森州"
+  },
+  "etymology_quote": "GSI formally announced they wished to name the element hassium after the German state of Hesse (Hassia in Latin), home to the facility in 1992",
+  "sentence": {
+   "us": "Hassium was first made in a lab in Germany.",
+   "uk": "Hassium was first made in a lab in Germany.",
+   "zh": "𬭶最早是在德国的一个实验室里制造出来的。"
+  },
+  "tricky": null,
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "109": {
+  "z": 109,
+  "fact": {
+   "en": "Meitnerium is the only element named solely after a non-mythical woman.",
+   "zh": "鿏是唯一一个只以一位真实女性命名的元素。"
+  },
+  "fact_quote": "It is thus the only element named solely after a non-mythical woman (curium is named for both Pierre and Marie Curie).",
+  "etymology": null,
+  "etymology_quote": null,
+  "sentence": {
+   "us": "Our teacher said meitnerium was named after a woman scientist.",
+   "uk": "Our teacher said meitnerium was named after a woman scientist.",
+   "zh": "老师说鿏是以一位女科学家的名字命名的。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "MAY-ter-NEE-um",
+     "why_en": "In Meitner, the letters 'ei' sound like 'eye' (MITE-ner), and the stress goes on NEER: mite-NEER-ee-um.",
+     "why_zh": "Meitner 中的 ei 读作“爱”（MITE-ner），重音在 NEER 上，读作 mite-NEER-ee-um。"
+    }
+   ]
+  },
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "not supported",
+   "why": "The etymology quote supports the name origin (Austrian-Swedish nuclear physicist Lise Meitner), but the claim omits the year 1997 and the quote does not say anything contradicting it; however, strictly, the quote says 'it was named after' without naming Meitnerium explicitly, though context implies it. The main gap: the quote's 'it' is unspecified, so the quote alone doesn't tie the naming to meitnerium."
+  },
+  "dropped_etymology": "The etymology quote supports the name origin (Austrian-Swedish nuclear physicist Lise Meitner), but the claim omits the year 1997 and the quote does not say anything contradicting it; however, strictly, the quote says 'it was named after' without naming Meitnerium explicitly, though context implies it. The main gap: the quote's 'it' is unspecified, so the quote alone doesn't tie the naming to meitnerium."
+ },
+ "110": {
+  "z": 110,
+  "fact": {
+   "en": "Its discoverers also thought about naming it wixhausium, after Wixhausen, a suburb of Darmstadt.",
+   "zh": "发现团队曾考虑以达姆施塔特郊区维克斯豪森命名为wixhausium。"
+  },
+  "fact_quote": "The GSI team originally also considered naming the element wixhausium, after the suburb of Darmstadt known as Wixhausen where the element was discovered",
+  "etymology": {
+   "en": "Named after Darmstadt, the German city where the element was discovered",
+   "zh": "得名于发现该元素的德国城市达姆施塔特"
+  },
+  "etymology_quote": "The name darmstadtium (Ds) was suggested by the GSI team in honor of the city of Darmstadt, where the element was discovered.",
+  "sentence": {
+   "us": "Darmstadtium was named after a city in Germany.",
+   "uk": "Darmstadtium was named after a city in Germany.",
+   "zh": "𫟼是以德国的一座城市命名的。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "DARM-stad-TEE-um",
+     "why_en": "The d and t in -dt- merge into a single t sound, and the stress falls on STAT: darm-STAT-ee-um.",
+     "why_zh": "-dt- 中的 d 和 t 合成一个 t 音，重音在 STAT 上，不要把 d、t 分开读。"
+    }
+   ]
+  },
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "111": {
+  "z": 111,
+  "fact": {
+   "en": "Only a few atoms of roentgenium have ever been made, and it has no practical use.",
+   "zh": "人类只造出过极少量的𬬭原子，它没有任何实际用途。"
+  },
+  "fact_quote": "Only a few roentgenium atoms have ever been synthesized, and they have no practical application.",
+  "etymology": {
+   "en": "Named after German physicist Wilhelm Conrad Röntgen, who discovered X-rays",
+   "zh": "以发现X射线的德国物理学家伦琴命名"
+  },
+  "etymology_quote": "The name roentgenium (Rg) was suggested by the GSI team in 2004, to honor the German physicist Wilhelm Conrad Röntgen, the discoverer of X-rays.",
+  "sentence": {
+   "us": "Roentgenium is named after the scientist who discovered X-rays.",
+   "uk": "Roentgenium is named after the scientist who discovered X-rays.",
+   "zh": "𬬭是以发现X射线的科学家命名的。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "roh-ent-GEN-ee-um",
+     "why_en": "The letters \"oe\" stand for the German ö and make one vowel, so the start sounds like \"rent\", not \"ro-ent\".",
+     "why_zh": "oe 代表德语的 ö，只发一个元音，开头读作 rent，不要拆成 ro-ent。"
+    }
+   ]
+  },
+  "image_subject": "a single glowing pale-gold particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "112": {
+  "z": 112,
+  "fact": {
+   "en": "Copernicium is so volatile that it is possibly a gas or a liquid at standard temperature and pressure.",
+   "zh": "鿔极易挥发，在标准温度和压力下可能是气体或易挥发的液体。"
+  },
+  "fact_quote": "it has been shown to be an extremely volatile element, so much so that it is possibly a gas or a volatile liquid at standard temperature and pressure",
+  "etymology": {
+   "en": "Named after the astronomer Nicolaus Copernicus, on his 537th anniversary",
+   "zh": "以天文学家尼古拉·哥白尼的名字命名，时值其537周年纪念"
+  },
+  "etymology_quote": "It was named after the astronomer Nicolaus Copernicus on his 537th anniversary.",
+  "sentence": {
+   "us": "Copernicium was named after a famous astronomer.",
+   "uk": "Copernicium was named after a famous astronomer.",
+   "zh": "鿔是以一位著名天文学家的名字命名的。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "koh-PER-nih-see-um",
+     "why_en": "Learners copy the stress of Copernicus, but in copernicium the stress moves to NISS: koh-per-NISS-ee-um.",
+     "why_zh": "学习者常照搬 Copernicus 的重音，但 copernicium 的重音移到 NISS 上。"
+    }
+   ]
+  },
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "113": {
+  "z": 113,
+  "fact": {
+   "en": "Its most stable known form, nihonium-286, has a half-life of only about 10 seconds.",
+   "zh": "它最稳定的已知同位素鿭-286，半衰期只有约10秒。"
+  },
+  "fact_quote": "its most stable known isotope, nihonium-286, has a half-life of about 10 seconds",
+  "etymology": {
+   "en": "From Japanese: one of the two Japanese pronunciations of the name of Japan",
+   "zh": "源自日语：日本国名的两种日语读音之一"
+  },
+  "etymology_quote": "The name nihonium was chosen after an hour of deliberation: it comes from , one of the two Japanese pronunciations for the name of Japan",
+  "sentence": {
+   "us": "Nihonium is element 113 on our classroom periodic table.",
+   "uk": "Nihonium is element 113 on our classroom periodic table.",
+   "zh": "鿭是我们教室元素周期表上的第113号元素。"
+  },
+  "tricky": {
+   "level": 1,
+   "traps": [
+    {
+     "wrong": "NEE-hon-ee-um",
+     "why_en": "The stress falls on the second syllable, ni-HOH-nee-um, not on the first.",
+     "why_zh": "重音在第二个音节 HOH 上，不在第一个音节。"
+    }
+   ]
+  },
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "114": {
+  "z": 114,
+  "fact": {
+   "en": "Flerovium is very volatile and may even be a gas at standard temperature and pressure.",
+   "zh": "𫓧挥发性很强，在标准温度和压力下甚至可能是气体。"
+  },
+  "fact_quote": "showing it is very volatile and may even be gaseous at standard temperature and pressure",
+  "etymology": {
+   "en": "Named after the Flerov Laboratory of Nuclear Reactions in Dubna, Russia",
+   "zh": "以俄罗斯杜布纳的弗廖罗夫核反应实验室命名"
+  },
+  "etymology_quote": "named after the Flerov Laboratory of Nuclear Reactions of the Joint Institute for Nuclear Research in Dubna, Russia",
+  "sentence": {
+   "us": "Our teacher said flerovium is named after a Russian lab.",
+   "uk": "Our teacher said flerovium is named after a Russian lab.",
+   "zh": "老师说𫓧是以一个俄罗斯实验室命名的。"
+  },
+  "tricky": null,
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "115": {
+  "z": 115,
+  "fact": {
+   "en": "Its most stable known isotope, moscovium-290, has a half-life of only 0.65 seconds.",
+   "zh": "已知最稳定的同位素镆-290，半衰期只有0.65秒。"
+  },
+  "fact_quote": "its most stable known isotope, moscovium-290, has a half-life of only 0.65 seconds",
+  "etymology": {
+   "en": "Named after the Moscow Oblast, in which the JINR is situated.",
+   "zh": "以莫斯科州命名，JINR就位于该州。"
+  },
+  "etymology_quote": "On 28 November 2016, it was officially named after the Moscow Oblast, in which the JINR is situated.",
+  "sentence": {
+   "us": "Moscovium is element 115 on our classroom periodic table.",
+   "uk": "Moscovium is element 115 on our classroom periodic table.",
+   "zh": "镆是我们教室元素周期表上的第115号元素。"
+  },
+  "tricky": null,
+  "image_subject": "a single faint blue-white glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "116": {
+  "z": 116,
+  "fact": {
+   "en": "The Dubna team first wanted to name element 116 moscovium, but that name went to element 115 instead.",
+   "zh": "杜布纳团队起初想把116号元素命名为“莫斯科”元素，此名后来给了115号元素。"
+  },
+  "fact_quote": "the Dubna team originally wanted to name element 116 moscovium, after the Moscow Oblast in which Dubna is located, but it was later decided to use this name for element 115 instead.",
+  "etymology": {
+   "en": "Named after the Lawrence Livermore National Laboratory in the city of Livermore, California, US",
+   "zh": "以美国加州利弗莫尔市的劳伦斯利弗莫尔国家实验室命名"
+  },
+  "etymology_quote": "The name recognises the Lawrence Livermore National Laboratory, within the city of Livermore, California, US, which collaborated with JINR on the discovery.",
+  "sentence": {
+   "us": "Our teacher said livermorium was named after a lab in California.",
+   "uk": "Our teacher said livermorium was named after a lab in California.",
+   "zh": "老师说𫟷是以加州的一个实验室命名的。"
+  },
+  "tricky": null,
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "117": {
+  "z": 117,
+  "fact": {
+   "en": "The target used to discover it traveled over the Atlantic Ocean five times in a few days.",
+   "zh": "用于发现它的靶材在几天内五次飞越大西洋。"
+  },
+  "fact_quote": "Over the span of a few days, the target traveled over the Atlantic Ocean five times.",
+  "etymology": {
+   "en": "Named after the US state or region of Tennessee, where key research institutions in its discovery are located",
+   "zh": "以美国田纳西州命名，参与发现它的关键研究机构都在那里。"
+  },
+  "etymology_quote": "It is named after the U.S. state or region of Tennessee where key research institutions involved in its discovery are located.",
+  "sentence": {
+   "us": "Our teacher said Tennessine is named after a US state.",
+   "uk": "Our teacher said Tennessine is named after a US state.",
+   "zh": "老师说鿬是以美国的一个州命名的。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "ten-uh-SEEN",
+     "why_en": "Learners copy the stress of Tennessee (ten-uh-SEE), but tennessine is stressed on the first syllable: TEN-uh-seen.",
+     "why_zh": "受 Tennessee 尾音重读的影响，容易把重音放在最后，其实应重读第一个音节 TEN。"
+    }
+   ]
+  },
+  "image_subject": "a single glowing violet particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ },
+ "118": {
+  "z": 118,
+  "fact": {
+   "en": "Theory predicts it would be a solid at room temperature, unlike the other noble gases.",
+   "zh": "理论预测它在室温下是固体，与其他稀有气体不同。"
+  },
+  "fact_quote": "theoretical studies predict that it would be a solid at room temperature, and significantly reactive, unlike the other members of group 18 (the noble gases)",
+  "etymology": {
+   "en": "Named after the nuclear physicist Yuri Oganessian",
+   "zh": "以核物理学家尤里·奥加涅相的名字命名"
+  },
+  "etymology_quote": "The name honors the nuclear physicist Yuri Oganessian, who played a leading role in the discovery of the heaviest elements in the periodic table.",
+  "sentence": {
+   "us": "Oganesson is the last element on the periodic table.",
+   "uk": "Oganesson is the last element on the periodic table.",
+   "zh": "鿫是元素周期表上的最后一个元素。"
+  },
+  "tricky": {
+   "level": 2,
+   "traps": [
+    {
+     "wrong": "OH-gah-neh-SON",
+     "why_en": "The stress falls on the third syllable, NESS (oh-guh-NESS-on), and the final -on is reduced, not a strong 'son'.",
+     "why_zh": "重音在第三音节NESS上，结尾-on要弱读，不要重读成“森”。"
+    }
+   ]
+  },
+  "image_subject": "a single glowing particle track",
+  "image_style": "trace",
+  "review": {
+   "quotes": "verbatim"
+  },
+  "support": {
+   "fact": "supported",
+   "etymology": "supported",
+   "why": ""
+  }
+ }
+}

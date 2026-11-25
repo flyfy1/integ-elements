@@ -1,0 +1,11 @@
+{
+ "_note": "Subject rewrites after image QA (contact sheet). Each entry replaces the drafted image_subject; reason kept for the record.",
+ "zirconium": {
+  "subject": "a lustrous silvery-grey zirconium metal crystal bar with a rough, knobbly metallic surface",
+  "reason": "attempt 1 rendered a transparent quartz-like crystal"
+ },
+ "ytterbium": {
+  "subject": "a few small irregular, freshly cut pieces of shiny silvery ytterbium metal",
+  "reason": "attempt 1 rendered ring-shaped pieces that read as magnets or nuts"
+ }
+}

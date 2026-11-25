@@ -1,0 +1,13 @@
+{
+ "url": "http://www.cnterm.cn/news/zhxw/202410/t20241010_762166.html",
+ "figure": "http://www.cnterm.cn/news/zhxw/202410/W020250909519537325307.bmp",
+ "title": "全国科技名词委联合国家语言文字工作委员会召开113号、115号、117号、118号元素中文定名会 (发布时间 2017-02-15)",
+ "retrieved": "2026-11-25",
+ "note": "Names and pinyin are in 图2 (an image); transcribed by reading the fetched image.",
+ "rows": {
+  "113": { "en": "nihonium", "zh": "鿭", "symbol": "Nh", "pinyin": "nǐ" },
+  "115": { "en": "moscovium", "zh": "镆", "symbol": "Mc", "pinyin": "mò" },
+  "117": { "en": "tennessine", "zh": "鿬", "symbol": "Ts", "pinyin": "tián" },
+  "118": { "en": "oganesson", "zh": "鿫", "symbol": "Og", "pinyin": "ào" }
+ }
+}

@@ -1,0 +1,4095 @@
+{
+ "spend_usd": 6.21,
+ "assets": {
+  "actinium": {
+   "key": "da784e1698f10fdfb2c1d55862fb61f81d413373255be69849389bcbc338a599",
+   "gateway_request_id": "20261125T072546.957Z-89y1ahjn8r",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:25:54.931Z",
+   "file": ".agent/cache/img/da784e1698f10fdfb2c1d55862fb61f81d413373255be69849389bcbc338a599.png",
+   "sha256": "4b584dfa1d0de5ef8f7b3e7b55f3e5fc08eca052baecf894dc20cc81952a4915",
+   "bytes": 1350651,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a sealed glass ampoule with a tiny silvery metal sample glowing pale blue",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#637f9f",
+    "#4c4e65",
+    "#313242",
+    "#232331"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQABAAA4BaJZQCdAEPAeOLSl5AAP74TfDsZ8uZP8lcbyn7ZI1tUsdV4o9C55XWiiwxFfB33iHoGLptgAA=",
+   "bytes_960": 55426,
+   "bytes_480": 16400
+  },
+  "aluminium": {
+   "key": "499952fe4c3b9a768f8f995b0b2de1b3b7340033b4e6bd843b3883115e5392bf",
+   "gateway_request_id": "20261125T071453.236Z-ywaffhz5xr",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:15:02.372Z",
+   "file": ".agent/cache/img/499952fe4c3b9a768f8f995b0b2de1b3b7340033b4e6bd843b3883115e5392bf.png",
+   "sha256": "5fef0ccd067d64ff33579950ad98a4ac531401329aa2f8c47984f2559e73bef0",
+   "bytes": 1648964,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a crumpled sheet of shiny aluminium foil",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#9d9c9f",
+    "#232a35",
+    "#3b424d",
+    "#696b71"
+   ],
+   "preview": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQABAAA4BaJZQCdAEK+TXF7xNsAAD+93rT0pJLiycqto5xev2EVy23kdIa+9f0sLuKDGt4LvQs5kPNrV9FWRyvpDKXIren/H1vXEwgAAA=",
+   "bytes_960": 76744,
+   "bytes_480": 28910
+  },
+  "americium": {
+   "key": "dff9f097e5094a52ff5d12b77eeb2178a9a67e16c1a95c8f82b89e6673f75501",
+   "gateway_request_id": "20261125T072627.018Z-4h83f7s5mc",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:26:40.208Z",
+   "file": ".agent/cache/img/dff9f097e5094a52ff5d12b77eeb2178a9a67e16c1a95c8f82b89e6673f75501.png",
+   "sha256": "96403b36e56119bdc5b15e921c13bb13868024d38d990d5f308e8b517db47dd7",
+   "bytes": 1388293,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a tiny silvery americium metal fragment",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#5a4d63",
+    "#8c7c8c",
+    "#383444",
+    "#212231"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQABAAA4BaJZQAAud5gLtLJ8AA/vhN9OedKiaxEb0+e/geOge/EV5sdFWhnmeYgxX4XglG9MX7XtkZ8AA=",
+   "bytes_960": 62658,
+   "bytes_480": 17458
+  },
+  "antimony": {
+   "key": "784d2f859a74c945f791842863ee0dd3319c995d5e717d203800b2986ac62d1b",
+   "gateway_request_id": "20261125T072019.915Z-dk8zvpadkt",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:20:29.368Z",
+   "file": ".agent/cache/img/784d2f859a74c945f791842863ee0dd3319c995d5e717d203800b2986ac62d1b.png",
+   "sha256": "7388867695dd052d1e02d07e804d3462d72249f1b4998b5b0afb7ce0526bf0e7",
+   "bytes": 1730608,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a lustrous silvery-grey chunk of antimony metal with flat crystalline faces",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#616267",
+    "#232c36",
+    "#3c424a",
+    "#9e9da1"
+   ],
+   "preview": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQABAAA4BaJZwC7AEO+aq1h3AA/vhMmzWf3MCwu863yRh3mOQPXHWDga2SWTL5fed4QuS5dKDGOxGo/1fA8JH0pRxiHmMAAAA=",
+   "bytes_960": 88848,
+   "bytes_480": 28592
+  },
+  "argon": {
+   "key": "8cc3661d14afb9759931edacd7845526ccac5d3668a89c080398f27d8b61fca4",
+   "gateway_request_id": "20261125T071539.427Z-3899aqechn",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:15:47.694Z",
+   "file": ".agent/cache/img/8cc3661d14afb9759931edacd7845526ccac5d3668a89c080398f27d8b61fca4.png",
+   "sha256": "b3e95398a2d48f43bce95371001b419bc277f2aed49fdb28807129920c43efa7",
+   "bytes": 1302612,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a glowing violet-lavender argon discharge tube bent into a simple loop",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#533d89",
+    "#936ed8",
+    "#202034",
+    "#322858"
+   ],
+   "preview": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQABAAA4BaJZAAAuSCCvho7AAA/vhVAwxl5SFR7LPhWzDprSW+8XwHzaJc3jBq1ZecSTklF9VGk91DCfKBef1iCqkPRaClWmUA5r5aLaw/fKJ9soDXQ0WwBwAAAA==",
+   "bytes_960": 47414,
+   "bytes_480": 13496
+  },
+  "arsenic": {
+   "key": "b2cadf65a917a791a4134582bb29e7701ee7d47ff9023c8c7586673164490917",
+   "gateway_request_id": "20261125T071741.965Z-sb40dpa7ev",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:17:50.700Z",
+   "file": ".agent/cache/img/b2cadf65a917a791a4134582bb29e7701ee7d47ff9023c8c7586673164490917.png",
+   "sha256": "dd325e9cf38916539e9b9d84f1cd8f3445be630174d08f3a52f1efd2a129dc72",
+   "bytes": 1779025,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a lump of grey metallic arsenic crystal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#8b8a88",
+    "#636566",
+    "#222d36",
+    "#3e454b"
+   ],
+   "preview": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQABAAA4BaJZQC7AELZOCrBzwgAAD++FUDD+tLeTr8zlUXV1gYAPEVqcHqsIzBvmUwVfSXivN07duREf6igRdGhB4fKAD4W4sXyAAA",
+   "bytes_960": 88010,
+   "bytes_480": 31516
+  },
+  "astatine": {
+   "key": "adf64d424f21ae357d92945e6546ab54b118eb85132eb446474bb93f4d12c8ec",
+   "gateway_request_id": "20261125T072515.780Z-8vh6qshhm4",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:25:22.998Z",
+   "file": ".agent/cache/img/adf64d424f21ae357d92945e6546ab54b118eb85132eb446474bb93f4d12c8ec.png",
+   "sha256": "6ca80642895e57c26f230b17676594cdb798405da46dd29d897cf62165656e99",
+   "bytes": 1352045,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing violet particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#5a6c92",
+    "#242d4e",
+    "#323f63",
+    "#1b2439"
+   ],
+   "preview": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQABAAA4BaJZACdAEPAguvTQAA/veFBTiyxDW7cu1KLCCJFG+ydOle6cQZ/7rkK/4juGR3AHPnSSkuiUEMLLGB8JnYAA==",
+   "bytes_960": 45156,
+   "bytes_480": 13314
+  },
+  "barium": {
+   "key": "35fdbf9f7577ed30d402012e0500c98cd14164d516d5b18827959b4d110a1ee7",
+   "gateway_request_id": "20261125T072108.621Z-r9sdefdsw9",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:21:17.323Z",
+   "file": ".agent/cache/img/35fdbf9f7577ed30d402012e0500c98cd14164d516d5b18827959b4d110a1ee7.png",
+   "sha256": "08b7659310e05503335aff2bdaaa7bd4980bee52ee10e03de1821581ffcf9231",
+   "bytes": 1621655,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a cluster of pale, translucent baryte crystals",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#675040",
+    "#b48558",
+    "#cda37c",
+    "#2d2a2c"
+   ],
+   "preview": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAgCdASoQABAAA4BaJagCdH8IIBtoBT7FL+25sudfGAD++FZsw7EDShlfuyDihxHa/CIcpuSs+RzcZaVtHHwD64gksO6Sgxfl7yQKye+LzSHBdT5Y9vYoShJIRsVyWxIBjEfoizzmFNrjTrrL3iLAAAA=",
+   "bytes_960": 66788,
+   "bytes_480": 25720
+  },
+  "berkelium": {
+   "key": "11275f964b52c7af5d5f8ae7d6e4833ef62117fb2027bc83877c0f0210678ead",
+   "gateway_request_id": "20261125T072648.143Z-31cjf1wm14",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:26:56.782Z",
+   "file": ".agent/cache/img/11275f964b52c7af5d5f8ae7d6e4833ef62117fb2027bc83877c0f0210678ead.png",
+   "sha256": "9b5e78a10ac169207f2dc6b0fbb2a51003d9f7b2ee128a456b6fcf7c0e0f64a5",
+   "bytes": 1243546,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a tiny soft silvery-white metal bead",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#695a6e",
+    "#988493",
+    "#403c4e",
+    "#272837"
+   ],
+   "preview": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQABAAA4BaJZQCw7EPABX7zmSAAP73etI6yPvyGgzhxXiJvL5IpijV0IHDDTKH5KdsJsj4QAA=",
+   "bytes_960": 40344,
+   "bytes_480": 11180
+  },
+  "beryllium": {
+   "key": "c2fc62dd306cf30baf6bb5402402dde804160d65dbfb9cadc750fc750d96710e",
+   "gateway_request_id": "20261125T071346.172Z-pbx0z0tebp",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:13:53.589Z",
+   "file": ".agent/cache/img/c2fc62dd306cf30baf6bb5402402dde804160d65dbfb9cadc750fc750d96710e.png",
+   "sha256": "1765474a401946f1f34bbcc4d2f5a3105d584c0ab230bc7320e7103473d22024",
+   "bytes": 1460847,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a polished steel-gray beryllium metal disc",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#898482",
+    "#bdb7b5",
+    "#2f2e34",
+    "#656062"
+   ],
+   "preview": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQABAAA4BaJZQAAusp3UgjgAAA/vhVAt44WarSIZDfRuGkxcPrIwfmGNI924r5aVAeBvN2J0eZSGOZSal5mo39/gQ71gAA",
+   "bytes_960": 62134,
+   "bytes_480": 13992
+  },
+  "bismuth": {
+   "key": "d45cb8dec44d75db57d3c53ad9c04c2c0daa25c74fb5492b796b5f03d77f7b42",
+   "gateway_request_id": "20261125T072457.050Z-m68rjczk8x",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:25:06.545Z",
+   "file": ".agent/cache/img/d45cb8dec44d75db57d3c53ad9c04c2c0daa25c74fb5492b796b5f03d77f7b42.png",
+   "sha256": "8cf67903219b53a219358c8bb47c099859d0c5b7d7294b784c427cffb8708832",
+   "bytes": 1795960,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a stepped, rainbow-iridescent bismuth crystal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#93867e",
+    "#3f5a6e",
+    "#2b333f",
+    "#7c5c4d"
+   ],
+   "preview": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQABAAA4BaJZgCdAELZTNCL5EAAP74VQLeOCzG4PPI4wd27VWrfMgPSv1y854zbO/Oxs1u1GfdSvTtxLOEzGSCvyX0XE43fElyhr43UqmBCAAA",
+   "bytes_960": 83792,
+   "bytes_480": 31500
+  },
+  "bohrium": {
+   "key": "a0f7bdbeb808104f55e77a5a90b8e2cc0d6ea6261e15cfa5d5a17ba65b4d0365",
+   "gateway_request_id": "20261125T072807.708Z-y7cd74e20f",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:28:14.880Z",
+   "file": ".agent/cache/img/a0f7bdbeb808104f55e77a5a90b8e2cc0d6ea6261e15cfa5d5a17ba65b4d0365.png",
+   "sha256": "c6d215b685057011faf5ef59b45ced51e938802d2902271116006bc5d1ccc896",
+   "bytes": 1230452,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#534433",
+    "#212228",
+    "#342f2d",
+    "#876e4d"
+   ],
+   "preview": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQABAAA4BaJZQC7AEO+QM5PBIAAP74TJsZZyoc43MegUToHMrUq9Rymp3kxxL+VInrhNcBRgiAAA==",
+   "bytes_960": 37736,
+   "bytes_480": 11388
+  },
+  "boron": {
+   "key": "0eee0b0d8e103bd7d6e9d7fb652dd497b220d49b0acc06b882f285babc25af2f",
+   "gateway_request_id": "20261125T071353.794Z-mysakhh11k",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:14:02.610Z",
+   "file": ".agent/cache/img/0eee0b0d8e103bd7d6e9d7fb652dd497b220d49b0acc06b882f285babc25af2f.png",
+   "sha256": "ce1e546b2ebeae72107bdeaadc48d963f44863be3bcb929f8f5eaa6e3b824add",
+   "bytes": 1724021,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a lump of dark, lustrous crystalline boron",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#68696e",
+    "#213c46",
+    "#242930",
+    "#444347"
+   ],
+   "preview": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoQABAAA4BaJZQCdAEPC53S3l5nAAD++E+1sxBi3mfUtJqS5usSpjJ78VgIUX1GRY+NKfOFBuEsoR78AJIMuYG0uJJAAA==",
+   "bytes_960": 86532,
+   "bytes_480": 31162
+  },
+  "bromine": {
+   "key": "ade4ce58458b9851c4f23144f40d92077b35edfa4e62fc4792e41248c62599cc",
+   "gateway_request_id": "20261125T071759.805Z-bksc0mqmqs",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:18:08.097Z",
+   "file": ".agent/cache/img/ade4ce58458b9851c4f23144f40d92077b35edfa4e62fc4792e41248c62599cc.png",
+   "sha256": "a70c5d52daad8710fa117e6636b15e2e8b254a416000e2b639aedb140eac0db2",
+   "bytes": 1355000,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a sealed glass ampoule of red-brown liquid bromine with reddish vapour above it",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#5c2116",
+    "#5f4848",
+    "#263f58",
+    "#222431"
+   ],
+   "preview": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJQBOgCHh4kM9x2AA/vhSA9UtsYErZHahVCMAi5V3BBUZmvTP0WEGmWMcKtIzWRrnRAAA",
+   "bytes_960": 61766,
+   "bytes_480": 17096
+  },
+  "cadmium": {
+   "key": "324d87477287a7c163e9b9e19f43a1049edf7e000c6026ca1461f247dc3c0231",
+   "gateway_request_id": "20261125T071955.985Z-aktq943zqw",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:20:03.915Z",
+   "file": ".agent/cache/img/324d87477287a7c163e9b9e19f43a1049edf7e000c6026ca1461f247dc3c0231.png",
+   "sha256": "706c84701416eef8137f4187fef20b35db4868f7ae2d53cbce9aee2f28a618a5",
+   "bytes": 1619978,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small bar of soft silvery-white cadmium metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#a5a19e",
+    "#2c2c31",
+    "#413d3c",
+    "#6f6964"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQABAAA4BaJZwAAua0+V53MGAA/vhN9OeCffK5d/dblCgdm9ETsU9hkUZIaKcZcXYFpJ1nJ1+3QB4AAAA=",
+   "bytes_960": 86020,
+   "bytes_480": 20338
+  },
+  "caesium": {
+   "key": "6c9aa7a0bd09eadcb53e9459ab45f687a7c2402b1b58b6cf0f996f13382b7dd2",
+   "gateway_request_id": "20261125T072058.448Z-eteahhz42f",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:21:08.426Z",
+   "file": ".agent/cache/img/6c9aa7a0bd09eadcb53e9459ab45f687a7c2402b1b58b6cf0f996f13382b7dd2.png",
+   "sha256": "adb74a712ba25709f8cb51a94800412d27092dcd3d281895912e77828864051f",
+   "bytes": 1298872,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small pool of soft silvery-golden metal inside a sealed glass ampoule",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#a97b61",
+    "#6e4f49",
+    "#3e3236",
+    "#26252e"
+   ],
+   "preview": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJYwC7AEPAf+8OAAA/vhN8O0ohZ0Whx61AfNwp9FK6qlg+iFnbzf+FUDnttaDbrnwb/AA",
+   "bytes_960": 53700,
+   "bytes_480": 15062
+  },
+  "calcium": {
+   "key": "6a03edb6f9b5112a6c4bf798c8a617493a8c1c56dc0361193927eacb2a7ff505",
+   "gateway_request_id": "20261125T071556.065Z-dkb1hetbkw",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:16:03.856Z",
+   "file": ".agent/cache/img/6a03edb6f9b5112a6c4bf798c8a617493a8c1c56dc0361193927eacb2a7ff505.png",
+   "sha256": "fbc3a801c7fb377a3cfba05282e697fae6e51ccae951328ef2855dc462952a6a",
+   "bytes": 1497263,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a handful of white seashells beside a lump of white chalk",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#d4bfb1",
+    "#ab8f7c",
+    "#342f32",
+    "#65534a"
+   ],
+   "preview": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABwAgCdASoQABAAA4BaJQBOj+AQUhf6F70/XspAAP74TQxwQHjQo/+R6+P1THc2+JdnSPbv94nN1xn3MQieFtkE0kfRFXwbOBjR782vct7+xyI1VVv1jI4wZcJh5dVlIAc4NyAA",
+   "bytes_960": 69318,
+   "bytes_480": 20020
+  },
+  "californium": {
+   "key": "451e6334bbe50c3b5733895f173327e83fce7ef93b1afcbc5a1d457973645b2f",
+   "gateway_request_id": "20261125T072656.955Z-dqwvxykmde",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:27:04.840Z",
+   "file": ".agent/cache/img/451e6334bbe50c3b5733895f173327e83fce7ef93b1afcbc5a1d457973645b2f.png",
+   "sha256": "89a4d0c99f9c4957574201885a5eed783142799f42067e578ef01a447a962d7c",
+   "bytes": 1236523,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a tiny speck of silvery metal in a sealed glass ampoule",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#2e2d3d",
+    "#776378",
+    "#473d52",
+    "#1e212e"
+   ],
+   "preview": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQABAAA4BaJYwAAudfCbCF8wAA/vd5BZ6qLBcqkAUtn/+TQx1sLlknMbGGc8iUZ9sjPgAA",
+   "bytes_960": 42826,
+   "bytes_480": 12796
+  },
+  "carbon": {
+   "key": "6ac447f4cfd3392552ca9003b4bf00561cf6339c4792fadb62eaaca9a8019f27",
+   "gateway_request_id": "20261125T071403.019Z-6q1g8ta0ne",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:14:11.623Z",
+   "file": ".agent/cache/img/6ac447f4cfd3392552ca9003b4bf00561cf6339c4792fadb62eaaca9a8019f27.png",
+   "sha256": "0ff77d2b3bb1f9453cc7c3bf73053cf392909c5c7a1328ff66df96596cc91719",
+   "bytes": 1609723,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a rough black lump of charcoal beside a small clear uncut diamond",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#4e5254",
+    "#25272c",
+    "#32353b",
+    "#83837f"
+   ],
+   "preview": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQABAAA4BaJZQCw7EO9cXwLgAA/vhMolniVAwanR7O5MWXmuccbLkIL/j70oY99VjmdfiU8niMmM/ZROPCSzFAAAA=",
+   "bytes_960": 76874,
+   "bytes_480": 26022
+  },
+  "cerium": {
+   "key": "ddd83c7aad78f668331502c241604f93f1442383e2f6f4a9193dd495110179db",
+   "gateway_request_id": "20261125T072126.681Z-1czpevadkg",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:21:35.894Z",
+   "file": ".agent/cache/img/ddd83c7aad78f668331502c241604f93f1442383e2f6f4a9193dd495110179db.png",
+   "sha256": "15734011877d59a9699335a78aa578250a0c511e8216d1bc3655cb52e246ed25",
+   "bytes": 1555566,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a ferrocerium fire-starter rod throwing a shower of bright sparks",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#9c5f56",
+    "#2f2831",
+    "#5d4544",
+    "#dba47d"
+   ],
+   "preview": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQABAAA4BaJQBWACG8FB+XlLBAAP73eKRZ13fzF2qjV+e7qh6Wx8l3m+SnQoo7YwCLlP5n4BHG9V4Pc9+sBzJ+R76SD2EheUAAAA==",
+   "bytes_960": 79558,
+   "bytes_480": 28914
+  },
+  "chlorine": {
+   "key": "6373578a5d3d0309d0e8201f0ce90ea4bf0f83dd2e15b106004d650b7202391e",
+   "gateway_request_id": "20261125T071528.428Z-7bdyq77ae2",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:15:39.247Z",
+   "file": ".agent/cache/img/6373578a5d3d0309d0e8201f0ce90ea4bf0f83dd2e15b106004d650b7202391e.png",
+   "sha256": "a7ab3c1be5de2264b5cbec502a180aa0573fa397be6cc87fe14339ef4a6472a4",
+   "bytes": 1400109,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a glass flask filled with pale yellow-green chlorine gas",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#99982d",
+    "#5d6134",
+    "#2a3b49",
+    "#1e2734"
+   ],
+   "preview": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQAgCdASoQABAAA4BaJZAC7IExGBtdxRHujgAA/vhMm28/fETvANHS1spy/YDQmdOq0hiPH/JfX5ie9kHjOeJXK7FgMmgA",
+   "bytes_960": 65742,
+   "bytes_480": 17808
+  },
+  "chromium": {
+   "key": "dbf7ba575f0fca84a138f9a90246cc32b896244b4709a909072b4d9f441cd308",
+   "gateway_request_id": "20261125T071629.427Z-3an8pff2a3",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:16:37.824Z",
+   "file": ".agent/cache/img/dbf7ba575f0fca84a138f9a90246cc32b896244b4709a909072b4d9f441cd308.png",
+   "sha256": "c34276a1cf26d0d3ad0e8844a839636c4071c53185b795d8014c406d032d5511",
+   "bytes": 1608355,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a mirror-bright lump of polished chromium metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#58534f",
+    "#b5b2b4",
+    "#303035",
+    "#807c7b"
+   ],
+   "preview": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABQAgCdASoQABAAA4BaJZQAD5CQcPQ94s/CxgAA/vhSGtusqxNa2W7f/CQPl8n1ML45htVDlXGHghEreCFuoDyw8DOzI4BTL0kDlmj/Cgb4vSIdL26e84NUGoAGcAAA",
+   "bytes_960": 78328,
+   "bytes_480": 28362
+  },
+  "cobalt": {
+   "key": "f0c090d7015f322d722140398df829152f3aa86e96e2dea1a28c87fdc8400b24",
+   "gateway_request_id": "20261125T071655.870Z-d3fxtcv8hz",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:17:04.320Z",
+   "file": ".agent/cache/img/f0c090d7015f322d722140398df829152f3aa86e96e2dea1a28c87fdc8400b24.png",
+   "sha256": "7a4ae78866cc4a1a6029cfbd18a4b35878a28cb37488446ec2e87dcc1eef422a",
+   "bytes": 1702558,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small chunk of hard, shiny gray cobalt metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#807a79",
+    "#a8a7af",
+    "#2e2e35",
+    "#5a5453"
+   ],
+   "preview": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQABAAA4BaJZQAAt0LSDOWaYAA/vhSHAPXYb432Xu8mvgLyqvWz/ViVhsZpW+KAyU2Keo4ki+8TaWVxc0/sFWUQ+6QwjaSAeAAAA==",
+   "bytes_960": 88446,
+   "bytes_480": 29344
+  },
+  "copernicium": {
+   "key": "69bcfb786b0c278232e6e67dbdaa010f03e72e0524507c1cf50bd2360eb1683e",
+   "gateway_request_id": "20261125T072847.490Z-wqwmbn34jn",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:28:54.614Z",
+   "file": ".agent/cache/img/69bcfb786b0c278232e6e67dbdaa010f03e72e0524507c1cf50bd2360eb1683e.png",
+   "sha256": "2123760f0b5ce0c80702a9fbb1b1964adf1c5891c7cc24ad4af2d9a2a1b70e60",
+   "bytes": 1275351,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#23252b",
+    "#8e7752",
+    "#333234",
+    "#55462f"
+   ],
+   "preview": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQABAAA4BaJZQAAujdU/xjnpAAAP73maTX5RpgqfT5SIV/1nUFMPsbrz0hQFdj2CIYg+crOE/dUMBzr7UQPc3c69ne7MhhPq0kBRwA",
+   "bytes_960": 47054,
+   "bytes_480": 13680
+  },
+  "copper": {
+   "key": "906aadbab9b989e1f84385aa5481ea3816dfc28b6cdb3d5c266caf1d663b87e8",
+   "file": ".agent/cache/img/906aadbab9b989e1f84385aa5481ea3816dfc28b6cdb3d5c266caf1d663b87e8.png",
+   "sha256": "e79200950b8d5fb26824aebe26d1c5b4ca8be994f2143b7449429470cb97d963",
+   "bytes": 1655540,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a coil of bright copper wire",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#9c4422",
+    "#d27544",
+    "#613625",
+    "#332f33"
+   ],
+   "preview": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABwAgCdASoQABAAA4BaJbACdH8IIABgOCMXUkcgAP74S7H8gNGEJO9Z9jzZ/AshPF31sh6MjHCbanu+56/jyB/UUXTwQkfYKXeQthCL6miN/QbnZjBBIzsJPiY3A4AA",
+   "bytes_960": 81514,
+   "bytes_480": 25862
+  },
+  "curium": {
+   "key": "36d933a8b9953e002453f6eb996db53a1df22a3bcad76e6fc1716b5584a5e456",
+   "gateway_request_id": "20261125T072640.403Z-zwgh49d2tm",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:26:47.960Z",
+   "file": ".agent/cache/img/36d933a8b9953e002453f6eb996db53a1df22a3bcad76e6fc1716b5584a5e456.png",
+   "sha256": "1b92f6a7dc35800f732123e22d0baa1d11e457101900090bdf5e0fb6a94ca1ad",
+   "bytes": 1236966,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a tiny bead of hard silvery metal",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#857884",
+    "#5b5160",
+    "#3e3948",
+    "#282836"
+   ],
+   "preview": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAwAgCdASoQABAAA4BaJZQCw7EO+arKfgWVsAD++E3zomcLYhXwULKham396q7jeIHGjUeEA8+IewLZjpQ8PgAA",
+   "bytes_960": 43672,
+   "bytes_480": 13450
+  },
+  "darmstadtium": {
+   "key": "c5be89ab4a4ee0ab9777deb967bf803d00843e723e28086b93eadd11ba27a4e3",
+   "gateway_request_id": "20261125T072831.415Z-fa86fd8s9n",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:28:40.610Z",
+   "file": ".agent/cache/img/c5be89ab4a4ee0ab9777deb967bf803d00843e723e28086b93eadd11ba27a4e3.png",
+   "sha256": "54b6eba2ac34b37bd20168757197a9fd20a61213b0e46bd9483e03ac79932bc9",
+   "bytes": 1284625,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#473e37",
+    "#735e41",
+    "#20222a",
+    "#2e2e33"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQABAAA4BaJZQAAudGS3fgmbAAAP74S0cxTKTrUQv8ewFFmQR+jOmkkXUieXXcFqDvqQC4wTTZIS0AcAA=",
+   "bytes_960": 39594,
+   "bytes_480": 10998
+  },
+  "dubnium": {
+   "key": "489e4dd20f704fef66334ff6624bed7347582c2e9c8dd7fe3e06ec99e150f539",
+   "gateway_request_id": "20261125T072752.634Z-h9p902hhn0",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:27:59.925Z",
+   "file": ".agent/cache/img/489e4dd20f704fef66334ff6624bed7347582c2e9c8dd7fe3e06ec99e150f539.png",
+   "sha256": "8a89ec221f66ea5042d2517cdccb5dd882d106f9ebd11f232aa91688880e8152",
+   "bytes": 1253116,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing pale violet particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#202231",
+    "#8e7864",
+    "#484052",
+    "#312f3b"
+   ],
+   "preview": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQABAAA4BaJYwAAua056CUYAD++EyiHSbYrwZEkX35gS7lRMqsnyHvoQ8Tw9hawf8haSCeYHoAAA==",
+   "bytes_960": 36946,
+   "bytes_480": 10694
+  },
+  "dysprosium": {
+   "key": "4fd129eaec11583eb302d70b136acbdd2b1112e9691c4dbc9e8cd4800f00a410",
+   "gateway_request_id": "20261125T072235.696Z-a1b49k7ntv",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:22:44.735Z",
+   "file": ".agent/cache/img/4fd129eaec11583eb302d70b136acbdd2b1112e9691c4dbc9e8cd4800f00a410.png",
+   "sha256": "6c658e5b019673c155d4eda70db4cd541f23e7616ef0daa9298925789e420656",
+   "bytes": 1743539,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small chunk of silvery dysprosium metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#aa9b9c",
+    "#7e7675",
+    "#2c2c35",
+    "#595154"
+   ],
+   "preview": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQABAAA4BaJZwAAuQ0liokJvAAAP74T7QahMkLtbtFUKOFzTGYOSGq49nlLG/bDWSGBz6w0unQhefmC8LvIPYhIiZus9QL9OVc98DwAAA=",
+   "bytes_960": 82546,
+   "bytes_480": 30326
+  },
+  "einsteinium": {
+   "key": "c1faff9ea3bf03a40949ba81bf938a6a82e01a8650ac66b7b8c5b75c914a6f08",
+   "gateway_request_id": "20261125T072705.021Z-rxra800w8t",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:27:12.280Z",
+   "file": ".agent/cache/img/c1faff9ea3bf03a40949ba81bf938a6a82e01a8650ac66b7b8c5b75c914a6f08.png",
+   "sha256": "cb592aaed01610664ee8ec73cd1658f1e66f237e50858f3225af3379e079ec44",
+   "bytes": 1298390,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single faint blue-white glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#665f8a",
+    "#1d1f33",
+    "#2b2f47",
+    "#3b3d65"
+   ],
+   "preview": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQABAAA4BaJQBOgCG/htcrgAD+93ocYvYMd8lvT853CY2ylIgn1x4amgVRrqVYgzC1Hu0nGtb9RNQ8N2PchdwAAAA=",
+   "bytes_960": 45550,
+   "bytes_480": 12436
+  },
+  "erbium": {
+   "key": "1d06c1e717f868383a172dcc84f50e70fba83a5e7c8638154b8f8e7873f36fa3",
+   "gateway_request_id": "20261125T072254.981Z-5qa7hegvj0",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:23:05.125Z",
+   "file": ".agent/cache/img/1d06c1e717f868383a172dcc84f50e70fba83a5e7c8638154b8f8e7873f36fa3.png",
+   "sha256": "c185e58b2652edc48526bbd46adf483379c104e2ef693f7aa9ace7e4a5069959",
+   "bytes": 1747079,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small chunk of silvery-white erbium metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#7c7171",
+    "#a39997",
+    "#2b2b36",
+    "#544f53"
+   ],
+   "preview": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQABAAA4BaJZwAAt0OPOM0SAAA/vhRpeknHpwjUpHRMRDAAjd1eewvGkm5a6Bl4dOn+enWYb2nMNBeGFJPijovAeAAAA==",
+   "bytes_960": 83610,
+   "bytes_480": 31198
+  },
+  "europium": {
+   "key": "db095402f049c39b48c635428a465ef88631c7211ce78c65b386acbd29980428",
+   "gateway_request_id": "20261125T072206.839Z-0455ehtbmj",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:22:16.666Z",
+   "file": ".agent/cache/img/db095402f049c39b48c635428a465ef88631c7211ce78c65b386acbd29980428.png",
+   "sha256": "e8410761a29e80871d6b123559b3b4e90c530f147341e29274e9efd926fd88d7",
+   "bytes": 1384545,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a sealed glass ampoule holding small silvery metal pieces under argon",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#7d7178",
+    "#212430",
+    "#554956",
+    "#31323e"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQABAAA4BaJZQAAudeo2Td3owAAP73eQN9xAZ1qIdrTAr3Y73ksEW6shbIaxP33+lZFvrf51Y+yMcAAAA=",
+   "bytes_960": 60524,
+   "bytes_480": 17390
+  },
+  "fermium": {
+   "key": "b495c7ca9e9c466ce666c349c73ede7855193b78d62614cacbf5cc5900be3505",
+   "gateway_request_id": "20261125T072712.461Z-2yqhcv25k0",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:27:20.939Z",
+   "file": ".agent/cache/img/b495c7ca9e9c466ce666c349c73ede7855193b78d62614cacbf5cc5900be3505.png",
+   "sha256": "b2d8d29e9a5de58d1b7c08958dbda512eb2b719a0d4e63cfcd1ca22c826b9739",
+   "bytes": 1253122,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#212135",
+    "#553c68",
+    "#7e618b",
+    "#38314b"
+   ],
+   "preview": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAQCdASoQABAAA4BaJYwAAudGCegA/vhUysF6u2l3KS9Hh6EJvqOBr3gdZj+Y1GEVsqltRoO3lXkl/Ox7i+AA",
+   "bytes_960": 37810,
+   "bytes_480": 10534
+  },
+  "flerovium": {
+   "key": "f13d6a65798712270540ce51e2e1a1e3a6891062a16da547f28040d9982cf38d",
+   "gateway_request_id": "20261125T072902.044Z-22s3dxxa1t",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:29:09.153Z",
+   "file": ".agent/cache/img/f13d6a65798712270540ce51e2e1a1e3a6891062a16da547f28040d9982cf38d.png",
+   "sha256": "c7cae4af7293b225a6d1883b8dad7ba8b2d45ea2acfab5c9151f987d7fe3f147",
+   "bytes": 1273514,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#1a212e",
+    "#262f3e",
+    "#6d757f",
+    "#3e4653"
+   ],
+   "preview": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQABAAA4BaJZQCdAEPhpbLQyBQBAD++FjOTeeo8vlb4Te2fFYjRNpZg6gyM9oXqs2zes9dMYHf1PgyyocLJUAA",
+   "bytes_960": 36834,
+   "bytes_480": 10082
+  },
+  "fluorine": {
+   "key": "8463311c603ab6c19163829219f7ad2ae1a9c48e184509f7400de66152676d0a",
+   "gateway_request_id": "20261125T071429.048Z-aqrztam4sm",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:14:36.568Z",
+   "file": ".agent/cache/img/8463311c603ab6c19163829219f7ad2ae1a9c48e184509f7400de66152676d0a.png",
+   "sha256": "aaa1a5f867a7a0d0856c3a0be13d1552e36048f359adf22a5963effc0f98f004",
+   "bytes": 1330745,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a pale yellow gas in a sealed glass ampoule",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#b3a35b",
+    "#7a6e46",
+    "#424443",
+    "#1c2735"
+   ],
+   "preview": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQABAAA4BaJQBOgCHgNyyunN6gAP74Urkcy/cj5N2X0ftz1SeejWaJuEuSleAf3dIaQ2yZb4Az4dnguO9EgQAA",
+   "bytes_960": 61902,
+   "bytes_480": 17562
+  },
+  "francium": {
+   "key": "e61136e53632815b10f1ed28c7885da9534ed1fbf31004f9ee89b013fd755f5b",
+   "gateway_request_id": "20261125T072530.503Z-8237t8tgqj",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:25:38.387Z",
+   "file": ".agent/cache/img/e61136e53632815b10f1ed28c7885da9534ed1fbf31004f9ee89b013fd755f5b.png",
+   "sha256": "aa9ca7a1ca7b7e39a76426ec4621d25405002a251d8fcc83c511f0ae2713ecce",
+   "bytes": 1284826,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing orange particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#9b605c",
+    "#23222c",
+    "#372d36",
+    "#5c3b3e"
+   ],
+   "preview": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQABAAA4BaJYwCw7EPhr42pbgA/vfGyEY68rL+dU4qTGJgh/5c22zu+IeZWcHC/Oj3874VaItW+FRSsr4wpeAYoAA=",
+   "bytes_960": 44406,
+   "bytes_480": 12016
+  },
+  "gadolinium": {
+   "key": "4efd70edf31820cb6f2ca5faae8574e5926948d4a7d3c9b76c1f7aa11c78b92a",
+   "gateway_request_id": "20261125T072216.844Z-zh8mhwj8fh",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:22:25.535Z",
+   "file": ".agent/cache/img/4efd70edf31820cb6f2ca5faae8574e5926948d4a7d3c9b76c1f7aa11c78b92a.png",
+   "sha256": "dbb51af31d5e4de24660522d0b9179878932c3ce55d4a2a5cbfabda5ebe85c34",
+   "bytes": 1638505,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small chunk of silvery-white gadolinium metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#8e8381",
+    "#bdb6b1",
+    "#2c2b35",
+    "#605a5b"
+   ],
+   "preview": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQABAAA4BaJZwAAt0LnVM+n/cgAAD+93odM2ftOFuNnz92lNDSgkbFgj2oCedZTYrv9sLE/u+3DBg79w1he4BHef9A8XxoNLt28AHgAAA=",
+   "bytes_960": 75234,
+   "bytes_480": 26350
+  },
+  "gallium": {
+   "key": "3871318e93285ff44488ee5bf0070cf28bfcec4271eb73c42590d9c17caec6ca",
+   "gateway_request_id": "20261125T071723.336Z-qqwcybzj5s",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:17:31.070Z",
+   "file": ".agent/cache/img/3871318e93285ff44488ee5bf0070cf28bfcec4271eb73c42590d9c17caec6ca.png",
+   "sha256": "01cc22adb5465a4269b6ee0f71e1431d9b237bbeaaf8f237c4560a886c7697cc",
+   "bytes": 1452142,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small piece of silvery gallium melting into a shiny puddle on a glass dish",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#898e96",
+    "#616873",
+    "#292f3b",
+    "#404753"
+   ],
+   "preview": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQABAAA4BaJZQCdAEOmeq+x1YAAP73fmzVpPKhvyF9wuiqCnRUXDUKi1ChXcy8fQRFQLPKA2FXMp89XOsVF7AZAAA=",
+   "bytes_960": 67734,
+   "bytes_480": 20590
+  },
+  "germanium": {
+   "key": "83ab12665ad1021e26671c2e2d875e1cbb0d1f56b4b4a1d96ea15c00fab7e875",
+   "gateway_request_id": "20261125T071731.281Z-pmrnmzef41",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:17:41.435Z",
+   "file": ".agent/cache/img/83ab12665ad1021e26671c2e2d875e1cbb0d1f56b4b4a1d96ea15c00fab7e875.png",
+   "sha256": "34e3f56f571e49e4b21735ca28f79f0e5341fc21ff55dff34b5c0d396131dc27",
+   "bytes": 1852133,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a shiny grayish-white chunk of germanium with a metallic luster",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#9a9b9c",
+    "#4a4f53",
+    "#293038",
+    "#6b6d70"
+   ],
+   "preview": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABwAgCdASoQABAAA4BaJZQC7AYu5uKpjA8381KgAP74VQLS504JXUQLIrRdo7pfdWh/4F35B7ld/2PZL4O76HDPSdJe4vJPygJslWAnyIOBeqClgpDkpzwA",
+   "bytes_960": 89602,
+   "bytes_480": 28376
+  },
+  "gold": {
+   "key": "ed33934056517d4f37a8fa657eecabe97fb5247b3c7198b9c467f79e299de7c9",
+   "file": ".agent/cache/img/ed33934056517d4f37a8fa657eecabe97fb5247b3c7198b9c467f79e299de7c9.png",
+   "sha256": "239a73e8cdfeeeb3482bd66b9afd7b55fb11b890fa6551c6d3637906f4f66d9b",
+   "bytes": 1637845,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a raw gold nugget",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#4f3e30",
+    "#c98d2d",
+    "#28262a",
+    "#8e5918"
+   ],
+   "preview": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACQAgCdASoQABAAA4BaJbACdH8Agqi9Q3ql1VqCyAD++E8KvJ8DjCu3mhHdoud+uX++i7SuCo7NH83DvddwFylxpwz7RAFxiC1X/F16aMHASChjvBqpIdo1tcO2ZiO0NDCF3q9X+AgAAA==",
+   "bytes_960": 87898,
+   "bytes_480": 27244
+  },
+  "hafnium": {
+   "key": "a414f5bdf48ef0184fa4992ee49e3247fa0733e8a1e969d94e30876d2a68a6a2",
+   "gateway_request_id": "20261125T072332.813Z-870fdvp79z",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:23:39.946Z",
+   "file": ".agent/cache/img/a414f5bdf48ef0184fa4992ee49e3247fa0733e8a1e969d94e30876d2a68a6a2.png",
+   "sha256": "74d44f3759ae51460ca25bd4ac8f06cfc35a8cc7ab34001fff1e0bfbc7841001",
+   "bytes": 1598304,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a lustrous silvery-grey metal bar",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#28282d",
+    "#625c58",
+    "#3c3a3c",
+    "#9a8f83"
+   ],
+   "preview": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQABAAA4BaJZQAAudfCmg19rwA/vhMn4/eRpvxBdVUyM/CnHB+7zQjVs9V2wBibXsuMvsPz+6Y9FugVVcFBd4wmgAAAA==",
+   "bytes_960": 81768,
+   "bytes_480": 19856
+  },
+  "hassium": {
+   "key": "48225869f934d67ee2273994feb81a96394831d6b5dc593ac4ff4a9276d71059",
+   "gateway_request_id": "20261125T072815.034Z-8z866q6j94",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:28:23.663Z",
+   "file": ".agent/cache/img/48225869f934d67ee2273994feb81a96394831d6b5dc593ac4ff4a9276d71059.png",
+   "sha256": "20d47b1fe7ed1e44574d2cafad8ea34605480177d315ee117fa518e865faa319",
+   "bytes": 1294864,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#25272e",
+    "#604f37",
+    "#846c46",
+    "#433a2e"
+   ],
+   "preview": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQABAAA4BaJYwC7AEN4KlygDtAAP74VMqk266MGDiSJ1qkUiHeIO5/uaPmgGMzPwhzLah5CkYBPUGVn2h2AAAA",
+   "bytes_960": 45902,
+   "bytes_480": 13580
+  },
+  "helium": {
+   "key": "feb147a9bad265213a7cd319f489c9dc485250a551456fc532c733e7c980f0c7",
+   "gateway_request_id": "20261125T071329.917Z-9vn3s3xqaf",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:13:37.124Z",
+   "file": ".agent/cache/img/feb147a9bad265213a7cd319f489c9dc485250a551456fc532c733e7c980f0c7.png",
+   "sha256": "bae1652196fc5bc6f28be50899b1601f481c077d56f18ad90c57ef5900014026",
+   "bytes": 1230648,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a glowing peach-pink helium discharge tube bent into a simple loop",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#cb7d78",
+    "#25212f",
+    "#79474f",
+    "#3d2f47"
+   ],
+   "preview": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABwAgCdASoQABAAA4BaJYwC7AYtfk0MUIo/nsHYAP74VnF0et4KwOTCs6VJLXTLlK402nKD5pBnDlVZeimuJ843rL+66wjhblhh6VxIfE07sE6I5ypF7dvYBuKGoiDhsAAAAA==",
+   "bytes_960": 41412,
+   "bytes_480": 12556
+  },
+  "holmium": {
+   "key": "9f2b3d342db0b6b9fd4a3e300f79dad437432dcbbafbe3034c9386997e74f025",
+   "gateway_request_id": "20261125T072245.121Z-ryqkbc3d1x",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:22:54.599Z",
+   "file": ".agent/cache/img/9f2b3d342db0b6b9fd4a3e300f79dad437432dcbbafbe3034c9386997e74f025.png",
+   "sha256": "723f8d89ae38926c767ed02af2191037615c2ce2840e7ad51c6b3313bf16273b",
+   "bytes": 1730007,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small piece of soft silvery holmium metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#aaa1a0",
+    "#504a4e",
+    "#282933",
+    "#7e7574"
+   ],
+   "preview": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQABAAA4BaJZwAAuX5+hMeBWAA/vhMoiBo8tfxpADpoEdd7XUo/fKtVBI7xuQZ56ItaSLkSFen7CHzI1jRjPwppRj/2JpMJpgAAA==",
+   "bytes_960": 81186,
+   "bytes_480": 29956
+  },
+  "hydrogen": {
+   "key": "9797adc1cc1cff8a3538580fc10bd87fc57917a069c9b6650925c7e8f9e7ac31",
+   "gateway_request_id": "20261125T071322.226Z-gmak911gnr",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:13:29.692Z",
+   "file": ".agent/cache/img/9797adc1cc1cff8a3538580fc10bd87fc57917a069c9b6650925c7e8f9e7ac31.png",
+   "sha256": "15ec5307b32ff868dfdf9a8dee21800a062389dbbc9bf54ce87217a40696fd75",
+   "bytes": 1169173,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a glowing pinkish-purple hydrogen discharge tube",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#d96fdc",
+    "#763e7a",
+    "#47354e",
+    "#222432"
+   ],
+   "preview": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQABAAA4BaJQBOgCIj4ULaLAD+932bqF6Kf81ETGHo2T4xDErRHiCi/E7nFSUYrciNPZ3Zo5bVR+VTPc8MPfSQAAA=",
+   "bytes_960": 29622,
+   "bytes_480": 8810
+  },
+  "indium": {
+   "key": "784862257c86f1558a73b3c2d2496e01d3470cecf10cacad89f06d0d5143fd12",
+   "gateway_request_id": "20261125T072004.109Z-fwg78ajq27",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:20:12.080Z",
+   "file": ".agent/cache/img/784862257c86f1558a73b3c2d2496e01d3470cecf10cacad89f06d0d5143fd12.png",
+   "sha256": "29f8f36f0bd9fc3f4086c2600962b5dde40d6e991e3d995169401a78985b1a40",
+   "bytes": 1570035,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small soft silvery-white indium ingot",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#b0acac",
+    "#565558",
+    "#827f81",
+    "#2f3440"
+   ],
+   "preview": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoQABAAA4BaJZQC7AEPAuy0RzBo8AD++EuJV2fpBK4iCILRrRDRUoewDUxz1OFJN5PgcpRkwxRfTdCw6QK2DJTvw4TAAA==",
+   "bytes_960": 74104,
+   "bytes_480": 18710
+  },
+  "iodine": {
+   "key": "10fe7525b1ffd9aa000687a3efac40c9aa32b01b61293eea1afa514a801ea96c",
+   "gateway_request_id": "20261125T072039.221Z-zn10rntc6j",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:20:47.972Z",
+   "file": ".agent/cache/img/10fe7525b1ffd9aa000687a3efac40c9aa32b01b61293eea1afa514a801ea96c.png",
+   "sha256": "46958f3e61d54fbcad4d7e3c632b14cf15f28714b72c77d48b35b47a6abd2965",
+   "bytes": 1538847,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "dark violet-black iodine crystals beside a wisp of violet vapour",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#253a5e",
+    "#575984",
+    "#3b3050",
+    "#232338"
+   ],
+   "preview": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQABAAA4BaJYgCdAEN3yOF52AA/vhRSGzZzKP5x2w7fyoBTnU+9bqozBJJihrucQc9IV8q5RYVFCYFV1YhLcngAAA=",
+   "bytes_960": 75504,
+   "bytes_480": 27212
+  },
+  "iridium": {
+   "key": "484610b52a04125595ebc4f7656d1fef0eb60ab617ca2006fc2c118ac46dde46",
+   "gateway_request_id": "20261125T072414.171Z-sm7zwyye09",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:24:21.620Z",
+   "file": ".agent/cache/img/484610b52a04125595ebc4f7656d1fef0eb60ab617ca2006fc2c118ac46dde46.png",
+   "sha256": "3d9446ea0a45b63d95d968c222b7f277799ea8ea228bcde5b7e6027d793fc46f",
+   "bytes": 1431641,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a spark plug with a fine silvery iridium-tipped electrode",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#c3bab7",
+    "#3b393c",
+    "#25262d",
+    "#74675e"
+   ],
+   "preview": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQABAAA4BaJZQC7AYqXvshAUbA8AD++EyYfw60/jzUEh6d0ppYiQO+fLD7hMeLqRUrVzsjU9WKioU7tGHYAAAA",
+   "bytes_960": 66000,
+   "bytes_480": 18356
+  },
+  "iron": {
+   "key": "2a37111b3652d2e76e181ac8aee75f8084b4d41edb26cbab95776709d6cb67a8",
+   "gateway_request_id": "20261125T071648.057Z-2vn3wgt8cq",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:16:55.678Z",
+   "file": ".agent/cache/img/2a37111b3652d2e76e181ac8aee75f8084b4d41edb26cbab95776709d6cb67a8.png",
+   "sha256": "d0d20de192db370987ea76a2a8e9734620a0261fc6ff531858a7aeec77adfaf3",
+   "bytes": 1503373,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a rusty iron nail lying beside a shiny new one",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#6b4c36",
+    "#463e3c",
+    "#26272f",
+    "#74747b"
+   ],
+   "preview": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAwAgCdASoQABAAA4BaJZwCdAEPBYINbKkqAAD++EybOg/SmDQ+IxahayXpzTWN3SOTA0vIwX5bPiSAAAA=",
+   "bytes_960": 77254,
+   "bytes_480": 19544
+  },
+  "krypton": {
+   "key": "19a59adb00477438252c4c67c3bd1d8786b6117533469705507f8975cf24b47d",
+   "gateway_request_id": "20261125T071808.288Z-tdfg8kxvc7",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:18:15.161Z",
+   "file": ".agent/cache/img/19a59adb00477438252c4c67c3bd1d8786b6117533469705507f8975cf24b47d.png",
+   "sha256": "5f200c17b5d99e197f2e425175ff02702a2e18448020aa6009ee97a1738b5ce8",
+   "bytes": 1186927,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a glowing whitish krypton discharge tube bent into a simple loop",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#cec4ec",
+    "#423b61",
+    "#6b5e95",
+    "#22223c"
+   ],
+   "preview": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAACQAgCdASoQABAAA4BaJQAB8NXlZjajzRhuEVf0AAD++FZOKmi4tnQUm8mNkRycMzjpGxujBVTw7gzeJtAtRc4y8k35vOA/3fcHulUJ9aAEOu2Pe9Ku1Lnr7kTEownTNFzdY5zoIodSPs/w4nLGe/bKAYEAAA==",
+   "bytes_960": 33052,
+   "bytes_480": 10346
+  },
+  "lanthanum": {
+   "key": "c7a0fbbd62cc23887411c16bf7e39b15139632e09908a0385bd280aaa7fbe58c",
+   "gateway_request_id": "20261125T072117.601Z-c321a5nmpp",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:21:26.395Z",
+   "file": ".agent/cache/img/c7a0fbbd62cc23887411c16bf7e39b15139632e09908a0385bd280aaa7fbe58c.png",
+   "sha256": "dab2ab9c205fc15a716364e1372ba0068fd1d268d68a4b016d87d378393024e8",
+   "bytes": 1637969,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small chunk of soft silvery-white lanthanum metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#aba1a1",
+    "#514d55",
+    "#282834",
+    "#7c7778"
+   ],
+   "preview": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQABAAA4BaJZQAAudm9doc8BAA/vhMmzWf3Uv2ljMtYh4wP2lDDo+TDCCj2c/klmsMNteABF6zZjxolClUumMTUErFJFkIbIAAAA==",
+   "bytes_960": 76370,
+   "bytes_480": 26148
+  },
+  "lawrencium": {
+   "key": "f982a254ab6e887d4f019d84b8ccc78acb7ffbb3e686995cb7881df6ba0f1c20",
+   "gateway_request_id": "20261125T072735.658Z-2p34rrdxrp",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:27:44.165Z",
+   "file": ".agent/cache/img/f982a254ab6e887d4f019d84b8ccc78acb7ffbb3e686995cb7881df6ba0f1c20.png",
+   "sha256": "1e5ee669f1cb4e37ccac64aa928dc0a382f623f14f378d3d82022e3861abf069",
+   "bytes": 1338700,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#876692",
+    "#1f1f32",
+    "#524061",
+    "#332c45"
+   ],
+   "preview": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACQAQCdASoQABAAA4BaJYwAAudE/kAA/vhMmyS6jEm3931rG0JXfuXP2aoaYjCvTeLvQ3UHtk7xAAAA",
+   "bytes_960": 40866,
+   "bytes_480": 11000
+  },
+  "lead": {
+   "key": "a44aab96d79fe706d0da364767183528f0d218425d968b5052180dadc103d546",
+   "gateway_request_id": "20261125T072448.152Z-0dknwswqsp",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:24:56.858Z",
+   "file": ".agent/cache/img/a44aab96d79fe706d0da364767183528f0d218425d968b5052180dadc103d546.png",
+   "sha256": "ef589ae8b2576d39629a3c19f9e92f65e6d0b890ca412df02d75cedb70c049bd",
+   "bytes": 1612324,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a heavy dull gray lead ingot with a freshly cut shiny edge",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#56585e",
+    "#8a8c92",
+    "#292d36",
+    "#363c48"
+   ],
+   "preview": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQABAAA4BaJZQCdAEPBH4etOGAAP74TJt14ED4ShACgtT1xzH8Wr+Yzqw9XdugApDGTeMRn42CmaM7R2TBWKgA",
+   "bytes_960": 79144,
+   "bytes_480": 18520
+  },
+  "lithium": {
+   "key": "0af8fb01e0a416f3a575386a12b3a36bf0d2f5b55db3ab7a350a7e13786ec935",
+   "gateway_request_id": "20261125T071337.297Z-fe8ewcz82k",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:13:45.954Z",
+   "file": ".agent/cache/img/0af8fb01e0a416f3a575386a12b3a36bf0d2f5b55db3ab7a350a7e13786ec935.png",
+   "sha256": "5156710173a168578b1811afb4e22d2d4ae89859d23fe5f49f978eec72b0d091",
+   "bytes": 1408866,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "soft silvery lithium metal pieces under argon",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#937a7a",
+    "#5f4d50",
+    "#38343d",
+    "#252630"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQABAAA4BaJZQAAudqaIwAAP74TJ+YVzM/w9LBJ06zvVj2ss7KM7I6+gbehk3Ntc+RkmNNVoJYgCAAAAA=",
+   "bytes_960": 65286,
+   "bytes_480": 18388
+  },
+  "livermorium": {
+   "key": "8c108eaac10af625fb736adef90ac31119d4218f4f477de1d42386b5f44993b7",
+   "gateway_request_id": "20261125T072917.104Z-d3mexww6td",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:29:24.426Z",
+   "file": ".agent/cache/img/8c108eaac10af625fb736adef90ac31119d4218f4f477de1d42386b5f44993b7.png",
+   "sha256": "8dc71e00951453054d4b79650e039b746b6e87c5f9fc04716956abdaf4e57fbf",
+   "bytes": 1271002,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#1d2837",
+    "#3c4b5e",
+    "#2c3747",
+    "#607082"
+   ],
+   "preview": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABQAgCdASoQABAAA4BaJZQCdAEfbjdnMdmYlwAA/veZgahEd7+CrEFfBmN0mRfVvNg0+vbSNN6O1HaRnl+wRtacabPwlWnOZuY56GdUUvCrpLgA",
+   "bytes_960": 36968,
+   "bytes_480": 10708
+  },
+  "lutetium": {
+   "key": "ddd0409d035162110942378963fe04bd6d1c3f9cb91ca004bfbf0b10214608df",
+   "gateway_request_id": "20261125T072325.426Z-0h81828vrb",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:23:32.602Z",
+   "file": ".agent/cache/img/ddd0409d035162110942378963fe04bd6d1c3f9cb91ca004bfbf0b10214608df.png",
+   "sha256": "86b2acd28cf07f339387c02704d34c0ef968c8ef52a5a886f07cef3cc37dd58a",
+   "bytes": 1598346,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small silvery-white metal ingot",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#a59b98",
+    "#2a2934",
+    "#7c6f71",
+    "#4e494e"
+   ],
+   "preview": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQABAAA4BaJZQAAucLB9yAhgAA/vhQhEQNihwKVKgbcnvS42w26Y+xI7m3TaGR0w2KA8rYnskUsHowc40KDZAA",
+   "bytes_960": 88350,
+   "bytes_480": 21270
+  },
+  "magnesium": {
+   "key": "02d9be307a0729c61a61322c6915396e76e22667060c4b875ff9fe4b9cd6f0b6",
+   "gateway_request_id": "20261125T071446.544Z-g3zc2pwvbr",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:14:53.052Z",
+   "file": ".agent/cache/img/02d9be307a0729c61a61322c6915396e76e22667060c4b875ff9fe4b9cd6f0b6.png",
+   "sha256": "36ec538a6aadff655c543537800b78314d9729206617a3631e5931bcefb1ead9",
+   "bytes": 1449517,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a coiled strip of shiny gray magnesium ribbon",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#776c65",
+    "#b2aaa6",
+    "#4f433f",
+    "#2d2c31"
+   ],
+   "preview": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQABAAA4BaJZQC7AEPAxkBBIAAAP74S0LUNVOaNF2/rqWaBo1RZrXtf/fp8iO8jG8Ju+0cRumMSgnMk5rAMxl70EAAAA==",
+   "bytes_960": 63470,
+   "bytes_480": 17052
+  },
+  "manganese": {
+   "key": "b2f6a997a298a1449ede33639f9b2f42afb59025a29994792bd150070c38347e",
+   "gateway_request_id": "20261125T071638.111Z-n2v1ttsshp",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:16:47.649Z",
+   "file": ".agent/cache/img/b2f6a997a298a1449ede33639f9b2f42afb59025a29994792bd150070c38347e.png",
+   "sha256": "9314b0e0d6977343e6ad14ff686b850105f3a47ee8a59ee0651a106b9f1c6d3f",
+   "bytes": 1716282,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a few brittle chunks of silvery-grey manganese metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#6b5e55",
+    "#8f8484",
+    "#2b2a2f",
+    "#423e41"
+   ],
+   "preview": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQAgCdASoQABAAA4BaJZwC7AELYK1OdBJD0AAA/vhPCsIc6DO3+0JZEAQdedliaFg8RKoRnZcCxXWbpJHpDGqG+4kfG3Xs9yu9QFiLNAA=",
+   "bytes_960": 82566,
+   "bytes_480": 30810
+  },
+  "meitnerium": {
+   "key": "8e77db14d288fa8a732d687dfc1b612d45574907e94a2be2d65e8334a4018b31",
+   "gateway_request_id": "20261125T072823.844Z-grvhjptyqd",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:28:31.223Z",
+   "file": ".agent/cache/img/8e77db14d288fa8a732d687dfc1b612d45574907e94a2be2d65e8334a4018b31.png",
+   "sha256": "47220823740c98917d6039f9363d3ae6affef1f968a2bdad49f4d85cce3598bd",
+   "bytes": 1322107,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#56493a",
+    "#22252d",
+    "#876f48",
+    "#323236"
+   ],
+   "preview": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQABAAA4BaJZQC7AEO/9Ik/zA4AP74TJtSrkmDSzjbIZGIz6Pb6hs9v0ANS7IJZQwp0bOgDiF/gAAA",
+   "bytes_960": 43146,
+   "bytes_480": 12484
+  },
+  "mendelevium": {
+   "key": "2787ce26330948cfe576156af470aa047be838340e9ab2a2f739b4ea0a09397a",
+   "gateway_request_id": "20261125T072721.116Z-026p4sw1hb",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:27:28.161Z",
+   "file": ".agent/cache/img/2787ce26330948cfe576156af470aa047be838340e9ab2a2f739b4ea0a09397a.png",
+   "sha256": "49282d8c142b57f1576a202f227fec3686c0c93497ff38379ecb3062a39ec5cd",
+   "bytes": 1306696,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#322d45",
+    "#785f84",
+    "#4c385d",
+    "#222135"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoQABAAA4BaJYwCdAEPC4RYdDI2UAD+937zuRCD8Y5uBuc4XxYRK8oaEy/uGz917wBgY1BFUP5ZBoGEAAA=",
+   "bytes_960": 38540,
+   "bytes_480": 10968
+  },
+  "mercury": {
+   "key": "afd623efb594779e1c732562882fa7311e0a7d9d2706508ce7d51de4fb508af7",
+   "gateway_request_id": "20261125T072431.748Z-xq7dxc7jsb",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:24:39.051Z",
+   "file": ".agent/cache/img/afd623efb594779e1c732562882fa7311e0a7d9d2706508ce7d51de4fb508af7.png",
+   "sha256": "d5f539581a1f717912b923c30f079ef2b534286db04ea9aef161d85bfb551e7f",
+   "bytes": 1513935,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small pool of shiny silver liquid mercury in a shallow glass dish",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#847c72",
+    "#ada8a7",
+    "#514c49",
+    "#2b2d34"
+   ],
+   "preview": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQABAAA4BaJZQAAuZ+a+YAAP74TKHmBJnhlYCvfbA9ycjJYcNpO1njQCMQI04T8HHD1gH3C0sYZOKWirTI3l9AAAA=",
+   "bytes_960": 76914,
+   "bytes_480": 22170
+  },
+  "molybdenum": {
+   "key": "d4525f208f7de4849dde281e9cd32a9fb98d8ac2ac8eaafc88ec73e164339e46",
+   "gateway_request_id": "20261125T071904.999Z-493cxbnby1",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:19:12.283Z",
+   "file": ".agent/cache/img/d4525f208f7de4849dde281e9cd32a9fb98d8ac2ac8eaafc88ec73e164339e46.png",
+   "sha256": "64d605eedf73e82e3dbf87fee0f571108855625ca76517c3e9a89e963059b25d",
+   "bytes": 1529060,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small polished bar of silvery-grey molybdenum metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#817f80",
+    "#262931",
+    "#585758",
+    "#37383d"
+   ],
+   "preview": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQABAAA4BaJZQAAueBOFimX/ogAP75EuQBRmUnPvFJbMUFbXRTWDMUsq/K+aUhOzFFVkDzG3iw8gAA",
+   "bytes_960": 72084,
+   "bytes_480": 17456
+  },
+  "moscovium": {
+   "key": "8d6443baa84149c1f9250e367dfdeaee05ad8316a8d67d14a7f69b452b427774",
+   "gateway_request_id": "20261125T072909.330Z-9epy8v23r0",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:29:16.926Z",
+   "file": ".agent/cache/img/8d6443baa84149c1f9250e367dfdeaee05ad8316a8d67d14a7f69b452b427774.png",
+   "sha256": "3ebb53656c176708e5a3b2217225699afe27111bec43d970d4b7644066396a49",
+   "bytes": 1342865,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single faint blue-white glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#1a2433",
+    "#3b4b60",
+    "#2d384a",
+    "#607489"
+   ],
+   "preview": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQABAAA4BaJYwCdAEN5S36R94XwAD+931Pbco3btmHuJkjotdTbPPhaTp5pdr9+qgjgonuA+AGYpRenS1bWWAA",
+   "bytes_960": 40632,
+   "bytes_480": 10812
+  },
+  "neodymium": {
+   "key": "50202064f311af54aed6ad4a0d3a45c3e4e52603f02c109ed227568c9d47040f",
+   "gateway_request_id": "20261125T072144.848Z-h76mc0t3gq",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:21:51.609Z",
+   "file": ".agent/cache/img/50202064f311af54aed6ad4a0d3a45c3e4e52603f02c109ed227568c9d47040f.png",
+   "sha256": "8621859f6032492c3fc827e9ee8cb44b4621cc6980d5b96922690ac3984bd4d2",
+   "bytes": 1456861,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small stack of shiny nickel-plated disc magnets",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#c0b1a2",
+    "#9c8c81",
+    "#342d36",
+    "#6b5659"
+   ],
+   "preview": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQABAAA4BaJZQAAudegEH4AP74THn9kSHZ+Wex6tHPf/mmF123woV115J2CofQJ8CBXqiRHnZocAAA",
+   "bytes_960": 64150,
+   "bytes_480": 16534
+  },
+  "neon": {
+   "key": "b3b47a8a77cd26ebe530776bf859bff71878750d724a4e7792aecad37af83798",
+   "file": ".agent/cache/img/b3b47a8a77cd26ebe530776bf859bff71878750d724a4e7792aecad37af83798.png",
+   "sha256": "26209a1a010368a7074b43edb61d12b78449be12e8dba0b911732aeef02d9162",
+   "bytes": 1226285,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a glowing red-orange neon tube bent into a simple loop",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#a93b1f",
+    "#ea5619",
+    "#2e2434",
+    "#722f30"
+   ],
+   "preview": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADQAgCdASoQABAAA4BaJbACdH8D2LyIxL/heGz2OswAAP73gNGcVb55IqrlrM/niVhULhgcQKhynuDCRT68GfystzL76JmJCn7cnLuLHvsS28xsvOu4/2QBIeGrqZWCtJIDY0PcFy0bChj+JjIIBN5adPSAAA==",
+   "bytes_960": 45768,
+   "bytes_480": 14006
+  },
+  "neptunium": {
+   "key": "638475aca838dbf12eab99a094d82676aebd19a96f6cad963839d372050fd194",
+   "gateway_request_id": "20261125T072611.236Z-xre04tnn68",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:26:19.326Z",
+   "file": ".agent/cache/img/638475aca838dbf12eab99a094d82676aebd19a96f6cad963839d372050fd194.png",
+   "sha256": "7c9626c7ed56917cf1ed45f2bd8531f11e06e42b1603275f48e6bd9e0036da71",
+   "bytes": 1237047,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small silvery metal bead inside a sealed glass ampoule",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#594d62",
+    "#8b778c",
+    "#373344",
+    "#212332"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQABAAA4BaJZQAAudgJtrPlPAAAP74TfDtKIW7MdVkEuocfduVknAoyfae7tmdx+3vwcsgV2C/MKQAAAA=",
+   "bytes_960": 42208,
+   "bytes_480": 12232
+  },
+  "nickel": {
+   "key": "341f1f5614de57fe259b8b2eff381769ada528f878e39f2a383fa077710ffcbd",
+   "gateway_request_id": "20261125T071704.629Z-47z0fq40eh",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:17:13.119Z",
+   "file": ".agent/cache/img/341f1f5614de57fe259b8b2eff381769ada528f878e39f2a383fa077710ffcbd.png",
+   "sha256": "2e002a60fbc5f268a284cf9482b2af585e41f3f411a77c12ce45014cbf8a5b47",
+   "bytes": 1746674,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a lump of silvery-white nickel metal with a slight golden tinge",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#2a292c",
+    "#b29b81",
+    "#50473d",
+    "#887258"
+   ],
+   "preview": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQABAAA4BaJYwCdAEOgkpOs2ceAAD+93kGmJ2/t3E93eZzjd2SfKvTrCs5l40bSs6KytEPM8lVMhfOWS1aQU78anNnVywuWlfEU0k9+mxOnAAA",
+   "bytes_960": 88638,
+   "bytes_480": 27184
+  },
+  "nihonium": {
+   "key": "4e108dab2eddb8a6df78e5c1de5a8ed661cc121383ca98fa825a01704fb2b1c1",
+   "gateway_request_id": "20261125T072854.794Z-8yhp7k0x6j",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:29:01.874Z",
+   "file": ".agent/cache/img/4e108dab2eddb8a6df78e5c1de5a8ed661cc121383ca98fa825a01704fb2b1c1.png",
+   "sha256": "c30faae78cceacd6ac5ca715bf12ad1c493613cef8b7c4a073cc78c6305de7ce",
+   "bytes": 1250108,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#27313d",
+    "#5f6d7a",
+    "#374451",
+    "#1c232e"
+   ],
+   "preview": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAwAgCdASoQABAAA4BaJZQCdAEPAeaZbdreAAD++E3wijazceIdlWighVMqa4lW5kiLCSLw/5766PAA",
+   "bytes_960": 30954,
+   "bytes_480": 8960
+  },
+  "niobium": {
+   "key": "b8e9d39c3c868faa1a4419c7370165be0c9772d9f379ffecaf2896576387e5a7",
+   "gateway_request_id": "20261125T071856.689Z-kw0asaem6s",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:19:04.798Z",
+   "file": ".agent/cache/img/b8e9d39c3c868faa1a4419c7370165be0c9772d9f379ffecaf2896576387e5a7.png",
+   "sha256": "43811b1d125d698e60c2f6ed2306127f8df0ae78ac9cd3bc764851b69ef0d1bc",
+   "bytes": 1424834,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a pair of iridescent blue-purple anodized niobium earrings",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#292936",
+    "#4473cd",
+    "#2e3d7c",
+    "#50434e"
+   ],
+   "preview": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoQABAAA4BaJYgCdAYqNvtEoIYOgAD+93n+DsscDtoFvQbVlKI1BHV3V3Fsf7JBPAmRc2xyQyJxmw4NIsr5SEOxLL1AAA==",
+   "bytes_960": 73290,
+   "bytes_480": 20944
+  },
+  "nitrogen": {
+   "key": "9fd196583e78ffd5d6f54702aa555b0a82719401512131eb8ab42bda415fa335",
+   "gateway_request_id": "20261125T071411.903Z-thpnw4c43x",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:14:20.967Z",
+   "file": ".agent/cache/img/9fd196583e78ffd5d6f54702aa555b0a82719401512131eb8ab42bda415fa335.png",
+   "sha256": "d7b370cc49eef9215f501bc43439551041f1edc1ff755e5098f5a076e826d39a",
+   "bytes": 1464528,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "liquid nitrogen pouring from a steel flask with white cold vapour",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#273339",
+    "#78838b",
+    "#b1b9c6",
+    "#4b555c"
+   ],
+   "preview": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABQAgCdASoQABAAA4BaJZQCdAEQywUP95qmvcwA/vhOXH77/K8FihOFeOl6wxqvF/VYjk4aX96aIg/2IfdHLDr0eqr5AlrYgxyGTWITI13ujb9EV+g3ELZwwq/HAAAA",
+   "bytes_960": 61418,
+   "bytes_480": 19086
+  },
+  "nobelium": {
+   "key": "48f3c7e729234650055b9867b782a3ec5ff2d8b1187e3440e0c3d95c5838b88f",
+   "gateway_request_id": "20261125T072728.341Z-w30sj2hebw",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:27:35.487Z",
+   "file": ".agent/cache/img/48f3c7e729234650055b9867b782a3ec5ff2d8b1187e3440e0c3d95c5838b88f.png",
+   "sha256": "3e6fef063bc805d535c42f8d1f187987dc6d08005a9322a74c7b4814b46c756a",
+   "bytes": 1210133,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single thin golden glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#22212d",
+    "#322c38",
+    "#785763",
+    "#4b3b40"
+   ],
+   "preview": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQABAAA4BaJZQAAudaas3UAAD+93jcS9mHw47o+Q6jX2FEICA81sLo2GgPo9Pu+a7N8m8voAA=",
+   "bytes_960": 34422,
+   "bytes_480": 9280
+  },
+  "oganesson": {
+   "key": "11e55118f44fe965f17f4a214ea9ebb60f5663d8dbbef93b54fb7bdb5328bd00",
+   "gateway_request_id": "20261125T072924.761Z-w0m2sje8sp",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:29:31.718Z",
+   "file": ".agent/cache/img/11e55118f44fe965f17f4a214ea9ebb60f5663d8dbbef93b54fb7bdb5328bd00.png",
+   "sha256": "2b2bffa2fda84309d5d376ad2ce498b97ffc8ea5e9129212533f255112128fbc",
+   "bytes": 1256663,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#333348",
+    "#696281",
+    "#423e5e",
+    "#222437"
+   ],
+   "preview": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQABAAA4BaJYwAAudaO6dAAP74TfORJBBX06MRzcCGXHpPl/vNYyqbH0YYexH0IvXnY9rgAAA=",
+   "bytes_960": 37074,
+   "bytes_480": 10988
+  },
+  "osmium": {
+   "key": "8fa6dcf88aec19caa87e7cbbc96255fd20665fbd594818bc2857d6c8d1a83b26",
+   "gateway_request_id": "20261125T072404.857Z-98f230698v",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:24:13.756Z",
+   "file": ".agent/cache/img/8fa6dcf88aec19caa87e7cbbc96255fd20665fbd594818bc2857d6c8d1a83b26.png",
+   "sha256": "dea48a7b11faa13ac17f383f8996c11d27347d2908abe11a52d53d0bc9f5919c",
+   "bytes": 1716222,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small cluster of bluish-white osmium metal crystals",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#3a434f",
+    "#8ea0b1",
+    "#262b35",
+    "#566270"
+   ],
+   "preview": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQABAAA4BaJYwCdAEPAwou0YKAAP74TH9166ULnJJgpbwjJ3Vsx7BoZoDSrDmblJ+O+RhlqZghSxbCUXdhzcEilz13t281Jvx9BtgA",
+   "bytes_960": 84698,
+   "bytes_480": 26564
+  },
+  "oxygen": {
+   "key": "e4b66f5819b4019dc0063a3db88adf658889b032b6c66f1fefe9b2c3e018fe37",
+   "gateway_request_id": "20261125T071421.176Z-qr8gtjshwr",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:14:28.863Z",
+   "file": ".agent/cache/img/e4b66f5819b4019dc0063a3db88adf658889b032b6c66f1fefe9b2c3e018fe37.png",
+   "sha256": "4aadee7f87cadc9c945d9f622d3c46cd145949f6864b133af85ed12d391db5d3",
+   "bytes": 1363934,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "pale blue liquid oxygen in a clear glass dewar flask",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#86b2c5",
+    "#517a93",
+    "#1f2936",
+    "#335266"
+   ],
+   "preview": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABwAgCdASoQABAAA4BaJZACdAYuRqpNj2E2A00AAP74VmHOuXCFzADeiLm9TOPXLjk16gjw5xV49fg0i0vbhhAXxUq2r4K+vVuZuZDdb9fktmXxrPZ3/ck3fAA=",
+   "bytes_960": 55446,
+   "bytes_480": 13786
+  },
+  "palladium": {
+   "key": "d04077c9243eaa55ff75a6a46dea5f8a78556f3fd0adb5e3fa2f3fd0c9586737",
+   "gateway_request_id": "20261125T071939.700Z-3w4cnfa3br",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:19:48.676Z",
+   "file": ".agent/cache/img/d04077c9243eaa55ff75a6a46dea5f8a78556f3fd0adb5e3fa2f3fd0c9586737.png",
+   "sha256": "65b3b888169172c65cd181fac2f64681e0b63b87d5c4ba1c6746a6526aca5332",
+   "bytes": 1614239,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small heap of silvery-white palladium metal granules",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#817166",
+    "#a49387",
+    "#584f4a",
+    "#2d2e34"
+   ],
+   "preview": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQABAAA4BaJZwAAudnRdqur4AA/vhMmtQC50DG7ywtla4kDyI5SCTBSi1TxNE4d61M4NCPPKtq7+K4VqfLh6mzQAA=",
+   "bytes_960": 79048,
+   "bytes_480": 30002
+  },
+  "phosphorus": {
+   "key": "e0713a4d08f32b19b9a151067e5c5dbc794db6fc3d69e03f04bfbc1833673848",
+   "gateway_request_id": "20261125T071512.149Z-m3pz0mnndx",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:15:19.919Z",
+   "file": ".agent/cache/img/e0713a4d08f32b19b9a151067e5c5dbc794db6fc3d69e03f04bfbc1833673848.png",
+   "sha256": "8f5824c479c349dfa85a5f20f0256ac8494d993fed19065904dbd94a65a3198d",
+   "bytes": 1616561,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small heap of dark red phosphorus powder",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#7b2525",
+    "#4e5e5a",
+    "#581b1b",
+    "#2d2b32"
+   ],
+   "preview": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQABAAA4BaJZgCdAEPAFhqkqgA/vd+Z4XVPshhfQRCHCdeOcmDkTk709NmY/4z86RuIAAA",
+   "bytes_960": 86630,
+   "bytes_480": 29866
+  },
+  "platinum": {
+   "key": "8659da144f99b5da438192a175215ce93eb81856d425f316f008d2a1760aa2dd",
+   "gateway_request_id": "20261125T072421.823Z-4zd89xkn8w",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:24:31.038Z",
+   "file": ".agent/cache/img/8659da144f99b5da438192a175215ce93eb81856d425f316f008d2a1760aa2dd.png",
+   "sha256": "ad62940e301a23915a45d9ac60ee279e0540539239a134fce6504876f7a7d310",
+   "bytes": 1651258,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small raw silvery-white platinum nugget",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#b5a699",
+    "#29282e",
+    "#544c49",
+    "#837469"
+   ],
+   "preview": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQABAAA4BaJZQC7AEPAwo43ypMAAD++EtIo4jfyPtRWVeM4iKd28A60cp/VYZLr5FE41923G96TnWzUdkVoiXunHtIqEkV4HZmAAAA",
+   "bytes_960": 83736,
+   "bytes_480": 29396
+  },
+  "plutonium": {
+   "key": "ff61409bec1f320fcac9c3492795888537b40a1187f5698bf31d881dbca30961",
+   "gateway_request_id": "20261125T072619.505Z-6f6y6ey70w",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:26:26.839Z",
+   "file": ".agent/cache/img/ff61409bec1f320fcac9c3492795888537b40a1187f5698bf31d881dbca30961.png",
+   "sha256": "8e3d04bd05c3974b830017114ee1dcf7656e2e15bf0a8638af86e8914f57ca79",
+   "bytes": 1277669,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small dull silvery-grey plutonium metal button",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#756376",
+    "#4d4256",
+    "#322e3e",
+    "#202331"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQABAAA4BaJYwAAucSEp4AAP74TfVCYV3FCGxpw5L4Y2B1dKpq2ZQVlvGI+J0fTPE3/p5ovWF9ksgAAAA=",
+   "bytes_960": 46276,
+   "bytes_480": 12886
+  },
+  "polonium": {
+   "key": "8007578b10321273998f30523bffb3c6b727bbd9503982ba1bda2fcbc530f636",
+   "gateway_request_id": "20261125T072507.241Z-rm4hte2nzg",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:25:15.592Z",
+   "file": ".agent/cache/img/8007578b10321273998f30523bffb3c6b727bbd9503982ba1bda2fcbc530f636.png",
+   "sha256": "96fb28836631f72cc583be2ac5749dc3a5a50263ad494cb7ee3dbb691c688826",
+   "bytes": 1272722,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a tiny dull silvery metal fleck inside a sealed glass ampoule",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#5b696a",
+    "#3a454c",
+    "#1d222b",
+    "#29313a"
+   ],
+   "preview": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoQABAAA4BaJZQCdAEPAGKP0EDA4AD++EybNOb2BZMp7Ui/hQXA2farYiQo7lpmOrOeWZoa+NAAAA==",
+   "bytes_960": 47292,
+   "bytes_480": 13610
+  },
+  "potassium": {
+   "key": "91bea67b061f3c6e7623aea0939c8a98511489e1e57d71739dee0da9abd1623e",
+   "gateway_request_id": "20261125T071547.852Z-z5f2tqfaz7",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:15:55.892Z",
+   "file": ".agent/cache/img/91bea67b061f3c6e7623aea0939c8a98511489e1e57d71739dee0da9abd1623e.png",
+   "sha256": "3650b8dc4980fdab398a39e48765b658c3c7c811ad655e8c28fc61f800d88cbc",
+   "bytes": 1375620,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a few small silvery potassium metal pieces in a sealed glass ampoule",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#23242e",
+    "#312f38",
+    "#4d4045",
+    "#837173"
+   ],
+   "preview": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQABAAA4BaJZQCw7EPAcQ288AAAP73eNHHnDlbaGmcutu/pnvG4dbZKqFzworpZzM1ZlAPcCJ0UAAA",
+   "bytes_960": 56930,
+   "bytes_480": 16034
+  },
+  "praseodymium": {
+   "key": "56b7dec1e1c44b822ccca6d1cc216ac89607c5131f451202d8f3fedb37ee43c2",
+   "gateway_request_id": "20261125T072136.172Z-fqmkh211df",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:21:44.558Z",
+   "file": ".agent/cache/img/56b7dec1e1c44b822ccca6d1cc216ac89607c5131f451202d8f3fedb37ee43c2.png",
+   "sha256": "86eb2ce95f20dcbf6ad95be56c955a21d68b723b8256c935daac0118cf95cfc8",
+   "bytes": 1664341,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small piece of silvery praseodymium metal with a faint green oxide coating",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#8c8979",
+    "#69675b",
+    "#2a2a34",
+    "#474446"
+   ],
+   "preview": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQABAAA4BaJZwAAudnRdSDKsgAAP74TJs2kQLxZwNftPkC5J/UhjXhvqKbNyxyTEdaxJR4HeD8uMow4yqvTb0JgGwAAA==",
+   "bytes_960": 83282,
+   "bytes_480": 28098
+  },
+  "promethium": {
+   "key": "920ef30970727ad3511b0c5e9665009e6fa32826e39db6a884d47f01fc7c0e04",
+   "gateway_request_id": "20261125T072151.804Z-fpvcvgarns",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:21:59.229Z",
+   "file": ".agent/cache/img/920ef30970727ad3511b0c5e9665009e6fa32826e39db6a884d47f01fc7c0e04.png",
+   "sha256": "fbaa8f03822a1f8225bc6fad2905ba703fc41476b499b436c43b2d649dbc45a6",
+   "bytes": 1225646,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a sealed glass ampoule holding a tiny speck of pale, faintly glowing salt",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#856570",
+    "#4b3f4d",
+    "#1f212c",
+    "#2d2a36"
+   ],
+   "preview": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQABAAA4BaJZQCw7EO/9KUAAAA/vhMi9mpWG4hmdgFwzyJO6Ofe6Xpe3TpxIkLL45AAA==",
+   "bytes_960": 40314,
+   "bytes_480": 11028
+  },
+  "protactinium": {
+   "key": "90ea25edff98ff5abed46305bb1944b7047ed9378692954105cdf1af1243db13",
+   "gateway_request_id": "20261125T072603.052Z-087bgmj36j",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:26:10.856Z",
+   "file": ".agent/cache/img/90ea25edff98ff5abed46305bb1944b7047ed9378692954105cdf1af1243db13.png",
+   "sha256": "9d20b76f004e869256b5cb828b7a8c2973490265d9dc5672065ce98da54949ce",
+   "bytes": 1402062,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a tiny silvery-grey protactinium metal fragment",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#746177",
+    "#4a3c54",
+    "#202231",
+    "#2d2b3b"
+   ],
+   "preview": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQABAAA4BaJZQAAucQMeagxIAA/vd+9bE60ceaZ9BCzK1PqCtNBlsIBP+egYnOWzYCqmt52D8AAA==",
+   "bytes_960": 61364,
+   "bytes_480": 16398
+  },
+  "radium": {
+   "key": "36191829bda38b14d043bb95f2ad4709966bf87e54faacf10d813f9976e14514",
+   "gateway_request_id": "20261125T072538.550Z-c501yx3p7t",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:25:46.767Z",
+   "file": ".agent/cache/img/36191829bda38b14d043bb95f2ad4709966bf87e54faacf10d813f9976e14514.png",
+   "sha256": "628e0b9a34115192b17b8e203ceed1540723ebc0b8b9aa14832eb38dce3e5dd2",
+   "bytes": 1334781,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a tiny silvery-white metal sample with a dark black surface layer",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#806658",
+    "#302e32",
+    "#534039",
+    "#1f2129"
+   ],
+   "preview": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJZQAAudgJmpDVDAA/vhN85mNqU/lU+iuEPaBtXOm7dTKbf+EWeWns7P54dG8u3YAuAAA",
+   "bytes_960": 57776,
+   "bytes_480": 16514
+  },
+  "radon": {
+   "key": "3ec6b7597783978ca887630a777747c21bf04d82bd4e0c8064a45932dd318abf",
+   "gateway_request_id": "20261125T072523.180Z-kc07c9s5cb",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:25:30.320Z",
+   "file": ".agent/cache/img/3ec6b7597783978ca887630a777747c21bf04d82bd4e0c8064a45932dd318abf.png",
+   "sha256": "2f3223a64f6d2240b4e4bd386fc2fecdb471c02900a5e42c14baddb3ba31790a",
+   "bytes": 1228079,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a sealed glass ampoule filled with gas glowing a soft red",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#392b3c",
+    "#9c2a28",
+    "#6c3b4c",
+    "#1f202f"
+   ],
+   "preview": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQABAAA4BaJYgCdAEO+SfM0tqAAP73fu+pr6Zzi0KdXhXZEBhzPL4TDaGOL7JhAXhcXfVpqUq9gAAA",
+   "bytes_960": 42556,
+   "bytes_480": 12336
+  },
+  "rhenium": {
+   "key": "92b3cad4de0f0ad2c8198c999c15fc788a4418f96d45320e0484c81083604cc9",
+   "gateway_request_id": "20261125T072355.770Z-g12d1h7m9h",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:24:04.560Z",
+   "file": ".agent/cache/img/92b3cad4de0f0ad2c8198c999c15fc788a4418f96d45320e0484c81083604cc9.png",
+   "sha256": "23f291ca599b7c84edc91a2fefab706ecf930f12fe7c038d55eb43718c3b1e26",
+   "bytes": 1684980,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small bar of silvery-grey rhenium metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#6b6767",
+    "#8a8583",
+    "#2d2d31",
+    "#4f4b4b"
+   ],
+   "preview": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQABAAA4BaJZQAAubQ8zt1WWAA/vhN9VNl6hhcDcj1CaoRBXWwy9+8K1Ls28DFgyZpVxqdMFUxcYC/6sAAAA==",
+   "bytes_960": 84502,
+   "bytes_480": 28162
+  },
+  "rhodium": {
+   "key": "96297fd03e0593b6289d2aa40c821857368060b7e42886a297c9baaf1be20d77",
+   "gateway_request_id": "20261125T071931.739Z-zs4wf6g36d",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:19:39.483Z",
+   "file": ".agent/cache/img/96297fd03e0593b6289d2aa40c821857368060b7e42886a297c9baaf1be20d77.png",
+   "sha256": "5d691dc005c9443305a9e57e267b6de9d2a140e349e7e25150251b0ae02ab147",
+   "bytes": 1390282,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a white gold ring with a bright mirror-like rhodium plating",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#ada8a3",
+    "#696463",
+    "#403f41",
+    "#242831"
+   ],
+   "preview": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQABAAA4BaJZQAAudkNE+1tAD+93kFn4NB71cMyLEQNWZdKXnKDlgs7pthm4XFe8csjQw9HKp2rmc0wA9QYVgAAAA=",
+   "bytes_960": 64708,
+   "bytes_480": 19796
+  },
+  "roentgenium": {
+   "key": "4aac87f547a0535c3619d94ecc0a1d43dcfd4dbe0c8854d3cf0534d6ed219a91",
+   "gateway_request_id": "20261125T072840.787Z-8sgbsjf9k6",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:28:47.313Z",
+   "file": ".agent/cache/img/4aac87f547a0535c3619d94ecc0a1d43dcfd4dbe0c8854d3cf0534d6ed219a91.png",
+   "sha256": "4ee88423eadd5d741164217c1054829859fa6361962d14d6b2f41c516693a0f6",
+   "bytes": 1266523,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing pale-gold particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#23242a",
+    "#60513b",
+    "#ac9162",
+    "#3a352f"
+   ],
+   "preview": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoQABAAA4BaJZQAAudl9l3u0AD++JP3kM9bwYEYoRfV1THTGM1T3iQKWAC2MmPgAwAkk7QIFFVLdLwxoSOGS61opu6dnWArYCOA4AAA",
+   "bytes_960": 43692,
+   "bytes_480": 13190
+  },
+  "rubidium": {
+   "key": "276c0ce5191bcd8978f38631ddd27dc53ef9ab2b3f172f43096f808be04c7ab0",
+   "gateway_request_id": "20261125T071815.335Z-aphwx83tdh",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:18:23.160Z",
+   "file": ".agent/cache/img/276c0ce5191bcd8978f38631ddd27dc53ef9ab2b3f172f43096f808be04c7ab0.png",
+   "sha256": "1b456fadd43b30c9489b050c1a74a6948e8957ce2be44f47dc571cd21e220082",
+   "bytes": 1377850,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small lump of soft silvery-white rubidium metal in a sealed glass ampoule",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#41363d",
+    "#968180",
+    "#655256",
+    "#23222d"
+   ],
+   "preview": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQABAAA4BaJZQAAudQgLyF7aAA/vhMmzWe+LgHw/vqfxolTVY4djXo3fg8rhPMSWFYAAAA",
+   "bytes_960": 59980,
+   "bytes_480": 16456
+  },
+  "ruthenium": {
+   "key": "e1cc0d44987f996697212a006cfd8a518036a065ca649d532a41f06810b6c53f",
+   "gateway_request_id": "20261125T071923.189Z-g47gr9jnhx",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:19:31.434Z",
+   "file": ".agent/cache/img/e1cc0d44987f996697212a006cfd8a518036a065ca649d532a41f06810b6c53f.png",
+   "sha256": "34c211efc81e00bd686d47f9b8f354362d03a53559cb20b959bfc1c80a494589",
+   "bytes": 1615546,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small pile of silvery-grey ruthenium metal pellets",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#76706d",
+    "#a49d98",
+    "#303035",
+    "#514c49"
+   ],
+   "preview": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQABAAA4BaJZQAAudN8Y8LntwAAP74Td2jv7xJ7S0wA1OxjmS9w0MM0KgOi0JPuKJ4DodMOVIvcj6aN9N+7iLanrfhELc+sawAAA==",
+   "bytes_960": 72090,
+   "bytes_480": 24668
+  },
+  "rutherfordium": {
+   "key": "71d895c5a127ed93f219a5e662e9b24ac8a7c3dda0ef687d2838102d5426fa77",
+   "gateway_request_id": "20261125T072744.343Z-hrbme0a0td",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:27:52.452Z",
+   "file": ".agent/cache/img/71d895c5a127ed93f219a5e662e9b24ac8a7c3dda0ef687d2838102d5426fa77.png",
+   "sha256": "4c544fe5341daec1fd8494fe65a28ba4ea9e7eeca0b5054995ba1a1515773585",
+   "bytes": 1303631,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single bright orange glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#87643c",
+    "#242226",
+    "#332d2c",
+    "#513d2c"
+   ],
+   "preview": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQABAAA4BaJZQAAudvElKCAAD+98c1QJyZVBRDK/fIY7/nO7XrBDFz1HEvS38gPY3nxF7mtS/IyrsArrEauLqyAR10gAAA",
+   "bytes_960": 47390,
+   "bytes_480": 13654
+  },
+  "samarium": {
+   "key": "c4258acbef9356ad0c5086460d9ad145258f08dce68b25dbcd208fe1f3eb9637",
+   "gateway_request_id": "20261125T072159.412Z-b026d80crq",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:22:06.646Z",
+   "file": ".agent/cache/img/c4258acbef9356ad0c5086460d9ad145258f08dce68b25dbcd208fe1f3eb9637.png",
+   "sha256": "b985970588db6252b87a8945307e23f7b743aaa8ab88f4b64340cd76ba09deca",
+   "bytes": 1387463,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a pair of dark grey samarium-cobalt ring magnets",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#5e5657",
+    "#8c7a7c",
+    "#2d2b33",
+    "#403d44"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQABAAA4BaJZQAAudFaJ2wAAD++EyJfMqlLkvYcU5AatgDI5NVedVzHacpmEbfb1VyC22n281p9rzQAAA=",
+   "bytes_960": 52940,
+   "bytes_480": 12276
+  },
+  "scandium": {
+   "key": "dd19de6657cca2245245cee044b53ceee6e8650e8711d3ca7b6334e1048566dc",
+   "gateway_request_id": "20261125T071604.044Z-pw6r4zh6xr",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:16:12.765Z",
+   "file": ".agent/cache/img/dd19de6657cca2245245cee044b53ceee6e8650e8711d3ca7b6334e1048566dc.png",
+   "sha256": "25b3019ad7e66b9f2b6e4f786afe4ae4f40844e9b2fffd5773a461f9435e666e",
+   "bytes": 1658549,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a few small silvery-white scandium metal pieces",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#2f2e32",
+    "#b2a9a4",
+    "#7f7771",
+    "#524c49"
+   ],
+   "preview": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQABAAA4BaJZwAAudgFzME3gAA/vhMef2Q+B3ZXHPsEXoWHXC5rdMasuYG/0FbxZjI3b+cxBfUah5IsPPLrEbqMdWAAAAA",
+   "bytes_960": 80692,
+   "bytes_480": 26674
+  },
+  "seaborgium": {
+   "key": "d82fd66b7427eecaaef4884194e5982f957b66a0986c9f13b898c8c3642c30d9",
+   "gateway_request_id": "20261125T072800.098Z-sjcpsy0219",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:28:07.531Z",
+   "file": ".agent/cache/img/d82fd66b7427eecaaef4884194e5982f957b66a0986c9f13b898c8c3642c30d9.png",
+   "sha256": "7b01fad1507c30212a77122ae69927668579acd8f21ac4460c226536500e1e06",
+   "bytes": 1258295,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#5c4e3d",
+    "#26272b",
+    "#8f7957",
+    "#3d3939"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQABAAA4BaJZwAAudtCRuMEAAA/vhO9cV9zN+5N+07xflAvMT2E9OuZfJBV0RTUOaKgwoUrcVQPgBIAAA=",
+   "bytes_960": 41450,
+   "bytes_480": 12418
+  },
+  "selenium": {
+   "key": "3b38db1f93554e40c814cec47a99b575f116f9f6e1dab7cfd3d49c142d10f243",
+   "gateway_request_id": "20261125T071751.109Z-4ewjsey24x",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:17:59.512Z",
+   "file": ".agent/cache/img/3b38db1f93554e40c814cec47a99b575f116f9f6e1dab7cfd3d49c142d10f243.png",
+   "sha256": "d998a0bba3b48f8010d5c093dda181a13d62b935b7218df7141a8d8d4d4568fc",
+   "bytes": 1638359,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a lump of grey metallic selenium beside a small pile of brick-red selenium powder",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#2f3137",
+    "#534544",
+    "#98301b",
+    "#7e7979"
+   ],
+   "preview": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoQABAAA4BaJaAC7AEOgkEB1pXK0AD++EyiOXbl6juSXZmTU+qtBHXE0sGytexgivNeuHyKEWr/0ksy7Ebcs+mJPgAAAA==",
+   "bytes_960": 84896,
+   "bytes_480": 28782
+  },
+  "silicon": {
+   "key": "5601a0ae051c6ee15069345be043a5c27e52408c78bc4704d4b8d22ee3157c73",
+   "gateway_request_id": "20261125T071502.677Z-4ej6hmdfd4",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:15:11.869Z",
+   "file": ".agent/cache/img/5601a0ae051c6ee15069345be043a5c27e52408c78bc4704d4b8d22ee3157c73.png",
+   "sha256": "4350f3ff53f8c0ec98bd058883bfdc4329cb1a1f6e55b2992c89faa7650d3604",
+   "bytes": 1655705,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a shiny blue-grey chunk of crystalline silicon",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#222f3c",
+    "#313e4d",
+    "#48586d",
+    "#7d8ea7"
+   ],
+   "preview": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQABAAA4BaJYwCdAEPDYsCbG9kAAD++E8LBGJt8XRLCUURJBBcMIdBSY96RjrZdKeuwPiOxFR7Gu9li7IGg8smQaJpZGERcAr/4BSooo5iPAAA",
+   "bytes_960": 75284,
+   "bytes_480": 26532
+  },
+  "silver": {
+   "key": "1fb30526ebaa397ec85889d6e20a4836add544b8bae09e13f084d9c98c4087d5",
+   "gateway_request_id": "20261125T071948.964Z-yac99w2m18",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:19:55.824Z",
+   "file": ".agent/cache/img/1fb30526ebaa397ec85889d6e20a4836add544b8bae09e13f084d9c98c4087d5.png",
+   "sha256": "dedda5a2c95c4f3090483070a5c68f79f13f84527276c75240e3998a9da56156",
+   "bytes": 1344393,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a shiny polished silver spoon",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#a19e9d",
+    "#22252c",
+    "#58514d",
+    "#2c2e34"
+   ],
+   "preview": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQABAAA4BaJZQAAudHoTUgAP73eQE8tyHqnpBs6GPcQh1Y96c9CMcHzcUtgvercziZQkIXS2HkAAAA",
+   "bytes_960": 48280,
+   "bytes_480": 11534
+  },
+  "sodium": {
+   "key": "9d6fcf317cbf14d8aa3c012236b447a0ecf739512d52471539cb592af462212b",
+   "gateway_request_id": "20261125T071436.904Z-zzf17phakc",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:14:46.364Z",
+   "file": ".agent/cache/img/9d6fcf317cbf14d8aa3c012236b447a0ecf739512d52471539cb592af462212b.png",
+   "sha256": "f5e4e6f98402b174ce69dfa53de86058fb0b6bc46eab120b868b761858248fb9",
+   "bytes": 1358302,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a soft silvery-white lump of sodium metal",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#9a8787",
+    "#615152",
+    "#25262d",
+    "#3b353b"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQABAAA4BaJZQCdAEO/zTWh5AA/vhMi+xQz7o/mMp6w/goAvy4OWM2NggY9HHCzV3sodDnOj3qAfkwAAA=",
+   "bytes_960": 52832,
+   "bytes_480": 14440
+  },
+  "strontium": {
+   "key": "36c24c3bfc5f20a457471e73707e653def495ff617c25b56cc8c5903135ec2ec",
+   "gateway_request_id": "20261125T071823.344Z-hfqm7aqkm9",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:18:31.873Z",
+   "file": ".agent/cache/img/36c24c3bfc5f20a457471e73707e653def495ff617c25b56cc8c5903135ec2ec.png",
+   "sha256": "8e7209f77441a62999e0f39530a6f797628cd959916cc90bcf616550f4bff59d",
+   "bytes": 1423926,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "small silvery pale-yellow strontium metal pieces in a sealed glass ampoule",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#9b856a",
+    "#645143",
+    "#413938",
+    "#272830"
+   ],
+   "preview": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQABAAA4BaJZQCdAEO4TcHL6zAAP74S66Qm0ulzwv6lLzQqZExizu5CQBWL+d4A2BgNdsj0cfF8Pn3H6tT3cLsZ4AAAA==",
+   "bytes_960": 70118,
+   "bytes_480": 19452
+  },
+  "sulfur": {
+   "key": "d6b467d3c1785c16dfbea139c0bb63b057412fbcbf2cf61ff9fef7cf6dd25dce",
+   "gateway_request_id": "20261125T071520.227Z-kxqgcpq6mr",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:15:28.221Z",
+   "file": ".agent/cache/img/d6b467d3c1785c16dfbea139c0bb63b057412fbcbf2cf61ff9fef7cf6dd25dce.png",
+   "sha256": "427a3d930a4212c2781900e241aa837da070fbd9aec9d8d3f7c5ced2d844ef7a",
+   "bytes": 1541935,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a pile of bright yellow crystalline sulfur lumps",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#c1a313",
+    "#776925",
+    "#dfc22d",
+    "#383a35"
+   ],
+   "preview": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABQAgCdASoQABAAA4BaJbACdAYv/vvCr0NvTqAA/vd60/ZoY4yYcGZbJdNV1xqJ5QeimwlO0xQV1JKJ5T7/rLN0pAwCjsjEZxwLLIN+1MPVaBn6oNNjtmor+8pcWdm4t9ylxfzsDN+np/Wtd3oPJk22Jp1gKjnl6AA=",
+   "bytes_960": 86580,
+   "bytes_480": 24554
+  },
+  "tantalum": {
+   "key": "5132b1e6b6c5e3117323c9117f9d7f1c20ca3ed096a4b562278b4aa9eb8e5dd7",
+   "gateway_request_id": "20261125T072340.135Z-p566k2xxeh",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:23:47.471Z",
+   "file": ".agent/cache/img/5132b1e6b6c5e3117323c9117f9d7f1c20ca3ed096a4b562278b4aa9eb8e5dd7.png",
+   "sha256": "44b23eba24b6317bf0fb6ae507f244408990ebe5e958673ffd7d01356d9ce201",
+   "bytes": 1381589,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a polished blue-grey metal rod",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#242a35",
+    "#505255",
+    "#7f8d9e",
+    "#34383f"
+   ],
+   "preview": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQABAAA4BaJZQCdAEO/SfrCAD++E3luTXR8tAMz6bOWpw4f6yPG32ngm8dQRB0xF+JE5XHp4yCSBmss3WOSAAA",
+   "bytes_960": 50006,
+   "bytes_480": 12484
+  },
+  "technetium": {
+   "key": "aac8bf2898335990c5f7b76e3f8a348160a7c31cd6d8848208bd6f4ee9cca84b",
+   "gateway_request_id": "20261125T071912.495Z-khdetdbw78",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:19:22.990Z",
+   "file": ".agent/cache/img/aac8bf2898335990c5f7b76e3f8a348160a7c31cd6d8848208bd6f4ee9cca84b.png",
+   "sha256": "77bfc213f3850effba99fcb909d1701f3e1f8b6aaf4601cce41bdc667fa41e5e",
+   "bytes": 1390044,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small piece of silvery-gray crystalline metal in a sealed glass ampoule",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#897665",
+    "#24252b",
+    "#605042",
+    "#3c3534"
+   ],
+   "preview": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQABAAA4BaJZQC7AEPBKpuVtcQAP74TJt2Oezpc5itEdu1Sq56EVOCBOFUhPkiBmmKrXe3iOkQ1o1x4vvdoqAA",
+   "bytes_960": 68322,
+   "bytes_480": 19448
+  },
+  "tellurium": {
+   "key": "667219c47ac88c272f9de419c11d288cdbcf5bc65663e84c359463e2252cf284",
+   "gateway_request_id": "20261125T072029.668Z-zpg57hfzjg",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:20:38.771Z",
+   "file": ".agent/cache/img/667219c47ac88c272f9de419c11d288cdbcf5bc65663e84c359463e2252cf284.png",
+   "sha256": "11b6bf3f3c50cb3f04e41040f33c1fdae1d564866c4434f5408dbdc3338ea22c",
+   "bytes": 1748341,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a brittle silver-white chunk of tellurium",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#9f9999",
+    "#28303b",
+    "#737071",
+    "#4e5054"
+   ],
+   "preview": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQABAAA4BaJZwAAtz3q+YMKbUAAP74UaVoq8VGlLQMGCZ6txUERbu2mUt3SN4Z4xOvTE4JQqxr1kCOn6kQD9G4gIgSPDyAAAA=",
+   "bytes_960": 86586,
+   "bytes_480": 26638
+  },
+  "tennessine": {
+   "key": "adf64d424f21ae357d92945e6546ab54b118eb85132eb446474bb93f4d12c8ec",
+   "file": ".agent/cache/img/adf64d424f21ae357d92945e6546ab54b118eb85132eb446474bb93f4d12c8ec.png",
+   "sha256": "6ca80642895e57c26f230b17676594cdb798405da46dd29d897cf62165656e99",
+   "bytes": 1352045,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a single glowing violet particle track",
+   "style": "trace",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#5a6c92",
+    "#242d4e",
+    "#323f63",
+    "#1b2439"
+   ],
+   "preview": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQABAAA4BaJZACdAEPAguvTQAA/veFBTiyxDW7cu1KLCCJFG+ydOle6cQZ/7rkK/4juGR3AHPnSSkuiUEMLLGB8JnYAA==",
+   "bytes_960": 45156,
+   "bytes_480": 13314
+  },
+  "terbium": {
+   "key": "95dbf1683496db54c5ed404b4c6fa798f400cdf31963bc3167576a9bb5dac95a",
+   "gateway_request_id": "20261125T072225.815Z-qkggy908qd",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:22:35.291Z",
+   "file": ".agent/cache/img/95dbf1683496db54c5ed404b4c6fa798f400cdf31963bc3167576a9bb5dac95a.png",
+   "sha256": "a12dd0e879e3ff98ba4e23c936af75aabba0af80dd878d223b1fc1b15fc918aa",
+   "bytes": 1740677,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small piece of silvery-white terbium metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#b8acaa",
+    "#8a8180",
+    "#5d565b",
+    "#2b2a38"
+   ],
+   "preview": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQABAAA4BaJZQAAt4/4DL8Zk4AAP74Uh+8qYhNsdVxB9SehZY5/YeYhj6WYHoEdAc/XSFvKRACNGhpvIiuYGkhwzCJ9d/fn9jJmfjDZAAAAA==",
+   "bytes_960": 83320,
+   "bytes_480": 31678
+  },
+  "thallium": {
+   "key": "3fb3745acad31860c4c9bb7e7ef09cdad38ec7709dcb4cfd4459dbe5bc70d303",
+   "gateway_request_id": "20261125T072439.254Z-tcswcrrr7s",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:24:47.869Z",
+   "file": ".agent/cache/img/3fb3745acad31860c4c9bb7e7ef09cdad38ec7709dcb4cfd4459dbe5bc70d303.png",
+   "sha256": "e65c973eb9a88e9916229372f918ce4d310b18154ffb56701cdc2be754dda067",
+   "bytes": 1652840,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a soft silvery-grey metal chunk with a dull bluish tarnish",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#62676d",
+    "#85898f",
+    "#252b36",
+    "#404650"
+   ],
+   "preview": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoQABAAA4BaJZQCdAEPAwpFXAEeAAD++FGZQ0o7tkr2BfGHwQWEVCiqA/8Ye8IFbasnaB83tNbWM/JHy74/ZkNgAAA=",
+   "bytes_960": 77132,
+   "bytes_480": 25816
+  },
+  "thorium": {
+   "key": "a8c4f776d3afc4d1d54391a7a8fad67e99a13225a4d31142d026e8a3c7653856",
+   "gateway_request_id": "20261125T072555.109Z-vg35me88bs",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:26:02.860Z",
+   "file": ".agent/cache/img/a8c4f776d3afc4d1d54391a7a8fad67e99a13225a4d31142d026e8a3c7653856.png",
+   "sha256": "c5851d413a00f69a3db891b0a95050147f92464251df7b5c3ac41dedf91b5951",
+   "bytes": 1360261,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small piece of light silver thorium metal with an olive-grey tarnish",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#827582",
+    "#584f57",
+    "#242531",
+    "#393642"
+   ],
+   "preview": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQABAAA4BaJZQCw7EO/8OyIAD++Epf7T7T5tHIp3xsjzUsMQ9XMARHHaIXGDapNokxjOqYwIAAAA==",
+   "bytes_960": 59244,
+   "bytes_480": 16678
+  },
+  "thulium": {
+   "key": "dfb2531290dfdb36a1f0c983cd921424213715a786e2cc6fcf5d87d7a36d3348",
+   "gateway_request_id": "20261125T072305.516Z-9h8cj2thhm",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:23:17.609Z",
+   "file": ".agent/cache/img/dfb2531290dfdb36a1f0c983cd921424213715a786e2cc6fcf5d87d7a36d3348.png",
+   "sha256": "8bc2005ce65061c23eae9df783ce9b084787af959ce85190646651293e5b3a54",
+   "bytes": 1718439,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small chunk of bright silvery-gray thulium metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#7f7778",
+    "#b0a9a9",
+    "#292834",
+    "#514d54"
+   ],
+   "preview": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQABAAA4BaJZQAAucPodsQAAD++EyiIFnyC7bPOY9DnpzwwdcqGDnrHqnJra6g5Je7cVmeRD9i9uRjtRleFAoWQK2o2YkMAAA=",
+   "bytes_960": 87256,
+   "bytes_480": 30226
+  },
+  "tin": {
+   "key": "23c9c5a4be6dde82ab1434bc7fc0249522a5a8a58478d34f41d90b6f37930654",
+   "gateway_request_id": "20261125T072012.267Z-4w3kg1j80h",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:20:19.717Z",
+   "file": ".agent/cache/img/23c9c5a4be6dde82ab1434bc7fc0249522a5a8a58478d34f41d90b6f37930654.png",
+   "sha256": "53d5701ef03852f86df0a6ae92a9e11e30348f1c7c76d78a49b82b4020101069",
+   "bytes": 1431615,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a bent bar of dull silvery tin",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#202630",
+    "#83807e",
+    "#323741",
+    "#4e5158"
+   ],
+   "preview": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoQABAAA4BaJZQC7AEO/xwcLf46AAD++ElPgHnyar5Gj+9/s5ANCgk8hx/EczgfZmind4/oB123JrI5BBc2oXmsIdHuwAAA",
+   "bytes_960": 61334,
+   "bytes_480": 15784
+  },
+  "titanium": {
+   "key": "efd7cfa1ba46c6202ef8ae5a81001f7c3c25bf09de750639d17c5566f151b4a5",
+   "gateway_request_id": "20261125T071613.073Z-q6ff2yhzbw",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:16:20.073Z",
+   "file": ".agent/cache/img/efd7cfa1ba46c6202ef8ae5a81001f7c3c25bf09de750639d17c5566f151b4a5.png",
+   "sha256": "4878dec6f616de6f4e4dd7ad14712a1e2c093290311ff363d09b891dca009ff5",
+   "bytes": 1262509,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a pair of thin brushed-silver titanium eyeglass frames",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#1e222d",
+    "#3a3a40",
+    "#554b47",
+    "#292d36"
+   ],
+   "preview": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoQABAAA4BaJZQCdAYn+YGmrQwgAP73eNG80byJ0j5PkeCjnDJec+9Q+8kkjA9XN97/x4AA",
+   "bytes_960": 43454,
+   "bytes_480": 12152
+  },
+  "tungsten": {
+   "key": "6b8997ba60f5672033e9f48f26dea1d0473459b5becb177fa13271606bec1fd1",
+   "gateway_request_id": "20261125T072347.651Z-mrftheae9g",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:23:55.603Z",
+   "file": ".agent/cache/img/6b8997ba60f5672033e9f48f26dea1d0473459b5becb177fa13271606bec1fd1.png",
+   "sha256": "800db29f95d189d86337f3934c41fe81e1bb0c45d052101f4a9fd2d90e79b40a",
+   "bytes": 1292724,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a clear incandescent light bulb with a glowing coiled tungsten filament",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#412d1f",
+    "#77512d",
+    "#232227",
+    "#c09861"
+   ],
+   "preview": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQABAAA4BaJQBOj+ACryKvhCMYUAD++FZgBY2H95me4qm2Zu2qXM+Tz9M7AOg1X3AXj+zdv1/BYiC+B4reEVGLb+Xesfs6//m11IM8QqOrSElPFTekaIAA",
+   "bytes_960": 54174,
+   "bytes_480": 16240
+  },
+  "uranium": {
+   "key": "5ebe17fbf48ac126b34bf7e718d619cdd96d0ef9ede8f160ef9a472c8c01bca7",
+   "file": ".agent/cache/img/5ebe17fbf48ac126b34bf7e718d619cdd96d0ef9ede8f160ef9a472c8c01bca7.png",
+   "sha256": "79a6e45c034ae572fbdf3e4815dd5089b9679540c811eef81f5f565fb09719f0",
+   "bytes": 1439114,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a small dark grey uranium metal pellet in a sealed glass ampoule",
+   "style": "sealed",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#716276",
+    "#22222e",
+    "#32303d",
+    "#473e50"
+   ],
+   "preview": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAQCdASoQABAAA4BaJZQAAudWI4AA/vhMi9mgFM1nDuBdGT72PY/3a4qhfRLWYBBT12oOyyUKyGfnYBYAAA==",
+   "bytes_960": 65270,
+   "bytes_480": 17966
+  },
+  "vanadium": {
+   "key": "6ccebefa83f268235a61884979ce68a6a408283a7d538f8632fb4e1e2cb4cc09",
+   "gateway_request_id": "20261125T071620.232Z-0jv59k9wqd",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:16:28.895Z",
+   "file": ".agent/cache/img/6ccebefa83f268235a61884979ce68a6a408283a7d538f8632fb4e1e2cb4cc09.png",
+   "sha256": "f2c58013d5cd6379aae544d829a8b320715ba5d71ca62246a9e05a828a43b618",
+   "bytes": 1829031,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a polished chunk of steel-blue vanadium metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#7f8b99",
+    "#43454a",
+    "#292c32",
+    "#59616a"
+   ],
+   "preview": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQABAAA4BaJZQCdAEPAv2P7bzV8AD++E0ahxMFgo4XMnMKPjtZEdcMVukwU8ri1VItry92X2g0GUjefnPVV9g6AJABz8vTZAA=",
+   "bytes_960": 89376,
+   "bytes_480": 26806
+  },
+  "xenon": {
+   "key": "d07861fdce0316471fc932b2930d8d206c210214c631236d7fcbc0831540ee12",
+   "gateway_request_id": "20261125T072048.263Z-y05xt7djmx",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:20:58.278Z",
+   "file": ".agent/cache/img/d07861fdce0316471fc932b2930d8d206c210214c631236d7fcbc0831540ee12.png",
+   "sha256": "2a14cc36f69c15519a63ff841fecc4782dfd1baf43f22985a9abdba87e508b21",
+   "bytes": 1234048,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a glass discharge tube glowing with soft blue-lavender light",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#7369d5",
+    "#403b86",
+    "#212232",
+    "#2e2e4a"
+   ],
+   "preview": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQABAAA4BaJZAC7AEPAblQh+DYAP74TJrYOxxPjwc+UfkTBy5xct4XzKwkTC5yI2aWoGno/Nz5ecTyoAA=",
+   "bytes_960": 37434,
+   "bytes_480": 10766
+  },
+  "ytterbium": {
+   "key": "ee2e92800d271c66f1bdad2028307e9df91d29229f8dae4ff270ff5741e98794",
+   "gateway_request_id": "20261125T080610.398Z-7r6eczv6rk",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T08:06:19.403Z",
+   "file": ".agent/cache/img/ee2e92800d271c66f1bdad2028307e9df91d29229f8dae4ff270ff5741e98794.png",
+   "sha256": "358b4007bf3758d6058a60d24e9686ec1d0a82118efafd63d8c7909f74130f16",
+   "bytes": 1617569,
+   "attempt": 2,
+   "quality": "high",
+   "prompt_subject": "a few small irregular, freshly cut pieces of shiny silvery ytterbium metal",
+   "style": "specimen",
+   "qa": {
+    "machine": null,
+    "human": null
+   },
+   "palette": [
+    "#74696e",
+    "#9c9294",
+    "#4c474e",
+    "#31323b"
+   ],
+   "preview": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQABAAA4BaJZQAAudN8Y8VWGAAAP75EuHhu3IvcLn12taOmRi6mJKCYwmaBfZ6E3pht/QzWRV69TsRfXL3GTHizkQNkAAA",
+   "bytes_960": 71864,
+   "bytes_480": 25796
+  },
+  "yttrium": {
+   "key": "138cc72931ab15c499f2f617d7b013a776219fe0d3b8516c9abea177a019cb6a",
+   "gateway_request_id": "20261125T071832.058Z-djg8hmz35t",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:18:47.792Z",
+   "file": ".agent/cache/img/138cc72931ab15c499f2f617d7b013a776219fe0d3b8516c9abea177a019cb6a.png",
+   "sha256": "96ce5e73eaefa3ab764c5f370e21ea44db8e8e3fdc61f32fc7939cc8d5ad7691",
+   "bytes": 1763060,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a lustrous silvery chunk of yttrium metal",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#a0978f",
+    "#766f69",
+    "#2a2c32",
+    "#4d4a49"
+   ],
+   "preview": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQABAAA4BaJZwAAucPsxQmUAAA/vhNDSUg2hT37JGMJzFszQnmK6RrTygayFy2VPI6+Ld6m8vvdJ2fPJDL9leDKvlQGNj/3eAIqypN5+CoAA==",
+   "bytes_960": 83672,
+   "bytes_480": 31282
+  },
+  "zinc": {
+   "key": "b0ec8bd7378625c43b50c1d388bbfb8a7402ebd3b5f2de4ad5f2bcdc6932bc35",
+   "gateway_request_id": "20261125T071713.944Z-rd46mywe36",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T07:17:22.958Z",
+   "file": ".agent/cache/img/b0ec8bd7378625c43b50c1d388bbfb8a7402ebd3b5f2de4ad5f2bcdc6932bc35.png",
+   "sha256": "a3a267417c91a326f569844d2b1690e00b21546b2c825b4d173eaace49e59114",
+   "bytes": 1730938,
+   "attempt": 1,
+   "quality": "high",
+   "prompt_subject": "a bluish-white piece of zinc metal with a crystalline surface",
+   "style": "specimen",
+   "qa": {
+    "machine": "ocr-clean",
+    "human": null
+   },
+   "palette": [
+    "#949eab",
+    "#6a717a",
+    "#45474d",
+    "#2a2b31"
+   ],
+   "preview": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQABAAA4BaJZQCdAEPBe5x2CwBYAD++Eybdj8r/EFhc3wBRd+WXOa3MUeTMzj1Hl0Gbs6yDxk8M3czWcBTyW58bbV28U+bg9S57FbOj9//BaAA",
+   "bytes_960": 80934,
+   "bytes_480": 31826
+  },
+  "zirconium": {
+   "key": "a358cf1453af98c6304d9ee1a68f992a4805d0586af7ff4dcfdbae652d284911",
+   "gateway_request_id": "20261125T080544.311Z-1hr5wq0wqx",
+   "cost_usd": 0.054,
+   "created": "2026-11-25T08:05:53.711Z",
+   "file": ".agent/cache/img/a358cf1453af98c6304d9ee1a68f992a4805d0586af7ff4dcfdbae652d284911.png",
+   "sha256": "468671d9559df2409732f9747e951eae7612a4b6981beab0d5f8a2ecbcef40ef",
+   "bytes": 1740768,
+   "attempt": 2,
+   "quality": "high",
+   "prompt_subject": "a lustrous silvery-grey zirconium metal crystal bar with a rough, knobbly metallic surface",
+   "style": "specimen",
+   "qa": {
+    "machine": null,
+    "human": null
+   },
+   "palette": [
+    "#968f8b",
+    "#746e69",
+    "#4e4a47",
+    "#303034"
+   ],
+   "preview": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABwAQCdASoQABAAA4BaJZwAAuYMQAD++EyYf6zhOzAxROTDYoIMjgjft15l+j55excIfO9Xo0IfVEiJaSayAixjLhT1T1gAAAA=",
+   "bytes_960": 84494,
+   "bytes_480": 31134
+  }
+ },
+ "calls": [
+  {
+   "id": "20261125T071322.226Z-gmak911gnr",
+   "key": "9797adc1cc1cff8a3538580fc10bd87fc57917a069c9b6650925c7e8f9e7ac31",
+   "asset": "hydrogen",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:13:29.688Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071329.917Z-9vn3s3xqaf",
+   "key": "feb147a9bad265213a7cd319f489c9dc485250a551456fc532c733e7c980f0c7",
+   "asset": "helium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:13:37.123Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071337.297Z-fe8ewcz82k",
+   "key": "0af8fb01e0a416f3a575386a12b3a36bf0d2f5b55db3ab7a350a7e13786ec935",
+   "asset": "lithium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:13:45.951Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071346.172Z-pbx0z0tebp",
+   "key": "c2fc62dd306cf30baf6bb5402402dde804160d65dbfb9cadc750fc750d96710e",
+   "asset": "beryllium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:13:53.585Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071353.794Z-mysakhh11k",
+   "key": "0eee0b0d8e103bd7d6e9d7fb652dd497b220d49b0acc06b882f285babc25af2f",
+   "asset": "boron",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:14:02.608Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071403.019Z-6q1g8ta0ne",
+   "key": "6ac447f4cfd3392552ca9003b4bf00561cf6339c4792fadb62eaaca9a8019f27",
+   "asset": "carbon",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:14:11.621Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071411.903Z-thpnw4c43x",
+   "key": "9fd196583e78ffd5d6f54702aa555b0a82719401512131eb8ab42bda415fa335",
+   "asset": "nitrogen",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:14:20.964Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071421.176Z-qr8gtjshwr",
+   "key": "e4b66f5819b4019dc0063a3db88adf658889b032b6c66f1fefe9b2c3e018fe37",
+   "asset": "oxygen",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:14:28.860Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071429.048Z-aqrztam4sm",
+   "key": "8463311c603ab6c19163829219f7ad2ae1a9c48e184509f7400de66152676d0a",
+   "asset": "fluorine",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:14:36.566Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071436.904Z-zzf17phakc",
+   "key": "9d6fcf317cbf14d8aa3c012236b447a0ecf739512d52471539cb592af462212b",
+   "asset": "sodium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:14:46.361Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071446.544Z-g3zc2pwvbr",
+   "key": "02d9be307a0729c61a61322c6915396e76e22667060c4b875ff9fe4b9cd6f0b6",
+   "asset": "magnesium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:14:53.051Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071453.236Z-ywaffhz5xr",
+   "key": "499952fe4c3b9a768f8f995b0b2de1b3b7340033b4e6bd843b3883115e5392bf",
+   "asset": "aluminium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:15:02.368Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071502.677Z-4ej6hmdfd4",
+   "key": "5601a0ae051c6ee15069345be043a5c27e52408c78bc4704d4b8d22ee3157c73",
+   "asset": "silicon",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:15:11.867Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071512.149Z-m3pz0mnndx",
+   "key": "e0713a4d08f32b19b9a151067e5c5dbc794db6fc3d69e03f04bfbc1833673848",
+   "asset": "phosphorus",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:15:19.915Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071520.227Z-kxqgcpq6mr",
+   "key": "d6b467d3c1785c16dfbea139c0bb63b057412fbcbf2cf61ff9fef7cf6dd25dce",
+   "asset": "sulfur",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:15:28.218Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071528.428Z-7bdyq77ae2",
+   "key": "6373578a5d3d0309d0e8201f0ce90ea4bf0f83dd2e15b106004d650b7202391e",
+   "asset": "chlorine",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:15:39.246Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071539.427Z-3899aqechn",
+   "key": "8cc3661d14afb9759931edacd7845526ccac5d3668a89c080398f27d8b61fca4",
+   "asset": "argon",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:15:47.693Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071547.852Z-z5f2tqfaz7",
+   "key": "91bea67b061f3c6e7623aea0939c8a98511489e1e57d71739dee0da9abd1623e",
+   "asset": "potassium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:15:55.891Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071556.065Z-dkb1hetbkw",
+   "key": "6a03edb6f9b5112a6c4bf798c8a617493a8c1c56dc0361193927eacb2a7ff505",
+   "asset": "calcium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:16:03.854Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071604.044Z-pw6r4zh6xr",
+   "key": "dd19de6657cca2245245cee044b53ceee6e8650e8711d3ca7b6334e1048566dc",
+   "asset": "scandium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:16:12.762Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071613.073Z-q6ff2yhzbw",
+   "key": "efd7cfa1ba46c6202ef8ae5a81001f7c3c25bf09de750639d17c5566f151b4a5",
+   "asset": "titanium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:16:20.072Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071620.232Z-0jv59k9wqd",
+   "key": "6ccebefa83f268235a61884979ce68a6a408283a7d538f8632fb4e1e2cb4cc09",
+   "asset": "vanadium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:16:28.893Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071629.427Z-3an8pff2a3",
+   "key": "dbf7ba575f0fca84a138f9a90246cc32b896244b4709a909072b4d9f441cd308",
+   "asset": "chromium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:16:37.822Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071638.111Z-n2v1ttsshp",
+   "key": "b2f6a997a298a1449ede33639f9b2f42afb59025a29994792bd150070c38347e",
+   "asset": "manganese",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:16:47.645Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071648.057Z-2vn3wgt8cq",
+   "key": "2a37111b3652d2e76e181ac8aee75f8084b4d41edb26cbab95776709d6cb67a8",
+   "asset": "iron",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:16:55.677Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071655.870Z-d3fxtcv8hz",
+   "key": "f0c090d7015f322d722140398df829152f3aa86e96e2dea1a28c87fdc8400b24",
+   "asset": "cobalt",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:17:04.316Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071704.629Z-47z0fq40eh",
+   "key": "341f1f5614de57fe259b8b2eff381769ada528f878e39f2a383fa077710ffcbd",
+   "asset": "nickel",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:17:13.118Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071713.944Z-rd46mywe36",
+   "key": "b0ec8bd7378625c43b50c1d388bbfb8a7402ebd3b5f2de4ad5f2bcdc6932bc35",
+   "asset": "zinc",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:17:22.957Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071723.336Z-qqwcybzj5s",
+   "key": "3871318e93285ff44488ee5bf0070cf28bfcec4271eb73c42590d9c17caec6ca",
+   "asset": "gallium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:17:31.066Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071731.281Z-pmrnmzef41",
+   "key": "83ab12665ad1021e26671c2e2d875e1cbb0d1f56b4b4a1d96ea15c00fab7e875",
+   "asset": "germanium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:17:41.433Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071741.965Z-sb40dpa7ev",
+   "key": "b2cadf65a917a791a4134582bb29e7701ee7d47ff9023c8c7586673164490917",
+   "asset": "arsenic",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:17:50.697Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071751.109Z-4ewjsey24x",
+   "key": "3b38db1f93554e40c814cec47a99b575f116f9f6e1dab7cfd3d49c142d10f243",
+   "asset": "selenium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:17:59.511Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071759.805Z-bksc0mqmqs",
+   "key": "ade4ce58458b9851c4f23144f40d92077b35edfa4e62fc4792e41248c62599cc",
+   "asset": "bromine",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:18:08.095Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071808.288Z-tdfg8kxvc7",
+   "key": "19a59adb00477438252c4c67c3bd1d8786b6117533469705507f8975cf24b47d",
+   "asset": "krypton",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:18:15.158Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071815.335Z-aphwx83tdh",
+   "key": "276c0ce5191bcd8978f38631ddd27dc53ef9ab2b3f172f43096f808be04c7ab0",
+   "asset": "rubidium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:18:23.158Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071823.344Z-hfqm7aqkm9",
+   "key": "36c24c3bfc5f20a457471e73707e653def495ff617c25b56cc8c5903135ec2ec",
+   "asset": "strontium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:18:31.872Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071832.058Z-djg8hmz35t",
+   "key": "138cc72931ab15c499f2f617d7b013a776219fe0d3b8516c9abea177a019cb6a",
+   "asset": "yttrium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:18:47.791Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071848.266Z-75vghzqzzq",
+   "key": "ea5ebad771d24abe2889cb37d14e268eee2cc0ece8e6a38be5c4c75c4e00026d",
+   "asset": "zirconium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:18:56.462Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071856.689Z-kw0asaem6s",
+   "key": "b8e9d39c3c868faa1a4419c7370165be0c9772d9f379ffecaf2896576387e5a7",
+   "asset": "niobium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:19:04.795Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071904.999Z-493cxbnby1",
+   "key": "d4525f208f7de4849dde281e9cd32a9fb98d8ac2ac8eaafc88ec73e164339e46",
+   "asset": "molybdenum",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:19:12.278Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071912.495Z-khdetdbw78",
+   "key": "aac8bf2898335990c5f7b76e3f8a348160a7c31cd6d8848208bd6f4ee9cca84b",
+   "asset": "technetium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:19:22.989Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071923.189Z-g47gr9jnhx",
+   "key": "e1cc0d44987f996697212a006cfd8a518036a065ca649d532a41f06810b6c53f",
+   "asset": "ruthenium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:19:31.430Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071931.739Z-zs4wf6g36d",
+   "key": "96297fd03e0593b6289d2aa40c821857368060b7e42886a297c9baaf1be20d77",
+   "asset": "rhodium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:19:39.480Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071939.700Z-3w4cnfa3br",
+   "key": "d04077c9243eaa55ff75a6a46dea5f8a78556f3fd0adb5e3fa2f3fd0c9586737",
+   "asset": "palladium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:19:48.675Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071948.964Z-yac99w2m18",
+   "key": "1fb30526ebaa397ec85889d6e20a4836add544b8bae09e13f084d9c98c4087d5",
+   "asset": "silver",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:19:55.822Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T071955.985Z-aktq943zqw",
+   "key": "324d87477287a7c163e9b9e19f43a1049edf7e000c6026ca1461f247dc3c0231",
+   "asset": "cadmium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:20:03.914Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072004.109Z-fwg78ajq27",
+   "key": "784862257c86f1558a73b3c2d2496e01d3470cecf10cacad89f06d0d5143fd12",
+   "asset": "indium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:20:12.079Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072012.267Z-4w3kg1j80h",
+   "key": "23c9c5a4be6dde82ab1434bc7fc0249522a5a8a58478d34f41d90b6f37930654",
+   "asset": "tin",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:20:19.714Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072019.915Z-dk8zvpadkt",
+   "key": "784d2f859a74c945f791842863ee0dd3319c995d5e717d203800b2986ac62d1b",
+   "asset": "antimony",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:20:29.367Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072029.668Z-zpg57hfzjg",
+   "key": "667219c47ac88c272f9de419c11d288cdbcf5bc65663e84c359463e2252cf284",
+   "asset": "tellurium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:20:38.769Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072039.221Z-zn10rntc6j",
+   "key": "10fe7525b1ffd9aa000687a3efac40c9aa32b01b61293eea1afa514a801ea96c",
+   "asset": "iodine",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:20:47.970Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072048.263Z-y05xt7djmx",
+   "key": "d07861fdce0316471fc932b2930d8d206c210214c631236d7fcbc0831540ee12",
+   "asset": "xenon",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:20:58.276Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072058.448Z-eteahhz42f",
+   "key": "6c9aa7a0bd09eadcb53e9459ab45f687a7c2402b1b58b6cf0f996f13382b7dd2",
+   "asset": "caesium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:21:08.421Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072108.621Z-r9sdefdsw9",
+   "key": "35fdbf9f7577ed30d402012e0500c98cd14164d516d5b18827959b4d110a1ee7",
+   "asset": "barium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:21:17.319Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072117.601Z-c321a5nmpp",
+   "key": "c7a0fbbd62cc23887411c16bf7e39b15139632e09908a0385bd280aaa7fbe58c",
+   "asset": "lanthanum",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:21:26.394Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072126.681Z-1czpevadkg",
+   "key": "ddd83c7aad78f668331502c241604f93f1442383e2f6f4a9193dd495110179db",
+   "asset": "cerium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:21:35.893Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072136.172Z-fqmkh211df",
+   "key": "56b7dec1e1c44b822ccca6d1cc216ac89607c5131f451202d8f3fedb37ee43c2",
+   "asset": "praseodymium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:21:44.557Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072144.848Z-h76mc0t3gq",
+   "key": "50202064f311af54aed6ad4a0d3a45c3e4e52603f02c109ed227568c9d47040f",
+   "asset": "neodymium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:21:51.608Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072151.804Z-fpvcvgarns",
+   "key": "920ef30970727ad3511b0c5e9665009e6fa32826e39db6a884d47f01fc7c0e04",
+   "asset": "promethium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:21:59.226Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072159.412Z-b026d80crq",
+   "key": "c4258acbef9356ad0c5086460d9ad145258f08dce68b25dbcd208fe1f3eb9637",
+   "asset": "samarium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:22:06.642Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072206.839Z-0455ehtbmj",
+   "key": "db095402f049c39b48c635428a465ef88631c7211ce78c65b386acbd29980428",
+   "asset": "europium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:22:16.664Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072216.844Z-zh8mhwj8fh",
+   "key": "4efd70edf31820cb6f2ca5faae8574e5926948d4a7d3c9b76c1f7aa11c78b92a",
+   "asset": "gadolinium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:22:25.533Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072225.815Z-qkggy908qd",
+   "key": "95dbf1683496db54c5ed404b4c6fa798f400cdf31963bc3167576a9bb5dac95a",
+   "asset": "terbium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:22:35.287Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072235.696Z-a1b49k7ntv",
+   "key": "4fd129eaec11583eb302d70b136acbdd2b1112e9691c4dbc9e8cd4800f00a410",
+   "asset": "dysprosium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:22:44.733Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072245.121Z-ryqkbc3d1x",
+   "key": "9f2b3d342db0b6b9fd4a3e300f79dad437432dcbbafbe3034c9386997e74f025",
+   "asset": "holmium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:22:54.597Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072254.981Z-5qa7hegvj0",
+   "key": "1d06c1e717f868383a172dcc84f50e70fba83a5e7c8638154b8f8e7873f36fa3",
+   "asset": "erbium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:23:05.124Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072305.516Z-9h8cj2thhm",
+   "key": "dfb2531290dfdb36a1f0c983cd921424213715a786e2cc6fcf5d87d7a36d3348",
+   "asset": "thulium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:23:17.607Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072317.914Z-d91bpe1rc7",
+   "key": "8830b805ea93db7c2e567f908eea320dafc8fa22139ba1e7c044ffa1ce30e770",
+   "asset": "ytterbium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:23:25.236Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072325.426Z-0h81828vrb",
+   "key": "ddd0409d035162110942378963fe04bd6d1c3f9cb91ca004bfbf0b10214608df",
+   "asset": "lutetium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:23:32.598Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072332.813Z-870fdvp79z",
+   "key": "a414f5bdf48ef0184fa4992ee49e3247fa0733e8a1e969d94e30876d2a68a6a2",
+   "asset": "hafnium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:23:39.945Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072340.135Z-p566k2xxeh",
+   "key": "5132b1e6b6c5e3117323c9117f9d7f1c20ca3ed096a4b562278b4aa9eb8e5dd7",
+   "asset": "tantalum",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:23:47.468Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072347.651Z-mrftheae9g",
+   "key": "6b8997ba60f5672033e9f48f26dea1d0473459b5becb177fa13271606bec1fd1",
+   "asset": "tungsten",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:23:55.601Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072355.770Z-g12d1h7m9h",
+   "key": "92b3cad4de0f0ad2c8198c999c15fc788a4418f96d45320e0484c81083604cc9",
+   "asset": "rhenium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:24:04.559Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072404.857Z-98f230698v",
+   "key": "8fa6dcf88aec19caa87e7cbbc96255fd20665fbd594818bc2857d6c8d1a83b26",
+   "asset": "osmium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:24:13.755Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072414.171Z-sm7zwyye09",
+   "key": "484610b52a04125595ebc4f7656d1fef0eb60ab617ca2006fc2c118ac46dde46",
+   "asset": "iridium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:24:21.616Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072421.823Z-4zd89xkn8w",
+   "key": "8659da144f99b5da438192a175215ce93eb81856d425f316f008d2a1760aa2dd",
+   "asset": "platinum",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:24:31.036Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072431.748Z-xq7dxc7jsb",
+   "key": "afd623efb594779e1c732562882fa7311e0a7d9d2706508ce7d51de4fb508af7",
+   "asset": "mercury",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:24:39.049Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072439.254Z-tcswcrrr7s",
+   "key": "3fb3745acad31860c4c9bb7e7ef09cdad38ec7709dcb4cfd4459dbe5bc70d303",
+   "asset": "thallium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:24:47.867Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072448.152Z-0dknwswqsp",
+   "key": "a44aab96d79fe706d0da364767183528f0d218425d968b5052180dadc103d546",
+   "asset": "lead",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:24:56.857Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072457.050Z-m68rjczk8x",
+   "key": "d45cb8dec44d75db57d3c53ad9c04c2c0daa25c74fb5492b796b5f03d77f7b42",
+   "asset": "bismuth",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:25:06.543Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072507.241Z-rm4hte2nzg",
+   "key": "8007578b10321273998f30523bffb3c6b727bbd9503982ba1bda2fcbc530f636",
+   "asset": "polonium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:25:15.588Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072515.780Z-8vh6qshhm4",
+   "key": "adf64d424f21ae357d92945e6546ab54b118eb85132eb446474bb93f4d12c8ec",
+   "asset": "astatine",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:25:22.994Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072523.180Z-kc07c9s5cb",
+   "key": "3ec6b7597783978ca887630a777747c21bf04d82bd4e0c8064a45932dd318abf",
+   "asset": "radon",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:25:30.317Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072530.503Z-8237t8tgqj",
+   "key": "e61136e53632815b10f1ed28c7885da9534ed1fbf31004f9ee89b013fd755f5b",
+   "asset": "francium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:25:38.386Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072538.550Z-c501yx3p7t",
+   "key": "36191829bda38b14d043bb95f2ad4709966bf87e54faacf10d813f9976e14514",
+   "asset": "radium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:25:46.763Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072546.957Z-89y1ahjn8r",
+   "key": "da784e1698f10fdfb2c1d55862fb61f81d413373255be69849389bcbc338a599",
+   "asset": "actinium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:25:54.928Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072555.109Z-vg35me88bs",
+   "key": "a8c4f776d3afc4d1d54391a7a8fad67e99a13225a4d31142d026e8a3c7653856",
+   "asset": "thorium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:26:02.857Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072603.052Z-087bgmj36j",
+   "key": "90ea25edff98ff5abed46305bb1944b7047ed9378692954105cdf1af1243db13",
+   "asset": "protactinium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:26:10.853Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072611.236Z-xre04tnn68",
+   "key": "638475aca838dbf12eab99a094d82676aebd19a96f6cad963839d372050fd194",
+   "asset": "neptunium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:26:19.322Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072619.505Z-6f6y6ey70w",
+   "key": "ff61409bec1f320fcac9c3492795888537b40a1187f5698bf31d881dbca30961",
+   "asset": "plutonium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:26:26.836Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072627.018Z-4h83f7s5mc",
+   "key": "dff9f097e5094a52ff5d12b77eeb2178a9a67e16c1a95c8f82b89e6673f75501",
+   "asset": "americium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:26:40.205Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072640.403Z-zwgh49d2tm",
+   "key": "36d933a8b9953e002453f6eb996db53a1df22a3bcad76e6fc1716b5584a5e456",
+   "asset": "curium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:26:47.956Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072648.143Z-31cjf1wm14",
+   "key": "11275f964b52c7af5d5f8ae7d6e4833ef62117fb2027bc83877c0f0210678ead",
+   "asset": "berkelium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:26:56.779Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072656.955Z-dqwvxykmde",
+   "key": "451e6334bbe50c3b5733895f173327e83fce7ef93b1afcbc5a1d457973645b2f",
+   "asset": "californium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:27:04.836Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072705.021Z-rxra800w8t",
+   "key": "c1faff9ea3bf03a40949ba81bf938a6a82e01a8650ac66b7b8c5b75c914a6f08",
+   "asset": "einsteinium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:27:12.276Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072712.461Z-2yqhcv25k0",
+   "key": "b495c7ca9e9c466ce666c349c73ede7855193b78d62614cacbf5cc5900be3505",
+   "asset": "fermium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:27:20.936Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072721.116Z-026p4sw1hb",
+   "key": "2787ce26330948cfe576156af470aa047be838340e9ab2a2f739b4ea0a09397a",
+   "asset": "mendelevium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:27:28.158Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072728.341Z-w30sj2hebw",
+   "key": "48f3c7e729234650055b9867b782a3ec5ff2d8b1187e3440e0c3d95c5838b88f",
+   "asset": "nobelium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:27:35.483Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072735.658Z-2p34rrdxrp",
+   "key": "f982a254ab6e887d4f019d84b8ccc78acb7ffbb3e686995cb7881df6ba0f1c20",
+   "asset": "lawrencium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:27:44.162Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072744.343Z-hrbme0a0td",
+   "key": "71d895c5a127ed93f219a5e662e9b24ac8a7c3dda0ef687d2838102d5426fa77",
+   "asset": "rutherfordium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:27:52.449Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072752.634Z-h9p902hhn0",
+   "key": "489e4dd20f704fef66334ff6624bed7347582c2e9c8dd7fe3e06ec99e150f539",
+   "asset": "dubnium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:27:59.921Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072800.098Z-sjcpsy0219",
+   "key": "d82fd66b7427eecaaef4884194e5982f957b66a0986c9f13b898c8c3642c30d9",
+   "asset": "seaborgium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:28:07.528Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072807.708Z-y7cd74e20f",
+   "key": "a0f7bdbeb808104f55e77a5a90b8e2cc0d6ea6261e15cfa5d5a17ba65b4d0365",
+   "asset": "bohrium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:28:14.878Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072815.034Z-8z866q6j94",
+   "key": "48225869f934d67ee2273994feb81a96394831d6b5dc593ac4ff4a9276d71059",
+   "asset": "hassium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:28:23.659Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072823.844Z-grvhjptyqd",
+   "key": "8e77db14d288fa8a732d687dfc1b612d45574907e94a2be2d65e8334a4018b31",
+   "asset": "meitnerium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:28:31.219Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072831.415Z-fa86fd8s9n",
+   "key": "c5be89ab4a4ee0ab9777deb967bf803d00843e723e28086b93eadd11ba27a4e3",
+   "asset": "darmstadtium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:28:40.606Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072840.787Z-8sgbsjf9k6",
+   "key": "4aac87f547a0535c3619d94ecc0a1d43dcfd4dbe0c8854d3cf0534d6ed219a91",
+   "asset": "roentgenium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:28:47.309Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072847.490Z-wqwmbn34jn",
+   "key": "69bcfb786b0c278232e6e67dbdaa010f03e72e0524507c1cf50bd2360eb1683e",
+   "asset": "copernicium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:28:54.610Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072854.794Z-8yhp7k0x6j",
+   "key": "4e108dab2eddb8a6df78e5c1de5a8ed661cc121383ca98fa825a01704fb2b1c1",
+   "asset": "nihonium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:29:01.870Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072902.044Z-22s3dxxa1t",
+   "key": "f13d6a65798712270540ce51e2e1a1e3a6891062a16da547f28040d9982cf38d",
+   "asset": "flerovium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:29:09.149Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072909.330Z-9epy8v23r0",
+   "key": "8d6443baa84149c1f9250e367dfdeaee05ad8316a8d67d14a7f69b452b427774",
+   "asset": "moscovium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:29:16.922Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072917.104Z-d3mexww6td",
+   "key": "8c108eaac10af625fb736adef90ac31119d4218f4f477de1d42386b5f44993b7",
+   "asset": "livermorium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:29:24.419Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T072924.761Z-w0m2sje8sp",
+   "key": "11e55118f44fe965f17f4a214ea9ebb60f5663d8dbbef93b54fb7bdb5328bd00",
+   "asset": "oganesson",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T07:29:31.713Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T080544.311Z-1hr5wq0wqx",
+   "key": "a358cf1453af98c6304d9ee1a68f992a4805d0586af7ff4dcfdbae652d284911",
+   "asset": "zirconium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T08:05:53.704Z",
+   "kind": "image"
+  },
+  {
+   "id": "20261125T080610.398Z-7r6eczv6rk",
+   "key": "ee2e92800d271c66f1bdad2028307e9df91d29229f8dae4ff270ff5741e98794",
+   "asset": "ytterbium",
+   "cost_usd": 0.054,
+   "status": 200,
+   "at": "2026-11-25T08:06:19.397Z",
+   "kind": "image"
+  }
+ ]
+}

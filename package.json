@@ -1,0 +1,37 @@
+{
+  "name": "integ-elements",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/split-data.ts && tsc && vite build && node scripts/prerender.ts && node scripts/check-dist.ts",
+    "preview": "vite preview",
+    "data:fetch": "node scripts/data-fetch.ts",
+    "data:build": "node scripts/data-build.ts",
+    "data:coverage": "node scripts/data-coverage.ts",
+    "data:verify": "node scripts/data-verify.ts",
+    "gen:audio": "node scripts/gen-audio.ts",
+    "qa:audio": "node scripts/qa-audio.ts",
+    "gen:images": "node scripts/gen-images.ts",
+    "qa:images": "node scripts/qa-images.ts"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "playwright": "^1.65.1",
+    "sharp": "^0.35.5",
+    "subset-font": "^2.9.0",
+    "tailwindcss": "^4.3.5",
+    "tesseract.js": "^7.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
