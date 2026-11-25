@@ -288,6 +288,7 @@ for (let z = 1; z <= 118; z++) {
     // a trap implies a known-correct pronunciation: none for elements with no verified accent
     tricky: (ipaReview.us === 'two-source' || ipaReview.uk === 'two-source') ? (d.tricky ?? null) : null, image_subject: d.image_subject ?? null,
     image_style: d.image_style ?? null,
+    hook: d.hook ?? null,
     sources: {
       z: src('pubchem.json'), symbol: src('pubchem.json'), name: iupacPage ? src('iupac.html') : src('pubchem.json'),
       category: src('pubchem.json', r.GroupBlock), mp_bp: src('pubchem.json', `MeltingPoint ${r.MeltingPoint || '—'} K, BoilingPoint ${r.BoilingPoint || '—'} K`),

@@ -64,6 +64,11 @@
   "tricky": null,
   "image_subject": "a glowing pinkish-purple hydrogen discharge tube",
   "image_style": "specimen",
+  "hook": {
+   "en": "Named for making water when it burns.",
+   "zh": "因燃烧会生成水而得名。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -242,6 +247,11 @@
   "tricky": null,
   "image_subject": "a glowing peach-pink helium discharge tube bent into a simple loop",
   "image_style": "specimen",
+  "hook": {
+   "en": "First spotted as a yellow line in sunlight.",
+   "zh": "最早是日食阳光里一条陌生的黄线。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -428,6 +438,11 @@
   },
   "image_subject": "soft silvery lithium metal pieces under argon",
   "image_style": "sealed",
+  "hook": {
+   "en": "Batteries take over three-quarters of it.",
+   "zh": "超过四分之三的锂拿去造电池。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -616,6 +631,11 @@
   },
   "image_subject": "a polished steel-gray beryllium metal disc",
   "image_style": "specimen",
+  "hook": {
+   "en": "Beryllium-copper tools don't spark on steel.",
+   "zh": "铍铜工具敲在钢上不冒火花。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -788,6 +808,11 @@
   "tricky": null,
   "image_subject": "a lump of dark, lustrous crystalline boron",
   "image_style": "specimen",
+  "hook": {
+   "en": "Its crystals rate 9.3 on the Mohs scale.",
+   "zh": "晶体硼的莫氏硬度高达9.3。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -969,6 +994,11 @@
   },
   "image_subject": "a rough black lump of charcoal beside a small clear uncut diamond",
   "image_style": "specimen",
+  "hook": {
+   "en": "Diamonds were shown to be a form of carbon.",
+   "zh": "钻石被证明是碳的一种形态。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -1157,6 +1187,11 @@
   },
   "image_subject": "liquid nitrogen pouring from a steel flask with white cold vapour",
   "image_style": "specimen",
+  "hook": {
+   "en": "About 3% of your body mass is nitrogen.",
+   "zh": "你体重里约有3%是氮。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -1336,6 +1371,11 @@
   "tricky": null,
   "image_subject": "pale blue liquid oxygen in a clear glass dewar flask",
   "image_style": "specimen",
+  "hook": {
+   "en": "88.8% of ocean mass is oxygen.",
+   "zh": "海洋按质量算，88.8%是氧。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -1519,6 +1559,11 @@
   },
   "image_subject": "a pale yellow gas in a sealed glass ampoule",
   "image_style": "sealed",
+  "hook": {
+   "en": "Chemists died or got hurt isolating it.",
+   "zh": "好几位化学家为分离它伤亡。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -1692,6 +1737,11 @@
   "tricky": null,
   "image_subject": "a glowing red-orange neon tube bent into a simple loop",
   "image_style": "specimen",
+  "hook": {
+   "en": "The Greek behind it just means 'new'.",
+   "zh": "名字在希腊语里就是“新的”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -1879,6 +1929,11 @@
   },
   "image_subject": "a soft silvery-white lump of sodium metal",
   "image_style": "sealed",
+  "hook": {
+   "en": "Thought to come from Arabic for headache.",
+   "zh": "一般认为源自阿拉伯语的“头痛”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -2074,6 +2129,7 @@
   },
   "image_subject": "a coiled strip of shiny gray magnesium ribbon",
   "image_style": "specimen",
+  "hook": null,
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -2265,6 +2321,11 @@
   },
   "image_subject": "a crumpled sheet of shiny aluminium foil",
   "image_style": "specimen",
+  "hook": {
+   "en": "It once cost more than gold.",
+   "zh": "它曾经比黄金还贵。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -2449,6 +2510,11 @@
   },
   "image_subject": "a shiny blue-grey chunk of crystalline silicon",
   "image_style": "specimen",
+  "hook": {
+   "en": "Second only to oxygen in Earth's crust.",
+   "zh": "在地壳里的重量仅次于氧。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -2638,6 +2704,11 @@
   },
   "image_subject": "a small heap of dark red phosphorus powder",
   "image_style": "specimen",
+  "hook": {
+   "en": "Greek for 'light-bearer'.",
+   "zh": "希腊语原意是“带来光的”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -2811,6 +2882,7 @@
   "tricky": null,
   "image_subject": "a pile of bright yellow crystalline sulfur lumps",
   "image_style": "specimen",
+  "hook": null,
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -2995,6 +3067,11 @@
   },
   "image_subject": "a glass flask filled with pale yellow-green chlorine gas",
   "image_style": "sealed",
+  "hook": {
+   "en": "Your white cells make it to fight bacteria.",
+   "zh": "白细胞会制造微量氯气对抗细菌。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -3171,6 +3248,11 @@
   "tricky": null,
   "image_subject": "a glowing violet-lavender argon discharge tube bent into a simple loop",
   "image_style": "specimen",
+  "hook": {
+   "en": "From the Ancient Greek for 'lazy'.",
+   "zh": "名字源自古希腊语的“懒惰”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -3364,6 +3446,11 @@
   },
   "image_subject": "a few small silvery potassium metal pieces in a sealed glass ampoule",
   "image_style": "sealed",
+  "hook": {
+   "en": "A metal you can cut with a knife.",
+   "zh": "这种金属软到用小刀就能切开。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -3543,6 +3630,11 @@
   "tricky": null,
   "image_subject": "a handful of white seashells beside a lump of white chalk",
   "image_style": "specimen",
+  "hook": {
+   "en": "Pearls are mostly calcium carbonate.",
+   "zh": "珍珠和贝壳主要是碳酸钙。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -3722,6 +3814,11 @@
   "tricky": null,
   "image_subject": "a few small silvery-white scandium metal pieces",
   "image_style": "specimen",
+  "hook": {
+   "en": "50th most common on Earth, 23rd in the Sun.",
+   "zh": "在地球排第50，在太阳排第23。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -3907,6 +4004,11 @@
   },
   "image_subject": "a pair of thin brushed-silver titanium eyeglass frames",
   "image_style": "specimen",
+  "hook": {
+   "en": "Named after the Titans of Greek myth.",
+   "zh": "以希腊神话中的泰坦神命名。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -4099,6 +4201,11 @@
   },
   "image_subject": "a polished chunk of steel-blue vanadium metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "First big industrial use: Model T chassis.",
+   "zh": "最早大规模用于福特T型车底盘。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -4275,6 +4382,11 @@
   "tricky": null,
   "image_subject": "a mirror-bright lump of polished chromium metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "Named for colour; many compounds are vivid.",
+   "zh": "得名于颜色，因其许多化合物色彩鲜艳。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -4461,6 +4573,11 @@
   },
   "image_subject": "a few brittle chunks of silvery-grey manganese metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "Known resources: about 80% in South Africa.",
+   "zh": "已知资源约八成在南非。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -4645,6 +4762,11 @@
   },
   "image_subject": "a rusty iron nail lying beside a shiny new one",
   "image_style": "specimen",
+  "hook": {
+   "en": "By mass, the most common element on Earth.",
+   "zh": "按质量算，地球上最多的就是铁。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -4823,6 +4945,11 @@
   "tricky": null,
   "image_subject": "a small chunk of hard, shiny gray cobalt metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "Possibly a miners' name for a nuisance ore.",
+   "zh": "可能是银矿工给讨厌矿石起的名字。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -5001,6 +5128,11 @@
   "tricky": null,
   "image_subject": "a lump of silvery-white nickel metal with a slight golden tinge",
   "image_style": "specimen",
+  "hook": {
+   "en": "Named after a mischievous mine sprite.",
+   "zh": "名字来自矿工传说里的捣蛋小妖。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -5178,6 +5310,11 @@
   "tricky": null,
   "image_subject": "a coil of bright copper wire",
   "image_style": "specimen",
+  "hook": {
+   "en": "Largest pure copper lump found: 420 tonnes.",
+   "zh": "迄今发现最大的天然铜块重420吨。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -5350,6 +5487,11 @@
   "tricky": null,
   "image_subject": "a bluish-white piece of zinc metal with a crystalline surface",
   "image_style": "specimen",
+  "hook": {
+   "en": "Probably from a German word for prong.",
+   "zh": "名字可能来自德语的“尖齿”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -5527,6 +5669,11 @@
   "tricky": null,
   "image_subject": "a small piece of silvery gallium melting into a shiny puddle on a glass dish",
   "image_style": "specimen",
+  "hook": {
+   "en": "Melts in your hand at body temperature.",
+   "zh": "放在手心就会熔化。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -5709,6 +5856,11 @@
   },
   "image_subject": "a shiny grayish-white chunk of germanium with a metallic luster",
   "image_style": "specimen",
+  "hook": {
+   "en": "Like water, it expands as it freezes.",
+   "zh": "和水一样，凝固时会膨胀。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -5875,6 +6027,11 @@
   "tricky": null,
   "image_subject": "a lump of grey metallic arsenic crystal",
   "image_style": "specimen",
+  "hook": {
+   "en": "Its name traces back to Persian for gold.",
+   "zh": "名字的词根是波斯语的“金”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -6065,6 +6222,11 @@
   },
   "image_subject": "a lump of grey metallic selenium beside a small pile of brick-red selenium powder",
   "image_style": "specimen",
+  "hook": {
+   "en": "Named for the Moon; tellurium had the Earth.",
+   "zh": "以月亮命名，因它像以地球命名的碲。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -6253,6 +6415,11 @@
   },
   "image_subject": "a sealed glass ampoule of red-brown liquid bromine with reddish vapour above it",
   "image_style": "sealed",
+  "hook": {
+   "en": "Named from the Greek for stench.",
+   "zh": "名字源自希腊语的“恶臭”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -6427,6 +6594,11 @@
   "tricky": null,
   "image_subject": "a glowing whitish krypton discharge tube bent into a simple loop",
   "image_style": "specimen",
+  "hook": {
+   "en": "Its light defined the metre, 1960 to 1983.",
+   "zh": "米的定义曾以氪的光为准。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -6612,6 +6784,11 @@
   },
   "image_subject": "a small lump of soft silvery-white rubidium metal in a sealed glass ampoule",
   "image_style": "sealed",
+  "hook": {
+   "en": "Named after the Latin for deep red.",
+   "zh": "名字源自拉丁语的“深红色”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -6783,6 +6960,11 @@
   "tricky": null,
   "image_subject": "small silvery pale-yellow strontium metal pieces in a sealed glass ampoule",
   "image_style": "sealed",
+  "hook": {
+   "en": "Up to 75% of US supply went into TV glass.",
+   "zh": "美国多达75%的锶曾用于电视玻璃。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -6969,6 +7151,11 @@
   },
   "image_subject": "a lustrous silvery chunk of yttrium metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "Its symbol was Yt until the early 1920s.",
+   "zh": "符号到1920年代初还是Yt。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -7146,6 +7333,11 @@
   "tricky": null,
   "image_subject": "a greyish-white zirconium crystal bar",
   "image_style": "specimen",
+  "hook": {
+   "en": "Its alloys wrap nuclear fuel rods.",
+   "zh": "锆合金被用来包裹核燃料棒。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -7326,6 +7518,11 @@
   },
   "image_subject": "a pair of iridescent blue-purple anodized niobium earrings",
   "image_style": "specimen",
+  "hook": {
+   "en": "Its namesake's dad is tantalum's namesake.",
+   "zh": "得名于尼俄伯，钽则得名于她父亲。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -7516,6 +7713,11 @@
   },
   "image_subject": "a small polished bar of silvery-grey molybdenum metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "Its name comes from the Greek for 'lead'.",
+   "zh": "名字源自古希腊语的“铅”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -7702,6 +7904,11 @@
   },
   "image_subject": "a small piece of silvery-gray crystalline metal in a sealed glass ampoule",
   "image_style": "sealed",
+  "hook": {
+   "en": "Named from the Greek for 'artificial'.",
+   "zh": "名字源自希腊语的“人造”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -7886,6 +8093,11 @@
   },
   "image_subject": "a small pile of silvery-grey ruthenium metal pellets",
   "image_style": "specimen",
+  "hook": {
+   "en": "Many fountain pen nibs are tipped with it.",
+   "zh": "许多钢笔笔尖的尖端是钌合金。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -8057,6 +8269,11 @@
   "tricky": null,
   "image_subject": "a white gold ring with a bright mirror-like rhodium plating",
   "image_style": "specimen",
+  "hook": {
+   "en": "Traces have been measured in some potatoes.",
+   "zh": "有些土豆里测出过微量铑。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -8241,6 +8458,11 @@
   },
   "image_subject": "a small heap of silvery-white palladium metal granules",
   "image_style": "specimen",
+  "hook": {
+   "en": "Some concert flutes are made of it.",
+   "zh": "有些专业长笛是用钯做的。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -8416,6 +8638,11 @@
   "tricky": null,
   "image_subject": "a shiny polished silver spoon",
   "image_style": "specimen",
+  "hook": {
+   "en": "Once cost more than gold in ancient Egypt.",
+   "zh": "在古埃及，银曾比金子还贵。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -8591,6 +8818,11 @@
   "tricky": null,
   "image_subject": "a small bar of soft silvery-white cadmium metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "28 US dark chocolate brands all had cadmium.",
+   "zh": "美国28个黑巧克力品牌，全部检出镉。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -8771,6 +9003,11 @@
   "tricky": null,
   "image_subject": "a small soft silvery-white indium ingot",
   "image_style": "specimen",
+  "hook": {
+   "en": "One of its discoverers was color-blind.",
+   "zh": "它的发现者之一是色盲。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -8944,6 +9181,11 @@
   "tricky": null,
   "image_subject": "a bent bar of dull silvery tin",
   "image_style": "specimen",
+  "hook": {
+   "en": "Bending a bar of it produces the 'tin cry'.",
+   "zh": "弯曲锡条，会发出“锡鸣”。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -9135,6 +9377,7 @@
   },
   "image_subject": "a lustrous silvery-grey chunk of antimony metal with flat crystalline faces",
   "image_style": "specimen",
+  "hook": null,
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -9316,6 +9559,11 @@
   "tricky": null,
   "image_subject": "a brittle silver-white chunk of tellurium",
   "image_style": "specimen",
+  "hook": {
+   "en": "Garlic breath can follow tellurium exposure.",
+   "zh": "接触碲的人，呼气可能有大蒜味。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -9502,6 +9750,11 @@
   },
   "image_subject": "dark violet-black iodine crystals beside a wisp of violet vapour",
   "image_style": "specimen",
+  "hook": {
+   "en": "Its name comes from the Greek for 'violet'.",
+   "zh": "名字源自古希腊语的“紫色”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -9692,6 +9945,11 @@
   },
   "image_subject": "a glass discharge tube glowing with soft blue-lavender light",
   "image_style": "specimen",
+  "hook": {
+   "en": "Solid xenon is denser than granite.",
+   "zh": "固态氙的密度比花岗岩还大。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -9884,6 +10142,11 @@
   },
   "image_subject": "a small pool of soft silvery-golden metal inside a sealed glass ampoule",
   "image_style": "sealed",
+  "hook": {
+   "en": "Since 1967, caesium atoms define the second.",
+   "zh": "自1967年起，一秒由铯原子定义。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -10073,6 +10336,11 @@
   },
   "image_subject": "a cluster of pale, translucent baryte crystals",
   "image_style": "specimen",
+  "hook": {
+   "en": "Named from the Greek word for heavy.",
+   "zh": "名字来自希腊语的“重”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -10260,6 +10528,11 @@
   },
   "image_subject": "a small chunk of soft silvery-white lanthanum metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "From the Greek for 'to lie hidden'.",
+   "zh": "名字源自古希腊语“隐藏”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -10434,6 +10707,11 @@
   "tricky": null,
   "image_subject": "a ferrocerium fire-starter rod throwing a shower of bright sparks",
   "image_style": "specimen",
+  "hook": {
+   "en": "Most white LEDs: blue plus a cerium coating.",
+   "zh": "多数白光LED是蓝光加含铈荧光粉。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -10623,6 +10901,11 @@
   },
   "image_subject": "a small piece of silvery praseodymium metal with a faint green oxide coating",
   "image_style": "specimen",
+  "hook": {
+   "en": "From the Greek for 'leek-green twin'.",
+   "zh": "源自希腊语“韭绿色的双胞胎”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -10797,6 +11080,11 @@
   "tricky": null,
   "image_subject": "a small stack of shiny nickel-plated disc magnets",
   "image_style": "specimen",
+  "hook": {
+   "en": "Its glass can change colour with the light.",
+   "zh": "含钕玻璃换种灯光就像换了颜色。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -10978,6 +11266,11 @@
   },
   "image_subject": "a sealed glass ampoule holding a tiny speck of pale, faintly glowing salt",
   "image_style": "sealed",
+  "hook": {
+   "en": "Only about 500–600 grams exist in the crust.",
+   "zh": "全地壳天然只有约500–600克。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -11155,6 +11448,11 @@
   "tricky": null,
   "image_subject": "a pair of dark grey samarium-cobalt ring magnets",
   "image_style": "specimen",
+  "hook": {
+   "en": "First element ever named after a person.",
+   "zh": "第一个以人名命名的元素。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -11337,6 +11635,11 @@
   },
   "image_subject": "a sealed glass ampoule holding small silvery metal pieces under argon",
   "image_style": "sealed",
+  "hook": {
+   "en": "Traces of it make some fluorite glow blue.",
+   "zh": "微量铕能让某些萤石发蓝光。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -11518,6 +11821,11 @@
   "tricky": null,
   "image_subject": "a small chunk of silvery-white gadolinium metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "Below about 20 °C, it becomes magnetic.",
+   "zh": "约20°C以下就会被磁铁吸住。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -11690,6 +11998,11 @@
   "tricky": null,
   "image_subject": "a small piece of silvery-white terbium metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "Found in the air of a very hot exoplanet.",
+   "zh": "炽热系外行星的大气里有铽。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -11868,6 +12181,11 @@
   },
   "image_subject": "a small chunk of silvery dysprosium metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "From the Greek for 'hard to get'.",
+   "zh": "名字源自希腊语“难以得到”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -12032,6 +12350,11 @@
   "tricky": null,
   "image_subject": "a small piece of soft silvery holmium metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "IBM stored one bit on a single atom of it.",
+   "zh": "IBM在单个钬原子上存了一比特。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -12207,6 +12530,11 @@
   "tricky": null,
   "image_subject": "a small chunk of silvery-white erbium metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "A Swiss scientist mixed up erbia and terbia.",
+   "zh": "瑞士科学家曾把铒土和铽土弄反。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -12388,6 +12716,11 @@
   },
   "image_subject": "a small chunk of bright silvery-gray thulium metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "Symbol was Tu, changed to dodge tungsten.",
+   "zh": "符号原是Tu，为避开钨才改。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -12579,6 +12912,11 @@
   },
   "image_subject": "a few small shiny silvery metal pieces",
   "image_style": "specimen",
+  "hook": {
+   "en": "Four elements are named after one village.",
+   "zh": "四种元素都以同一个村庄命名。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -12752,6 +13090,11 @@
   "tricky": null,
   "image_subject": "a small silvery-white metal ingot",
   "image_style": "specimen",
+  "hook": {
+   "en": "Costs about a quarter of what gold does.",
+   "zh": "价格约为黄金的四分之一。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -12914,6 +13257,11 @@
   "tricky": null,
   "image_subject": "a lustrous silvery-grey metal bar",
   "image_style": "specimen",
+  "hook": {
+   "en": "Nontoxic, but can catch fire by itself.",
+   "zh": "无毒，却能在空气中自己着火。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -13086,6 +13434,11 @@
   "tricky": null,
   "image_subject": "a polished blue-grey metal rod",
   "image_style": "specimen",
+  "hook": {
+   "en": "Light bulbs glowed with it before tungsten.",
+   "zh": "钨上位之前，灯丝用的是钽。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -13271,6 +13624,11 @@
   },
   "image_subject": "a clear incandescent light bulb with a glowing coiled tungsten filament",
   "image_style": "specimen",
+  "hook": {
+   "en": "Highest melting point of all known elements.",
+   "zh": "已知元素里熔点最高，3422°C。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -13452,6 +13810,11 @@
   "tricky": null,
   "image_subject": "a small bar of silvery-grey rhenium metal",
   "image_style": "specimen",
+  "hook": {
+   "en": "Found in 1908, but mistaken for another.",
+   "zh": "1908年已发现，却被当成别的元素。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -13628,6 +13991,11 @@
   "tricky": null,
   "image_subject": "a small cluster of bluish-white osmium metal crystals",
   "image_style": "specimen",
+  "hook": {
+   "en": "Named after the strong smell of its oxide.",
+   "zh": "名字意为“气味”，因其氧化物刺鼻。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -13817,6 +14185,11 @@
   },
   "image_subject": "a spark plug with a fine silvery iridium-tipped electrode",
   "image_style": "specimen",
+  "hook": {
+   "en": "Named 'rainbow' for its colorful compounds.",
+   "zh": "名字意为“彩虹”，因其化合物五颜六色。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -14007,6 +14380,11 @@
   },
   "image_subject": "a small raw silvery-white platinum nugget",
   "image_style": "specimen",
+  "hook": {
+   "en": "From Spanish for 'little silver'.",
+   "zh": "源自西班牙语，意为“小银”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -14189,6 +14567,11 @@
   "tricky": null,
   "image_subject": "a raw gold nugget",
   "image_style": "specimen",
+  "hook": {
+   "en": "One gram can be beaten into a square metre.",
+   "zh": "一克金能捶成一平方米的薄片。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -14374,6 +14757,11 @@
   "tricky": null,
   "image_subject": "a small pool of shiny silver liquid mercury in a shallow glass dish",
   "image_style": "specimen",
+  "hook": {
+   "en": "China made 88% of world mercury in 2020.",
+   "zh": "2020年，全球88%的汞产自中国。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -14564,6 +14952,11 @@
   },
   "image_subject": "a soft silvery-grey metal chunk with a dull bluish tarnish",
   "image_style": "specimen",
+  "hook": {
+   "en": "Its poisoning usually makes hair fall out.",
+   "zh": "铊中毒的人通常会掉头发。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -14746,6 +15139,11 @@
   },
   "image_subject": "a heavy dull gray lead ingot with a freshly cut shiny edge",
   "image_style": "specimen",
+  "hook": {
+   "en": "Wooden pencil lead was never lead.",
+   "zh": "木头铅笔的铅芯从来不是铅做的。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -14931,6 +15329,11 @@
   },
   "image_subject": "a stepped, rainbow-iridescent bismuth crystal",
   "image_style": "specimen",
+  "hook": {
+   "en": "Expands on freezing, hence printing type.",
+   "zh": "凝固时反而膨胀，于是曾用来铸铅字。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -15114,6 +15517,11 @@
   "tricky": null,
   "image_subject": "a tiny dull silvery metal fleck inside a sealed glass ampoule",
   "image_style": "sealed",
+  "hook": {
+   "en": "About 100 g of polonium is made each year.",
+   "zh": "全世界每年只生产约100克钋。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -15292,6 +15700,11 @@
   "tricky": null,
   "image_subject": "a single glowing violet particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "No one has ever seen solid astatine.",
+   "zh": "从没有人见过固态砹。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -15472,6 +15885,11 @@
   },
   "image_subject": "a sealed glass ampoule filled with gas glowing a soft red",
   "image_style": "sealed",
+  "hook": {
+   "en": "Heavier than air, it can pool in basements.",
+   "zh": "它比空气重，会积在住宅地下室里。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -15651,6 +16069,11 @@
   "tricky": null,
   "image_subject": "a single glowing orange particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "The crust holds about an ounce of francium.",
+   "zh": "整个地壳里的钫，加起来约一盎司。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -15839,6 +16262,11 @@
   },
   "image_subject": "a tiny silvery-white metal sample with a dark black surface layer",
   "image_style": "sealed",
+  "hook": {
+   "en": "Silvery-white until air coats it black.",
+   "zh": "纯镭银白，遇空气表面会发黑。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -16019,6 +16447,11 @@
   "tricky": null,
   "image_subject": "a sealed glass ampoule with a tiny silvery metal sample glowing pale blue",
   "image_style": "sealed",
+  "hook": {
+   "en": "Its radiation makes the air glow pale blue.",
+   "zh": "辐射让周围空气在黑暗中发淡蓝光。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -16201,6 +16634,11 @@
   },
   "image_subject": "a small piece of light silver thorium metal with an olive-grey tarnish",
   "image_style": "sealed",
+  "hook": {
+   "en": "Named after the Norse god of thunder.",
+   "zh": "名字来自北欧雷神托尔。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -16393,6 +16831,11 @@
   },
   "image_subject": "a tiny silvery-grey protactinium metal fragment",
   "image_style": "sealed",
+  "hook": {
+   "en": "Named as the parent of actinium.",
+   "zh": "名字的意思是“锕之母”。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -16581,6 +17024,11 @@
   },
   "image_subject": "a small dark grey uranium metal pellet in a sealed glass ampoule",
   "image_style": "sealed",
+  "hook": {
+   "en": "About 40 times more common than silver.",
+   "zh": "地壳里的铀约是银的40倍。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -16776,6 +17224,11 @@
   },
   "image_subject": "a small silvery metal bead inside a sealed glass ampoule",
   "image_style": "sealed",
+  "hook": {
+   "en": "Feeds the plutonium that powers spacecraft.",
+   "zh": "用来造给航天器供电的钚-238。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -16955,6 +17408,11 @@
   "tricky": null,
   "image_subject": "a small dull silvery-grey plutonium metal button",
   "image_style": "sealed",
+  "hook": {
+   "en": "Named for Pluto, then thought a planet.",
+   "zh": "以冥王星命名，当时它还算行星。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -17144,6 +17602,11 @@
   },
   "image_subject": "a tiny silvery americium metal fragment",
   "image_style": "sealed",
+  "hook": {
+   "en": "Widely used in smoke detectors.",
+   "zh": "烟雾探测器里广泛用到它。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -17323,6 +17786,11 @@
   "tricky": null,
   "image_subject": "a tiny bead of hard silvery metal",
   "image_style": "sealed",
+  "hook": {
+   "en": "First revealed on a kids' radio quiz show.",
+   "zh": "最早是在儿童广播问答节目里曝光的。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -17506,6 +17974,11 @@
   "tricky": null,
   "image_subject": "a tiny soft silvery-white metal bead",
   "image_style": "sealed",
+  "hook": {
+   "en": "Just over a gram made in the US since 1967.",
+   "zh": "1967年至今，美国只造出一克多锫。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -17687,6 +18160,11 @@
   "tricky": null,
   "image_subject": "a tiny speck of silvery metal in a sealed glass ampoule",
   "image_style": "sealed",
+  "hook": {
+   "en": "Hit with calcium, it yielded element 118.",
+   "zh": "用钙离子轰击它，造出了118号元素。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -17867,6 +18345,11 @@
   },
   "image_subject": "a single faint blue-white glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "So radioactive it glows on its own.",
+   "zh": "放射性强到样品自己会发光。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -18040,6 +18523,11 @@
   "tricky": null,
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Found in debris from the first H-bomb test.",
+   "zh": "发现于首次氢弹试爆的残骸中。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -18232,6 +18720,11 @@
   },
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "First isotope ever made one atom at a time.",
+   "zh": "第一个逐个原子合成的同位素。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -18410,6 +18903,11 @@
   "tricky": null,
   "image_subject": "a single thin golden glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Soviet credit, Swedish scientists' name.",
+   "zh": "功劳归苏联团队，名字却是瑞典人起的。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -18587,6 +19085,7 @@
   },
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": null,
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -18776,6 +19275,11 @@
   },
   "image_subject": "a single bright orange glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Soviet Bloc books called it kurchatovium.",
+   "zh": "苏联阵营的书曾叫它库尔恰托夫元素。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -18941,6 +19445,7 @@
   "tricky": null,
   "image_subject": "a single glowing pale violet particle track",
   "image_style": "trace",
+  "hook": null,
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -19099,6 +19604,11 @@
   "tricky": null,
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "One of two named after a then-living person.",
+   "zh": "两种以命名时在世者命名的元素之一",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -19256,6 +19766,7 @@
   "tricky": null,
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": null,
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -19421,6 +19932,11 @@
   "tricky": null,
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Behaves like a heavier osmium.",
+   "zh": "化学性质像更重的锇。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -19583,6 +20099,11 @@
   "tricky": null,
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Only element named solely for a real woman.",
+   "zh": "唯一只以真实女性命名的元素。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -19744,6 +20265,11 @@
   "tricky": null,
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Also considered: wixhausium, after a suburb.",
+   "zh": "曾考虑以达姆施塔特一处郊区命名。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -19905,6 +20431,11 @@
   "tricky": null,
   "image_subject": "a single glowing pale-gold particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Only a few atoms made, no practical use.",
+   "zh": "只造出过极少量原子，毫无实际用途。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -20066,6 +20597,11 @@
   "tricky": null,
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Honors Copernicus on his 537th anniversary.",
+   "zh": "在哥白尼537周年纪念时以他命名。",
+   "from": "etymology"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -20227,6 +20763,7 @@
   "tricky": null,
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": null,
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -20392,6 +20929,11 @@
   "tricky": null,
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Might even be a gas at standard conditions.",
+   "zh": "在标准状况下甚至可能是气体。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -20557,6 +21099,11 @@
   "tricky": null,
   "image_subject": "a single faint blue-white glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Half-life at best: 0.65 seconds.",
+   "zh": "最稳定的镆-290，半衰期仅0.65秒。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -20722,6 +21269,11 @@
   "tricky": null,
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Its first-choice name went to element 115.",
+   "zh": "起初想用的名字给了115号元素。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -20879,6 +21431,11 @@
   "tricky": null,
   "image_subject": "a single glowing violet particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Its target crossed the Atlantic five times.",
+   "zh": "发现它的靶材几天内五次飞越大西洋。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",
@@ -21044,6 +21601,11 @@
   "tricky": null,
   "image_subject": "a single glowing particle track",
   "image_style": "trace",
+  "hook": {
+   "en": "Predicted to be solid at room temperature.",
+   "zh": "理论预测它在室温下是固体。",
+   "from": "fact"
+  },
   "sources": {
    "z": {
     "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON",

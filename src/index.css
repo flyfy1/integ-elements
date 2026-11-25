@@ -197,6 +197,22 @@ kbd { font: 12px var(--ui); padding: 1px 6px; border: 1px solid var(--line); bor
 .respell { letter-spacing: .02em; }
 .zh-name .zh-ch { font-size: 17px; }
 .py { color: var(--muted); }
+/* hook: one true line per element, a reward for the tap */
+.hook-chip { align-self: flex-start; display: inline-flex; align-items: center; gap: 7px; height: 26px; max-width: 100%; padding: 0 10px; border-radius: 999px; font-size: 13px; line-height: 18px; color: #EAF0FF; text-align: left; cursor: pointer;
+  background: color-mix(in srgb, var(--c) 12%, var(--surface)); border: 1px solid color-mix(in srgb, var(--c) 30%, transparent);
+  animation: hkIn .24s var(--out) .35s both; transition: border-color .15s; }
+.hook-chip:hover { border-color: color-mix(in srgb, var(--c) 60%, transparent); }
+.hook-chip span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hook-chip .hk-spark { flex: none; color: var(--c); }
+@keyframes hkIn { from { opacity: 0; transform: translateY(6px); } }
+.hook-chip.float { position: absolute; left: 74px; bottom: calc(100% + 8px); max-width: calc(100vw - 90px); box-shadow: 0 8px 24px -8px #000c; background: color-mix(in srgb, var(--c) 14%, #121a2c);
+  animation: hkIn .24s var(--out) .35s both, hkOut .24s linear 2.95s forwards; }
+@keyframes hkOut { to { opacity: 0; visibility: hidden; } }
+@container (max-height: 175px) { .stage .hook-chip { height: 24px; font-size: 12.5px; } }
+.stage:has(> .st-hook) { grid-template-rows: minmax(0, 1fr) auto; row-gap: 8px; align-content: center; }
+.stage > .st-hook { grid-row: 2; grid-column: -3 / -1; margin-top: -2px; }
+.stage .st-shell { grid-row: 1 / -1; }
+.dt-hook { color: #EAF0FF; font-weight: 600; margin-bottom: 2px !important; }
 .st-ctl { display: flex; flex-direction: column; gap: 10px; align-items: flex-end; }
 .st-btns { display: flex; gap: 8px; align-items: center; }
 .st-btns2 { display: flex; gap: 8px; align-items: center; }
@@ -540,6 +556,8 @@ kbd { font: 12px var(--ui); padding: 1px 6px; border: 1px solid var(--line); bor
 .reduce .shells .ring, .reduce .wl-mark i, .reduce .pulse-dot { animation: none !important; }
 .reduce .medal, .reduce .q-mname, .reduce .q-joke, .reduce .q-chain { animation: fadeIn2 .15s both !important; }
 .reduce .m-spark { display: none; }
+.reduce .hook-chip { animation: fadeIn2 .15s .35s both; }
+.reduce .hook-chip.float { animation: fadeIn2 .15s .35s both, hkOut .24s linear 2.95s forwards; }
 .reduce .q-streak.on { animation: none; }
 .reduce .shells .orbit { stroke-dashoffset: 0; animation: none; }
 .reduce .shells .e { opacity: 1; animation: none; }

@@ -29,10 +29,17 @@ mkdirSync(join(ROOT, 'src/generated'), { recursive: true })
 writeAtomic(join(ROOT, 'src/generated/core.json'), JSON.stringify(core))
 
 const detail: Record<number, Any> = {}
+// hooks: one line compressed from a stored, sourced line (scripts/data-draft.ts --field hook); guarded here
+const zhLen = (s: string) => [...s.replace(/[。，、：；“”‘’（）()「」·\s.,:;'"!?！？-]/g, '')].length
+for (const e of els) if (e.hook) {
+  const h = e.hook, src = h.from === 'etymology' ? e.etymology : h.from === 'fact' ? e.fact : null
+  if (!src) throw new Error(`hook ${e.symbol}: no stored ${h.from} line`)
+  if (h.en.length > 44 || zhLen(h.zh) > 16) throw new Error(`hook ${e.symbol}: too long (${h.en.length} / ${zhLen(h.zh)})`)
+}
 for (const e of els) {
   const im = img.assets[e.slug]
   detail[e.z] = {
-    fact: e.fact, ety: e.etymology, sen: e.sentence, sa: (['us', 'uk'] as const).map(a => aud.assets[`${a}/${e.slug}.sentence`]?.qa?.machine !== 'fail'), traps: e.tricky?.traps ?? [],
+    fact: e.fact, ety: e.etymology, hook: e.hook ?? null, sen: e.sentence, sa: (['us', 'uk'] as const).map(a => aud.assets[`${a}/${e.slug}.sentence`]?.qa?.machine !== 'fail'), traps: e.tricky?.traps ?? [],
     prev: im?.preview ?? null, pal: im?.palette ?? null,
     year: e.year, state: e.standard_state, group: e.group, period: e.period,
   }

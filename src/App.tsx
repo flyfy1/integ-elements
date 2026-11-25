@@ -5,7 +5,7 @@ import * as audio from './audio'
 import * as store from './store'
 import { pageView, track, bucketMs, type Page } from './analytics'
 import { Table, type TableHandle } from './components/Table'
-import { Stage, AccentSwitch, PlayIcon, SlowIcon } from './components/Stage'
+import { Stage, AccentSwitch, PlayIcon, SlowIcon, HookChip } from './components/Stage'
 import { Detail } from './components/Detail'
 import { Legend, StateChips, TempSlider, MiniMap } from './components/Controls'
 import { Tricky, About, Practice } from './components/Views'
@@ -405,6 +405,7 @@ function PhoneBar({ el, lang, accent, onPlay, onOpen, heardN }: { el: El | null;
       <button type="button" className="rbtn main" onClick={() => onPlay('name')} aria-label={t(lang, 'play')}><PlayIcon /></button>
       <button type="button" className="rbtn" onClick={() => onPlay('slow')} aria-label={t(lang, 'slow')}><SlowIcon /></button>
       <span className="pb-up" aria-hidden="true">⌃</span>
+      <HookChip el={el} lang={lang} onOpen={onOpen} className="float" />
     </div>
   )
 }

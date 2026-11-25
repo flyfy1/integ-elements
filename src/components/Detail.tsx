@@ -205,8 +205,8 @@ export function Detail(p: Props) {
               <Picture el={el} d={d} lang={lang} />
               <div className="dt-shell"><Shells el={el} size={p.phone ? 132 : 160} symbolSize={p.phone ? 24 : 28} /><span className="shell-cap">{el.sh.join(' · ')}</span></div>
             </div>
-            {d?.fact ? <section className="dt-fact"><h3>{t(lang, 'fact')}</h3><p>{lang === 'zh' ? d.fact.zh : d.fact.en}</p></section> : null}
-            {d?.ety ? <section className="dt-ety"><h3>{t(lang, 'etymology')}</h3><p>{lang === 'zh' ? d.ety.zh : d.ety.en}</p></section> : null}
+            {d?.fact ? <section className="dt-fact"><h3>{t(lang, 'fact')}</h3>{d.hook?.from === 'fact' ? <p className="dt-hook">{lang === 'zh' ? d.hook.zh : d.hook.en}</p> : null}<p>{lang === 'zh' ? d.fact.zh : d.fact.en}</p></section> : null}
+            {d?.ety ? <section className="dt-ety"><h3>{t(lang, 'etymology')}</h3>{d.hook?.from === 'etymology' ? <p className="dt-hook">{lang === 'zh' ? d.hook.zh : d.hook.en}</p> : null}<p>{lang === 'zh' ? d.ety.zh : d.ety.en}</p></section> : null}
             <section className="dt-facts">
               <span><StateIcon s={p.state} size={12} /> {lang === 'zh' ? { solid: '固态', liquid: '液态', gas: '气态', unknown: '未知' }[p.state] : p.state} · 25 °C</span>
               <span>{t(lang, 'melting')} {mpC == null ? t(lang, 'unknown') : `${mpC} °C`}</span>

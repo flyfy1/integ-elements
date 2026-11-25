@@ -1,5 +1,6 @@
-import { useEffect, useRef } from 'react'
-import { CATS, bothNames, type Accent, type El, type Lang } from '../data'
+import { useEffect, useRef, useState } from 'react'
+import { CATS, bothNames, loadDetail, type Accent, type El, type Lang } from '../data'
+import { track } from '../analytics'
 import { t } from '../i18n'
 import * as audio from '../audio'
 import { Shells } from './Shells'
@@ -52,6 +53,29 @@ export function Meter() {
 export const PlayIcon = () => <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor" /></svg>
 export const SlowIcon = () => <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 16c0-4 3-7 7-7s6 3 6 5.5c0 1.4-1 2.5-2.4 2.5H5.2M17 14.5h2.2c.9 0 1.6-.8 1.6-1.7 0-.6-.5-1.1-1.1-1.1" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /><circle cx="11" cy="13.5" r="2.4" fill="none" stroke="currentColor" strokeWidth="1.5" /></svg>
 export const SentenceIcon = () => <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M4 6.5h16M4 11.5h16M4 16.5h9" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" /></svg>
+
+/** the element's hook, once detail data is in; null until then (never a placeholder) */
+export function useHook(el: El | null, lang: Lang) {
+  const [h, setH] = useState<{ z: number; text: string } | null>(null)
+  useEffect(() => {
+    if (!el) return
+    let live = true
+    void loadDetail().then(d => { const k = d[el.z]?.hook; if (live) setH(k ? { z: el.z, text: lang === 'zh' ? k.zh : k.en } : null) }).catch(() => {})
+    return () => { live = false }
+  }, [el, lang])
+  return el && h?.z === el.z ? h.text : null
+}
+const Spark = () => <svg className="hk-spark" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 0 6.1 3.9 10 5 6.1 6.1 5 10 3.9 6.1 0 5 3.9 3.9Z" fill="currentColor" /></svg>
+export function HookChip({ el, lang, onOpen, className = '' }: { el: El | null; lang: Lang; onOpen: () => void; className?: string }) {
+  const text = useHook(el, lang)
+  if (!el || !text) return null
+  return (
+    <button type="button" key={`${el.z}-${lang}`} className={`hook-chip ${className}`} lang={lang === 'zh' ? 'zh-Hans' : 'en'}
+      onClick={() => { track('hook_open', { element: el.s }, { cap: 20 }); onOpen() }}>
+      <Spark /><span>{text}</span>
+    </button>
+  )
+}
 
 type Props = {
   el: El | null; lang: Lang; accent: Accent; compact?: boolean
@@ -111,6 +135,7 @@ export function Stage({ el, lang, accent, onPlay, onAccent, onDetails }: Props) 
           <button type="button" className="pill" onClick={onDetails}>{t(lang, 'details')} <span aria-hidden="true">→</span></button>
         </div>
       </div>
+      <HookChip el={el} lang={lang} onOpen={onDetails} className="st-hook" />
     </div>
   )
 }

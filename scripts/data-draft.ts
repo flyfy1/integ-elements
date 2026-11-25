@@ -4,6 +4,8 @@
 // do not match are rejected and redrafted. A second pass (--check) asks a fresh model whether the
 // quote supports the claim. Output: data/drafts.json (merged by data:build).
 //   node scripts/data-draft.ts [--only Fe,W] [--check] [--force]
+//   node scripts/data-draft.ts --field hook   one-line punchline per element, compressed from the stored
+//     etymology.en / fact.en only (the writer sees nothing else); deterministic guards + a --check pass
 import { readFileSync, existsSync, writeFileSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { spawn } from 'node:child_process'
@@ -132,6 +134,89 @@ ${claims.map(([k, c, q]) => `${k} CLAIM: ${c}\n${k} QUOTE: ${q}`).join('\n')}`
   }
   return JSON.parse(out.slice(i, j + 1)) as { fact: string; etymology: string | null; why?: string }
 }
+
+// ---- --field hook: a short true line compressed from one stored line ----
+type Hook = { en: string; zh: string; from: 'etymology' | 'fact' }
+const HEDGE_EN = /\b(possibly|perhaps|probably|thought to|believed to|is thought|are thought|may|might|likely|uncertain|unclear|disputed|said to)\b/i
+const HEDGE_ZH = /可能|据说|一般认为|被认为|认为|或许|也许|大概|一说|或因|相传|据称/
+export const zhLen = (s: string) => [...s.replace(/[。，、：；“”‘’（）()「」·\s.,:;'"!?！？-]/g, '')].length
+/** deterministic guards; returns problems (empty = ok) */
+export function hookProblems(h: Hook, src: { etymology: string | null; fact: string | null }): string[] {
+  const line = h.from === 'etymology' ? src.etymology : h.from === 'fact' ? src.fact : null
+  const errs: string[] = []
+  if (!line) return ['no stored line for from']
+  if (h.en.length > 44) errs.push(`en ${h.en.length} > 44`)
+  if (zhLen(h.zh) > 16) errs.push(`zh ${zhLen(h.zh)} > 16`)
+  if (/[!！]|\p{Extended_Pictographic}/u.test(h.en + h.zh)) errs.push('exclamation or emoji')
+  if (/pronounc|\bsay\b|\bsaid\b(?! to)|\bsound|rhyme|spell/i.test(h.en) || /读音|发音|念作|读作|拼写/.test(h.zh)) errs.push('mentions a reading')
+  for (const d of h.en.match(/\d[\d.,]*/g) ?? []) if (!line.includes(d.replace(/[.,]$/, ''))) errs.push(`number ${d} not in line`)
+  for (const d of h.zh.match(/\d[\d.,]*/g) ?? []) if (!line.includes(d.replace(/[.,]$/, ''))) errs.push(`zh number ${d} not in line`)
+  const words = h.en.split(/[\s:;,.()'"‘’“”—–-]+/).filter(Boolean)
+  for (const w of words.slice(1)) if (/^[A-Z]/.test(w) && !line.toLowerCase().includes(w.toLowerCase())) errs.push(`word ${w} not in line`)
+  if (HEDGE_EN.test(line) && !HEDGE_EN.test(h.en)) errs.push('hedge dropped (en)')
+  if (HEDGE_EN.test(line) && !HEDGE_ZH.test(h.zh)) errs.push('hedge dropped (zh)')
+  return errs
+}
+const HOOK_SPEC = `You write "hooks" for "Say the Elements", a site that teaches the English names of the chemical elements to Chinese learners. A hook is ONE short true line that makes the name stick. It appears on screen when someone taps an element.
+For each element you get its stored ETYMOLOGY line and its stored FACT line (each already checked against Wikipedia), and their Chinese versions. Pick the one that makes the better hook and compress it to a punchline. Rules:
+- Use ONLY what that one stored line says. Do not add any fact, number, date, language, place, person or meaning that the line does not contain. Do not combine the two lines.
+- Hedges survive: if the line says "possibly", "thought to", "perhaps", "probably", keep that hedge in the English hook and an equivalent (可能/据说/或许) in the Chinese one.
+- English: at most 44 characters, one clause, deadpan; the fact is the joke. No exclamation marks, no emoji, no puns, nothing about how the name is pronounced or spelled. Do not start with the element's name (it is already on screen).
+- Chinese: at most 16 Chinese characters (punctuation not counted), written natively from the same stored line (not a translation of your English hook), same deadpan voice.
+- "from": "etymology" or "fact", whichever line you compressed.
+- No filler. If neither line has anything worth a hook (e.g. it is only "named after a person/place" with nothing surprising, or it is dry), return hook null. Quality over coverage, but most elements have something.
+Good examples (voice only):
+- line "From German Nickel, a mischievous sprite in miners' folklore" → {"en":"Named after a mischievous mine sprite.","zh":"名字来自矿井里的捣蛋小妖。","from":"etymology"}
+- line "Possibly from German kobelt, the name miners gave a nuisance type of ore" → {"en":"Possibly named for an ore miners hated.","zh":"可能得名于一种矿工嫌弃的矿石。","from":"etymology"}
+- line "Pencil 'leads' in wooden pencils have never been made from lead." → {"en":"Pencil lead was never lead.","zh":"铅笔里从来没有铅。","from":"fact"}
+Return ONLY a JSON array: [{"z": number, "hook": {"en","zh","from"} | null}]. No markdown fences.`
+
+async function hookMode() {
+  type E = (typeof els)[0] & { fact: { en: string; zh: string } | null; etymology: { en: string; zh: string } | null }
+  const list = (els as E[]).filter(e => (A.only ? A.only.includes(e.symbol) : true) && (e.fact || e.etymology) && (A.force || !drafts[e.z]?.hook_review))
+  const src = (e: E) => ({ etymology: e.etymology?.en ?? null, fact: e.fact?.en ?? null })
+  const block = (e: E) => `### z=${e.z} ${e.name.us} (${e.symbol})\nETYMOLOGY: ${e.etymology?.en ?? '(none)'}${e.etymology ? ` / ${e.etymology.zh}` : ''}\nFACT: ${e.fact?.en ?? '(none)'}${e.fact ? ` / ${e.fact.zh}` : ''}`
+  const batches: E[][] = []
+  for (let i = 0; i < list.length; i += 15) batches.push(list.slice(i, i + 15))
+  let bi = 0
+  await Promise.all(Array.from({ length: 4 }, async () => {
+    while (bi < batches.length) {
+      let pending = batches[bi++]
+      const why: Record<number, string> = {}
+      for (let round = 0; round < 3 && pending.length; round++) {
+        const extra = round ? `\n\nSome earlier hooks were rejected; reasons are given per element. Fix them or return null.\n${pending.map(e => `z=${e.z}: ${why[e.z]}`).join('\n')}\n(round ${round + 1})` : ''
+        let res: { z: number; hook: Hook | null }[]
+        try { const out = await claude(`${HOOK_SPEC}${extra}\n\n${pending.map(block).join('\n\n')}`, 'opus'); res = JSON.parse(out.slice(out.indexOf('['), out.lastIndexOf(']') + 1)) } catch (err) { console.log('hook batch error', String(err).slice(0, 160)); continue }
+        const next: E[] = []
+        for (const e of pending) {
+          const r = res.find(x => Number(x.z) === e.z)
+          if (!r) { why[e.z] = 'missing'; next.push(e); continue }
+          if (!r.hook) { drafts[e.z] = { ...drafts[e.z], hook: null, hook_review: { verdict: 'writer-null' } }; continue }
+          const probs = hookProblems(r.hook, src(e))
+          if (probs.length) { why[e.z] = probs.join('; '); console.log(`  ${e.symbol} r${round}: ${probs.join('; ')} :: ${r.hook.en} / ${r.hook.zh}`); next.push(e); continue }
+          // strict support check: a fresh model sees only the stored line and the hook
+          const line = r.hook.from === 'etymology' ? e.etymology! : e.fact!
+          const chk = await claude(`Strict fact check. STORED LINE (the only source): "${line.en}" (Chinese version: "${line.zh}").
+HOOK EN: "${r.hook.en}"
+HOOK ZH: "${r.hook.zh}"
+Is every claim in each hook fully supported by the stored line alone, with no added fact, number, language, person, place, meaning or certainty (a hedge in the line must survive)? The hook is always shown right next to the element's name and symbol, so it may leave the element unnamed ("Melts in your hand." is about this element); do not flag that. Do flag a hook that is misleading or false when read beside the element's name.
+Reply ONLY with JSON: {"en": "supported"|"not supported", "zh": "supported"|"not supported", "why": "short reason if not"}`, 'sonnet').catch(() => '')
+          let v: { en?: string; zh?: string; why?: string } = {}
+          try { v = JSON.parse(chk.slice(chk.indexOf('{'), chk.lastIndexOf('}') + 1)) } catch { /* unparsable → reject */ }
+          if (v.en === 'supported' && v.zh === 'supported') drafts[e.z] = { ...drafts[e.z], hook: r.hook, hook_review: { verdict: 'supported', round } }
+          else { why[e.z] = `checker: ${v.why ?? 'no verdict'}`; console.log(`  ${e.symbol} r${round} checker: ${v.why} :: ${r.hook.en} / ${r.hook.zh}`); next.push(e) }
+        }
+        pending = next
+        writeAtomic(DRAFTS, JSON.stringify(drafts, null, 1) + '\n')
+      }
+      for (const e of pending) drafts[e.z] = { ...drafts[e.z], hook: null, hook_review: { verdict: 'dropped', why: why[e.z] } }
+      writeAtomic(DRAFTS, JSON.stringify(drafts, null, 1) + '\n')
+    }
+  }))
+  const hs = Object.values(drafts).filter(d => d.hook)
+  console.log('hooks:', hs.length, 'null:', Object.values(drafts).filter(d => d.hook_review && !d.hook).length)
+}
+if (A.val('--field') === 'hook') { await hookMode(); process.exit(0) }
 
 // ---- main ----
 const todo = els.filter(e => (A.only ? A.only.includes(e.symbol) : true) && (A.force || A.has('--check') || !drafts[e.z]))

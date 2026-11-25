@@ -14,6 +14,8 @@ export type Detail = {
   /** sentence clip passed audio QA, [us, uk] */
   sa?: [boolean, boolean]
   traps: { wrong: string; why_en: string; why_zh: string }[]
+  /** one-line punchline compressed from fact or ety */
+  hook?: { en: string; zh: string; from: 'etymology' | 'fact' } | null
   prev: string | null; pal: string[] | null; year: string; state: string; group: number | null; period: number
 }
 
