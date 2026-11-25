@@ -6,6 +6,7 @@ import * as audio from '../audio'
 import { track } from '../analytics'
 import type { TableHandle } from './Table'
 import { PlayIcon, SlowIcon } from './Stage'
+import { IN_APP, landing } from '../share'
 
 export type QuizHandle = { answer: (el: El) => void; active: () => boolean }
 type SetId = 'first20' | 'common40' | 'trickySet' | 'all'
@@ -39,12 +40,14 @@ export const Quiz = forwardRef<QuizHandle, Props>(function Quiz(p, ref) {
   const [broke, setBroke] = useState(0)
   const longest = useRef(0)
   const chip = useRef(2)
-  const lastSet = useRef<SetId | 'missed'>('first20')
+  const lastSet = useRef<SetId | 'missed' | 'challenge'>('first20')
+  // a challenge link: its questions in its order, offered once on the setup screen
+  const [dare, setDare] = useState(landing.challenge)
 
   const q = qs[i]
   const say = (k: audio.Kind = 'name', el = q) => { if (el) { audio.unlock(); void audio.play(el.slug, p.accent, k); window.dispatchEvent(new Event('el-play')) } }
-  const begin = (list: El[], sid: SetId | 'missed') => {
-    const qq = shuffle(list).slice(0, 10)
+  const begin = (list: El[], sid: SetId | 'missed' | 'challenge') => {
+    const qq = sid === 'challenge' ? list : shuffle(list).slice(0, 10)
     setQs(qq); setI(0); setMissed([]); setFeedback(null); setDone(false); rights.current = []
     setStreak(0); setBroke(0); longest.current = 0; lastSet.current = sid
     track('quiz_start', { set: sid })
@@ -80,13 +83,27 @@ export const Quiz = forwardRef<QuizHandle, Props>(function Quiz(p, ref) {
         if (i + 1 >= qs.length) {
           setDone(true)
           const score = rights.current.length
-          track('quiz_finish', { set: setId, score, total: qs.length, medal: medalFor(score, qs.length), streak: longest.current })
-          p.onScore(setId, score, (ok ? missed : [...missed, q]).map(e => e.z), rights.current, longest.current)
+          // a challenge run is its own set: not logged or saved as a best under the selected chip
+          const sk = lastSet.current === 'challenge' ? 'challenge' : setId
+          track('quiz_finish', { set: sk, score, total: qs.length, medal: medalFor(score, qs.length), streak: longest.current })
+          p.onScore(sk, score, (ok ? missed : [...missed, q]).map(e => e.z), rights.current, longest.current)
         } else { setI(i + 1); setTimeout(() => void audio.play(qs[i + 1].slug, p.accent, 'name'), 200) }
       }, ok ? 1100 : 2400)
     },
   }))
 
+  if (!qs.length && dare) {
+    const el = BY_Z.get(dare.tripped)
+    return (
+      <div className="quiz-setup q-dare">
+        <p className="q-intro">{t(p.lang, el ? 'challengeIntro' : 'challengeIntro0', { n: dare.score, total: dare.zs.length, name: el ? nameFor(el, p.accent) : '' })}</p>
+        <div className="q-end-btns">
+          <button type="button" className="pill primary" onClick={() => begin(dare.zs.map(z => BY_Z.get(z)!), 'challenge')}><PlayIcon /> {t(p.lang, 'start')}</button>
+          <button type="button" className="pill ghost" onClick={() => setDare(null)}>{t(p.lang, 'challengeOther')}</button>
+        </div>
+      </div>
+    )
+  }
   if (!qs.length || (done && !qs.length)) {
     return (
       <div className="quiz-setup">
@@ -104,7 +121,8 @@ export const Quiz = forwardRef<QuizHandle, Props>(function Quiz(p, ref) {
   }
   if (done) {
     return <QuizEnd lang={p.lang} accent={p.accent} score={qs.length - missed.length} total={qs.length} missed={missed} longest={longest.current} answered={rights.current}
-      table={p.table} onMissed={() => begin(missed, 'missed')} onNew={() => { setQs([]); setDone(false) }} say={e => say('name', e)} setName={lastSet.current} />
+      table={p.table} onMissed={() => begin(missed, 'missed')} onNew={() => { setQs([]); setDone(false); setDare(null) }} say={e => say('name', e)} setName={lastSet.current}
+      zs={qs.map(e => e.z)} rival={lastSet.current === 'challenge' && dare ? dare.score : null} />
   }
   if (streak >= 2) chip.current = streak
   return (
@@ -125,7 +143,11 @@ export const Quiz = forwardRef<QuizHandle, Props>(function Quiz(p, ref) {
     </div>
   )
 })
-type EndProps = { lang: Lang; accent: Accent; score: number; total: number; missed: El[]; longest: number; answered: number[]; table: React.RefObject<TableHandle | null>; onMissed: () => void; onNew: () => void; say: (e: El) => void; setName: string }
+type EndProps = { lang: Lang; accent: Accent; score: number; total: number; missed: El[]; longest: number; answered: number[]; table: React.RefObject<TableHandle | null>; onMissed: () => void; onNew: () => void; say: (e: El) => void; setName: string
+  /** the questions, in order (the challenge link carries them) */
+  zs: number[]
+  /** the sender's score when this run answered a challenge */
+  rival: number | null }
 
 export function MedalTile({ el, accent, lang, onPlay }: { el: El; accent: Accent; lang: Lang; onPlay?: () => void }) {
   const nm = nameFor(el, accent)
@@ -165,12 +187,24 @@ function QuizEnd(p: EndProps) {
     return () => { cancelAnimationFrame(raf); timers.forEach(clearTimeout) }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
+  const [pic, setPic] = useState('')
+  const card = () => ({ lang: p.lang, accent: p.accent, medal: el, medalId: medal, line: t(p.lang, `medal${medal}`), score: p.score, total: p.total, longest: p.longest, missed: p.missed, setName: p.setName, zs: p.zs })
   const share = async () => {
-    const { shareCard } = await import('./shareCard')
-    const how = await shareCard({ lang: p.lang, accent: p.accent, medal: el, medalId: medal, line: t(p.lang, `medal${medal}`), score: p.score, total: p.total, longest: p.longest, missed: p.missed, setName: p.setName })
+    const m = await import('./shareCard')
+    if (IN_APP) {
+      // WeChat and friends: no file share, no download; the picture (with its QR) is held to send or save
+      const blob = await m.cardBlob(card())
+      if (blob) setPic(URL.createObjectURL(blob))
+      return
+    }
+    const how = await m.shareCard(card())
     if (how) track('quiz_share', { medal, method: how })
     if (how === 'download') { setToast(t(p.lang, 'saved')); setTimeout(() => setToast(''), 2200) }
   }
+  const held = useRef(0)
+  const onHold = () => { held.current = window.setTimeout(() => { track('quiz_share', { medal, method: 'longpress' }, { onceKey: 'longpress' }); if (landing.recipient) track('reply_share', { method: 'longpress', hop: landing.hop }) }, 500) }
+  const offHold = () => clearTimeout(held.current)
+  const closePic = () => { URL.revokeObjectURL(pic); setPic('') }
 
   return (
     <div className={`quiz-end medal-${medal}`}>
@@ -184,6 +218,7 @@ function QuizEnd(p: EndProps) {
           <div className="q-mname"><b lang="en">{nameFor(el, p.accent)}</b> {ipa ? <span className="ipa" lang="en">/{ipa}/</span> : null} <span className="zh-ch">{el.zh}</span></div>
           <div className="q-joke">{t(p.lang, `medal${medal}`)}</div>
           {p.longest >= 3 ? <div className="q-chain">{t(p.lang, 'longestChain', { n: p.longest })}</div> : null}
+          {p.rival != null ? <div className="q-vs">{t(p.lang, 'vs', { a: p.score, n: p.rival, total: p.total })}</div> : null}
         </div>
       </div>
       {p.missed.length ? (
@@ -193,11 +228,18 @@ function QuizEnd(p: EndProps) {
         </div>
       ) : null}
       <div className="q-end-btns">
-        {p.missed.length ? <button type="button" className="pill primary" onClick={p.onMissed}>{t(p.lang, 'tryMissed')}</button> : null}
+        {p.missed.length ? <button type="button" className={`pill${p.rival != null ? '' : ' primary'}`} onClick={p.onMissed}>{t(p.lang, 'tryMissed')}</button> : null}
         <button type="button" className={`pill${p.missed.length ? '' : ' primary'}`} onClick={p.onNew}>{t(p.lang, 'again')}</button>
-        <button type="button" className="pill ghost" onClick={() => void share()}><ShareIcon /> {t(p.lang, 'shareResult')}</button>
+        <button type="button" className={`pill${p.rival != null ? ' primary' : ' ghost'}`} onClick={() => void share()}><ShareIcon /> {t(p.lang, p.rival != null ? 'sendBack' : 'shareResult')}</button>
         {toast ? <span className="q-toast" role="status">{toast}</span> : null}
       </div>
+      {pic ? (
+        <div className="q-pic" role="dialog" aria-modal="true" aria-label={t(p.lang, 'holdToSend')} onClick={closePic}>
+          <img src={pic} alt={t(p.lang, 'labReport')} onPointerDown={onHold} onPointerUp={offHold} onPointerCancel={offHold} onContextMenu={offHold} onClick={e => e.stopPropagation()} />
+          <p>{t(p.lang, 'holdToSend')}</p>
+          <button type="button" className="pill" onClick={closePic}>{t(p.lang, 'close')}</button>
+        </div>
+      ) : null}
     </div>
   )
 }

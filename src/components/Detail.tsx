@@ -7,6 +7,7 @@ import { Respell, PlayIcon, SlowIcon, Meter } from './Stage'
 import { StateIcon } from './Table'
 import { track } from '../analytics'
 import { Sister } from './Sister'
+import { hopOut, trackReply } from '../share'
 
 type Props = {
   el: El; lang: Lang; accent: Accent; phone: boolean; origin: DOMRect | null; state: State; starred: boolean
@@ -215,6 +216,7 @@ export function Detail(p: Props) {
               {d ? <span>{t(lang, 'period')} {d.period}{d.group ? ` · ${t(lang, 'group')} ${d.group}` : ''}</span> : null}
               {d?.year ? <span>{t(lang, 'discovered')} {d.year}</span> : null}
             </section>
+            <Dare el={el} lang={lang} />
             <Sister lang={lang} variant="row" />
           </div>
           <div className="dt-nav">
@@ -223,6 +225,30 @@ export function Detail(p: Props) {
           </div>
         </div>
       </div>
+    </div>
+  )
+}
+
+/** 考考朋友: the element's own page (it has its own preview card) with a one-line bet */
+function Dare({ el, lang }: { el: El; lang: Lang }) {
+  const [done, setDone] = useState(false)
+  const go = async () => {
+    const url = (how: string) => `https://elements.integ.life${lang === 'zh' ? '/zh' : ''}/element/${el.slug}/?r=${how}${hopOut()}`
+    const text = t(lang, 'dareText', { name: el.n })
+    let method = ''
+    if (navigator.share) {
+      try { await navigator.share({ text, url: url('l') }); method = 'link' } catch (e) { if ((e as Error).name === 'AbortError') return }
+    }
+    if (!method) {
+      try { await navigator.clipboard.writeText(`${text} ${url('c')}`); method = 'copy_link'; setDone(true); setTimeout(() => setDone(false), 2000) } catch { return }
+    }
+    track('dare_share', { method })
+    trackReply(method)
+  }
+  return (
+    <div className="dt-dare">
+      <button type="button" className="pill ghost" onClick={() => void go()}>{t(lang, 'dare')}</button>
+      {done ? <span className="q-toast" role="status">{t(lang, 'linkCopied')}</span> : null}
     </div>
   )
 }

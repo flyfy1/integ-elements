@@ -1,9 +1,12 @@
 // "Lab report" share card: one 1080x1350 PNG drawn on a canvas, then the Web Share API or a download.
 // Only correct respellings are printed: a wrong reading never leaves the site on a picture.
+// The footer QR opens the same questions (a challenge link, `r=q`).
+import qrcode from 'qrcode-generator'
 import { CATS, nameFor, type Accent, type El, type Lang } from '../data'
 import { t, type Key } from '../i18n'
+import { challengeUrl, markMine, trackReply, type Method } from '../share'
 
-type Card = { lang: Lang; accent: Accent; medal: El; medalId: string; line: string; score: number; total: number; longest: number; missed: El[]; setName: string }
+type Card = { lang: Lang; accent: Accent; medal: El; medalId: string; line: string; score: number; total: number; longest: number; missed: El[]; setName: string; zs: number[] }
 
 const W = 1080, H = 1350
 const UI = `Inter, ui-sans-serif, system-ui, sans-serif`
@@ -18,6 +21,20 @@ const MIX = (hex: string, pct: number, base = '#0F1626') => {
 function rr(c: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, r: number) {
   c.beginPath(); c.roundRect(x, y, w, h, r)
 }
+/** a QR on a white plate with a four-module quiet zone, so a long-press or a camera reads it off the dark card */
+function qr(c: CanvasRenderingContext2D, text: string, x: number, y: number, size: number) {
+  const q = qrcode(0, 'M')
+  q.addData(text, 'Byte')
+  q.make()
+  const n = q.getModuleCount()
+  const cell = Math.floor(size / (n + 8))
+  const off = Math.round((size - cell * n) / 2)
+  rr(c, x, y, size, size, 14); c.fillStyle = '#FFFFFF'; c.fill()
+  c.fillStyle = '#0A1020'
+  for (let r = 0; r < n; r++) for (let k = 0; k < n; k++) if (q.isDark(r, k)) c.fillRect(x + off + k * cell, y + off + r * cell, cell, cell)
+}
+const tripped = (p: Card) => p.missed[0]?.z ?? 0
+
 /** draws runs of [text, font, colour] on one line, centred at cx */
 function runs(c: CanvasRenderingContext2D, parts: [string, string, string][], cx: number, y: number, gap = 18) {
   const ws = parts.map(([s, f]) => { c.font = f; return c.measureText(s).width })
@@ -53,7 +70,7 @@ export async function draw(p: Card): Promise<HTMLCanvasElement> {
 
   // medal tile, 320 x 358
   const hex = CATS[p.medal.c].hex
-  const tw = 320, th = 358, tx = (W - tw) / 2, ty = 236
+  const tw = 320, th = 358, tx = (W - tw) / 2, ty = 176
   c.save()
   c.shadowColor = hex + '55'; c.shadowBlur = 80
   const g = c.createLinearGradient(tx, ty, tx + tw * 0.5, ty + th)
@@ -69,7 +86,7 @@ export async function draw(p: Card): Promise<HTMLCanvasElement> {
   c.fillText(nameFor(p.medal, p.accent), W / 2, ty + 304)
 
   // score
-  let y = ty + th + 172
+  let y = ty + th + 150
   runs(c, [[String(p.score), `700 160px ${UI}`, '#EAF0FF'], [`/${p.total}`, `500 72px ${UI}`, '#93A0BD']], W / 2, y, 6)
   y += 82
   runs(c, [[nameFor(p.medal, p.accent), `700 40px ${UI}`, '#EAF0FF'], [`/${ipa}/`, `400 40px ${IPA}`, '#7CF5D4'], [p.medal.zh, `500 40px ${ZH}`, '#C2CBE0']], W / 2, y)
@@ -110,29 +127,45 @@ export async function draw(p: Card): Promise<HTMLCanvasElement> {
       y += 64
     }
   }
-  // footer
-  c.textAlign = 'center'
-  runs(c, [['Say the Elements', `600 26px ${UI}`, '#93A0BD'], ['·', `400 26px ${UI}`, '#56658A'], ['元素怎么读', `500 26px ${ZH}`, '#93A0BD'], ['·', `400 26px ${UI}`, '#56658A'], ['elements.integ.life/quiz', `400 26px ${UI}`, '#7CF5D4']], W / 2, H - 64, 14)
+  // footer: the QR, and beside it what it does and where
+  const qs = 184, fy = H - qs - 44
+  const call = t(p.lang, 'scanSame')
+  c.font = `700 32px ${UI}, ${ZH}`
+  const tw2 = Math.max(c.measureText(call).width, 400)
+  const fx = (W - (qs + 32 + tw2)) / 2
+  qr(c, challengeUrl(p.lang, p.zs, p.score, tripped(p), 'q'), fx, fy, qs)
+  c.textAlign = 'left'
+  const lx = fx + qs + 32
+  c.fillStyle = '#EAF0FF'; c.fillText(call, lx, fy + 62)
+  c.font = `600 26px ${UI}, ${ZH}`; c.fillStyle = '#93A0BD'; c.fillText('Say the Elements · 元素怎么读', lx, fy + 112)
+  c.font = `400 26px ${UI}`; c.fillStyle = '#7CF5D4'; c.fillText('elements.integ.life/quiz', lx, fy + 152)
   return cv
 }
 
-/** share the card; returns how it left the site, or null when the user cancelled */
-export async function shareCard(p: Card): Promise<'share' | 'download' | null> {
+/** the card as a PNG blob (the in-app-browser path shows it as an <img> to long-press) */
+export async function cardBlob(p: Card): Promise<Blob | null> {
   const cv = await draw(p)
-  const blob = await new Promise<Blob | null>(res => cv.toBlob(res, 'image/png'))
+  return new Promise<Blob | null>(res => cv.toBlob(res, 'image/png'))
+}
+
+/** share the card with its challenge link; returns how it left the site, or null when the user cancelled */
+export async function shareCard(p: Card): Promise<'share' | 'download' | null> {
+  const blob = await cardBlob(p)
   if (!blob) return null
   const file = new File([blob], `say-the-elements-${p.medalId.toLowerCase()}-${p.score}of${p.total}.png`, { type: 'image/png' })
   const hardest = [...p.missed].sort((a, b) => b.t - a.t || b.n.length - a.n.length)[0]
-  const url = `https://elements.integ.life${p.lang === 'zh' ? '/zh' : ''}/quiz/`
+  const link = (how: Method) => challengeUrl(p.lang, p.zs, p.score, tripped(p), how)
   const text = t(p.lang, 'shareText', { medal: p.lang === 'zh' ? p.medal.zh : nameFor(p.medal, p.accent), n: p.score, total: p.total, name: hardest ? nameFor(hardest, p.accent) : 'Praseodymium' })
   const nav = navigator as Navigator & { canShare?: (d: ShareData) => boolean }
+  markMine(p.zs)
   if (nav.canShare?.({ files: [file] })) {
-    try { await nav.share({ files: [file], text: `${text} ${url}` }); return 'share' } catch (e) { if ((e as Error).name === 'AbortError') return null }
+    try { await nav.share({ files: [file], text: `${text} ${link('f')}` }); trackReply('share'); return 'share' } catch (e) { if ((e as Error).name === 'AbortError') return null }
   }
   const a = document.createElement('a')
   a.href = URL.createObjectURL(blob); a.download = file.name
   document.body.append(a); a.click(); a.remove()
   setTimeout(() => URL.revokeObjectURL(a.href), 4000)
-  try { await navigator.clipboard?.writeText(`${text} ${url}`) } catch { /* clipboard blocked */ }
+  try { await navigator.clipboard?.writeText(`${text} ${link('c')}`) } catch { /* clipboard blocked */ }
+  trackReply('download')
   return 'download'
 }

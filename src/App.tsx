@@ -4,6 +4,7 @@ import { t } from './i18n'
 import * as audio from './audio'
 import * as store from './store'
 import { pageView, track, bucketMs, type Page } from './analytics'
+import { trackLanding } from './share'
 import { Table, type TableHandle } from './components/Table'
 import { Stage, AccentSwitch, PlayIcon, SlowIcon, HookChip, Specimen, warmPicture } from './components/Stage'
 import { Detail } from './components/Detail'
@@ -84,6 +85,7 @@ export default function App() {
   useEffect(() => {
     const r = parse(location.pathname)
     pageView(r.slug ? 'Element' : PAGE[r.mode], location.pathname)
+    trackLanding()
     const onPop = () => {
       const r2 = parse(location.pathname)
       setLang(r2.lang); setMode(r2.mode)
