@@ -45,7 +45,7 @@ const Tile = memo(function Tile({ el, lang, dim, sel, heard, state, glow, accent
       data-z={el.z}
       data-state={state}
       style={{ gridColumn: el.col, gridRow: el.row >= 8 ? el.row + 1 : el.row, ['--c' as string]: cat.hex, ['--d' as string]: `${(el.col + el.row) * 12}ms` }}
-      aria-label={`${lang === 'zh' ? el.zh + '，' : ''}${el.us !== el.uk ? `${el.uk} (${el.us})` : el.n}, ${el.s}, ${lang === 'zh' ? '原子序数' : 'atomic number'} ${el.z}, ${lang === 'zh' ? cat.zh : cat.en.toLowerCase()}`}
+      aria-label={`${el.z} ${el.s} ${nm}${lang === 'zh' ? '，' + el.zh : ''}, ${lang === 'zh' ? cat.zh : cat.en.toLowerCase()}`}
       tabIndex={-1}
     >
       <span className="glow" aria-hidden="true" />
@@ -201,7 +201,7 @@ export const Table = forwardRef<TableHandle, Props>(function Table(p, ref) {
     <div
       ref={root}
       className="ptable"
-      role="grid"
+      role="group"
       aria-label="Periodic table"
       onPointerMove={onMove}
       onPointerLeave={onLeave}
