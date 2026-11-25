@@ -77,6 +77,30 @@ export function HookChip({ el, lang, onOpen, className = '' }: { el: El | null; 
   )
 }
 
+const imgUrl = (el: El) => `/img/${el.slug}.480.webp`
+/** warm the 480 picture on intent (hover, touch start, focus), like the name clip */
+export function warmPicture(el: El) {
+  const conn = (navigator as unknown as { connection?: { saveData?: boolean } }).connection
+  if (!el.img || conn?.saveData) return
+  const im = new Image(); im.decoding = 'async'; im.src = imgUrl(el)
+}
+/** the element's picture in a small window: category-colour ground until decoded, then fade + settle */
+export function Specimen({ el, lang, className = '' }: { el: El; lang: Lang; className?: string }) {
+  const [ready, setReady] = useState<number | null>(null)
+  useEffect(() => {
+    if (!el.img) return
+    let live = true
+    const im = new Image(); im.src = imgUrl(el)
+    im.decode().then(() => live && setReady(el.z), () => live && setReady(el.z))
+    return () => { live = false }
+  }, [el])
+  return (
+    <span className={`spec ${className}`} style={{ ['--c' as string]: CATS[el.c].hex }}>
+      {el.img && ready === el.z ? <img key={el.z} src={imgUrl(el)} alt={lang === 'zh' ? `${el.zh}（${el.n}）的示意图片` : `Illustration of ${el.n}`} width={480} height={480} /> : null}
+    </span>
+  )
+}
+
 type Props = {
   el: El | null; lang: Lang; accent: Accent; compact?: boolean
   onPlay: (k: audio.Kind, from: string) => void; onAccent: (a: Accent) => void; onDetails: () => void
@@ -111,7 +135,9 @@ export function Stage({ el, lang, accent, onPlay, onAccent, onDetails }: Props) 
   const a = accent === 'us' ? 0 : 1
   return (
     <div className="stage" style={{ ['--c' as string]: cat.hex }}>
-      <div className="st-shell"><Shells el={el} size={150} symbolSize={30} /></div>
+      {el.img ? (
+        <div className="st-shell st-spec"><Specimen el={el} lang={lang} /><span className="st-badge"><Shells el={el} size={64} symbolSize={15} /></span></div>
+      ) : <div className="st-shell"><Shells el={el} size={150} symbolSize={30} /></div>}
       <div className="st-mid">
         <div className="st-name-row">
           <h2 className="st-name" lang="en" key={el.z}>{el.us !== el.uk ? bothNames(el) : el.n}</h2>

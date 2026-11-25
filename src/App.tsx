@@ -5,7 +5,7 @@ import * as audio from './audio'
 import * as store from './store'
 import { pageView, track, bucketMs, type Page } from './analytics'
 import { Table, type TableHandle } from './components/Table'
-import { Stage, AccentSwitch, PlayIcon, SlowIcon, HookChip } from './components/Stage'
+import { Stage, AccentSwitch, PlayIcon, SlowIcon, HookChip, Specimen, warmPicture } from './components/Stage'
 import { Detail } from './components/Detail'
 import { Legend, StateChips, TempSlider, MiniMap } from './components/Controls'
 import { Tricky, About, Practice } from './components/Views'
@@ -155,7 +155,7 @@ export default function App() {
     table.current?.ripple(el.z)
     playEl(el, accent, 'name', 'tile', tapT0.current || performance.now())
   }, [mode, sel, accent, openDetail, playEl])
-  const onIntent = useCallback((el: El) => { void audio.load(el.slug, accent, 'name') }, [accent])
+  const onIntent = useCallback((el: El) => { void audio.load(el.slug, accent, 'name'); warmPicture(el) }, [accent])
   const onKey = useCallback((el: El, ev: React.KeyboardEvent) => {
     const k = ev.key.toLowerCase()
     if (ev.key === ' ' ) { ev.preventDefault(); setSel(el.z); table.current?.ripple(el.z); playEl(el, accent, 'name', 'tile', performance.now()); return true }
@@ -395,7 +395,7 @@ function PhoneBar({ el, lang, accent, onPlay, onOpen, heardN }: { el: El | null;
     <div className="pbar" style={{ ['--c' as string]: ['#FF6B6B', '#FF9F43', '#FFD43B', '#A3B8CC', '#2DD4BF', '#7EE787', '#38BDF8', '#A78BFA', '#F472B6', '#D946EF'][el.c] }}
       onPointerDown={ev => (startY.current = ev.clientY)} onPointerUp={ev => { if (startY.current != null && startY.current - ev.clientY > 30) onOpen(); startY.current = null }}>
       <button type="button" className="pb-open" onClick={onOpen} aria-label={`${t(lang, 'details')}: ${el.n}`}>
-        <span className="pb-shell"><ShellsLazy el={el} /></span>
+        {el.img ? <Specimen el={el} lang={lang} className="pb-thumb" /> : <span className="pb-shell"><ShellsLazy el={el} /></span>}
         <span className="pb-txt">
           <span className="pb-name" lang="en" key={el.z}>{accent === 'us' ? el.us : el.uk}</span>
           <span className="pb-ipa" lang="en">{el.ipa[a] ? `/${el.ipa[a]}/` : <span className="unv">{t(lang, 'unverified')}</span>}</span>

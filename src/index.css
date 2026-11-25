@@ -209,6 +209,16 @@ kbd { font: 12px var(--ui); padding: 1px 6px; border: 1px solid var(--line); bor
   animation: hkIn .24s var(--out) .35s both, hkOut .24s linear 2.95s forwards; }
 @keyframes hkOut { to { opacity: 0; visibility: hidden; } }
 @container (max-height: 175px) { .stage .hook-chip { height: 24px; font-size: 12.5px; } }
+.spec { position: relative; display: block; overflow: hidden; border-radius: 18px; flex: none;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--c) 22%, var(--surface)) 0%, color-mix(in srgb, var(--c) 11%, var(--surface)) 100%);
+  border: 1px solid color-mix(in srgb, var(--c) 45%, transparent); box-shadow: 0 10px 30px #00000066; }
+.spec img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; animation: specIn .32s var(--out) both; }
+@keyframes specIn { from { opacity: 0; transform: scale(1.06); } 75% { opacity: 1; } }
+.st-spec { position: relative; height: min(150px, 100%); aspect-ratio: 1; display: block; }
+.st-spec .spec { width: 100%; height: 100%; }
+.st-badge { position: absolute; right: -10px; bottom: -10px; width: 64px; height: 64px; border-radius: 50%; background: #0F1626; border: 1px solid var(--line); display: grid; place-items: center; overflow: hidden; }
+.st-badge svg { width: 100%; height: 100%; }
+.pb-thumb { width: 52px; height: 52px; border-radius: 12px; margin: 0 2px; box-shadow: 0 6px 16px #00000066; }
 .stage:has(> .st-hook) { grid-template-rows: minmax(0, 1fr) auto; row-gap: 8px; align-content: center; }
 .stage > .st-hook { grid-row: 2; grid-column: -3 / -1; margin-top: -2px; }
 .stage .st-shell { grid-row: 1 / -1; }
@@ -556,6 +566,7 @@ kbd { font: 12px var(--ui); padding: 1px 6px; border: 1px solid var(--line); bor
 .reduce .shells .ring, .reduce .wl-mark i, .reduce .pulse-dot { animation: none !important; }
 .reduce .medal, .reduce .q-mname, .reduce .q-joke, .reduce .q-chain { animation: fadeIn2 .15s both !important; }
 .reduce .m-spark { display: none; }
+.reduce .spec img { animation: fadeIn2 .15s both; }
 .reduce .hook-chip { animation: fadeIn2 .15s .35s both; }
 .reduce .hook-chip.float { animation: fadeIn2 .15s .35s both, hkOut .24s linear 2.95s forwards; }
 .reduce .q-streak.on { animation: none; }
