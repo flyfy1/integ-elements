@@ -78,8 +78,27 @@ const S = {
   melting: { en: 'Melts', zh: '熔点' },
   boiling: { en: 'Boils', zh: '沸点' },
   tableLink: { en: 'Back to the table', zh: '回到周期表' },
+  streak3: { en: 'Chain reaction ×3', zh: '链式反应 ×3' },
+  streak5: { en: 'Critical mass ×5', zh: '临界质量 ×5' },
+  streak7: { en: 'Going supernova ×7', zh: '超新星爆发 ×7' },
+  streakBroken: { en: 'Chain broken at {n}.', zh: '链条断在第 {n} 环。' },
+  medalAu: { en: 'Pure gold.', zh: '真金不怕火炼。' },
+  medalAg: { en: 'Sterling work. One polish from gold.', zh: '银光闪闪，离金子就差一步。' },
+  medalCu: { en: 'A good conductor. Keep the current going.', zh: '导电良好，继续通电。' },
+  medalFe: { en: 'Needs more time in the furnace.', zh: '恨铁不成钢，回炉再炼。' },
+  medalPb: { en: 'That went down like a lead balloon.', zh: '分量不轻，全是铅。' },
+  medalHe: { en: 'Noble gas: no reaction at all.', zh: '惰性气体：毫无反应。' },
+  longestChain: { en: 'Longest chain ×{n}', zh: '最长连对 ×{n}' },
+  shareResult: { en: 'Share', zh: '晒成绩' },
+  labReport: { en: 'Lab report', zh: '化验单' },
+  stillToMaster: { en: 'Still to master', zh: '还没读准' },
+  saved: { en: 'Picture saved', zh: '图片已保存' },
+  shareText: { en: 'I scored {medal} on Say the Elements ({n}/{total}). Can you say {name}?', zh: '我在「元素怎么读」拿了{medal}牌（{n}/{total}）。{name} 你会读吗？' },
   speakNote: { en: 'Voices: ElevenLabs “Jessica” (US) and “Lily” (UK).', zh: '配音：ElevenLabs 的 Jessica（美音）和 Lily（英音）。' },
 } as const
 
 export type Key = keyof typeof S
-export const t = (lang: Lang, k: Key) => S[k][lang]
+export const t = (lang: Lang, k: Key, vars?: Record<string, string | number>) => {
+  const s: string = S[k][lang]
+  return vars ? s.replace(/\{(\w+)\}/g, (m, v) => (v in vars ? String(vars[v]) : m)) : s
+}

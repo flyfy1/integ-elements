@@ -1,7 +1,7 @@
 import { forwardRef, memo, useCallback, useEffect, useImperativeHandle, useRef, type ReactNode } from 'react'
 import { CATS, ELS, type Accent, type El, type Lang, type State } from '../data'
 
-export type TableHandle = { ripple: (z: number) => void; tile: (z: number) => HTMLButtonElement | null; focus: (z: number) => void; mark: (z: number, cls: string, ms: number) => void; shimmer: (zs: number[]) => void }
+export type TableHandle = { ripple: (z: number) => void; tile: (z: number) => HTMLButtonElement | null; focus: (z: number) => void; mark: (z: number, cls: string, ms: number) => void; shimmer: (zs: number[], stagger?: number) => void }
 
 type Props = {
   lang: Lang
@@ -87,9 +87,12 @@ export const Table = forwardRef<TableHandle, Props>(function Table(p, ref) {
       t.classList.remove(cls); void t.offsetWidth; t.classList.add(cls)
       setTimeout(() => t.classList.remove(cls), ms)
     },
-    shimmer: (zs: number[]) => {
+    shimmer: (zs: number[], stagger = 0) => {
       if (reduced()) return
-      for (const z of zs) { const t = tileOf(z); if (!t) continue; t.classList.remove('shimmer'); void t.offsetWidth; t.classList.add('shimmer'); setTimeout(() => t.classList.remove('shimmer'), 320) }
+      zs.forEach((z, k) => setTimeout(() => {
+        const t = tileOf(z); if (!t) return
+        t.classList.remove('shimmer'); void t.offsetWidth; t.classList.add('shimmer'); setTimeout(() => t.classList.remove('shimmer'), 320)
+      }, k * stagger))
     },
   }))
 

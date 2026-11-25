@@ -357,6 +357,61 @@ kbd { font: 12px var(--ui); padding: 1px 6px; border: 1px solid var(--line); bor
 .q-missed ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 14px; }
 .q-missed li { display: flex; align-items: center; gap: 8px; font-size: 14px; }
 .q-end-btns { display: flex; gap: 8px; }
+.q-end-btns { flex-wrap: wrap; align-items: center; }
+.q-toast { font-size: 13px; color: var(--accent); animation: fadeIn2 .2s; }
+/* streak chip ("chain reaction") */
+.q-streak { margin-left: auto; height: 22px; padding: 0 8px; border-radius: 999px; display: inline-grid; place-items: center; font-size: 12px; font-weight: 700; color: #FFD43B; background: #FFD43B1F; border: 1px solid #FFD43B55; opacity: 0; transition: opacity .18s; font-variant-numeric: tabular-nums; }
+.q-streak.on { opacity: 1; animation: chipPop .22s var(--out); }
+@keyframes chipPop { 50% { transform: scale(1.18); } }
+.q-fb.chain { color: #FFD43B; font-weight: 650; }
+.q-broke { color: #fda4af; font-weight: 650; }
+/* result: the score becomes an element */
+.q-verdict { display: flex; align-items: center; gap: 18px; min-width: 0; }
+.medal-wrap { position: relative; perspective: 700px; flex: none; }
+.medal { position: relative; display: block; width: 96px; height: 108px; padding: 0; border-radius: 14px; cursor: pointer;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--c) 26%, var(--surface)) 0%, color-mix(in srgb, var(--c) 11%, var(--surface)) 100%);
+  border: 1px solid color-mix(in srgb, var(--c) 60%, transparent); box-shadow: 0 0 30px -6px color-mix(in srgb, var(--c) 60%, transparent), inset 0 1px 0 #ffffff1c;
+  animation: medalIn .42s var(--out) .5s both; transition: transform .08s; }
+.medal:active { transform: scale(.96); }
+.medal .m-num { position: absolute; top: 7px; left: 9px; font-size: 12px; line-height: 1; color: color-mix(in srgb, var(--c) 35%, #b9c3dc); }
+.medal .m-sym { position: absolute; inset: 0; display: grid; place-items: center; padding-bottom: 16px; font-weight: 650; font-size: 40px; line-height: 1; color: color-mix(in srgb, var(--c) 80%, white); text-shadow: 0 0 18px color-mix(in srgb, var(--c) 45%, transparent); }
+.medal .m-nm { position: absolute; left: 4px; right: 4px; bottom: 11px; font-size: 12px; line-height: 1; text-align: center; color: #c2cbe0; }
+.medal::after { content: ''; position: absolute; top: 8px; right: 8px; width: 12px; height: 12px; opacity: .55;
+  background: currentColor; color: #c2cbe0; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 9v6h4l5 4V5L8 9z'/%3E%3Cpath d='M16 8.5a5 5 0 0 1 0 7' stroke='black' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 9v6h4l5 4V5L8 9z'/%3E%3Cpath d='M16 8.5a5 5 0 0 1 0 7' stroke='black' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat; }
+@keyframes medalIn { 0% { opacity: 0; transform: rotateY(90deg) scale(.9); } 30% { opacity: 1; } 100% { opacity: 1; transform: none; } }
+.m-spark { position: absolute; left: 50%; top: 50%; width: 5px; height: 5px; margin: -2.5px; border-radius: 50%; pointer-events: none; z-index: 2; opacity: 0;
+  box-shadow: 0 -62px 0 #FFD43B, 24px -57px 0 #FDE68A, 44px -44px 0 #FFD43B, 57px -24px 0 #fff3bf, 62px 0 0 #FFD43B, 57px 24px 0 #FDE68A, 44px 44px 0 #FFD43B, 24px 57px 0 #fff3bf, 0 62px 0 #FFD43B, -24px 57px 0 #FDE68A, -44px 44px 0 #FFD43B, -57px 24px 0 #fff3bf, -62px 0 0 #FFD43B, -57px -24px 0 #FDE68A, -44px -44px 0 #FFD43B, -24px -57px 0 #fff3bf;
+  animation: mSparks .55s var(--out) .92s both; }
+.m-spark.two { animation-delay: 1.08s; rotate: 11deg; }
+@keyframes mSparks { 0% { opacity: 0; transform: scale(.3); } 1% { opacity: 1; } 100% { opacity: 0; transform: scale(1.45); } }
+.q-vtext { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.q-vtext .q-score { line-height: 1; }
+.q-mname { font-size: 16px; display: flex; align-items: baseline; gap: 4px 10px; flex-wrap: wrap; }
+.q-mname .ipa { color: var(--accent); font-size: 15px; }
+.q-mname .zh-ch { color: #c2cbe0; }
+.q-joke { font-size: 15px; color: #CDD6EC; line-height: 1.35; }
+.q-chain { font-size: 12.5px; font-weight: 650; color: #FFD43B; }
+.q-mname, .q-joke, .q-chain { animation: rise8 .3s var(--out) .92s both; }
+@keyframes rise8 { from { opacity: 0; transform: translateY(8px); } }
+.q-missed ul { max-height: 100%; }
+/* desktop: medal | verdict | missed, buttons under the verdict */
+.stage-slot .quiz-end { display: grid; grid-template-columns: auto minmax(0, 1fr) minmax(0, 1.2fr); grid-template-rows: minmax(0, 1fr) auto; grid-template-areas: "m t x" "m b b"; gap: 10px 22px; align-items: center; }
+.stage-slot .q-verdict { display: contents; }
+.stage-slot .medal-wrap { grid-area: m; }
+.stage-slot .q-vtext { grid-area: t; }
+.stage-slot .q-missed { grid-area: x; align-self: stretch; min-height: 0; overflow-y: auto; scrollbar-width: thin; padding-right: 4px; }
+.stage-slot .q-missed h3 { margin-bottom: 4px; }
+.stage-slot .q-missed ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2px 12px; }
+.stage-slot .q-missed li { font-size: 13px; gap: 6px; white-space: nowrap; min-width: 0; height: 24px; }
+.stage-slot .q-missed li [lang] { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.stage-slot .q-missed .rbtn.sm { width: 22px; height: 22px; }
+.stage-slot .q-missed .rbtn.sm svg { width: 10px; }
+.stage-slot .q-missed .sym-chip { min-width: 26px; height: 20px; font-size: 12px; }
+.stage-slot .q-missed ul:has(li:nth-child(5)) .muted { display: none; }
+.stage-slot .q-end-btns { grid-area: b; }
+.stage-slot .quiz-end:not(:has(.q-missed)) .q-vtext { grid-column: 2 / 4; }
+@container (max-height: 175px) { .stage-slot .quiz-stage { padding: 10px 16px; } .stage-slot .medal { width: 80px; height: 90px; } .stage-slot .medal .m-sym { font-size: 34px; } .stage-slot .q-score b { font-size: 36px; } .stage-slot .q-end-btns .pill { height: 32px; } .stage-slot .q-joke { font-size: 14px; } }
+@container (max-width: 560px) { .stage-slot .q-missed li .muted { display: none; } }
 .help { position: fixed; inset: 0; z-index: 70; background: #04070ecc; display: grid; place-items: center; }
 .help-card { width: min(440px, 92vw); padding: 22px 24px; border-radius: 18px; background: var(--surface-2); border: 1px solid #ffffff14; }
 .help-card h2 { margin: 0 0 12px; font-size: 18px; }
@@ -434,6 +489,20 @@ kbd { font: 12px var(--ui); padding: 1px 6px; border: 1px solid var(--line); bor
 .app.phone .q-prog i { width: 14px; }
 .app.phone .quiz-bar { gap: 12px; }
 .app.phone .q-fb { font-size: 14px; }
+.app.phone .quiz-end { justify-content: flex-start; }
+.app.phone .q-verdict { gap: 14px; }
+.app.phone .medal { width: 84px; height: 94px; border-radius: 12px; }
+.app.phone .medal .m-sym { font-size: 34px; padding-bottom: 14px; }
+.app.phone .medal .m-nm { font-size: 11px; bottom: 9px; }
+.app.phone .q-vtext .q-score b { font-size: 38px; }
+.app.phone .q-joke { font-size: 14.5px; }
+.app.phone .q-missed { width: 100%; }
+.app.phone .q-missed ul { max-height: 23dvh; overflow-y: auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 12px; }
+.app.phone .q-missed li { min-width: 0; white-space: nowrap; }
+/* D7: when the result panel squeezes the band, keep the atomic number clear of the symbol */
+.p-band { container-name: band; }
+@container band (max-height: 500px) { .app.phone .tile .num { font-size: 8px; top: 2px; left: 3px; } .app.phone .tile .sym { font-size: 15px; padding-top: 16%; padding-bottom: 0; } .app.phone .tile .nm { display: none; } }
+@container band (max-height: 420px) { .app.phone .tile .num { display: none; } .app.phone .tile .sym { padding-top: 0; } }
 .p-page { overflow-y: auto; padding: 16px 16px 40px; }
 .p-scrim { position: fixed; inset: 0; z-index: 35; background: #04070e99; animation: fadeIn2 .2s; }
 @keyframes fadeIn2 { from { opacity: 0; } }
@@ -469,6 +538,9 @@ kbd { font: 12px var(--ui); padding: 1px 6px; border: 1px solid var(--line); bor
 .reduce.entering .ptable .tile, .reduce .tile.pop, .reduce .tile.nudge, .reduce .tile.q-show, .reduce .tile.q-wrong, .reduce .st-name, .reduce .pb-name, .reduce .tile.found .glow { animation: none !important; }
 .reduce .tile.q-right::after, .reduce .tile.shimmer .face::before { display: none; }
 .reduce .shells .ring, .reduce .wl-mark i, .reduce .pulse-dot { animation: none !important; }
+.reduce .medal, .reduce .q-mname, .reduce .q-joke, .reduce .q-chain { animation: fadeIn2 .15s both !important; }
+.reduce .m-spark { display: none; }
+.reduce .q-streak.on { animation: none; }
 .reduce .shells .orbit { stroke-dashoffset: 0; animation: none; }
 .reduce .shells .e { opacity: 1; animation: none; }
 .reduce .ripple.go i { animation: flash .15s linear; transform: scale(1.15); }

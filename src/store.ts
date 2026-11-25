@@ -5,6 +5,7 @@ export type Progress = {
   accent?: Accent; lang?: Lang; reduce?: boolean
   heard: Record<number, number>; starred: number[]
   quiz: Record<number, { right: number; wrong: number }>; best: Record<string, number>
+  bestStreak?: number
 }
 const KEY = 'elements.v1'
 export function load(): Progress {

@@ -217,11 +217,11 @@ export default function App() {
   const heardN = Object.keys(prog.heard).length
   const selEl = sel ? BY_Z.get(sel)! : null
   const resetProgress = () => { if (confirm(t(lang, 'resetConfirm'))) setProg({ heard: {}, starred: [], quiz: {}, best: {} }) }
-  const onScore = (set: string, score: number, missed: number[], right: number[]) => setProg(p => {
+  const onScore = (set: string, score: number, missed: number[], right: number[], streak: number) => setProg(p => {
     const quizS = { ...p.quiz }
     for (const z of right) quizS[z] = { right: (quizS[z]?.right ?? 0) + 1, wrong: quizS[z]?.wrong ?? 0 }
     for (const z of missed) quizS[z] = { right: quizS[z]?.right ?? 0, wrong: (quizS[z]?.wrong ?? 0) + 1 }
-    return { ...p, quiz: quizS, best: { ...p.best, [set]: Math.max(score, p.best[set] ?? 0) } }
+    return { ...p, quiz: quizS, best: { ...p.best, [set]: Math.max(score, p.best[set] ?? 0) }, bestStreak: Math.max(streak, p.bestStreak ?? 0) }
   })
 
   // ---- pieces ----
