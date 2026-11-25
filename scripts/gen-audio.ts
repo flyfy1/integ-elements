@@ -169,13 +169,17 @@ async function run(j: Job): Promise<string> {
   const cur = man.assets[j.id]
   const target = fileOf(j)
   // skip when the current row came from this ladder (same key family) and the file is intact
-  if (!A.force && cur && existsSync(target) && sha256(readFileSync(target)) === cur.sha256 && ladderSteps.some(s => keyOf(s) === cur.key) && cur.qa.machine !== 'fail' && !(cur.qa.machine === 'weak' && cur.rung === 1 && sim(cur.qa.transcript ?? '', j.el.name[j.accent]) < WEAK_SIM && !(cur.qa.notes ?? '').includes('weak-sim-checked'))) return 'cached'
+  if (!A.force && cur && existsSync(target) && sha256(readFileSync(target)) === cur.sha256 && ladderSteps.some(s => keyOf(s) === cur.key) && cur.qa.machine !== 'fail' && !(cur.qa.machine === 'weak' && !(cur.qa.notes ?? '').includes('rung-exhausted'))) return 'cached'
   const est = (s: Attempt) => String(s.body.input).length * PRICE_PER_CHAR
   if (!A.go) { console.log(`[dry] ${j.id} rung${ladderSteps[0]?.rung} ${String(ladderSteps[0]?.body.input).length} chars ≈ $${est(ladderSteps[0]).toFixed(4)}`); return 'dry' }
   let lastWeak: { s: Attempt; raw: string; text: string } | null = null
   let lastAny: { s: Attempt; raw: string; text: string } | null = null
   const tried: string[] = []
+  // best acceptable weak take within the current rung; only used once that rung's seeds are exhausted without a pass
+  let rungWeak: { s: Attempt; raw: string; reqId: string; text: string; score: number } | null = null
+  const nameScore = (text: string) => Math.max(...norm(text).split(' ').flatMap(w => [j.el.name.us, j.el.name.uk, j.el.name.iupac].map(n => sim(w, n))), sim(text, j.el.name[j.accent]))
   for (const s of ladderSteps) {
+    if (rungWeak && s.rung !== rungWeak.s.rung) { const w = rungWeak; tried.push('rung-exhausted'); return finish(j, w.s, w.raw, w.reqId, 'weak', w.text, tried) }
     const key = keyOf(s)
     const raw = join(RAW, `${key}.mp3`)
     let reqId = ''
@@ -190,7 +194,6 @@ async function run(j: Job): Promise<string> {
     const text = await transcribe(buf, null, j.id, p.duration_ms / 1000)
     tried.push(`r${s.rung}s${s.seed}:"${text}"`)
     let machine: string | null = judge(j, text)
-    if (machine === 'weak' && s.rung === 1) return finish(j, s, raw, reqId, machine, text, tried)
     if (!machine && j.kind !== 'sentence') {
       // a rare name the transcriber cannot spell unprompted: re-check once with the name as prompt
       const t2 = await transcribe(buf, `${j.el.name[j.accent]}.`, j.id, p.duration_ms / 1000)
@@ -201,10 +204,12 @@ async function run(j: Job): Promise<string> {
     if (machine === 'pass') return finish(j, s, raw, reqId, machine, text, tried)
     // rung-1 weak: the IPA tag is honoured and the transcriber just spells a rare name oddly; accept when it sounds alike,
     // otherwise keep climbing (a clean plain-name pass beats a far-off tagged one)
-    if (machine === 'weak' && s.rung === 1 && sim(text, j.el.name[j.accent]) >= WEAK_SIM) return finish(j, s, raw, reqId, machine, text, tried)
+    const acceptable = machine === 'weak' && (s.rung === 1 ? (j.kind === 'sentence' || sim(text, j.el.name[j.accent]) >= WEAK_SIM) : true)
+    if (acceptable && s.rung <= 2) { const score = nameScore(text); if (!rungWeak || score > rungWeak.score) rungWeak = { s, raw, reqId, text, score } }
     if (machine === 'weak' && !lastWeak) lastWeak = { s, raw, text }
   }
-  if (lastWeak) { tried.push('weak-sim-checked'); return finish(j, lastWeak.s, lastWeak.raw, '', 'weak', lastWeak.text, tried) }
+  if (rungWeak) { const w = rungWeak; tried.push('rung-exhausted'); return finish(j, w.s, w.raw, w.reqId, 'weak', w.text, tried) }
+  if (lastWeak) { tried.push('weak-sim-checked', 'rung-exhausted'); return finish(j, lastWeak.s, lastWeak.raw, '', 'weak', lastWeak.text, tried) }
   if (lastAny) return finish(j, lastAny.s, lastAny.raw, '', 'fail', lastAny.text, tried)
   return 'error'
 }
