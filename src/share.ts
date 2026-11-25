@@ -7,7 +7,8 @@ import { track } from './analytics'
 
 export type Method = 'f' | 'l' | 'c' | 'q' | 'd'
 export type Challenge = { zs: number[]; score: number; tripped: number }
-/** the last challenge sent from this device, so opening your own link is not a "recipient" visit */
+/** the last challenge sent from this device (questions, score and hop: a reply to it differs in score or hop),
+ *  so opening your own link is not a "recipient" visit, but the friend's answer to it is */
 const MINE = 'share.mine'
 
 export const landing = (() => {
@@ -22,10 +23,11 @@ export const landing = (() => {
     const x = Number(q.get('x'))
     let mine = ''
     try { mine = localStorage.getItem(MINE) || '' } catch { /* private mode */ }
+    const own = !!raw && `${raw}|${score}|${out.hop}` === mine
     if (zs.length && zs.length <= 10 && zs.every(z => BY_Z.has(z)) && new Set(zs).size === zs.length
-      && q.has('s') && Number.isInteger(score) && score >= 0 && score <= zs.length && raw !== mine)
+      && q.has('s') && Number.isInteger(score) && score >= 0 && score <= zs.length && !own)
       out.challenge = { zs, score, tripped: zs.includes(x) ? x : 0 }
-    out.recipient = (!!m || !!out.challenge) && !(raw && raw === mine)
+    out.recipient = (!!m || !!out.challenge) && !own
     if (['r', 'c', 's', 'x'].some(k => q.has(k))) {
       for (const k of ['r', 'c', 's', 'x']) q.delete(k)
       history.replaceState(null, '', location.pathname + (q.toString() ? `?${q}` : '') + location.hash)
@@ -51,8 +53,8 @@ export const trackReply = (method: string) => {
 export function challengeUrl(lang: 'en' | 'zh', zs: number[], score: number, tripped: number, how: Method) {
   return `https://elements.integ.life${lang === 'zh' ? '/zh' : ''}/quiz/?c=${zs.join('.')}&s=${score}${tripped ? `&x=${tripped}` : ''}&r=${how}${hopOut()}`
 }
-export const markMine = (zs: number[]) => {
-  try { localStorage.setItem(MINE, zs.join('.')) } catch { /* private mode */ }
+export const markMine = (zs: number[], score: number) => {
+  try { localStorage.setItem(MINE, `${zs.join('.')}|${score}|${hopOut()}`) } catch { /* private mode */ }
 }
 
 /** in-app browsers (WeChat, Weibo, QQ …) cannot share or download a file: the picture is shown to long-press */

@@ -193,8 +193,7 @@ function QuizEnd(p: EndProps) {
     const m = await import('./shareCard')
     if (IN_APP) {
       // WeChat and friends: no file share, no download; the picture (with its QR) is held to send or save
-      const blob = await m.cardBlob(card())
-      if (blob) setPic(URL.createObjectURL(blob))
+      setPic(await m.cardImage(card()))
       return
     }
     const how = await m.shareCard(card())
@@ -204,7 +203,7 @@ function QuizEnd(p: EndProps) {
   const held = useRef(0)
   const onHold = () => { held.current = window.setTimeout(() => { track('quiz_share', { medal, method: 'longpress' }, { onceKey: 'longpress' }); if (landing.recipient) track('reply_share', { method: 'longpress', hop: landing.hop }) }, 500) }
   const offHold = () => clearTimeout(held.current)
-  const closePic = () => { URL.revokeObjectURL(pic); setPic('') }
+  const closePic = () => setPic('')
 
   return (
     <div className={`quiz-end medal-${medal}`}>

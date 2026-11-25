@@ -142,22 +142,23 @@ export async function draw(p: Card): Promise<HTMLCanvasElement> {
   return cv
 }
 
-/** the card as a PNG blob (the in-app-browser path shows it as an <img> to long-press) */
-export async function cardBlob(p: Card): Promise<Blob | null> {
-  const cv = await draw(p)
-  return new Promise<Blob | null>(res => cv.toBlob(res, 'image/png'))
+/** the card as a JPEG data URL for the in-app-browser path (an <img> to long-press; WeChat saves a data URL, not a blob URL) */
+export async function cardImage(p: Card): Promise<string> {
+  markMine(p.zs, p.score)
+  return (await draw(p)).toDataURL('image/jpeg', 0.9)
 }
 
 /** share the card with its challenge link; returns how it left the site, or null when the user cancelled */
 export async function shareCard(p: Card): Promise<'share' | 'download' | null> {
-  const blob = await cardBlob(p)
+  const cv = await draw(p)
+  const blob = await new Promise<Blob | null>(res => cv.toBlob(res, 'image/png'))
   if (!blob) return null
   const file = new File([blob], `say-the-elements-${p.medalId.toLowerCase()}-${p.score}of${p.total}.png`, { type: 'image/png' })
   const hardest = [...p.missed].sort((a, b) => b.t - a.t || b.n.length - a.n.length)[0]
   const link = (how: Method) => challengeUrl(p.lang, p.zs, p.score, tripped(p), how)
   const text = t(p.lang, 'shareText', { medal: p.lang === 'zh' ? p.medal.zh : nameFor(p.medal, p.accent), n: p.score, total: p.total, name: hardest ? nameFor(hardest, p.accent) : 'Praseodymium' })
   const nav = navigator as Navigator & { canShare?: (d: ShareData) => boolean }
-  markMine(p.zs)
+  markMine(p.zs, p.score)
   if (nav.canShare?.({ files: [file] })) {
     try { await nav.share({ files: [file], text: `${text} ${link('f')}` }); trackReply('share'); return 'share' } catch (e) { if ((e as Error).name === 'AbortError') return null }
   }
