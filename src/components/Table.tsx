@@ -35,6 +35,12 @@ export function StateIcon({ s, size = 10 }: { s: State; size?: number }) {
   )
 }
 
+/** one tap modifier per element, first match wins: the table's chemistry shows in the tap */
+const fxOf = (el: El, state: State) => {
+  const cat = CATS[el.c].id
+  return cat === 'noble-gas' ? 'inert' : cat === 'alkali' ? 'reactive' : cat === 'actinide' || state === 'unknown' ? 'unstable' : state === 'liquid' ? 'wobble' : state === 'gas' ? 'lift' : undefined
+}
+
 const Tile = memo(function Tile({ el, lang, dim, sel, heard, state, glow, accent }: { el: El; lang: Lang; dim: boolean; sel: boolean; heard: boolean; state: State; glow: boolean; accent: Accent }) {
   const cat = CATS[el.c]
   const nm = accent === 'us' ? el.us : el.uk
@@ -44,6 +50,7 @@ const Tile = memo(function Tile({ el, lang, dim, sel, heard, state, glow, accent
       className={`tile${dim ? ' dim' : ''}${sel ? ' sel' : ''}${glow ? ' found' : ''}`}
       data-z={el.z}
       data-state={state}
+      data-fx={fxOf(el, state)}
       style={{ gridColumn: el.col, gridRow: el.row >= 8 ? el.row + 1 : el.row, ['--c' as string]: cat.hex, ['--d' as string]: `${(el.col + el.row) * 12}ms` }}
       aria-label={`${el.z} ${el.s} ${nm}${lang === 'zh' ? '，' + el.zh : ''}, ${lang === 'zh' ? cat.zh : cat.en.toLowerCase()}`}
       tabIndex={-1}
@@ -78,6 +85,7 @@ export const Table = forwardRef<TableHandle, Props>(function Table(p, ref) {
       box.style.setProperty('--y', `${tr.top - hr.top + tr.height / 2}px`)
       box.style.setProperty('--s', `${Math.max(tr.width, tr.height)}px`)
       box.style.setProperty('--c', CATS[ELS[z - 1].c].hex)
+      if (t.dataset.fx && !reduced()) box.dataset.fx = t.dataset.fx; else delete box.dataset.fx
       box.classList.remove('go'); void box.offsetWidth; box.classList.add('go')
       t.classList.remove('playing'); void t.offsetWidth; t.classList.add('playing')
       setTimeout(() => t.classList.remove('playing'), 900)
@@ -159,18 +167,22 @@ export const Table = forwardRef<TableHandle, Props>(function Table(p, ref) {
     const el = ELS[Number(t.dataset.z) - 1]
     setRoving(el.z)
     const touch = (ev.nativeEvent as PointerEvent).pointerType && (ev.nativeEvent as PointerEvent).pointerType !== 'mouse'
+    const fx = t.dataset.fx
+    if (!touch && fx === 'wobble' && !reduced()) { t.classList.remove('pop'); void t.offsetWidth; t.classList.add('pop'); setTimeout(() => t.classList.remove('pop'), 340) }
     if (touch && !reduced()) {
       t.classList.remove('pop'); void t.offsetWidth; t.classList.add('pop')
-      setTimeout(() => t.classList.remove('pop'), 260)
+      setTimeout(() => t.classList.remove('pop'), 340)
       navigator.vibrate?.(8)
+      // noble gas: nobody reacts; alkali metal: the shock wave hits twice as hard
+      const push = fx === 'inert' ? 0 : fx === 'reactive' ? 4 : 2
       // the eight neighbours nudge outward: a small shock wave
       let i = 0
       for (const n of ELS) {
         const dc = n.col - el.col, dr = (n.row >= 8 ? n.row + 1 : n.row) - (el.row >= 8 ? el.row + 1 : el.row)
-        if ((dc || dr) && Math.abs(dc) <= 1 && Math.abs(dr) <= 1) {
+        if (push && (dc || dr) && Math.abs(dc) <= 1 && Math.abs(dr) <= 1) {
           const nt = tileOf(n.z)
           if (!nt) continue
-          nt.style.setProperty('--nx', `${dc * 2}px`); nt.style.setProperty('--ny', `${dr * 2}px`)
+          nt.style.setProperty('--nx', `${dc * push}px`); nt.style.setProperty('--ny', `${dr * push}px`)
           nt.style.setProperty('--nd', `${30 * i++}ms`)
           nt.classList.remove('nudge'); void nt.offsetWidth; nt.classList.add('nudge')
           setTimeout(() => nt.classList.remove('nudge'), 420)
@@ -222,7 +234,7 @@ export const Table = forwardRef<TableHandle, Props>(function Table(p, ref) {
       <div className="ph" style={{ gridColumn: 3, gridRow: 7 }} aria-hidden="true"><span>89–103</span></div>
       <div className="fconn" aria-hidden="true" />
       {p.stage && !p.phone ? <div className="stage-slot">{p.stage}</div> : null}
-      <div ref={rip} className="ripple" aria-hidden="true"><i /><i /></div>
+      <div ref={rip} className="ripple" aria-hidden="true"><i /><i /><i /></div>
     </div>
   )
 })
