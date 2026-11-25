@@ -1,0 +1,8 @@
+{
+ "_note": "Reconciled from the Pi llm-gateway request log (/var/lib/llm-gateway/log, project=elements), 2026-11-25. Budget US$40.",
+ "requests": 5090,
+ "total_usd": 11.2493,
+ "by_route_usd": { "speech": 4.3474, "images": 6.6719, "transcriptions": 0.23 },
+ "by_environment_usd": { "test (pilots)": 0.7782, "production": 10.471 },
+ "manifest_estimates_usd": { "audio": 4.3241, "images": 6.21 }
+}
