@@ -10,6 +10,7 @@ import { Detail } from './components/Detail'
 import { Legend, StateChips, TempSlider, MiniMap } from './components/Controls'
 import { Tricky, About, Practice } from './components/Views'
 import type { QuizHandle } from './components/Quiz'
+import { Sister } from './components/Sister'
 
 const Quiz = lazy(() => import('./components/Quiz'))
 type Mode = 'explore' | 'quiz' | 'tricky' | 'practice' | 'about'
@@ -275,6 +276,7 @@ export default function App() {
       <a href={lang === 'zh' ? '/zh/about/' : '/about/'} onClick={ev => { ev.preventDefault(); go('about') }}>{t(lang, 'about')}</a>
       <label className="tog"><input type="checkbox" checked={reduce} onChange={ev => setReduce(ev.target.checked)} /> {t(lang, 'reduce')}</label>
       <button type="button" className="linkish" onClick={() => setHelp(true)}>{t(lang, 'shortcuts')} <kbd>?</kbd></button>
+      <Sister lang={lang} variant="menu" />
     </div>
   )
   const controls = (
@@ -343,6 +345,7 @@ export default function App() {
               <button type="button" className="more-item" onClick={() => go('about')}>{t(lang, 'about')}</button>
               <label className="more-item tog"><input type="checkbox" checked={reduce} onChange={ev => setReduce(ev.target.checked)} /> {t(lang, 'reduce')}</label>
               {heardBar}
+              <Sister lang={lang} variant="row" />
             </div>
           ) : null}
         </div>
@@ -379,6 +382,7 @@ export default function App() {
         <label className="tog"><input type="checkbox" checked={reduce} onChange={ev => setReduce(ev.target.checked)} /> {t(lang, 'reduce')}</label>
         <button type="button" className="linkish" onClick={() => setHelp(true)}>{t(lang, 'shortcuts')} <kbd>?</kbd></button>
         <span className="muted">{lang === 'zh' ? '读音经两部词典核对 · 数据来源见「关于」' : 'Pronunciations cross-checked in two dictionaries · sources on About'}</span>
+        <Sister lang={lang} variant="row" />
       </footer>}
       {help ? <Help lang={lang} onClose={() => setHelp(false)} /> : null}
       {detailEl}

@@ -608,3 +608,21 @@ kbd { font: 12px var(--ui); padding: 1px 6px; border: 1px solid var(--line); bor
 .pr-card .rep-row { justify-content: center; }
 .pr-nav { display: flex; justify-content: space-between; margin-top: 14px; }
 .app.mode-quiz .tile .nm { display: none !important; }
+
+/* ---------- More from Integ Life ---------- */
+.sister-menu { position: relative; }
+.sister-menu summary { list-style: none; cursor: pointer; color: var(--muted); }
+.sister-menu summary::-webkit-details-marker { display: none; }
+.sister-menu summary::after { content: ' ↗'; opacity: .6; }
+.sister-menu summary:hover, .sister-menu[open] summary { color: var(--text); }
+.sister-menu nav { position: absolute; right: 0; bottom: calc(100% + 8px); z-index: 30; display: flex; flex-direction: column; min-width: 190px; padding: 6px; background: #0f1626f7; border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 20px 50px -10px #000c; animation: drop .16s var(--out); }
+.sister-menu nav a { padding: 7px 10px; border-radius: 8px; font-size: 13px; color: #c9d3ea !important; }
+.sister-menu nav a:hover { background: var(--surface-2); color: var(--text) !important; }
+.sister-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; font-size: 12.5px; color: var(--muted); }
+.sister-row a { color: var(--muted); text-decoration: none; }
+.sister-row a:hover { color: var(--accent); }
+.sister-t { font-weight: 600; letter-spacing: .02em; }
+.dt-scroll > .sister-row { margin: 18px 0 6px; padding-top: 12px; border-top: 1px solid #ffffff0b; }
+.sheet-body.more .sister-row { padding: 14px 6px 0; margin-top: 8px; border-top: 1px solid #ffffff0b; font-size: 13.5px; gap: 10px 16px; }
+.sheet-body.more .sister-row .sister-t { flex-basis: 100%; }
+.dt-wrap.phone .sister-row a, .sheet-body.more .sister-row a { padding: 5px 0; }

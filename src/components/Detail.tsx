@@ -6,6 +6,7 @@ import { Shells } from './Shells'
 import { Respell, PlayIcon, SlowIcon, Meter } from './Stage'
 import { StateIcon } from './Table'
 import { track } from '../analytics'
+import { Sister } from './Sister'
 
 type Props = {
   el: El; lang: Lang; accent: Accent; phone: boolean; origin: DOMRect | null; state: State; starred: boolean
@@ -214,6 +215,7 @@ export function Detail(p: Props) {
               {d ? <span>{t(lang, 'period')} {d.period}{d.group ? ` · ${t(lang, 'group')} ${d.group}` : ''}</span> : null}
               {d?.year ? <span>{t(lang, 'discovered')} {d.year}</span> : null}
             </section>
+            <Sister lang={lang} variant="row" />
           </div>
           <div className="dt-nav">
             <button type="button" className="pill ghost" onClick={() => nav(-1)} aria-label={`${t(lang, 'prev')}: ${prev.n}`}>← <span className="nav-s">{prev.s}</span> <span className="nav-n">{prev.n}</span></button>

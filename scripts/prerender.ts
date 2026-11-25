@@ -6,6 +6,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, statSy
 import { join } from 'node:path'
 import { createHash } from 'node:crypto'
 import { ROOT } from './lib/manifest.ts'
+import { SISTERS, SISTER_TITLE } from '../src/sister.ts'
 
 type Any = Record<string, any> // eslint-disable-line @typescript-eslint/no-explicit-any
 const SITE = 'https://elements.integ.life'
@@ -53,13 +54,18 @@ function page(o: { path: string; alt: string; lang: 'en' | 'zh'; title: string; 
     <meta name="twitter:card" content="summary_large_image" />
     <script>document.documentElement.classList.add('js')</script>
     ${o.jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, '\\u003c')}</script>`).join('\n    ')}`
-  const html = tpl.replace('<html lang="en">', `<html lang="${o.lang === 'zh' ? 'zh-Hans' : 'en'}">`).replace('<!--HEAD-->', head).replace('<!--STATIC-->', `<main id="static">${o.body}</main>`)
+  const html = tpl.replace('<html lang="en">', `<html lang="${o.lang === 'zh' ? 'zh-Hans' : 'en'}">`).replace('<!--HEAD-->', head).replace('<!--STATIC-->', `<main id="static">${o.body}</main>\n${sisterFooter(o.lang)}`)
   const dir = join(DIST, o.path)
   mkdirSync(dir, { recursive: true })
   writeFileSync(join(dir, 'index.html'), html)
 }
 
-const STATIC_CSS = `<style>.js #static{display:none}#static{max-width:760px;margin:0 auto;padding:24px 20px 60px;font:16px/1.6 system-ui,sans-serif;color:#EAF0FF}#static a{color:#7CF5D4}#static img{max-width:100%;height:auto;border-radius:12px}#static .ipa{font-family:'Noto Sans','Lucida Grande',sans-serif}#static ul.els{columns:3;padding-left:18px}</style>`
+const STATIC_CSS = `<style>.js #static,.js #static-foot{display:none}#static-foot{max-width:760px;margin:0 auto;padding:0 20px 40px;font:14px/1.6 system-ui,sans-serif;color:#93A0BD}#static-foot a{color:#7CF5D4;margin-right:14px}#static{max-width:760px;margin:0 auto;padding:24px 20px 60px;font:16px/1.6 system-ui,sans-serif;color:#EAF0FF}#static a{color:#7CF5D4}#static img{max-width:100%;height:auto;border-radius:12px}#static .ipa{font-family:'Noto Sans','Lucida Grande',sans-serif}#static ul.els{columns:3;padding-left:18px}</style>`
+
+// Plain crawlable links to the other Integ Life sites (the app shows its own "More from Integ Life" links).
+const sisterFooter = (lang: 'en' | 'zh') => `<footer id="static-foot"><p>${SISTER_TITLE[lang]}${lang === 'zh' ? '：' : ':'} ${SISTERS.map(x => `<a href="${x.url}">${esc(x[lang])}</a>`).join(' ')}</p></footer>`
+const SAME_AS = SISTERS.filter(x => x.id === 'games' || x.id === 'visual').map(x => x.url)
+const ORG = { '@type': 'Organization', name: 'Integ Life', url: 'https://integ.life/', sameAs: SAME_AS }
 
 // ---------- element pages ----------
 const sitemap: { loc: string; img?: string; caption?: string; alt?: string }[] = []
@@ -144,8 +150,8 @@ for (const lang of ['en', 'zh'] as const) {
   const desc = zh ? '会发音的元素周期表：点任意元素，听它的英文名怎么读。118 个元素的美音和英音、慢速和例句，词典音标，中文名和拼音，易错读音和听音测验。免费，无需注册。'
     : 'A periodic table that talks: tap any of the 118 elements to hear its English name in American and British voices, slow and normal, with dictionary IPA, Chinese names, tricky-name tips and a listening quiz. Free.'
   const ld = [
-    { '@context': 'https://schema.org', '@type': 'WebSite', name: zh ? '元素怎么读' : 'Say the Elements', alternateName: zh ? 'Say the Elements' : '元素怎么读', url: SITE + (zh ? '/zh/' : '/'), inLanguage: zh ? 'zh-Hans' : 'en' },
-    { '@context': 'https://schema.org', '@type': 'WebApplication', name: zh ? '元素怎么读' : 'Say the Elements', url: SITE + (zh ? '/zh/' : '/'), applicationCategory: 'EducationalApplication', operatingSystem: 'Any (web browser)', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, inLanguage: ['en', 'zh-Hans'], publisher: { '@type': 'Organization', name: 'Integ Life', url: 'https://integ.life/' } },
+    { '@context': 'https://schema.org', '@type': 'WebSite', name: zh ? '元素怎么读' : 'Say the Elements', alternateName: zh ? 'Say the Elements' : '元素怎么读', url: SITE + (zh ? '/zh/' : '/'), inLanguage: zh ? 'zh-Hans' : 'en', isPartOf: { '@type': 'WebSite', name: 'Integ Life', url: 'https://integ.life/' }, publisher: ORG },
+    { '@context': 'https://schema.org', '@type': 'WebApplication', name: zh ? '元素怎么读' : 'Say the Elements', url: SITE + (zh ? '/zh/' : '/'), applicationCategory: 'EducationalApplication', operatingSystem: 'Any (web browser)', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, inLanguage: ['en', 'zh-Hans'], publisher: ORG },
     { '@context': 'https://schema.org', '@type': 'LearningResource', name: zh ? '元素英文读音' : 'Pronouncing the chemical elements in English', learningResourceType: ['audio', 'interactive resource', 'quiz'], educationalLevel: ['secondary school', 'English learners B1'], inLanguage: ['en', 'zh-Hans'], isAccessibleForFree: true, url: SITE + (zh ? '/zh/' : '/') },
     { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: homeFaq(zh).map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
   ]
@@ -170,7 +176,9 @@ writeFileSync(join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 ${sitemap.map(s => `  <url><loc>${s.loc}</loc><lastmod>${today}</lastmod>${s.img ? `<image:image><image:loc>${s.img}</image:loc></image:image>` : ''}</url>`).join('\n')}
 </urlset>
 `)
-writeFileSync(join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`)
+// Search and AI crawlers are welcome; each named group repeats Allow so no crawler-specific default applies.
+const BOTS = ['Googlebot', 'Google-Extended', 'Bingbot', 'GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-SearchBot', 'PerplexityBot', 'CCBot', 'Applebot-Extended']
+writeFileSync(join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\n\n${BOTS.map(b => `User-agent: ${b}\nAllow: /\n`).join('\n')}\nSitemap: ${SITE}/sitemap.xml\n`)
 writeFileSync(join(DIST, 'manifest.webmanifest'), JSON.stringify({ name: 'Say the Elements · 元素怎么读', short_name: 'Elements', start_url: '/', display: 'standalone', background_color: '#070B14', theme_color: '#070B14', description: 'Hear every element of the periodic table, US and UK', icons: [{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }, { src: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }] }, null, 1))
 writeFileSync(join(DIST, 'llms.txt'), `# Say the Elements (元素怎么读)
 
@@ -180,6 +188,9 @@ IPA is shown only when two independent dictionaries agree (Oxford Learner's, Lon
 
 ## Elements
 ${els.map(e => `- ${both(e)} (${e.symbol}, ${e.z}): US ${v(e, 'us') ? '/' + v(e, 'us') + '/' : 'unverified'}; UK ${v(e, 'uk') ? '/' + v(e, 'uk') + '/' : 'unverified'}; 中文 ${e.zh.name} ${e.zh.pinyin}; ${SITE}/element/${e.slug}/`).join('\n')}
+
+## Other sites by Integ Life
+${SISTERS.map(x => `- [${x.en}](${x.url}): ${x.about}`).join('\n')}
 `)
 
 writeFileSync(join(DIST, 'indexnow-key.txt'), '2e54bfce938efe206b762b76dd049cd8') // IndexNow key: public/2e54bfce938efe206b762b76dd049cd8.txt
