@@ -1,8 +1,8 @@
 {
- "_note": "Reconciled from the Pi llm-gateway request log (/var/lib/llm-gateway/log, project=elements), 2026-11-25. Budget US$40.",
- "requests": 5090,
- "total_usd": 11.2493,
- "by_route_usd": { "speech": 4.3474, "images": 6.6719, "transcriptions": 0.23 },
- "by_environment_usd": { "test (pilots)": 0.7782, "production": 10.471 },
- "manifest_estimates_usd": { "audio": 4.3241, "images": 6.21 }
+ "_note": "Reconciled from the Pi llm-gateway request index (/var/lib/llm-gateway/log/requests-*.index.jsonl, project=elements), 2026-11-25, after the last audio re-run. Budget US$40.",
+ "requests": 3053,
+ "total_usd": 11.74,
+ "by_route_usd": { "speech": 4.7813, "images": 6.6719, "transcriptions": 0.2868 },
+ "by_environment_usd": { "test (pilots)": 0.7782, "production": 10.9617 },
+ "manifest_estimates_usd": { "audio": 4.8284, "images": 6.21 }
 }
