@@ -1,0 +1,133 @@
+# Say the Elements (元素怎么读)
+
+> A periodic table that talks: the English names of all 118 chemical elements in American and British voices (normal, slow, example sentence), with dictionary IPA, Chinese names and pinyin. https://elements.integ.life
+
+IPA is shown only when two independent dictionaries agree (Oxford Learner's, Longman, Wiktionary, CMUdict); "unverified" marks the rest. Full sourced data: https://elements.integ.life/elements.json
+
+## Elements
+- Hydrogen (H, 1): US /ˈhaɪdrədʒən/; UK /ˈhaɪdrədʒən/; 中文 氢 qīng; https://elements.integ.life/element/hydrogen/
+- Helium (He, 2): US /ˈhiːliəm/; UK /ˈhiːliəm/; 中文 氦 hài; https://elements.integ.life/element/helium/
+- Lithium (Li, 3): US /ˈlɪθiəm/; UK /ˈlɪθiəm/; 中文 锂 lǐ; https://elements.integ.life/element/lithium/
+- Beryllium (Be, 4): US /bəˈrɪliəm/; UK /bəˈrɪliəm/; 中文 铍 pí; https://elements.integ.life/element/beryllium/
+- Boron (B, 5): US /ˈbɔːrɑːn/; UK /ˈbɔːrɒn/; 中文 硼 péng; https://elements.integ.life/element/boron/
+- Carbon (C, 6): US /ˈkɑːrbən/; UK /ˈkɑːbən/; 中文 碳 tàn; https://elements.integ.life/element/carbon/
+- Nitrogen (N, 7): US /ˈnaɪtrədʒən/; UK /ˈnaɪtrədʒən/; 中文 氮 dàn; https://elements.integ.life/element/nitrogen/
+- Oxygen (O, 8): US /ˈɑːksɪdʒən/; UK /ˈɒksɪdʒən/; 中文 氧 yǎng; https://elements.integ.life/element/oxygen/
+- Fluorine (F, 9): US /ˈflɔːriːn/; UK unverified; 中文 氟 fú; https://elements.integ.life/element/fluorine/
+- Neon (Ne, 10): US /ˈniːɑːn/; UK /ˈniːɒn/; 中文 氖 nǎi; https://elements.integ.life/element/neon/
+- Sodium (Na, 11): US /ˈsoʊdiəm/; UK /ˈsəʊdiəm/; 中文 钠 nà; https://elements.integ.life/element/sodium/
+- Magnesium (Mg, 12): US /mægˈniːziəm/; UK /mægˈniːziəm/; 中文 镁 měi; https://elements.integ.life/element/magnesium/
+- Aluminium / Aluminum (Al, 13): US /əˈluːmɪnəm/; UK /ˌæljəˈmɪniəm/; 中文 铝 lǚ; https://elements.integ.life/element/aluminium/
+- Silicon (Si, 14): US /ˈsɪlɪkən/; UK /ˈsɪlɪkən/; 中文 硅 guī; https://elements.integ.life/element/silicon/
+- Phosphorus (P, 15): US /ˈfɑːsfərəs/; UK /ˈfɒsfərəs/; 中文 磷 lín; https://elements.integ.life/element/phosphorus/
+- Sulphur / Sulfur (S, 16): US /ˈsʌlfər/; UK /ˈsʌlfə/; 中文 硫 liú; https://elements.integ.life/element/sulfur/
+- Chlorine (Cl, 17): US /ˈklɔːriːn/; UK /ˈklɔːriːn/; 中文 氯 lǜ; https://elements.integ.life/element/chlorine/
+- Argon (Ar, 18): US /ˈɑːrgɑːn/; UK /ˈɑːgɒn/; 中文 氩 yà; https://elements.integ.life/element/argon/
+- Potassium (K, 19): US /pəˈtæsiəm/; UK /pəˈtæsiəm/; 中文 钾 jiǎ; https://elements.integ.life/element/potassium/
+- Calcium (Ca, 20): US /ˈkælsiəm/; UK /ˈkælsiəm/; 中文 钙 gài; https://elements.integ.life/element/calcium/
+- Scandium (Sc, 21): US /ˈskændiəm/; UK /ˈskændiəm/; 中文 钪 kàng; https://elements.integ.life/element/scandium/
+- Titanium (Ti, 22): US /tɪˈteɪniəm/; UK /tɪˈteɪniəm/; 中文 钛 tài; https://elements.integ.life/element/titanium/
+- Vanadium (V, 23): US /vəˈneɪdiəm/; UK /vəˈneɪdiəm/; 中文 钒 fán; https://elements.integ.life/element/vanadium/
+- Chromium (Cr, 24): US /ˈkroʊmiəm/; UK /ˈkrəʊmiəm/; 中文 铬 gè; https://elements.integ.life/element/chromium/
+- Manganese (Mn, 25): US /ˈmæŋgəniːz/; UK /ˈmæŋgəniːz/; 中文 锰 měng; https://elements.integ.life/element/manganese/
+- Iron (Fe, 26): US /ˈaɪərn/; UK /ˈaɪən/; 中文 铁 tiě; https://elements.integ.life/element/iron/
+- Cobalt (Co, 27): US /ˈkoʊbɔːlt/; UK /ˈkəʊbɔːlt/; 中文 钴 gǔ; https://elements.integ.life/element/cobalt/
+- Nickel (Ni, 28): US /ˈnɪkl/; UK /ˈnɪkl/; 中文 镍 niè; https://elements.integ.life/element/nickel/
+- Copper (Cu, 29): US /ˈkɑːpər/; UK /ˈkɒpə/; 中文 铜 tóng; https://elements.integ.life/element/copper/
+- Zinc (Zn, 30): US /zɪŋk/; UK /zɪŋk/; 中文 锌 xīn; https://elements.integ.life/element/zinc/
+- Gallium (Ga, 31): US /ˈgæliəm/; UK /ˈgæliəm/; 中文 镓 jiā; https://elements.integ.life/element/gallium/
+- Germanium (Ge, 32): US /dʒɜːrˈmeɪniəm/; UK unverified; 中文 锗 zhě; https://elements.integ.life/element/germanium/
+- Arsenic (As, 33): US /ˈɑːrsənɪk/; UK /ˈɑːsənɪk/; 中文 砷 shēn; https://elements.integ.life/element/arsenic/
+- Selenium (Se, 34): US /səˈliːniəm/; UK /səˈliːniəm/; 中文 硒 xī; https://elements.integ.life/element/selenium/
+- Bromine (Br, 35): US /ˈbroʊmiːn/; UK /ˈbrəʊmiːn/; 中文 溴 xiù; https://elements.integ.life/element/bromine/
+- Krypton (Kr, 36): US /ˈkrɪptɑːn/; UK /ˈkrɪptɒn/; 中文 氪 kè; https://elements.integ.life/element/krypton/
+- Rubidium (Rb, 37): US unverified; UK /ruːˈbɪdiəm/; 中文 铷 rú; https://elements.integ.life/element/rubidium/
+- Strontium (Sr, 38): US /ˈstrɑːntiəm/; UK /ˈstrɒntiəm/; 中文 锶 sī; https://elements.integ.life/element/strontium/
+- Yttrium (Y, 39): US /ˈɪtriəm/; UK /ˈɪtriəm/; 中文 钇 yǐ; https://elements.integ.life/element/yttrium/
+- Zirconium (Zr, 40): US /zɜːrˈkoʊniəm/; UK unverified; 中文 锆 gào; https://elements.integ.life/element/zirconium/
+- Niobium (Nb, 41): US /naɪˈoʊbiəm/; UK unverified; 中文 铌 ní; https://elements.integ.life/element/niobium/
+- Molybdenum (Mo, 42): US /məˈlɪbdənəm/; UK /məˈlɪbdənəm/; 中文 钼 mù; https://elements.integ.life/element/molybdenum/
+- Technetium (Tc, 43): US /tekˈniːʃiəm/; UK unverified; 中文 锝 dé; https://elements.integ.life/element/technetium/
+- Ruthenium (Ru, 44): US /ruːˈθiːniəm/; UK /ruːˈθiːniəm/; 中文 钌 liǎo; https://elements.integ.life/element/ruthenium/
+- Rhodium (Rh, 45): US /ˈroʊdiəm/; UK unverified; 中文 铑 lǎo; https://elements.integ.life/element/rhodium/
+- Palladium (Pd, 46): US /pəˈleɪdiəm/; UK /pəˈleɪdiəm/; 中文 钯 bǎ; https://elements.integ.life/element/palladium/
+- Silver (Ag, 47): US /ˈsɪlvər/; UK /ˈsɪlvə/; 中文 银 yín; https://elements.integ.life/element/silver/
+- Cadmium (Cd, 48): US /ˈkædmiəm/; UK /ˈkædmiəm/; 中文 镉 gé; https://elements.integ.life/element/cadmium/
+- Indium (In, 49): US /ˈɪndiəm/; UK /ˈɪndiəm/; 中文 铟 yīn; https://elements.integ.life/element/indium/
+- Tin (Sn, 50): US /tɪn/; UK /tɪn/; 中文 锡 xī; https://elements.integ.life/element/tin/
+- Antimony (Sb, 51): US /ˈæntɪmoʊni/; UK /ˈæntɪməni/; 中文 锑 tī; https://elements.integ.life/element/antimony/
+- Tellurium (Te, 52): US /teˈlʊriəm/; UK /teˈljʊəriəm/; 中文 碲 dì; https://elements.integ.life/element/tellurium/
+- Iodine (I, 53): US /ˈaɪədaɪn/; UK /ˈaɪədiːn/; 中文 碘 diǎn; https://elements.integ.life/element/iodine/
+- Xenon (Xe, 54): US /ˈzenɑːn/; UK /ˈzenɒn/; 中文 氙 xiān; https://elements.integ.life/element/xenon/
+- Caesium / Cesium (Cs, 55): US /ˈsiːziəm/; UK /ˈsiːziəm/; 中文 铯 sè; https://elements.integ.life/element/caesium/
+- Barium (Ba, 56): US /ˈberiəm/; UK /ˈbeəriəm/; 中文 钡 bèi; https://elements.integ.life/element/barium/
+- Lanthanum (La, 57): US /ˈlænθənəm/; UK /ˈlænθənəm/; 中文 镧 lán; https://elements.integ.life/element/lanthanum/
+- Cerium (Ce, 58): US /ˈsɪriəm/; UK /ˈsɪəriəm/; 中文 铈 shì; https://elements.integ.life/element/cerium/
+- Praseodymium (Pr, 59): US /ˌpreɪzioʊˈdɪmiəm/; UK unverified; 中文 镨 pǔ; https://elements.integ.life/element/praseodymium/
+- Neodymium (Nd, 60): US /ˌniːoʊˈdɪmiəm/; UK unverified; 中文 钕 nǚ; https://elements.integ.life/element/neodymium/
+- Promethium (Pm, 61): US /prəˈmiːθiəm/; UK unverified; 中文 钷 pǒ; https://elements.integ.life/element/promethium/
+- Samarium (Sm, 62): US /səˈmeriəm/; UK /səˈmeəriəm/; 中文 钐 shān; https://elements.integ.life/element/samarium/
+- Europium (Eu, 63): US /jʊˈroʊpiəm/; UK unverified; 中文 铕 yǒu; https://elements.integ.life/element/europium/
+- Gadolinium (Gd, 64): US /ˌgædəˈlɪniəm/; UK /ˌgædəˈlɪniəm/; 中文 钆 gá; https://elements.integ.life/element/gadolinium/
+- Terbium (Tb, 65): US /ˈtɜːrbiəm/; UK unverified; 中文 铽 tè; https://elements.integ.life/element/terbium/
+- Dysprosium (Dy, 66): US /dɪsˈproʊziəm/; UK unverified; 中文 镝 dī; https://elements.integ.life/element/dysprosium/
+- Holmium (Ho, 67): US /ˈhoʊlmiəm/; UK unverified; 中文 钬 huǒ; https://elements.integ.life/element/holmium/
+- Erbium (Er, 68): US /ˈɜːrbiəm/; UK /ˈɜːbiəm/; 中文 铒 ěr; https://elements.integ.life/element/erbium/
+- Thulium (Tm, 69): US /ˈθuːliəm/; UK /ˈθuːliəm/; 中文 铥 diū; https://elements.integ.life/element/thulium/
+- Ytterbium (Yb, 70): US /ɪˈtɜːrbiəm/; UK /ɪˈtɜːbiəm/; 中文 镱 yì; https://elements.integ.life/element/ytterbium/
+- Lutetium (Lu, 71): US unverified; UK unverified; 中文 镥 lǔ; https://elements.integ.life/element/lutetium/
+- Hafnium (Hf, 72): US /ˈhæfniəm/; UK unverified; 中文 铪 hā; https://elements.integ.life/element/hafnium/
+- Tantalum (Ta, 73): US /ˈtæntələm/; UK /ˈtæntələm/; 中文 钽 tǎn; https://elements.integ.life/element/tantalum/
+- Tungsten (W, 74): US /ˈtʌŋstən/; UK /ˈtʌŋstən/; 中文 钨 wū; https://elements.integ.life/element/tungsten/
+- Rhenium (Re, 75): US /ˈriːniəm/; UK /ˈriːniəm/; 中文 铼 lái; https://elements.integ.life/element/rhenium/
+- Osmium (Os, 76): US /ˈɑːzmiəm/; UK /ˈɒzmiəm/; 中文 锇 é; https://elements.integ.life/element/osmium/
+- Iridium (Ir, 77): US /ɪˈrɪdiəm/; UK /ɪˈrɪdiəm/; 中文 铱 yī; https://elements.integ.life/element/iridium/
+- Platinum (Pt, 78): US /ˈplætɪnəm/; UK /ˈplætɪnəm/; 中文 铂 bó; https://elements.integ.life/element/platinum/
+- Gold (Au, 79): US /goʊld/; UK /gəʊld/; 中文 金 jīn; https://elements.integ.life/element/gold/
+- Mercury (Hg, 80): US /ˈmɜːrkjəri/; UK /ˈmɜːkjəri/; 中文 汞 gǒng; https://elements.integ.life/element/mercury/
+- Thallium (Tl, 81): US /ˈθæliəm/; UK /ˈθæliəm/; 中文 铊 tā; https://elements.integ.life/element/thallium/
+- Lead (Pb, 82): US /led/; UK /led/; 中文 铅 qiān; https://elements.integ.life/element/lead/
+- Bismuth (Bi, 83): US /ˈbɪzməθ/; UK /ˈbɪzməθ/; 中文 铋 bì; https://elements.integ.life/element/bismuth/
+- Polonium (Po, 84): US /pəˈloʊniəm/; UK /pəˈləʊniəm/; 中文 钋 pō; https://elements.integ.life/element/polonium/
+- Astatine (At, 85): US /ˈæstətiːn/; UK /ˈæstətiːn/; 中文 砹 ài; https://elements.integ.life/element/astatine/
+- Radon (Rn, 86): US /ˈreɪdɑːn/; UK /ˈreɪdɒn/; 中文 氡 dōng; https://elements.integ.life/element/radon/
+- Francium (Fr, 87): US /ˈfrænsiəm/; UK /ˈfrænsiəm/; 中文 钫 fāng; https://elements.integ.life/element/francium/
+- Radium (Ra, 88): US /ˈreɪdiəm/; UK /ˈreɪdiəm/; 中文 镭 léi; https://elements.integ.life/element/radium/
+- Actinium (Ac, 89): US /ækˈtɪniəm/; UK /ækˈtɪniəm/; 中文 锕 ā; https://elements.integ.life/element/actinium/
+- Thorium (Th, 90): US /ˈθɔːriəm/; UK /ˈθɔːriəm/; 中文 钍 tǔ; https://elements.integ.life/element/thorium/
+- Protactinium (Pa, 91): US /ˌproʊtækˈtɪniəm/; UK /ˌprəʊtækˈtɪniəm/; 中文 镤 pú; https://elements.integ.life/element/protactinium/
+- Uranium (U, 92): US /juˈreɪniəm/; UK /juˈreɪniəm/; 中文 铀 yóu; https://elements.integ.life/element/uranium/
+- Neptunium (Np, 93): US /nepˈtuːniəm/; UK /nepˈtjuːniəm/; 中文 镎 ná; https://elements.integ.life/element/neptunium/
+- Plutonium (Pu, 94): US /pluːˈtoʊniəm/; UK unverified; 中文 钚 bù; https://elements.integ.life/element/plutonium/
+- Americium (Am, 95): US /ˌæməˈrɪsiəm/; UK /ˌæməˈrɪsiəm/; 中文 镅 méi; https://elements.integ.life/element/americium/
+- Curium (Cm, 96): US /ˈkjʊriəm/; UK /ˈkjʊəriəm/; 中文 锔 jū; https://elements.integ.life/element/curium/
+- Berkelium (Bk, 97): US /ˈbɜːrkliəm/; UK /bɜːˈkiːliəm/; 中文 锫 péi; https://elements.integ.life/element/berkelium/
+- Californium (Cf, 98): US /ˌkælɪˈfɔːrniəm/; UK /ˌkælɪˈfɔːniəm/; 中文 锎 kāi; https://elements.integ.life/element/californium/
+- Einsteinium (Es, 99): US /aɪnˈstaɪniəm/; UK unverified; 中文 锿 āi; https://elements.integ.life/element/einsteinium/
+- Fermium (Fm, 100): US /ˈfɜːrmiəm/; UK /ˈfɜːmiəm/; 中文 镄 fèi; https://elements.integ.life/element/fermium/
+- Mendelevium (Md, 101): US /ˌmendəˈliːviəm/; UK /ˌmendəˈliːviəm/; 中文 钔 mén; https://elements.integ.life/element/mendelevium/
+- Nobelium (No, 102): US /noʊˈbiːliəm/; UK unverified; 中文 锘 nuò; https://elements.integ.life/element/nobelium/
+- Lawrencium (Lr, 103): US /lɔːˈrensiəm/; UK unverified; 中文 铹 láo; https://elements.integ.life/element/lawrencium/
+- Rutherfordium (Rf, 104): US /ˌrʌðərˈfɔːrdiəm/; UK /ˌrʌðəˈfɔːdiəm/; 中文 𬬻 lú; https://elements.integ.life/element/rutherfordium/
+- Dubnium (Db, 105): US unverified; UK unverified; 中文 𬭊 dù; https://elements.integ.life/element/dubnium/
+- Seaborgium (Sg, 106): US unverified; UK unverified; 中文 𬭳 xǐ; https://elements.integ.life/element/seaborgium/
+- Bohrium (Bh, 107): US unverified; UK unverified; 中文 𬭛 bō; https://elements.integ.life/element/bohrium/
+- Hassium (Hs, 108): US /ˈhæsiəm/; UK /ˈhæsiəm/; 中文 𬭶 hēi; https://elements.integ.life/element/hassium/
+- Meitnerium (Mt, 109): US unverified; UK unverified; 中文 鿏 mài; https://elements.integ.life/element/meitnerium/
+- Darmstadtium (Ds, 110): US unverified; UK unverified; 中文 𫟼 dá; https://elements.integ.life/element/darmstadtium/
+- Roentgenium (Rg, 111): US unverified; UK unverified; 中文 𬬭 lún; https://elements.integ.life/element/roentgenium/
+- Copernicium (Cn, 112): US unverified; UK unverified; 中文 鿔 gē; https://elements.integ.life/element/copernicium/
+- Nihonium (Nh, 113): US unverified; UK unverified; 中文 鿭 nǐ; https://elements.integ.life/element/nihonium/
+- Flerovium (Fl, 114): US unverified; UK unverified; 中文 𫓧 fū; https://elements.integ.life/element/flerovium/
+- Moscovium (Mc, 115): US unverified; UK unverified; 中文 镆 mò; https://elements.integ.life/element/moscovium/
+- Livermorium (Lv, 116): US unverified; UK unverified; 中文 𫟷 lì; https://elements.integ.life/element/livermorium/
+- Tennessine (Ts, 117): US unverified; UK unverified; 中文 鿬 tián; https://elements.integ.life/element/tennessine/
+- Oganesson (Og, 118): US unverified; UK unverified; 中文 鿫 ào; https://elements.integ.life/element/oganesson/
+
+## Other sites by Integ Life
+- [Integ Life](https://integ.life/): Integ Life home: one identity, many tools
+- [Games & tiny toys](https://games.integ.life/): Integ Games: small browser games and tiny stress-relief toys
+- [Visual essays](https://visual.integ.life/): 知识索引: visual essays that explain ideas with interactive pictures
+- [Knock on Wood](https://knock.integ.life/): Tap a wooden fish. Merit +1
+- [Lap Cat](https://purr.integ.life/): Pet a soft, purring cat on your screen
+- [Glass Smash](https://smash.integ.life/): Smash a pane of glass with the word you hate written on it
