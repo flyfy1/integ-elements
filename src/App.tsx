@@ -3,7 +3,7 @@ import { BY_SLUG, BY_Z, ELS, search, stateAt, type Accent, type El, type Lang, t
 import { t } from './i18n'
 import * as audio from './audio'
 import * as store from './store'
-import { pageView, track, bucketMs, type Page } from './analytics'
+import { act, pageView, track, bucketMs, type Page } from './analytics'
 import { trackLanding } from './share'
 import { Table, type TableHandle } from './components/Table'
 import { Stage, AccentSwitch, PlayIcon, SlowIcon, HookChip, Specimen, warmPicture } from './components/Stage'
@@ -123,6 +123,7 @@ export default function App() {
       audio.prefetchAll(a)
     })
     window.dispatchEvent(new Event('el-play'))
+    act(k === 'slow' ? 'slow' : 'play_audio')
     track('audio_play', { element: el.s, accent: a, kind: k, from }, { cap: 60 })
     if (k === 'name') setProg(p => {
       const heard = { ...p.heard, [el.z]: (p.heard[el.z] ?? 0) + 1 }
@@ -137,6 +138,7 @@ export default function App() {
     const el = BY_Z.get(z)!
     route({ mode: 'explore', slug: el.slug }); pushedDetail.current = true
     pageView('Element', pathFor({ lang, mode: 'explore', slug: el.slug }))
+    act('element_open')
     track('detail_open', { element: el.s })
     if (mode !== 'explore') setMode('explore')
   }, [route, lang, mode])

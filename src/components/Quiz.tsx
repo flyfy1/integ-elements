@@ -3,7 +3,7 @@ import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 're
 import { BY_Z, CATS, ELS, nameFor, type Accent, type El, type Lang } from '../data'
 import { t } from '../i18n'
 import * as audio from '../audio'
-import { track } from '../analytics'
+import { act, track } from '../analytics'
 import type { TableHandle } from './Table'
 import { PlayIcon, SlowIcon } from './Stage'
 import { IN_APP, landing } from '../share'
@@ -45,7 +45,7 @@ export const Quiz = forwardRef<QuizHandle, Props>(function Quiz(p, ref) {
   const [dare, setDare] = useState(landing.challenge)
 
   const q = qs[i]
-  const say = (k: audio.Kind = 'name', el = q) => { if (el) { audio.unlock(); void audio.play(el.slug, p.accent, k); window.dispatchEvent(new Event('el-play')) } }
+  const say = (k: audio.Kind = 'name', el = q) => { if (el) { act(k === 'slow' ? 'slow' : 'play_audio'); audio.unlock();void audio.play(el.slug, p.accent, k); window.dispatchEvent(new Event('el-play')) } }
   const begin = (list: El[], sid: SetId | 'missed' | 'challenge') => {
     const qq = sid === 'challenge' ? list : shuffle(list).slice(0, 10)
     setQs(qq); setI(0); setMissed([]); setFeedback(null); setDone(false); rights.current = []
@@ -60,6 +60,7 @@ export const Quiz = forwardRef<QuizHandle, Props>(function Quiz(p, ref) {
     answer: (el: El) => {
       if (!q || done || lock.current) return
       lock.current = true
+      act('quiz_answer')
       const ok = el.z === q.z
       setFeedback({ ok, tapped: el })
       const n = ok ? streak + 1 : 0
